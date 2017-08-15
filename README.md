@@ -1,6 +1,6 @@
 # Steps Guide Builder
 
-The Steps Guide Builder is an open sourced resource for anyone to use. This resource provides a guide template, that when populated with the right data via the Contentful CMS, offers an interactive experience for low-income people to explore actions they can take to improve their financial health. The guide can be viewed at https://steps.ideo.org/credit-guide.
+The Steps Guide Builder is an open sourced resource for anyone to use. This resource provides a guide template, that when populated with the right data via the Contentful CMS, offers an interactive experience for low-income people to explore actions they can take to improve their financial health.
 
 ## Getting Started
 
