@@ -1,0 +1,20 @@
+@import '../../globals/constants.less';
+@import '../../globals/responsive.less';
+
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  background: @base-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  h4.button_text {
+    color: white;
+  }
+  .desktop({
+    &:hover {
+      opacity: 0.85;
+    }
+  });
+}

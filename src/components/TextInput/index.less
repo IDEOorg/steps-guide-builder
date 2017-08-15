@@ -1,0 +1,41 @@
+@import '../../globals/constants.less';
+
+input[type="text"].textinput {
+  background: white;
+  border-radius: 0.25em;
+  border: 1px solid rgb(180,180,180);
+  font-family: @font-set;
+  font-size: 0.875em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: fade(@text-color, 70%);
+  padding-left: 0.8333333em;
+  appearance: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid fade(@text-color, 70%);
+  }
+
+.placeholder() {
+  color: fade(@text-color, 30%);
+  font-family: @font-set;
+  font-size: 0.875em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.textinput::-webkit-input-placeholder {
+  .placeholder();
+}
+
+.textinput::-moz-placeholder {
+  .placeholder();
+  opacity: 1;
+}
+
+.textinput:-ms-input-placeholder {
+  .placeholder();
+}

@@ -1,0 +1,23 @@
+@import '../../globals/constants.less';
+@import '../../globals/responsive.less';
+
+.problems_page {
+  .desktop({
+    width: 66.66666666667%;
+    overflow-y: auto;
+    background: @gray-background;
+  });
+  .mobile({
+    width: 100%;
+    background: #f6f7f8;
+  });
+  padding: 2.5em 0 3.5em 0;
+}
+.problems_section {
+  padding-bottom: 3%;
+  .desktop({
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    });
+}

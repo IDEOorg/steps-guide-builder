@@ -1,0 +1,53 @@
+@import '../../globals/constants.less';
+
+.user_input_zipcode_box {
+  display: block !important;
+  color: @base-blue !important;
+  font-size: 1.5rem !important;
+  width: 7.5rem !important;
+  padding: 0.5rem 0;
+  border: 1px solid rgba(70, 70, 70, 0.3) !important;
+  border-radius: 0.25rem !important;
+  margin: 0 auto !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.already_tried_toggle_box {
+  cursor: pointer;
+  background: @gray-background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: @base-blue;
+  font-size: 1em;
+  padding: 2em 3em;
+  border-bottom: 1px solid @border-gray;
+}
+
+.already_tried_toggle_box img {
+  margin-right: 1em;
+  padding-bottom: 0.15em;
+}
+
+.tried_options_disabled {
+  display: none;
+}
+
+h3.intro_text {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+p.invalid_message {
+  text-align: center;
+  color: #f65b23;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.01875rem;
+  margin-bottom: 1em;
+}
+
+.invalid_zipcode_input {
+  color: @text-color !important;
+}

@@ -1,0 +1,5088 @@
+{
+  "title": "Credit Guide",
+  "guideMaterials": {
+    "headerIcon": {
+      "id": "gfF5yxg3f2suIwg2oMWg2"
+    },
+    "contentType": "guideMaterials"
+  },
+  "optionsPage": {
+    "url": {
+      "urlText": "options",
+      "contentType": "url"
+    },
+    "navigation": {
+      "title": "What can you do?",
+      "linkText": "Back to statements",
+      "contentType": "navigation"
+    },
+    "options": [
+      {
+        "id": "1fRWYb9dR4GU8asUy4uQMI"
+      },
+      {
+        "id": "74srq6uWC4gyuMkC2MmGcC"
+      },
+      {
+        "id": "2p17rdPDUgA4muCAoQ8qWg"
+      },
+      {
+        "id": "3hVHxoQV72EOoc0w6WKSsW"
+      },
+      {
+        "id": "2VYWwuKFrWQw2qqc2aqiKU"
+      },
+      {
+        "id": "3Ur6C5biz60CcUwGQcWmGU"
+      },
+      {
+        "id": "18izRntqCasKi080mQ6KwA"
+      }
+    ],
+    "contentType": "optionsPage"
+  },
+  "problemsPage": {
+    "url": {
+      "urlText": "/",
+      "contentType": "url"
+    },
+    "problems": [
+      {
+        "id": "lsJ429v83eqkMgYCeqYOi"
+      },
+      {
+        "id": "5XBG0bXHKoWQ6eEwQ260A6"
+      },
+      {
+        "id": "5nLPPxoVfaWy20escGiCyg"
+      },
+      {
+        "id": "4gFmKi5zQI8qW2wE6GCKIO"
+      },
+      {
+        "id": "1Yx4N4wEmkiKcMkiUgGq28"
+      },
+      {
+        "id": "7hCB179qRaou8oc02mSYUC"
+      },
+      {
+        "id": "5JKT2zKcxOakiWIisIGqOm"
+      },
+      {
+        "id": "1EaxaqqF1KYAkmKUqcyeoG"
+      },
+      {
+        "id": "66M7Wf698sCmG26YssAqsO"
+      },
+      {
+        "id": "1o4l5qxIe0komuQ8I6Sc48"
+      }
+    ],
+    "sidebar": {
+      "content": "![credit-guide-icon](//images.contentful.com/2h2wj50mwc16/Gm8PpJoX0AYW02A66sGYg/65e183a930dec801bbced6f6e7096428/credit-guide-icon.gif)\n## My Credit is Keeping Me from My Goal\n\nMaintaining good credit is tough, and it affects our lives in so many ways. If you’re having a hard time getting approved for things like an apartment or a loan, you can take steps to improve your credit. Let’s get started.",
+      "position": false,
+      "contentType": "sidebar"
+    },
+    "problemsToStatements": {
+      "problemsToStatements": [
+        {
+          "problem": {
+            "id": "lsJ429v83eqkMgYCeqYOi"
+          },
+          "statementPage": {
+            "title": "Car",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nIf you’re having trouble being approved for a car loan, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- Your credit score is too low\n- Your income is not high enough to afford the car\n__Let’s get you on the road to better credit by exploring your options.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "I wanted a car",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "car",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "1Yx4N4wEmkiKcMkiUgGq28"
+          },
+          "statementPage": {
+            "title": "House",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\nIs getting a mortgage a little harder than you thought? Your credit might be the reason. Here are some of the reasons traditional lenders won’t approve you:\n- Your credit score is too low\n- Your income may be insufficient\n- You may have too much debt\n__There are still many ways you can improve your credit. Let’s take a look.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Buying a home",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "house",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "66M7Wf698sCmG26YssAqsO"
+          },
+          "statementPage": {
+            "title": "Car Insurance",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nIn some states, insurers are allowed to use your credit as a factor in deciding how much to charge you for, or in some cases to not offer you insurance coverage at all. If this is something you’re dealing with, don’t worry.\n__There are still options you can try. Let’s explore them together.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Buying car insurance",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "car-insurance",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "5JKT2zKcxOakiWIisIGqOm"
+          },
+          "statementPage": {
+            "title": "Credit Card",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\nIs getting approved credit card difficult for you? We’re sorry, we know that can be very stressful. Most traditional lenders won’t approve you if:\n- Your credit score is below 630\n- You don’t have sufficient credit history\n__There are still options you can try. Let’s get started.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Getting a credit card",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "credit-card",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "7hCB179qRaou8oc02mSYUC"
+          },
+          "statementPage": {
+            "title": "Job",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nOur credit can sometimes affect us when applying for a new job. If you’ve recently missed out on a job opportunity, your credit history may look like this:\n- Inconsistent bill payments\n- High amounts of debt\n- A record of a past bankruptcy or foreclosure\n__Don’t get discouraged! The path to better credit starts with exploring your options.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Getting a job",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "job",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "1EaxaqqF1KYAkmKUqcyeoG"
+          },
+          "statementPage": {
+            "title": "Personal Loan",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\nAre you having trouble getting approved for a personal loan? These are some of the reasons a traditional lender would not approve:\n- Your credit score is below 630\n- You don't have sufficient credit history\n__Don’t give up! You still have options for improving your credit.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Getting a personal loan",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "personal-loan",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "4gFmKi5zQI8qW2wE6GCKIO"
+          },
+          "statementPage": {
+            "title": "School",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![school-icon](//images.contentful.com/2h2wj50mwc16/4LzJfcUzokAASMGuUEIAoi/9bde60a302c30d50af87d826c8b15159/school-icon.svg)\nIf you’re having trouble getting approved for a __federal student loan__, the most common reason is: \n- You might have a default on other federal student loans\nSome immediate options to consider are rehabilitation or consolidation of your loans. To learn more explore [forgivemystudentdebt.org](http://forgivemystudentdebt.org/how-to-get-out-of-default \"Student Borrower Assistance\").\n\n---\n\nIf you’re having trouble getting approved for a __private student loan__, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- You don't have sufficient cash flow\n- You already have too much debt\n- You don't have a co-signer\n__Let’s work on some options for improving your credit.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Going to school",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "school",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "5XBG0bXHKoWQ6eEwQ260A6"
+          },
+          "statementPage": {
+            "title": "Apartment",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nApartment hunting takes a lot of time and energy, and it can get tiring when you’re having trouble getting approved. Traditional landlords probably won’t approve you if:\n- Your credit score is too low\n- You have an inconsistent payment history\n- You already have too much debt\n__It’s never too late to work on improving your credit. Let’s get started.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Renting an apartment",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "apartment",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "1o4l5qxIe0komuQ8I6Sc48"
+          },
+          "statementPage": {
+            "title": "Utilities",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nYour credit can get in the way of getting approved for utility service. A utility company might not provide serve to you if:\n- You owe money on a previous account in your name\n- You made payments inconsistently in the past\n__There are still options you can try. Let’s explore them together.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "Getting electricity, gas, cable, or phone",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "utilities",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        },
+        {
+          "problem": {
+            "id": "5nLPPxoVfaWy20escGiCyg"
+          },
+          "statementPage": {
+            "title": "Business",
+            "statements": [
+              {
+                "id": "27ll08QlXSCWgEuwgwQgEm"
+              },
+              {
+                "id": "4BrZ49x0daKiY22aImAGMQ"
+              },
+              {
+                "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+              },
+              {
+                "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+              },
+              {
+                "id": "3zIkDTN6LCauYUE2W8Y8y"
+              },
+              {
+                "id": "3piFwaEY7eAWeS0UwOaqSC"
+              },
+              {
+                "id": "ekgo2EfLDa06wSqGoiSoU"
+              },
+              {
+                "id": "5HhoTsWCpG6EqAO4aoUq4M"
+              }
+            ],
+            "sidebar": {
+              "content": "![business-icon](//images.contentful.com/2h2wj50mwc16/30U9f1KIMwCieSgm8AsqQI/503d9ee92956753bc7c0166d6193a5a7/business-icon.svg)\nIf you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:\n- Your credit score is too low\n- You don't have sufficient cash flow\n- You already have too much debt\n__Don't worry-you still have options.__",
+              "position": false,
+              "textAlign": false,
+              "contentType": "sidebar"
+            },
+            "navigation": {
+              "title": "I wanted to start my own business",
+              "linkText": "Choose another problem",
+              "contentType": "navigation"
+            },
+            "statementsToOptions": {
+              "statementsToOptions": [
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "1fRWYb9dR4GU8asUy4uQMI"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "74srq6uWC4gyuMkC2MmGcC"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "27ll08QlXSCWgEuwgwQgEm"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3zIkDTN6LCauYUE2W8Y8y"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    },
+                    {
+                      "statement": {
+                        "id": "4BrZ49x0daKiY22aImAGMQ"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "18izRntqCasKi080mQ6KwA"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3piFwaEY7eAWeS0UwOaqSC"
+                      },
+                      "selected": false,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2VYWwuKFrWQw2qqc2aqiKU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "2p17rdPDUgA4muCAoQ8qWg"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3Ur6C5biz60CcUwGQcWmGU"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                },
+                {
+                  "override": false,
+                  "statementRules": [
+                    {
+                      "statement": {
+                        "id": "ekgo2EfLDa06wSqGoiSoU"
+                      },
+                      "selected": true,
+                      "contentType": "statementRule"
+                    }
+                  ],
+                  "options": [
+                    {
+                      "id": "3hVHxoQV72EOoc0w6WKSsW"
+                    }
+                  ],
+                  "contentType": "statementsToOptions"
+                }
+              ],
+              "contentType": "statementsToOptionsRules"
+            },
+            "url": {
+              "urlText": "business",
+              "contentType": "url"
+            },
+            "contentType": "statementPage"
+          },
+          "contentType": "problemsToStatements"
+        }
+      ],
+      "contentType": "problemsToStatementsRules"
+    },
+    "contentType": "problemsPage"
+  },
+  "statementsPages": [
+    {
+      "title": "Car",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nIf you’re having trouble being approved for a car loan, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- Your credit score is too low\n- Your income is not high enough to afford the car\n__Let’s get you on the road to better credit by exploring your options.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "I wanted a car",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "car",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Apartment",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nApartment hunting takes a lot of time and energy, and it can get tiring when you’re having trouble getting approved. Traditional landlords probably won’t approve you if:\n- Your credit score is too low\n- You have an inconsistent payment history\n- You already have too much debt\n__It’s never too late to work on improving your credit. Let’s get started.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Renting an apartment",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "apartment",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Business",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![business-icon](//images.contentful.com/2h2wj50mwc16/30U9f1KIMwCieSgm8AsqQI/503d9ee92956753bc7c0166d6193a5a7/business-icon.svg)\nIf you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:\n- Your credit score is too low\n- You don't have sufficient cash flow\n- You already have too much debt\n__Don't worry-you still have options.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "I wanted to start my own business",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "business",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "School",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "If you’re having trouble getting approved for a __federal student loan__, the most common reason is: \n- You might have a default on other federal student loans\nSome immediate options to consider are rehabilitation or consolidation of your loans. To learn more explore [forgivemystudentdebt.org](http://forgivemystudentdebt.org/how-to-get-out-of-default \"Student Borrower Assistance\").\n\n---\n\nIf you’re having trouble getting approved for a __private student loan__, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- You don't have sufficient cash flow\n- You already have too much debt\n- You don't have a co-signer\n__Let’s work on some options for improving your credit.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Going to school",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "school",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "House",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\nIs getting a mortgage a little harder than you thought? Your credit might be the reason. Here are some of the reasons traditional lenders won’t approve you:\n- Your credit score is too low\n- Your income may be insufficient\n- You may have too much debt\n__There are still many ways you can improve your credit. Let’s take a look.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Buying a home",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "house",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Job",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nOur credit can sometimes affect us when applying for a new job. If you’ve recently missed out on a job opportunity, your credit history may look like this:\n- Inconsistent bill payments\n- High amounts of debt\n- A record of a past bankruptcy or foreclosure\n__Don’t get discouraged! The path to better credit starts with exploring your options.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Getting a job",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "job",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Credit Card",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\nIs getting approved credit card difficult for you? We’re sorry, we know that can be very stressful. Most traditional lenders won’t approve you if:\n- Your credit score is below 630\n- You don’t have sufficient credit history\n__There are still options you can try. Let’s get started.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Getting a credit card",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "credit-card",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Personal Loan",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\nAre you having trouble getting approved for a personal loan? These are some of the reasons a traditional lender would not approve:\n- Your credit score is below 630\n- You don't have sufficient credit history\n__Don’t give up! You still have options for improving your credit.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Getting a personal loan",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "personal-loan",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Car Insurance",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nIn some states, insurers are allowed to use your credit as a factor in deciding how much to charge you for, or in some cases to not offer you insurance coverage at all. If this is something you’re dealing with, don’t worry.\n__There are still options you can try. Let’s explore them together.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Buying car insurance",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "car-insurance",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    },
+    {
+      "title": "Utilities",
+      "statements": [
+        {
+          "id": "27ll08QlXSCWgEuwgwQgEm"
+        },
+        {
+          "id": "4BrZ49x0daKiY22aImAGMQ"
+        },
+        {
+          "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+        },
+        {
+          "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+        },
+        {
+          "id": "3zIkDTN6LCauYUE2W8Y8y"
+        },
+        {
+          "id": "3piFwaEY7eAWeS0UwOaqSC"
+        },
+        {
+          "id": "ekgo2EfLDa06wSqGoiSoU"
+        },
+        {
+          "id": "5HhoTsWCpG6EqAO4aoUq4M"
+        }
+      ],
+      "sidebar": {
+        "content": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nYour credit can get in the way of getting approved for utility service. A utility company might not provide serve to you if:\n- You owe money on a previous account in your name\n- You made payments inconsistently in the past\n__There are still options you can try. Let’s explore them together.__",
+        "position": false,
+        "textAlign": false,
+        "contentType": "sidebar"
+      },
+      "navigation": {
+        "title": "Getting electricity, gas, cable, or phone",
+        "linkText": "Choose another problem",
+        "contentType": "navigation"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1fRWYb9dR4GU8asUy4uQMI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "74srq6uWC4gyuMkC2MmGcC"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5Iwa9uP0cMW4aSwEwSsWeq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "27ll08QlXSCWgEuwgwQgEm"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3zIkDTN6LCauYUE2W8Y8y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4BrZ49x0daKiY22aImAGMQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "18izRntqCasKi080mQ6KwA"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3piFwaEY7eAWeS0UwOaqSC"
+                },
+                "selected": false,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2VYWwuKFrWQw2qqc2aqiKU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3DIVQ0UPu0w4IyeU2CS8M6"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2p17rdPDUgA4muCAoQ8qWg"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5HhoTsWCpG6EqAO4aoUq4M"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3Ur6C5biz60CcUwGQcWmGU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "ekgo2EfLDa06wSqGoiSoU"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3hVHxoQV72EOoc0w6WKSsW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "url": {
+        "urlText": "utilities",
+        "contentType": "url"
+      },
+      "contentType": "statementPage"
+    }
+  ],
+  "contentType": "guide",
+  "entryIds": {
+    "gfF5yxg3f2suIwg2oMWg2": {
+      "description": "Header Icon",
+      "url": "//images.contentful.com/2h2wj50mwc16/gfF5yxg3f2suIwg2oMWg2/3896c542e0129788825e9836611fd509/header-icon.svg",
+      "fileName": "header-icon.svg"
+    },
+    "5J3fQpjYac2WYeOyS44ygm": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5J3fQpjYac2WYeOyS44ygm/00535673c4d8d9e4f8d52abffaad2e18/refinance-loans-icon.svg",
+      "fileName": "refinance-loans-icon.svg"
+    },
+    "1fRWYb9dR4GU8asUy4uQMI": {
+      "text": "Find personalized advice",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "5J3fQpjYac2WYeOyS44ygm"
+          },
+          "content": [
+            {
+              "content": "### Talk to a NFCC Certified Credit Counselor\nIf you’re having trouble paying your bills on time every month, then you may want to get personalized advice from a counselor that can help.  ",
+              "contentType": "contentBox"
+            },
+            {
+              "content": "__Your Payment History__\nThe biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are.",
+              "contentType": "colorBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "5yYFU7lv3y6ASgoO8mmU6O": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5yYFU7lv3y6ASgoO8mmU6O/b0cd4d095d8e1eeb7df0d8c59f6d9515/credit-owed-icon.svg",
+      "fileName": "credit-owed-icon.svg"
+    },
+    "4ZSy2DIxIQq4MKk4EQqscC": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4ZSy2DIxIQq4MKk4EQqscC/6956ca2da2188ef31118d7e2ff39b121/credit-avalanche-icon.svg",
+      "fileName": "credit-avalanche-icon.svg"
+    },
+    "6A9mXYhbH2maEuUIG06E6S": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6A9mXYhbH2maEuUIG06E6S/dd62afd12dae0b676890f7a2252cf8e2/credit-raise-icon.svg",
+      "fileName": "credit-raise-icon.svg"
+    },
+    "74srq6uWC4gyuMkC2MmGcC": {
+      "text": "Work towards getting your debt below 30%",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "5yYFU7lv3y6ASgoO8mmU6O"
+          },
+          "content": [
+            {
+              "content": "### Understanding “credit utilization\"\nCredit utilization is how much of the available credit you use across all of your cards. This is an important factor that can affect your credit score.",
+              "contentType": "contentBox"
+            },
+            {
+              "content": "### Example:\nYour credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%",
+              "contentType": "colorBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "4ZSy2DIxIQq4MKk4EQqscC"
+          },
+          "content": [
+            {
+              "content": "### Use the avalanche or snowball method\nThere are two powerful ways to tackle debt every month: The avalanche method is when you put any extra money on the highest interest balance you owe, which can save you money and time in the long run. The snowball method is when you put extra money on the smallest balance you owe. This will build confidence and give you the motivation you need to pay off your debts.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Which method is right for you?",
+              "url": "https://www.powerpay.org",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6A9mXYhbH2maEuUIG06E6S"
+          },
+          "content": [
+            {
+              "content": "### Raise your credit limit\nDid you know that raising your credit limit can actually improve your credit score? As long as you raise the limit while also keeping your utilization below 30%, your score will get a boost.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "4nZorrG9lSucoW4cA4emwI": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4nZorrG9lSucoW4cA4emwI/2d1264b782d5b067db2bb6f44e8a35ab/nerdwallet-logo.svg",
+      "fileName": "nerdwallet-logo.svg"
+    },
+    "5hefJqPmBi828kYAuQA6wg": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5hefJqPmBi828kYAuQA6wg/45a70c1302791bb33f0fc743ac2f7b01/credit-bank-icon.svg",
+      "fileName": "credit-bank-icon.svg"
+    },
+    "2p17rdPDUgA4muCAoQ8qWg": {
+      "text": "Your credit score matters",
+      "actions": [
+        {
+          "content": [
+            {
+              "content": "__Your credit score is a three-digit number that is determined by how you pay off your debt (payment history), and how much you borrow (credit owed).__\n![credit-bubbleplot-icon](//images.contentful.com/2h2wj50mwc16/6pPne9TVAI2oIeEeqm4Agg/29597f833de547cc51772e7c9810ca2f/credit-bubbleplot-icon.svg)\n__The first step to to improving your score is by understanding where you are and where to focus you efforts on. Check your credit score for free at these places:__",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionFullWidth"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "4nZorrG9lSucoW4cA4emwI"
+          },
+          "content": [
+            {
+              "content": "### Get your free credit score at NerdWallet\nEvery week you can check your latest credit score for free. Set your goals and watch your progress. Signing up won’t affect your score at all.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "NERDWALLET.COM",
+              "url": "https://www.nerdwallet.com/home/dashboard/credit-score",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5hefJqPmBi828kYAuQA6wg"
+          },
+          "content": [
+            {
+              "content": "### Find a bank or credit union that provides free FICO scores\nThe Consumer Financial Protection Bureau has a great list of companies that provide free access to credit scores. You may need to sign up for an account to gain access.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "DOWNLOAD PDF FROM CONSUMERFINANCE.GOV",
+              "url": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201702_cfpb_finding-free-access-to-credit-score_handout.pdf",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "6qlkZXNoOIGgAYqQmgm8Wo": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6qlkZXNoOIGgAYqQmgm8Wo/590aed0517892fa70873bc5892fe488b/credit-ecoa-icon.svg",
+      "fileName": "credit-ecoa-icon.svg"
+    },
+    "3hVHxoQV72EOoc0w6WKSsW": {
+      "text": "Understand why you were denied",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "6qlkZXNoOIGgAYqQmgm8Wo"
+          },
+          "content": [
+            {
+              "content": "### Make a request to your lenders under the Equal Credit Opportunity Act\nUnder the Equal Credit Opportunity Act, lenders are required to provide written documentation as to why you were denied for a loan. This will help you understand how you need to improve.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "3NbNguu9aEmEwia4EgMsam": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3NbNguu9aEmEwia4EgMsam/a288af023c510cb3bc383955f7ff8f33/credit-card-icon.svg",
+      "fileName": "credit-card-icon.svg"
+    },
+    "348KN3n1HymOuoaEY8UeOs": {
+      "url": "//images.contentful.com/2h2wj50mwc16/348KN3n1HymOuoaEY8UeOs/89f985e0607523bc3d62fc47a3caf167/credit-cosigner-icon.svg",
+      "fileName": "credit-cosigner-icon.svg"
+    },
+    "3taHP1KWuskSiGwCQyAIIK": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3taHP1KWuskSiGwCQyAIIK/55ee662542d83e75446040c43882198c/credit-builder-icon.png",
+      "fileName": "credit-builder-icon.png"
+    },
+    "2VYWwuKFrWQw2qqc2aqiKU": {
+      "text": "Build your credit history",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "3NbNguu9aEmEwia4EgMsam"
+          },
+          "content": [
+            {
+              "content": "### Apply for a secured credit card\nA secured credit card is low-risk for credit card issuers, and a great way to help you build a healthy history of financial habits. To get access to credit on the card, you first put down a cash deposit that matches your credit. Using the card responsibly can eventually give you access to an unsecured card (i.e. one that doesn’t require a deposit).",
+              "contentType": "contentBox"
+            },
+            {
+              "content": "__For example:__\nIf you put down a $500 deposit, you would receive a $500 credit limit. To build a healthy credit history, make sure to pay the bill on time every month and try not to have a balance of more than $150 (or 30%) at any time.",
+              "contentType": "colorBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "348KN3n1HymOuoaEY8UeOs"
+          },
+          "content": [
+            {
+              "content": "### Consider getting a co-signer\nA cosigner is a friend or family member that can increase your chances of getting approved for a loan. If this person’s credit and income meets a lender’s requirements, they can sign for a loan with you and will be obligated to pay it back if you are unable to.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3taHP1KWuskSiGwCQyAIIK"
+          },
+          "content": [
+            {
+              "content": "### Consider a credit-builder loan\nCredit-builder loans are small loans designed to help you establish or boost your credit history. These loans, issued by credit unions and some banks, might be exactly what you need to rebuild your credit. See if there’s one that’s right for you.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "3FEfJQXlkss6Cmegc4wig0": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3FEfJQXlkss6Cmegc4wig0/ab0583995d3e2a05233154b1d64e2127/credit-clipboard-icon.svg",
+      "fileName": "credit-clipboard-icon.svg"
+    },
+    "3WKbaqLhzy8k0MgG8qu6uQ": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3WKbaqLhzy8k0MgG8qu6uQ/6a27d555750c8ae5985630aacb92511a/credit-report-icon.svg",
+      "fileName": "credit-report-icon.svg"
+    },
+    "4XfxwFlNpmoy28QwoMo8eM": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4XfxwFlNpmoy28QwoMo8eM/24d1b859530814db7fc23f4151161e73/credit-dispute-icon.svg",
+      "fileName": "credit-dispute-icon.svg"
+    },
+    "5LsC86KnBKK4GkGEUsgcww": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5LsC86KnBKK4GkGEUsgcww/08a97834b08335c0edddc5559df70c4c/credit-45days-icon.svg",
+      "fileName": "credit-45days-icon.svg"
+    },
+    "3Ur6C5biz60CcUwGQcWmGU": {
+      "text": "Check your credit report for errors",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "3FEfJQXlkss6Cmegc4wig0"
+          },
+          "content": [
+            {
+              "content": "### Get your free credit report at [annualcreditreport.com](https://www.annualcreditreport.com \"annualcreditreport.com\")\n[annualcreditreport.com](https://www.annualcreditreport.com \"Annualcreditreport.com\") is jointly operated by the three major credit reporting agencies, Equifax, Experian, and Transunion. With this service you can receive up to three free credit reports per year.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "ANNUALCREDITREPORT.COM",
+              "url": "https://www.annualcreditreport.com",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3WKbaqLhzy8k0MgG8qu6uQ"
+          },
+          "content": [
+            {
+              "content": "### Errors are fairly common on credit reports\nSome common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors. Visit the Consumer Financial Protection Bureau (CFPB) for more information.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "VISIT CONSUMERFINANCE.GOV",
+              "url": "https://www.consumerfinance.gov/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "4XfxwFlNpmoy28QwoMo8eM"
+          },
+          "content": [
+            {
+              "content": "### If there's an error, dispute it\nKeep records of your correspondences and contact the relevant credit reporting agency to report any errors.",
+              "contentType": "contentBox"
+            },
+            {
+              "content": "__Follow Up__\nIt usually takes credit unions 30 to 45 days to process disputes. If you haven’t heard from them by day 45, be sure to follow up with them.",
+              "contentType": "colorBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5LsC86KnBKK4GkGEUsgcww"
+          },
+          "content": [
+            {
+              "content": "### Follow up if you don’t hear anything after 45 days\nIt usually takes credit unions 30 to 45 days to process disputes. If you haven’t heard from them by day 45, be sure to follow up with them.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "18izRntqCasKi080mQ6KwA": {
+      "text": "Go check a credit simulator",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "4nZorrG9lSucoW4cA4emwI"
+          },
+          "content": [
+            {
+              "content": "### Use NerdWallet's credit simulator\nA credit simulator can help you understand how financial decisions impact your credit score.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "GO TO NERDWALLET.COM",
+              "url": "https://www.nerdwallet.com/blog/finance/credit-score-simulator/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "lsJ429v83eqkMgYCeqYOi": {
+      "text": "Getting a car",
+      "contentType": "problem"
+    },
+    "5XBG0bXHKoWQ6eEwQ260A6": {
+      "text": "Renting an apartment",
+      "contentType": "problem"
+    },
+    "5nLPPxoVfaWy20escGiCyg": {
+      "text": "Starting my own business",
+      "contentType": "problem"
+    },
+    "4gFmKi5zQI8qW2wE6GCKIO": {
+      "text": "Going to school",
+      "contentType": "problem"
+    },
+    "1Yx4N4wEmkiKcMkiUgGq28": {
+      "text": "Buying a home",
+      "contentType": "problem"
+    },
+    "7hCB179qRaou8oc02mSYUC": {
+      "text": "Getting a job",
+      "contentType": "problem"
+    },
+    "5JKT2zKcxOakiWIisIGqOm": {
+      "text": "Getting a credit card",
+      "contentType": "problem"
+    },
+    "1EaxaqqF1KYAkmKUqcyeoG": {
+      "text": "Getting a personal loan",
+      "contentType": "problem"
+    },
+    "66M7Wf698sCmG26YssAqsO": {
+      "text": "Buying car insurance",
+      "contentType": "problem"
+    },
+    "1o4l5qxIe0komuQ8I6Sc48": {
+      "text": "Getting electricity, gas, cable, or phone",
+      "contentType": "problem"
+    },
+    "27ll08QlXSCWgEuwgwQgEm": {
+      "text": "I pay my credit bills on time, consistently each month",
+      "contentType": "statement"
+    },
+    "4BrZ49x0daKiY22aImAGMQ": {
+      "text": "I have used a lot of my credit",
+      "contentType": "statement"
+    },
+    "5Iwa9uP0cMW4aSwEwSsWeq": {
+      "text": "I'm just getting started with credit",
+      "contentType": "statement"
+    },
+    "3DIVQ0UPu0w4IyeU2CS8M6": {
+      "text": "I don't know what my credit score is",
+      "contentType": "statement"
+    },
+    "3zIkDTN6LCauYUE2W8Y8y": {
+      "text": "I have some kind of loan or mortgage",
+      "contentType": "statement"
+    },
+    "3piFwaEY7eAWeS0UwOaqSC": {
+      "text": "I have some kind of credit card",
+      "contentType": "statement"
+    },
+    "ekgo2EfLDa06wSqGoiSoU": {
+      "text": "I wasn't given an explanation as to why I wasn't approved",
+      "contentType": "statement"
+    },
+    "5HhoTsWCpG6EqAO4aoUq4M": {
+      "text": "I haven't checked my credit report this year",
+      "contentType": "statement"
+    }
+  }
+}

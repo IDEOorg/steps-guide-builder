@@ -1,0 +1,68 @@
+@import '../../globals/constants.less';
+
+.content_box {
+  width: 100%;
+  h3 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #464646;
+    line-height: 1.25em;
+    margin-bottom: 0.1875em;
+  }
+  p {
+    font-size: 0.875em;
+    line-height: 1.3571428571em;
+    letter-spacing: 0.02142857143em;
+    color: #7c8188;
+    strong {
+      color: @text-color;
+    }
+    br {
+      margin-bottom: 0.1875rem !important;
+      display: block !important;
+      content: "";
+    }
+  }
+}
+
+.timeline_box {
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(84, 133, 249, 0.2);
+  border-radius: 0.25rem;
+  background: rgba(84, 133, 249, 0.03);
+  padding: 1.25rem;
+}
+
+.timeline_content_section {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1.25rem;
+  img {
+    padding-top: 1rem;
+  }
+}
+
+.timeline_content_box {
+  padding: 0 1rem;
+  p {
+    color: rgba(70,70,70,0.7);
+    letter-spacing: 0.01875rem !important;
+    font-size: 0.75rem !important;
+    strong {
+      color: rgba(70,70,70,1);
+      letter-spacing: 0.0375rem !important;
+      font-weight: 600;
+      width: 50%;
+    }
+    img {
+      padding-top: 0;
+      margin-bottom: 0.875rem;
+    }
+    br {
+      display: block;
+      margin-bottom: 0.625rem;
+      content: "";
+    }
+  }
+}

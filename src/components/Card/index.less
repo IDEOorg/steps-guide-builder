@@ -1,0 +1,148 @@
+@import '../../globals/constants.less';
+@import '../../globals/responsive.less';
+
+@card-height: 13rem;
+@card-height-mobile: 10.5rem;
+@choices-height: 3.9rem;
+@small-card-height: 5.5rem;
+
+.full_card_box {
+  .mobile({
+    height: @card-height-mobile;
+  });
+  .desktop({
+    height: @card-height;
+  });
+}
+.small_card_box {
+  height: @small-card-height;
+}
+
+.full_card {
+  justify-content: center;
+  text-align: center;
+  .card_add_icon {
+    position: absolute;
+    top: 1.25em;
+    right: 1.25em;
+  }
+  .desktop({
+    min-height: @card-height;
+  });
+  .mobile({
+    min-height: @card-height-mobile;
+  });
+}
+.small_card {
+  justify-content: space-between;
+  text-align: left;
+  height: @small-card-height;
+  .card_add_icon {
+    order: 2;
+  }
+}
+
+.card_box {
+  background: white;
+  border-radius: 0.25em;
+  overflow-y: hidden;
+  .mobile({
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 0.75em;
+  });
+  .desktop({
+    width: 44%;
+    margin: 1em 1.5%;
+  });
+}
+
+.card {
+  width: 100%;
+  padding: 3% 6%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  .desktop({
+    &:hover {
+      .card_add_icon {
+        opacity: 1;
+      }
+    }
+  });
+  h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+.card_box.card_unselected {
+  .mobile({
+    box-shadow: 0 0 6px 1px fade(@text-color, 25%);
+  });
+  .desktop({
+    box-shadow: 0 0 6px 1px fade(@text-color, 15%);
+    &:hover {
+      h2 {
+        color: @base-blue;
+      }
+    }
+  });
+  h2 {
+    color: fade(@base-blue, 70%);
+  }
+}
+.card_box.card_selected {
+  background: rgb(244,247,255);
+  box-shadow: 0 0 6px 1px fade(@base-blue, 40%);
+  h2 {
+    color: @base-blue;
+  }
+  .card_add_icon {
+    display: none;
+  }
+}
+
+.card_with_choices {
+  min-height: 9.1em;
+}
+
+.choices_box {
+  width: 100%;
+  height: @choices-height;
+  cursor: pointer;
+  display: flex;
+  .card_choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    line-height: 0.625em;
+    letter-spacing: 0.05em;
+    border-right: 2px solid fade(@base-blue, 20%);
+    border-top: 2px solid fade(@base-blue, 20%);
+    h6 {
+      font-size: 0.625em;
+      text-align: center;
+    }
+    &:last-child{
+        border-right: 0;
+    }
+  }
+}
+
+.card_choice_unselected {
+  h6 {
+    color: fade(@base-blue, 70%);
+  }
+}
+
+.card_choice_selected {
+  h6 {
+    color: @base-blue;
+  }
+}

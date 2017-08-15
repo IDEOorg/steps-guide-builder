@@ -1,0 +1,29 @@
+@import '../../globals/constants.less';
+
+.progress_bar_box {
+  width: 90%;
+  padding: 1.5em 0;
+  margin: 0 auto;
+}
+
+.progress_bar_instruction {
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.progress_bar_bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress_bar_bar {
+  height: 0.125em;
+  width: 49.6%;
+  background: #c7c7c7;
+}
+
+.progress_bar_bar.progress_bar_bar_complete {
+  background: @base-blue;
+}

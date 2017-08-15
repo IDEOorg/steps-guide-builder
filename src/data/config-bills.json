@@ -1,0 +1,1875 @@
+{
+  "title": "I'm Struggling to Pay My Bills Guide",
+  "guideMaterials": {
+    "headerIcon": {
+      "id": "gfF5yxg3f2suIwg2oMWg2"
+    },
+    "contentType": "guideMaterials"
+  },
+  "optionsPage": {
+    "navigation": {
+      "title": "Here's what you can do",
+      "linkText": "Back to statements",
+      "contentType": "navigation"
+    },
+    "options": [
+      {
+        "id": "3dJ05ft48EwwC8iOEOmkSc"
+      },
+      {
+        "id": "j44HD31fxYyOAGYuGw24q"
+      },
+      {
+        "id": "1wbVF2JfIQumMggyEoSM4e"
+      },
+      {
+        "id": "wuLXY3ClDUUkoEWeMoMyo"
+      },
+      {
+        "id": "3ZBEzNbxocO0mOE4cCciYI"
+      },
+      {
+        "id": "3KHfb1zWROcOWkEyaeCuuM"
+      },
+      {
+        "id": "2EhXSgt6966IQo4oKiUCG4"
+      },
+      {
+        "id": "2hEHNOW76YWWoSGO2ius4W"
+      },
+      {
+        "id": "3R3EqpC4zm4IOQccA2ieSO"
+      },
+      {
+        "id": "7wwwMWoO8oq6qW6Mqq4iWS"
+      },
+      {
+        "id": "1NtJsitAKQYkEG020CwEqA"
+      },
+      {
+        "id": "6lUXMSbu8g4akou2i6CIqU"
+      },
+      {
+        "id": "6EL12Rgiru4s4KQEIE8sCU"
+      },
+      {
+        "id": "6oT5A6kmhaSSQEYmKeEmqK"
+      },
+      {
+        "id": "3sdWK6HiiQ2wkKyaeaYsUW"
+      },
+      {
+        "id": "75C16Zln688Ks6WEWkEgGM"
+      },
+      {
+        "id": "6jmJgSf4EEg6S0omYM46m4"
+      },
+      {
+        "id": "4JRWaZ0XtmEa8EWyOmGeqK"
+      },
+      {
+        "id": "5KQZYszgQMCmo6AUqOMcUw"
+      },
+      {
+        "id": "5nv7zxWv1SwieumScsIGCM"
+      },
+      {
+        "id": "c3ORUhZ2daUqGy4wsKyYE"
+      },
+      {
+        "id": "yghvR8GarYEMOASMKw8yy"
+      },
+      {
+        "id": "58wZ4YwQJa4gYmWCUq4y6W"
+      }
+    ],
+    "contentType": "optionsPage"
+  },
+  "statementsPages": [
+    {
+      "title": "I'm Struggling to Pay My Bills",
+      "statements": [
+        {
+          "id": "1st5ZustSY6IOAMqC0E4Ss"
+        },
+        {
+          "id": "2Hxj6AAs7uY6mGOiwEmGQM"
+        },
+        {
+          "id": "7ux1zOA9dmWoaks8M4YqQW"
+        },
+        {
+          "id": "2QaRD8zK4EU8ScGQgwCyoA"
+        },
+        {
+          "id": "2U8RQVnP6wKE2YygYCYgSk"
+        },
+        {
+          "id": "7IXemd5cVGgI06QcuY6w0Y"
+        },
+        {
+          "id": "6aEjn8miLmmEG2iAW8AseQ"
+        },
+        {
+          "id": "2kJOqST2Q0gASSayaiEcCo"
+        },
+        {
+          "id": "3UYiTuEmJGaoSG0EggO6em"
+        },
+        {
+          "id": "1ACd3LaBW4akK6mSQEeYYC"
+        },
+        {
+          "id": "1mIxD11JOAUG8wgUY8EYAk"
+        },
+        {
+          "id": "6o55WCpQxaK2aYE4CA4EC8"
+        },
+        {
+          "id": "XaL9jGTuSIuscaeC6aU4E"
+        },
+        {
+          "id": "2Pyd0o2nDa8Ayes4iMEAiW"
+        },
+        {
+          "id": "5bLkwFUBx6eeSiGqmscgqe"
+        },
+        {
+          "id": "7s7qe4b0WWy0AmKs2IKY6S"
+        },
+        {
+          "id": "3WG4SZQUnCgGmsGuy2QG4A"
+        },
+        {
+          "id": "1csYK8EJfEWWGkEamkK8yk"
+        }
+      ],
+      "sidebar": {
+        "content": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# I'm Struggling To Pay My Bills\nWhen you're overwhelmed with bill payments, it can be hard to prioritize which ones to take care of and to find resources to help you pay them off. Use our guide to find out how to stay on top of this.",
+        "position": false,
+        "contentType": "sidebar"
+      },
+      "statementsToOptions": {
+        "statementsToOptions": [
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "7ux1zOA9dmWoaks8M4YqQW"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "j44HD31fxYyOAGYuGw24q"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1st5ZustSY6IOAMqC0E4Ss"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3dJ05ft48EwwC8iOEOmkSc"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2Hxj6AAs7uY6mGOiwEmGQM"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "4JRWaZ0XtmEa8EWyOmGeqK"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "6aEjn8miLmmEG2iAW8AseQ"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1wbVF2JfIQumMggyEoSM4e"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2kJOqST2Q0gASSayaiEcCo"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1wbVF2JfIQumMggyEoSM4e"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3UYiTuEmJGaoSG0EggO6em"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3KHfb1zWROcOWkEyaeCuuM"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1ACd3LaBW4akK6mSQEeYYC"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "5KQZYszgQMCmo6AUqOMcUw"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2U8RQVnP6wKE2YygYCYgSk"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2hEHNOW76YWWoSGO2ius4W"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "7IXemd5cVGgI06QcuY6w0Y"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "wuLXY3ClDUUkoEWeMoMyo"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3WG4SZQUnCgGmsGuy2QG4A"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "6oT5A6kmhaSSQEYmKeEmqK"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "XaL9jGTuSIuscaeC6aU4E"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "6EL12Rgiru4s4KQEIE8sCU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "6o55WCpQxaK2aYE4CA4EC8"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "1NtJsitAKQYkEG020CwEqA"
+              },
+              {
+                "id": "6lUXMSbu8g4akou2i6CIqU"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2Pyd0o2nDa8Ayes4iMEAiW"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "c3ORUhZ2daUqGy4wsKyYE"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5bLkwFUBx6eeSiGqmscgqe"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "7wwwMWoO8oq6qW6Mqq4iWS"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "7s7qe4b0WWy0AmKs2IKY6S"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "yghvR8GarYEMOASMKw8yy"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1csYK8EJfEWWGkEamkK8yk"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "58wZ4YwQJa4gYmWCUq4y6W"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1mIxD11JOAUG8wgUY8EYAk"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "5nv7zxWv1SwieumScsIGCM"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2QaRD8zK4EU8ScGQgwCyoA"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3ZBEzNbxocO0mOE4cCciYI"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "statementPageLayout": true,
+      "statementPageIntroSection": "### Choose the bills you’re struggling with.",
+      "contentType": "statementPage"
+    }
+  ],
+  "userInputSection": {
+    "introText": "Choose the bills you’re struggling with.",
+    "inputType": "Text Input",
+    "contentType": "userInputSection"
+  },
+  "contentType": "guide",
+  "entryIds": {
+    "gfF5yxg3f2suIwg2oMWg2": {
+      "description": "Header Icon",
+      "url": "//images.contentful.com/2h2wj50mwc16/gfF5yxg3f2suIwg2oMWg2/3896c542e0129788825e9836611fd509/header-icon.svg",
+      "fileName": "header-icon.svg"
+    },
+    "5LzYbpAjE4EUi0m2UEm0Aq": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5LzYbpAjE4EUi0m2UEm0Aq/ba2640a9b6e1f00a04efd9ffe7c17794/housing-counselor-icon.svg",
+      "fileName": "housing-counselor-icon.svg"
+    },
+    "6ayg5G8Y0MYSSOOcCCmscw": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6ayg5G8Y0MYSSOOcCCmscw/7108ad8caf5400a10cbf74a291f49047/housing-guide-icon.svg",
+      "fileName": "housing-guide-icon.svg"
+    },
+    "3dJ05ft48EwwC8iOEOmkSc": {
+      "text": "Get back on track with your rental payments",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "5LzYbpAjE4EUi0m2UEm0Aq"
+          },
+          "content": [
+            {
+              "content": "__Talk to a housing counselor__\nYou can get personalized advice from a housing counselor. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": "Find a Housing Counselor Near You",
+              "beginningUrlText": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+              "endUrlText": " ",
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6ayg5G8Y0MYSSOOcCCmscw"
+          },
+          "content": [
+            {
+              "content": "__Take the “I Can’t Pay My Rent” guide__\nLearn about options tailored to your situation by taking our guide “I Can’t Pay My Rent”.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LAUNCH GUIDE",
+              "url": "https://steps.ideo.org/housing-guide",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "IucylpABcQe4c4M2s4Yec": {
+      "url": "//images.contentful.com/2h2wj50mwc16/IucylpABcQe4c4M2s4Yec/6a4244d285dbfbdf7d96170a75567e45/pantry-icon.svg",
+      "fileName": "pantry-icon.svg"
+    },
+    "2ZNiZZCT9KOII66OOQQqi2": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2ZNiZZCT9KOII66OOQQqi2/74bb1242db176fb9d931ff771c8b41d0/hunger-hotline-icon.png",
+      "fileName": "hunger-hotline-icon.png"
+    },
+    "1gc0F51Hu2Q4YcYCuemAIw": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1gc0F51Hu2Q4YcYCuemAIw/bfa68ee5c0e0e0897284b1311f5dfb22/steps-guide-icon.svg",
+      "fileName": "steps-guide-icon.svg"
+    },
+    "j44HD31fxYyOAGYuGw24q": {
+      "text": "Find local food resources",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "IucylpABcQe4c4M2s4Yec"
+          },
+          "content": [
+            {
+              "content": "__Get food through a pantry or meal program__\nFood banks distribute food through food pantries and meal programs. These resources are open to anyone who needs food.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "FIND A FOOD BANK NEAR YOU",
+              "url": "http://www.feedingamerica.org/find-your-local-foodbank",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2ZNiZZCT9KOII66OOQQqi2"
+          },
+          "content": [
+            {
+              "content": "__Call the Hunger Hotline__\nCall the Hunger Hotline for help finding emergency food near you or for information about other government and social services. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "FIND OUT MORE",
+              "url": "https://www.hungerfreeamerica.org/about/our-work/usda-national-hunger-hotline",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "1gc0F51Hu2Q4YcYCuemAIw"
+          },
+          "content": [
+            {
+              "content": "__Take the “I’m Struggling to Buy Food” guide__\nLearn about options tailored to your situation by taking our guide “I’m Struggling to Buy Food”.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LAUNCH GUIDE",
+              "url": "https://ideoorg.github.io/steps-guide-food",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1Vl6F2luPq4YO04m4suK0E": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1Vl6F2luPq4YO04m4suK0E/8cac90d71c0e109c9d93b376f18ebd4a/utility-icon.svg",
+      "fileName": "utility-icon.svg"
+    },
+    "6lcVyjhmp2ggqgOKao6IGq": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6lcVyjhmp2ggqgOKao6IGq/7e6761c389c4e0584d4acb95c8fde55e/government-assistance-icon.svg",
+      "fileName": "government-assistance-icon.svg"
+    },
+    "6FINhHu6IMssCwe4I4syaE": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6FINhHu6IMssCwe4I4syaE/8f343256d837df5ca2a6c0acd5a30275/liheap-icon.svg",
+      "fileName": "liheap-icon.svg"
+    },
+    "3PVSs1xwvmUmSmGKeaeeiw": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3PVSs1xwvmUmSmGKeaeeiw/f8372a02fb8b61465c82bff5f1855334/usage-and-costs-icon.svg",
+      "fileName": "usage-and-costs-icon.svg"
+    },
+    "1wbVF2JfIQumMggyEoSM4e": {
+      "text": "Get utility assistance",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1Vl6F2luPq4YO04m4suK0E"
+          },
+          "content": [
+            {
+              "content": "__Call your utility provider__\nMost utility companies have programs that can help people in need with their bills, including creating a payment plan.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6lcVyjhmp2ggqgOKao6IGq"
+          },
+          "content": [
+            {
+              "content": "__Find government assistance__\nMany state and local government agencies have alternative assistance programs for utilities. Find out more here:",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Go to Utilitybillassistance.com",
+              "url": "http://www.utilitybillassistance.com",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6FINhHu6IMssCwe4I4syaE"
+          },
+          "content": [
+            {
+              "content": "__Apply for LIHEAP__\nAssistance is available through the federal Low-Income Home Energy Assistance Program (each state has their own set of qualifications). Also, the LIHEAP Clearinghouse National Energy Assistance Referral (NEAR) project is a free service to learn where to apply.",
+              "contentType": "contentBox"
+            },
+            {
+              "content": "- Residents with very young children, elderly, or disabled family members.\n- Homes with low-incomes and high regional costs.",
+              "contentType": "criteriaBox"
+            },
+            {
+              "text": "FIND YOUR STATE'S CONTACT INFORMATION",
+              "url": "https://liheapch.acf.hhs.gov/get_help.htm",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3PVSs1xwvmUmSmGKeaeeiw"
+          },
+          "content": [
+            {
+              "content": "__Reduce your home energy usage and costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricty usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find your state WAP",
+              "url": "https://www.usa.gov/repairing-home#item-35127",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "5oygNV4wKWuWm0MkmwYwMK": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5oygNV4wKWuWm0MkmwYwMK/0b371c01bb253318109a2b1d5640191d/tanf-icon.svg",
+      "fileName": "tanf-icon.svg"
+    },
+    "5WRESYklQkYkeSOe0SOkyw": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5WRESYklQkYkeSOe0SOkyw/bfe939cc291373b3fab61b233ef39755/contact-nonprofit-icon.svg",
+      "fileName": "contact-nonprofit-icon.svg"
+    },
+    "wuLXY3ClDUUkoEWeMoMyo": {
+      "text": "Apply for transportation assistance",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "5oygNV4wKWuWm0MkmwYwMK"
+          },
+          "content": [
+            {
+              "content": "__See if you qualify for TANF in your state__\nTemporary Assistance for Needy Families (TANF) is a federal program which can provide transporation vouchers for families in need. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "FIND YOUR LOCAL TANF WEBSITE",
+              "url": "https://www.acf.hhs.gov/ofa/help",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5WRESYklQkYkeSOe0SOkyw"
+          },
+          "content": [
+            {
+              "content": "__Contact a local nonprofit organization__\nTransporation vouchers and other help are often administered by local nonprofit organizations.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find a nonprofit",
+              "url": "https://www.auntbertha.com",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1XJt5GiyRuqAsCywimk28s": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1XJt5GiyRuqAsCywimk28s/322392a2339ee36f2fc66fe497a4f32b/childcare-resources-icon.svg",
+      "fileName": "childcare-resources-icon.svg"
+    },
+    "3ZBEzNbxocO0mOE4cCciYI": {
+      "text": "Apply for local childcare assistance",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1XJt5GiyRuqAsCywimk28s"
+          },
+          "content": [
+            {
+              "content": "__Find local childcare resources__\nChild Care Resource & Referral (CCR&R) agencies help families find local child care options. They also connect child care providers to business resources.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "search for an agency near you",
+              "url": "https://childcareaware.org/ccrr-search-form",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2zre5bnBEMkea8Ggq4EIA0": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2zre5bnBEMkea8Ggq4EIA0/98415811af0f820341e176c88bda84c0/lifeline-icon.svg",
+      "fileName": "lifeline-icon.svg"
+    },
+    "5b40dvujra40c2COwE8ie2": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5b40dvujra40c2COwE8ie2/7f87577d1b94cb9e76bc0deba1663329/lower-bill-icon.svg",
+      "fileName": "lower-bill-icon.svg"
+    },
+    "3KHfb1zWROcOWkEyaeCuuM": {
+      "text": "Find phone assistance and lower your phone bill",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2zre5bnBEMkea8Ggq4EIA0"
+          },
+          "content": [
+            {
+              "content": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
+              "url": "http://www.lifelinesupport.org/ls",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5b40dvujra40c2COwE8ie2"
+          },
+          "content": [
+            {
+              "content": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Read more strategies",
+              "url": "https://www.thebalance.com/lower-your-phone-bill-1388724",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2H3aHMPq3KQq4OcCGe4460": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2H3aHMPq3KQq4OcCGe4460/0164fd269ed75b3c78218e89aa20316a/harp-icon.svg",
+      "fileName": "harp-icon.svg"
+    },
+    "2EhXSgt6966IQo4oKiUCG4": {
+      "text": "Consider applying for HARP",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2H3aHMPq3KQq4OcCGe4460"
+          },
+          "content": [
+            {
+              "content": "__Learn about HARP__\nThe Home Affordable Refinance Program (HARP), is a federal program that allows qualified applicants to refinance their existing mortgages into more affordable mortgages. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LEARN MORE ABOUT HARP",
+              "url": "https://www.harp.gov/About",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "3wdr05YizKUSaK2GiwWm6": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3wdr05YizKUSaK2GiwWm6/0cd6e7bc0de019a944cdf3ec2b9d46d9/auto-lender-icon.svg",
+      "fileName": "auto-lender-icon.svg"
+    },
+    "2VQ9VCEqQUSoy8AumWesoA": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2VQ9VCEqQUSoy8AumWesoA/c773e3a21fbc9f98bebce298fe4777aa/refinance-icon.svg",
+      "fileName": "refinance-icon.svg"
+    },
+    "5LUHWtbCBqaMKkKI8qAykC": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5LUHWtbCBqaMKkKI8qAykC/5d590e9b3dd245d30abdc7d9d668ca85/sell-car-icon.svg",
+      "fileName": "sell-car-icon.svg"
+    },
+    "6EQfbsexVeg84wYGc6Ko0w": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6EQfbsexVeg84wYGc6Ko0w/bfe939cc291373b3fab61b233ef39755/advice-icon.svg",
+      "fileName": "advice-icon.svg"
+    },
+    "2hEHNOW76YWWoSGO2ius4W": {
+      "text": "Lower your car payments or get out of your loan",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "3wdr05YizKUSaK2GiwWm6"
+          },
+          "content": [
+            {
+              "content": "__Call your auto lender__\nCall your auto lender as soon as you start or expect to have difficulty paying your auto loan. They may be able to help you temporarily or permanently pause or lower your payments and get back on track to avoid repossession. If your credit score has improved since you got your auto loan, try negotiating for a lower interest rate. ",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2VQ9VCEqQUSoy8AumWesoA"
+          },
+          "content": [
+            {
+              "content": "__Calculate whether to refinance__\nIf your credit score has improved since you got your auto loan, try negotiating for a lower interest rate with your auto lender or refinancing with another lender. This could reduce your monthly payments and the total amount of interest you will pay for credit card debt. Use an auto loan calculator to determine how much you can lower your monthly payment or save over the life of the loan with a new interest rate. There may be an upfront cost to refinance. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "GO TO BANKRATE.COM TO CALCULATE",
+              "url": "http://www.bankrate.com/calculators/auto/auto-loan-calculator.aspx",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5LUHWtbCBqaMKkKI8qAykC"
+          },
+          "content": [
+            {
+              "content": "__Sell your car__\nAdvertise your car for sale for private buyers. You can also sell your car on a website like CarMax.com for a solid offer to buy immediately. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "go to carmax.com",
+              "url": "https://www.carmax.com/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6EQfbsexVeg84wYGc6Ko0w"
+          },
+          "content": [
+            {
+              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. A credit counselor may be able to help you determine the best options for changing the payment terms or refinancing your auto loan. There may be a fee for these services.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find a credit counselor near you",
+              "url": "https://www.nfcc.org/locator",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "3R3EqpC4zm4IOQccA2ieSO": {
+      "text": "Apply for a loan repayment plan",
+      "actions": [
+        {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "1FNLu7NBhqGecYwQ8wA68m"
+          }
+        }
+      ],
+      "contentType": "option"
+    },
+    "1CWHIqaz0wWekcwOm2YySU": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1CWHIqaz0wWekcwOm2YySU/9c7ebdf18f9ae3b92dcbdfb405a8794e/high-interest-icon.svg",
+      "fileName": "high-interest-icon.svg"
+    },
+    "5xY5w7sLkW6yO4Ee8GQ6Am": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5xY5w7sLkW6yO4Ee8GQ6Am/12563e020484c7d5906b294e83c96801/talk-to-lender-icon.svg",
+      "fileName": "talk-to-lender-icon.svg"
+    },
+    "5J3fQpjYac2WYeOyS44ygm": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5J3fQpjYac2WYeOyS44ygm/00535673c4d8d9e4f8d52abffaad2e18/refinance-loans-icon.svg",
+      "fileName": "refinance-loans-icon.svg"
+    },
+    "6pDkaYzdKgkq4u4SOaqmaa": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6pDkaYzdKgkq4u4SOaqmaa/5b06be3f1a1b41706d45a1add9809d9b/credit-nfcc-icon.svg",
+      "fileName": "credit-nfcc-icon.svg"
+    },
+    "5vUvYSgNhKy6s2mkqiWeoG": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5vUvYSgNhKy6s2mkqiWeoG/bfff310ee05e03afa3f1ceb14f37776b/validation-debt-icon.svg",
+      "fileName": "validation-debt-icon.svg"
+    },
+    "1pp2afU4I4qY6qgKOC2EmS": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1pp2afU4I4qY6qgKOC2EmS/458e4c99c80caa01a897cbeb165804e7/legal-icon.svg",
+      "fileName": "legal-icon.svg"
+    },
+    "7wwwMWoO8oq6qW6Mqq4iWS": {
+      "text": "Explore options for your private student loan",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1CWHIqaz0wWekcwOm2YySU"
+          },
+          "content": [
+            {
+              "content": "__Pay extra toward your high-interest loans__\nIf refinancing is not an option, consider putting extra funds towards your high-interest loans. Make a list of the private loans you have and prioritize paying off the ones with the highest interest.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5xY5w7sLkW6yO4Ee8GQ6Am"
+          },
+          "content": [
+            {
+              "content": "__Talk to your lender__\nCall your lender and see if they have any programs that can help you with your student loan payments, such as cancellation, income-driven repayment options, deferment, or forebearance. You may also be able to settle your debt for less than the original amount, although this may negatively impact your credit. Each program will have its own eligibility requirements. Gather all of your student loan paperwork before you call to be able to verify your type of loan. ",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5J3fQpjYac2WYeOyS44ygm"
+          },
+          "content": [
+            {
+              "content": "__Refinance your student loans__\nIf you’ve got solid income and a good credit history, or have a co-signer, this might be a goood option for you.  Refinancing with a new lender can give you access to a lower interest rate.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6pDkaYzdKgkq4u4SOaqmaa"
+          },
+          "content": [
+            {
+              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. Student loan credit counselors may be able to help you understand your options, such as changing the payment terms, refinancing your student loans, or consolidation. There may be a fee for these services.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find a credit counselor near you",
+              "url": "https://www.nfcc.org/our-services/student-loan-debt-counseling",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5vUvYSgNhKy6s2mkqiWeoG"
+          },
+          "content": [
+            {
+              "content": "__Request validation for the debt__\nIf your private student loans are in collections, the collector must be able to provide you with paperwork to validate that they actually own the debt and that they have a legal right to collect on the debt. If the lender is not able to provide adequate validation for the loan, you may want to contact an attorney to assist you in disputing the debt. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find sample debt validation letters ",
+              "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "1pp2afU4I4qY6qgKOC2EmS"
+          },
+          "content": [
+            {
+              "content": "__Talk to a student loan attorney__\nIf you were treated unfairly by the school or lender, if the school(s) you were attending closed while you were still attending, or if your student loans are in collections, there are pro bono (free), affordable, or private attorneys available in your state who may be able to help. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find pro bono legal aid attorneys",
+              "url": "http://www.lawhelp.org/find-help",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "6bHxEjgxJmuYM22qUs622e": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6bHxEjgxJmuYM22qUs622e/63b9661c6db6f3b6f0bb656245ccec7c/hardship-programs-icon.svg",
+      "fileName": "hardship-programs-icon.svg"
+    },
+    "10L0EFEGz6Ks6oiQWI220W": {
+      "url": "//images.contentful.com/2h2wj50mwc16/10L0EFEGz6Ks6oiQWI220W/01614beb3c3d8851dd36e18e73572a1e/lower-interest-rate-icon.svg",
+      "fileName": "lower-interest-rate-icon.svg"
+    },
+    "1NtJsitAKQYkEG020CwEqA": {
+      "text": "Call your credit card company",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "6bHxEjgxJmuYM22qUs622e"
+          },
+          "content": [
+            {
+              "content": "__Find out about hardship programs__\nCall your credit card issuer to see if they have a hardship program before making a payment. Hardship program provide short term payment relief for clients who are having difficulty meeting their payment commitments.  ",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "10L0EFEGz6Ks6oiQWI220W"
+          },
+          "content": [
+            {
+              "content": "__Negotiate to lower the interest rate on your credit cards__\nIf your credit score has improved since you've opened your credit cards, try asking for a lower Annual Percentage Rate (APR) on each of your credit cards. This could reduce your monthly payments and the total amount of interest you will pay for credit card debt.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Script for negotiating a lower interest rate",
+              "url": "http://www.creditcards.com/credit-card-news/script-negotiate-better-credit-card-deal-1267.php",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "62FoPdR67KOCeykY4KGUAy": {
+      "url": "//images.contentful.com/2h2wj50mwc16/62FoPdR67KOCeykY4KGUAy/7c3c646a3051eda5376246b736c19d80/long-term-plan-icon.svg",
+      "fileName": "long-term-plan-icon.svg"
+    },
+    "6lUXMSbu8g4akou2i6CIqU": {
+      "text": "Create a plan to pay down your debt",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "62FoPdR67KOCeykY4KGUAy"
+          },
+          "content": [
+            {
+              "content": "__Create a long-term plan__\nCreating a long-term plan will help you determine if paying off your debt on your own is realistic, or if you need to seek further assistance through a credit counselor, a debt management program, or bankruptcy. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "create a personalized debt payoff plan",
+              "url": "https://powerpay.org",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6EQfbsexVeg84wYGc6Ko0w"
+          },
+          "content": [
+            {
+              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find a credit counselor near you",
+              "url": "https://www.nfcc.org/locator",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1bnURfFvAC260kiMaeaaIQ": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1bnURfFvAC260kiMaeaaIQ/c9db8e0fac7ae841b04c9b671218303e/contact-tax-icon.svg",
+      "fileName": "contact-tax-icon.svg"
+    },
+    "6EL12Rgiru4s4KQEIE8sCU": {
+      "text": "Start a payment plan or settle your tax debt",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1bnURfFvAC260kiMaeaaIQ"
+          },
+          "content": [
+            {
+              "content": "__Contact the IRS and tax authorities__\nIf things are tight, the IRS and other tax authorities have programs to help you pay off your tax debt in installments. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Learn more about the IRS Fresh Start Program",
+              "url": "https://www.irs.gov/uac/newsroom/irs-fresh-start-program-helps-taxpayers-who-owe-the-irs",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "1pp2afU4I4qY6qgKOC2EmS"
+          },
+          "content": [
+            {
+              "content": "__Talk to a pro bono tax attorney__\nContact a Low-Income Taxpayer Clinic to see if you qualify for pro bono (free) legal assistance. The IRS may consider an \"offer in compromise\" to settle your debt for less than the full amount owed. If you can't find one within traveling distance to you, and have only federal tax debt, many clinics may be able to represent clients throughout the U.S. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find a pro bono low-Income taxpayer clinic",
+              "url": "https://taxpayeradvocate.irs.gov/about/litc",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "32moyUOUogCIQyMosoayqi": {
+      "url": "//images.contentful.com/2h2wj50mwc16/32moyUOUogCIQyMosoayqi/653664cfd0f3058c6ce8b61d5f29b016/courts-icon.svg",
+      "fileName": "courts-icon.svg"
+    },
+    "6oT5A6kmhaSSQEYmKeEmqK": {
+      "text": "Request to lower your child support order",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "32moyUOUogCIQyMosoayqi"
+          },
+          "content": [
+            {
+              "content": "__Contact the courts__\nIf you’re struggling to pay your child support, contact a court. You may be able to decrease the order and avoid arrest. Keep in mind, failure to address the issue can result in driver’s license suspension, tax refund seizure, passport revocation, wage or benefit garnishment, property seizure or jail in some states.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "hUvZTrCeruymC2qu8uKA6": {
+      "url": "//images.contentful.com/2h2wj50mwc16/hUvZTrCeruymC2qu8uKA6/7df49fc44d424e788708cc4cd3c2879c/phone-call-icon.svg",
+      "fileName": "phone-call-icon.svg"
+    },
+    "3sdWK6HiiQ2wkKyaeaYsUW": {
+      "text": "Call your medical provider",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "hUvZTrCeruymC2qu8uKA6"
+          },
+          "content": [
+            {
+              "content": "__Ask about payment plans or other assistance__\nIf you’re struggling with medical bills, call your medical provider to see if they offer payment plans, financial assistance or can direct you to charitable relief. ",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "75C16Zln688Ks6WEWkEgGM": {
+      "text": "Find personalized advice",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "6EQfbsexVeg84wYGc6Ko0w"
+          },
+          "content": [
+            {
+              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find a credit counselor near you",
+              "url": "https://www.nfcc.org/locator",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "6jmJgSf4EEg6S0omYM46m4": {
+      "text": "Find phone assistance and lower your phone bill",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2zre5bnBEMkea8Ggq4EIA0"
+          },
+          "content": [
+            {
+              "content": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
+              "url": "http://www.lifelinesupport.org/ls",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5b40dvujra40c2COwE8ie2"
+          },
+          "content": [
+            {
+              "content": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "read more strategies",
+              "url": "https://www.thebalance.com/lower-your-phone-bill-1388724",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "3w7LsqLKUUmwccQwuYomeq": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3w7LsqLKUUmwccQwuYomeq/2e2b340280a098fe3f4841a906106de4/mortgage-lender.svg",
+      "fileName": "mortgage-lender.svg"
+    },
+    "54ApMovT7O8uuoIUcOQ4Mi": {
+      "url": "//images.contentful.com/2h2wj50mwc16/54ApMovT7O8uuoIUcOQ4Mi/462000ddc1baa689f8117335302423f3/harp-icon.svg",
+      "fileName": "harp-icon.svg"
+    },
+    "7qkCRpiL8AqUiaE0GsiEIe": {
+      "url": "//images.contentful.com/2h2wj50mwc16/7qkCRpiL8AqUiaE0GsiEIe/f79389634d27cc5e1fc8889bd43490d8/rent-home-icon.svg",
+      "fileName": "rent-home-icon.svg"
+    },
+    "5QH8vdUgV2WGs2yGyikagY": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5QH8vdUgV2WGs2yGyikagY/d028cfd0fa4408fb87a8af74e5601be5/bankruptcy-attorney-icon.svg",
+      "fileName": "bankruptcy-attorney-icon.svg"
+    },
+    "4JRWaZ0XtmEa8EWyOmGeqK": {
+      "text": "Get help lowering your mortgage costs",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "5LzYbpAjE4EUi0m2UEm0Aq"
+          },
+          "content": [
+            {
+              "content": "__Talk to a housing counselor__\nGet expert and personalized advice from a counselor to prevent losing your home and equity to foreclosure. Housing counselors can help you negotiate with your lender to lower payments, review refinancing options, or discuss if selling your home or bankruptcy is right for you.",
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": "Find a Housing Counselor Near You",
+              "beginningUrlText": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+              "endUrlText": " ",
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3w7LsqLKUUmwccQwuYomeq"
+          },
+          "content": [
+            {
+              "content": "__Talk to your mortgage lender__\nCall your mortgage lender as soon as you start or expect to have difficulty paying your mortgage. They may be able to help you temporarily or permanently pause or lower your payments and get back on track to avoid foreclosure. ",
+              "contentType": "colorBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "54ApMovT7O8uuoIUcOQ4Mi"
+          },
+          "content": [
+            {
+              "content": "__Learn about HARP__\nThe Home Affordable Refinance Program (HARP), is a federal program that allows qualified applicants to refinance their existing mortgages into more affordable mortgages. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LEARN MORE ABOUT HARP",
+              "url": "https://www.harp.gov/About",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "7qkCRpiL8AqUiaE0GsiEIe"
+          },
+          "content": [
+            {
+              "content": "__Rent part of your home__\nIf you have an extra room in your home, consider renting it to others temporarily or for the long-term for extra income. Some options include: listing as a short-term vacation rental, renting a room on a monthly or annual basis, or homestays for international students. ",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5QH8vdUgV2WGs2yGyikagY"
+          },
+          "content": [
+            {
+              "content": "__Talk to a bankruptcy attorney__\nIf you’ve spoken to a housing counselor and bankruptcy is a viable option, speak with a bankruptcy attorney. Depending on your situation and the type you qualify for, bankruptcy may allow you to remain in your home. If you are considering bankruptcy, there are pro bono (free), affordable, or private attorneys available in your state to help. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find pro bono legal aid attorneys",
+              "url": "http://www.lawhelp.org/find-help",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "5lJ7v5Mo0gU6mao40SmE6S": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5lJ7v5Mo0gU6mao40SmE6S/7b3d5a66500e9200310e23d6ebc0fcc1/internet-subsidy-icon.svg",
+      "fileName": "internet-subsidy-icon.svg"
+    },
+    "5KQZYszgQMCmo6AUqOMcUw": {
+      "text": "Reduce your internet bills",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2zre5bnBEMkea8Ggq4EIA0"
+          },
+          "content": [
+            {
+              "content": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
+              "url": "http://www.lifelinesupport.org/ls",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5lJ7v5Mo0gU6mao40SmE6S"
+          },
+          "content": [
+            {
+              "content": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "See if you qualify for an internet subsidy",
+              "url": "http://everyoneon.org",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5b40dvujra40c2COwE8ie2"
+          },
+          "content": [
+            {
+              "content": "__Find ways to lower your internet bill__\nStrategies to try include negotiating with your internet provider, switching to a local provider, or switching to a lower tier plan.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Read more about how to save",
+              "url": "http://broadbandnow.com/report/13-creative-ways-save-money-internet-bill",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "lBVpmpa8ACwgaGogUAIY8": {
+      "url": "//images.contentful.com/2h2wj50mwc16/lBVpmpa8ACwgaGogUAIY8/2812abfa1c91927417f9de561ee3f3d8/healthcare-navigator-icon.svg",
+      "fileName": "healthcare-navigator-icon.svg"
+    },
+    "5nv7zxWv1SwieumScsIGCM": {
+      "text": "Lower your insurance premiums",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "lBVpmpa8ACwgaGogUAIY8"
+          },
+          "content": [
+            {
+              "content": "__Contact a Healthcare Navigator__\nHealthcare Navigators are trained and unbiased individuals or organizations that can help you look for affordable health coverage options. They also also help you apply for insurance from your state health insurance marketplace.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find a local healthcare navigator",
+              "url": "https://localhelp.healthcare.gov",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5b40dvujra40c2COwE8ie2"
+          },
+          "content": [
+            {
+              "content": "__Find ways to save on auto insurance__\nThere are strategies to lower the cost of your auto insurance. Learn more here:",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "save on auto insurance",
+              "url": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5b40dvujra40c2COwE8ie2"
+          },
+          "content": [
+            {
+              "content": "__Find ways to save on homeowners insurance__\nThere are strategies to lower the cost of your homeowners insurance. Learn more here:",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "save on homeowners insurance",
+              "url": "http://www.iii.org/article/how-to-save-money-on-your-homeowners-insurance",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "6r9YLY0CdyOmgm2co6mAQu": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6r9YLY0CdyOmgm2co6mAQu/0a8630cc82b973261a0a89ec6ce973c0/medical-provider-icon.svg",
+      "fileName": "medical-provider-icon.svg"
+    },
+    "46wvlsQZniIYGI4YoUI88": {
+      "url": "//images.contentful.com/2h2wj50mwc16/46wvlsQZniIYGI4YoUI88/7fcb8a49eba409b9863ebd956de8fad9/community-health-center.svg",
+      "fileName": "community-health-center.svg"
+    },
+    "Df6j1Q1XYOkS04AOOi4Qm": {
+      "url": "//images.contentful.com/2h2wj50mwc16/Df6j1Q1XYOkS04AOOi4Qm/e404b40097914b37410d4015b561d130/location-icon.svg",
+      "fileName": "location-icon.svg"
+    },
+    "2N72qfQwvK4euW0WIM2s4s": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2N72qfQwvK4euW0WIM2s4s/9cbd71b88845790fa39ee18da610722a/dental-care-icon.svg",
+      "fileName": "dental-care-icon.svg"
+    },
+    "3YeEZ5F02IwU0IsyaUuSsM": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3YeEZ5F02IwU0IsyaUuSsM/55c1650c068f411225f86102183bc064/eye-care-icon.svg",
+      "fileName": "eye-care-icon.svg"
+    },
+    "c3ORUhZ2daUqGy4wsKyYE": {
+      "text": "Find low-cost medical care  or financial assistance",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "6r9YLY0CdyOmgm2co6mAQu"
+          },
+          "content": [
+            {
+              "content": "__Call your medical provider__\nIf you're struggling with medical bills, call your medical provider to see if they offer payment plans, financial assistance or can direct you to charitable relief. Some hospitals offer a program called \"Charity Care\" to patients who cannot afford medical care.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Learn about how your provider can help",
+              "url": "https://www.moneyunder30.com/paying-medical-bills-you-cant-afford",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "46wvlsQZniIYGI4YoUI88"
+          },
+          "content": [
+            {
+              "content": "__Find a community health center__\nLocal community health centers offer free or low-cost health care, even if you don't have health insurance. Fees are based on your income. Contact a health center to confirm what services they provide and to make an appointment.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find your local community health center",
+              "url": "https://findahealthcenter.hrsa.gov/index.html",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5WRESYklQkYkeSOe0SOkyw"
+          },
+          "content": [
+            {
+              "content": "__Contact a local nonprofit organization__\nAssistance with medical and dental services, and small grants to help pay for costs, are sometimes administered by local nonprofit organizations. Use the website below and search for \"medical\" resources in your zip code.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find a nonprofit",
+              "url": "https://www.auntbertha.com",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "Df6j1Q1XYOkS04AOOi4Qm"
+          },
+          "content": [
+            {
+              "content": "__Get help from your state__\nSome state offices or social service agencies offer direct aid. They may also be able to refer you to other organizations for help.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find help in your state",
+              "url": "http://www.aphsa.org/content/APHSA/en/resources/LINKS/STATE_CONTACTS.html",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2N72qfQwvK4euW0WIM2s4s"
+          },
+          "content": [
+            {
+              "content": "__Get help with dental care__\nYou may be able to find free or low-cost dental care assistance from local health departments and dental schools.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find low-cost dental care",
+              "url": "https://www.hhs.gov/answers/health-care/where-can-i-find-low-cost-dental-care/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3YeEZ5F02IwU0IsyaUuSsM"
+          },
+          "content": [
+            {
+              "content": "__Get help with vision and eye care__\nYou may be able to find free or low-cost vision and eye care, and financial assistance with paying for these services. Income and age restrictions may apply.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find assistance for vision and eye care",
+              "url": "https://nei.nih.gov/health/financialaid",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1EvPgQjie4MkuAsMqUKAYs": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1EvPgQjie4MkuAsMqUKAYs/e7e595ba7ec1fb9b5412a42007a3087a/repayment-plan-icon.svg",
+      "fileName": "repayment-plan-icon.svg"
+    },
+    "yghvR8GarYEMOASMKw8yy": {
+      "text": "Get help with your federal  student loan payments",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1EvPgQjie4MkuAsMqUKAYs"
+          },
+          "content": [
+            {
+              "content": "__Request an income driven repayment plan__\nFor federal student loans, the government offers multiple income-driven plans each with their own set of eligibility requirements. You can estimate what your payments might be based on your income and household size using the repayment estimator.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "go to studentaid.gov",
+              "url": "https://studentaid.ed.gov/sa/repay-loans",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3w7LsqLKUUmwccQwuYomeq"
+          },
+          "content": [
+            {
+              "content": "__Request loan deferment or forebearance__\nIf an income-driven repayment plan will not work for your situation, call your student loan servicer to temporarily pause your monthly payments by requesting deferment or forebearance. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find your student loan servicer",
+              "url": "https://studentaid.ed.gov/npas/index.htm",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "1pp2afU4I4qY6qgKOC2EmS"
+          },
+          "content": [
+            {
+              "content": "__Talk to a student loan attorney__\nIf you were treated unfairly by the school or lender, if the school(s) you were attending closed while you were still attending, or if your student loans are in collections, there are pro bono (free), affordable, or private attorneys available in your state who may be able to help. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find pro bono legal aid attorneys",
+              "url": "http://www.lawhelp.org/find-help",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2EFQoaYSaoUUcOwCUOcgOw": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2EFQoaYSaoUUcOwCUOcgOw/a8b8a015fa6f757f723ede283a349120/stop-harrassment-debt-collector-icon.svg",
+      "fileName": "stop-harrassment-debt-collector-icon.svg"
+    },
+    "3HjFn2DrdYQ0kg4AWi24GM": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3HjFn2DrdYQ0kg4AWi24GM/846beeb9ea3dece889130aaad3186ba7/negotiate-debt-collector-icon.svg",
+      "fileName": "negotiate-debt-collector-icon.svg"
+    },
+    "58wZ4YwQJa4gYmWCUq4y6W": {
+      "text": "Get in control of your collection debt",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2EFQoaYSaoUUcOwCUOcgOw"
+          },
+          "content": [
+            {
+              "content": "__Stop harrassment from a debt collector__\nIf a debt collector is repeatedly calling and threatening you, you have a right to end communication. You can: submit a compaint with the Consumer Financial Protection Bureau (CFPB) online or by phone, contact your state's attorney general's office, or send a letter to the collector. Keep notes and times of your conversations, as well as any letters you've received and sent.  ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Tips to stop harassment from collectors",
+              "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-harassment-by-a-debt-collector-en-336",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5vUvYSgNhKy6s2mkqiWeoG"
+          },
+          "content": [
+            {
+              "content": "__Request validation for the debt__\nIf you are not sure that you owe the collection agency that is attempting to collect from you, consider requesting validation. Debt collectors must be able to provide you with paperwork to validate that they actually own the debt and that they have a legal right to collect on the debt. It is best to send letters requesting validation by certified mail to maintain an official record.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Find sample debt validation letters here",
+              "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3HjFn2DrdYQ0kg4AWi24GM"
+          },
+          "content": [
+            {
+              "content": "__Negotiate with the debt collector__\nIf you are sure you owe the debt to the collection agency attempting to collect from you, or if you have received adequate validation that they own the debt, consider settling with the collection agency for less than the total amount owed. Settling for a one-time payment is more advantageous than a payment plan. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "Strategies for negotiating with a collector",
+              "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-best-way-to-negotiate-a-settlement-with-a-debt-collector-en-1447",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "1pp2afU4I4qY6qgKOC2EmS"
+          },
+          "content": [
+            {
+              "content": "__Talk to a consumer debt attorney__\nPro bono (free), affordable, or private attorneys may be available in your state to help validate collection debt, dispute debt, or discuss other relief options such as bankruptcy. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "find pro bono legal aid attorneys",
+              "url": "http://www.lawhelp.org/find-help",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1st5ZustSY6IOAMqC0E4Ss": {
+      "text": "Rent",
+      "contentType": "statement"
+    },
+    "2Hxj6AAs7uY6mGOiwEmGQM": {
+      "text": "Mortgage",
+      "contentType": "statement"
+    },
+    "7ux1zOA9dmWoaks8M4YqQW": {
+      "text": "Food",
+      "contentType": "statement"
+    },
+    "2QaRD8zK4EU8ScGQgwCyoA": {
+      "text": "Childcare",
+      "contentType": "statement"
+    },
+    "2U8RQVnP6wKE2YygYCYgSk": {
+      "text": "Auto Loan",
+      "contentType": "statement"
+    },
+    "7IXemd5cVGgI06QcuY6w0Y": {
+      "text": "Transportation",
+      "contentType": "statement"
+    },
+    "6aEjn8miLmmEG2iAW8AseQ": {
+      "text": "Electricity",
+      "contentType": "statement"
+    },
+    "2kJOqST2Q0gASSayaiEcCo": {
+      "text": "Heat",
+      "contentType": "statement"
+    },
+    "3UYiTuEmJGaoSG0EggO6em": {
+      "text": "Phone",
+      "contentType": "statement"
+    },
+    "1ACd3LaBW4akK6mSQEeYYC": {
+      "text": "Internet/Cable",
+      "contentType": "statement"
+    },
+    "1mIxD11JOAUG8wgUY8EYAk": {
+      "text": "Insurance",
+      "contentType": "statement"
+    },
+    "6o55WCpQxaK2aYE4CA4EC8": {
+      "text": "Credit Card Debt",
+      "contentType": "statement"
+    },
+    "XaL9jGTuSIuscaeC6aU4E": {
+      "text": "Tax Debt",
+      "contentType": "statement"
+    },
+    "2Pyd0o2nDa8Ayes4iMEAiW": {
+      "text": "Medical Bills",
+      "contentType": "statement"
+    },
+    "5bLkwFUBx6eeSiGqmscgqe": {
+      "text": "Private Student Loans",
+      "contentType": "statement"
+    },
+    "7s7qe4b0WWy0AmKs2IKY6S": {
+      "text": "Federal Student Loans",
+      "contentType": "statement"
+    },
+    "3WG4SZQUnCgGmsGuy2QG4A": {
+      "text": "Child Support",
+      "contentType": "statement"
+    },
+    "1csYK8EJfEWWGkEamkK8yk": {
+      "text": "Collections",
+      "contentType": "statement"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import '../../globals/responsive.less';
+
+.action_plan {
+  padding: 0 6%;
+  border-bottom: 1px solid #c7c7c7;
+  .desktop({
+    margin-top: 3em;
+    padding-bottom: 6em;
+    &:last-child { border-bottom: none; }
+  });
+  .actions_headline_section {
+    .mobile({
+      display: none;
+    });
+    h1.actions_option_headline {
+      font-size: 1.5em;
+      font-weight: 600;
+      letter-spacing: -0.02083333333em;
+      text-align: center;
+      margin-bottom: 1.25em;
+    }
+  }
+  &.inactive_action {
+    .desktop({
+      opacity: 0.7;
+    });
+    .mobile({
+      display: none;
+    });
+  }
+}

@@ -1,0 +1,52 @@
+@import '../../globals/constants.less';
+@import '../../globals/responsive.less';
+
+.cards_page {
+  .desktop({
+    width: 66.66666666667%;
+    overflow-y: auto;
+    background: @gray-background;
+  });
+  .mobile({
+    width: 100%;
+    background: #f6f7f8;
+  });
+  padding: 2.5em 0 3.5em 0;
+}
+.cards_section {
+  padding-bottom: 3%;
+  .desktop({
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    });
+}
+
+.show_options_button {
+  width: 91%;
+  min-height: 3.75em;
+  h4.show_options_button_text {
+    font-size: 1.125em;
+    font-weight: 600;
+  }
+}
+
+.statement_page_intro_box p {
+  font-size: 1.5rem;
+  font-weight: 600 !important;
+  text-align: center !important;
+  margin: 1.25rem;
+}
+
+.submit_section {
+  .button {
+    margin: 0 auto;
+  }
+  .button_is_disabled {
+    cursor: default;
+    background-color: @border-gray;
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
+}
