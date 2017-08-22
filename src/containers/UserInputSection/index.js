@@ -68,20 +68,20 @@ class UserInputSection extends Component {
     }
     else if(!isNumeric(zipcode)) {
       output.isValid = false;
-      output.errorMsg = 'Zipcode should be all numbers.'
+      output.errorMsg = 'Zipcode should be all numbers.';
     }
     else if(zipcode.length !== 5) {
       output.isValid = false;
-      output.errorMsg = 'Zipcode should have 5 digits.'
+      output.errorMsg = 'Zipcode should have 5 digits.';
     }
     else if(!inZipDictionary(zipcode)) {
       output.isValid = false;
-      output.errorMsg = "Zipcode isn't in our list. Try a neighboring zipcode."
+      output.errorMsg = "Zipcode isn't in our list. Try a neighboring zipcode.";
     }
     return output;
 
     function isNumeric(zipcode) {
-      return /^\d+$/.test(zipcode)
+      return /^\d+$/.test(zipcode);
     }
     function inZipDictionary(zipcode) {
       if(ziptostate[zipcode]) {
