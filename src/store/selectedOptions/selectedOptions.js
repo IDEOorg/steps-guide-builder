@@ -5,6 +5,9 @@ export const ADD_TRIED_BACK = 'ADD_TRIED_BACK';
 export const TOGGLE_OPTION = 'TOGGLE_OPTION';
 
 export function generateOptions(statements, statementPage) {
+  console.log(statements);
+  console.log('statements');
+  console.log(statementPage);
   let selectedStatements = statements.map((statement) => {
     return statement.id;
   });
@@ -57,22 +60,29 @@ const selectedOptions = (state = {}, action) => {
         let rule = statementsToOptions[i];
         let statementRules = rule.statementRules;
         let allRulesMet = true;
-        for(let j = 0; j < statementRules.length; j++) {
-          let statementRule = statementRules[j];
-          let isSelected = statementRule.selected;
-          let statementId = statementRule.statement.id;
-          if(isSelected) {
-            if(!selectedStatements.includes(statementId)) {
-              allRulesMet = false;
-            }
+        if(!rule.statementRules) {
+          if(distinctOptionIds.length !== 0) {
+            allRulesMet = false;
           }
-          else {
-            if(selectedStatements.includes(statementId) || !allStatements.includes(statementId)) {
-              allRulesMet = false;
+        }
+        else {
+          for(let j = 0; j < statementRules.length; j++) {
+            let statementRule = statementRules[j];
+            let isSelected = statementRule.selected;
+            let statementId = statementRule.statement.id;
+            if(isSelected) {
+              if(!selectedStatements.includes(statementId)) {
+                allRulesMet = false;
+              }
             }
-          }
-          if(!allRulesMet) {
-            break;
+            else {
+              if(selectedStatements.includes(statementId) || !allStatements.includes(statementId)) {
+                allRulesMet = false;
+              }
+            }
+            if(!allRulesMet) {
+              break;
+            }
           }
         }
         if(allRulesMet) {
@@ -86,6 +96,7 @@ const selectedOptions = (state = {}, action) => {
               distinctOptionIds.push(optionId);
             }
           }
+
           if(rule.override) {
             break;
           }
