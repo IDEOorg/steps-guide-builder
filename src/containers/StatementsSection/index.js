@@ -90,10 +90,10 @@ const StatementsSection = (props) => {
           }
           onClick={() => {
             if(isSubmitEnabled) {
-              props.onSubmit(selectedStatements, props.statementPage)
+              props.onSubmit(selectedStatements, props.statementPage);
             }
           }}>
-          Tell me my options
+          Show me my options
         </Button>
       </div>
     </div>

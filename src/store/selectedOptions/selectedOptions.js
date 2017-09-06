@@ -5,9 +5,6 @@ export const ADD_TRIED_BACK = 'ADD_TRIED_BACK';
 export const TOGGLE_OPTION = 'TOGGLE_OPTION';
 
 export function generateOptions(statements, statementPage) {
-  console.log(statements);
-  console.log('statements');
-  console.log(statementPage);
   let selectedStatements = statements.map((statement) => {
     return statement.id;
   });
@@ -66,8 +63,6 @@ const selectedOptions = (state = {}, action) => {
           }
         }
         else {
-          console.log('statementrules');
-          console.log(rule);
           for(let j = 0; j < statementRules.length; j++) {
             let statementRule = statementRules[j];
             let isSelected = statementRule.selected;
@@ -88,8 +83,6 @@ const selectedOptions = (state = {}, action) => {
           }
         }
         if(allRulesMet) {
-          console.log('rule.options');
-          console.log(rule.options);
           let options = rule.options;
           if(rule.override) {
             distinctOptionIds = [];
@@ -106,8 +99,6 @@ const selectedOptions = (state = {}, action) => {
           }
         }
       }
-      console.log('distinctOptionIds');
-      console.log(distinctOptionIds);
       let distinctOptions = distinctOptionIds.map((id) => {
         return {
           id,

@@ -170,9 +170,9 @@ function generateOption(id, currentOption, order, onLinkClick, onSelect) {
       id={id}
       selected={id === currentOption}
       order={order}
-      onLinkClick={ onLinkClick }
+      onLinkClick={onLinkClick}
       linkText={"I've already tried this."}
-      onSelect={ onSelect }
+      onSelect={onSelect}
     />
   );
 }

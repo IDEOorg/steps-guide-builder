@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import marked from 'marked';
+import classNames from 'classnames';
 import './index.less';
 
 marked.setOptions({
@@ -10,7 +11,7 @@ marked.setOptions({
 
 const ContentBox = (props) => {
   return (
-    <div className="content_box" dangerouslySetInnerHTML={{"__html": marked(props.content)}} />
+    <div className={classNames("content_box", "steps-centered")} dangerouslySetInnerHTML={{"__html": marked(props.content)}} />
   );
 };
 

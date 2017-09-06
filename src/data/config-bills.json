@@ -150,6 +150,7 @@
         "contentType": "sidebar"
       },
       "statementsToOptions": {
+        "title": "Bills",
         "statementsToOptions": [
           {
             "override": false,
@@ -1090,7 +1091,7 @@
           },
           "content": [
             {
-              "content": "__Visit a local credit union__\nYou may be able to consolidate your student loan debt at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+              "content": "### Visit a local credit union\nYou may be able to consolidate your student loan debt at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
               "contentType": "contentBox"
             },
             {
@@ -1294,23 +1295,6 @@
             {
               "text": "find a credit counselor near you",
               "url": "https://www.nfcc.org/locator",
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "6EQfbsexVeg84wYGc6Ko0w"
-          },
-          "content": [
-            {
-              "content": "__Visit a local credit union__\nYou may be able to consolidate your credit card debt at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
-              "contentType": "contentBox"
-            },
-            {
-              "text": "Find a credit union",
-              "url": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
               "contentType": "urlBox"
             }
           ],
