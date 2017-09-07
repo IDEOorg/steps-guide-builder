@@ -7,11 +7,11 @@ import PhoneBox from '../PhoneBox';
 import CriteriaBox from '../CriteriaBox';
 import TimelineBox from '../TimelineBox';
 import './index.less';
-import zipToState from '../../data/ziptostate';
+import zipcodes from 'zipcodes';
 import config from '../../data/config';
 
 function mapZipToState(zip) {
-  return zipToState[zip];
+  return zipcodes.lookup(zip).state;
 }
 
 const ActionFullPage = (props) => {
