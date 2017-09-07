@@ -8,11 +8,11 @@ import TimelineBox from '../TimelineBox';
 import CriteriaBox from '../CriteriaBox';
 import ColorBox from '../ColorBox';
 import './index.less';
-import zipcodes from 'zipcodes';
+import zipcodes from '../../data/ziptostate';
 import config from '../../data/config';
 
 function mapZipToState(zip) {
-  return zipcodes.lookup(zip).state;
+  return zipcodes[zip].state;
 }
 
 const ActionBasic = (props) => {

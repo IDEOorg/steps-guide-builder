@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import classNames from 'classnames';
 import TextInput from '../../components/TextInput';
 import { saveInput } from '../../store/statementPage/statementPage';
-import zipcodes from 'zipcodes';
+import zipcodes from '../../data/ziptostate';
 import './index.less';
 
 class UserInputSection extends Component {
@@ -84,7 +84,7 @@ class UserInputSection extends Component {
       return /^\d+$/.test(zipcode);
     }
     function inZipDictionary(zipcode) {
-      if(zipcodes.lookup(zipcode)) {
+      if(zipcodes[zipcode]) {
         return true;
       }
       return false;
