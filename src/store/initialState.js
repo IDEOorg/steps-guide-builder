@@ -21,7 +21,6 @@ else {
 }
 
 const initialState = {
-  problems,
   statementPage,
   selectedOptions: {
     currentOption: null,
