@@ -34,18 +34,19 @@ const ProblemsSection = (props) => {
 
 function mapStateToProps(state) {
   let problemsToStatements = config.problemsPage.problemsToStatements.problemsToStatements;
-  const problems = state.problems.map((problemId) => {
+  const problems = config.problemsPage.problems.map((problemId) => {
+    let id = problemId.id;
     let url = null;
     for(let i = 0; i < problemsToStatements.length; i++) {
       let problemsToStatementsEntry = problemsToStatements[i];
-      if(problemsToStatementsEntry.problem.id === problemId) {
+      if(problemsToStatementsEntry.problem.id === id) {
         url = problemsToStatementsEntry.statementPage.url.urlText;
         break;
       }
     }
     return {
-      id: problemId,
-      text: config.entryIds[problemId].text,
+      id: id,
+      text: config.entryIds[id].text,
       url: url
     };
   });

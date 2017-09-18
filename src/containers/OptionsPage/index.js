@@ -4,16 +4,38 @@ import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 import MediaQuery from 'react-responsive';
 import './index.less';
-import { selectOption, markTried, toggleOption } from '../../store/selectedOptions/selectedOptions';
+import { selectOption, markTried, toggleOption, generateOptions } from '../../store/selectedOptions/selectedOptions';
+import { loadStatements } from '../../store/statementPage/statementPage';
 import Option from '../../components/Option';
 import OptionsIntro from '../../components/OptionsIntro';
 import ActionPlan from '../../components/ActionPlan';
 import TriedOptions from '../TriedOptions';
 import config from '../../data/config';
+const queryString = require('query-string');
 
 class OptionsPage extends Component {
   constructor(props){
      super(props);
+     let params = queryString.parse(this.props.location.search);
+     console.log(params);
+     console.log('RUSSELL WESTBROOK');
+     let formattedIds = [];
+     let userInput = {};
+     if(params.statements !== null) {
+       const ids = params.statements.split(' ');
+       if(ids.length !== 0) {
+         formattedIds = ids.map((id) => {
+           return {
+             id
+           };
+         });
+       }
+       if(params.zip) {
+         userInput.zip = params.zip;
+       }
+       this.props.loadStatements(formattedIds, userInput);
+       this.props.loadSavedOptions(formattedIds, config.statementsPages[0]);
+     }
   }
   componentWillMount() {
     window.scrollTo(0,0);
@@ -123,6 +145,7 @@ class OptionsPage extends Component {
         />
       );
     }
+    console.log(this.props);
     return (
       <div className="options_container">
         <MediaQuery query="(min-width: 600px)">
@@ -178,7 +201,12 @@ function generateOption(id, currentOption, order, onLinkClick, onSelect) {
 }
 
 function mapStateToProps(state) {
-  let userInput = state.statementPage.userInput;
+  console.log('donkey');
+  console.log(state);
+  let userInput = null;
+  if(state.statementPage) {
+    userInput = state.statementPage.userInput;
+  }
   let zipcode = null;
   if(userInput) {
     zipcode = userInput.zip ? userInput.zip : null;
@@ -186,7 +214,8 @@ function mapStateToProps(state) {
   return {
     options: state.selectedOptions.options,
     currentOption: state.selectedOptions.currentOption,
-    zipcode: zipcode
+    zipcode: zipcode,
+    statementPage: state.statementPage
   };
 }
 
@@ -197,7 +226,11 @@ function mapDispatchToProps(dispatch) {
     },
     onSelect: (id) => dispatch(selectOption(id)),
     markTried: (id) => dispatch(markTried(id)),
-    toggleOption: (id) => dispatch(toggleOption(id))
+    toggleOption: (id) => dispatch(toggleOption(id)),
+    loadStatements: (ids, userInput) => dispatch(loadStatements(ids, userInput)),
+    loadSavedOptions: (selectedStatements, statementPage) => {
+      dispatch(generateOptions(selectedStatements, statementPage));
+    }
   };
 }
 

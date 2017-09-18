@@ -110,12 +110,23 @@ function mapDispatchToProps(dispatch) {
   return {
     onSelect: (id) => dispatch(selectStatement(id)),
     onSubmit: (selectedStatements, statementPage) => {
+      console.log(statementPage);
+      console.log('ssssstatementPage');
+      const statements = selectedStatements.map((statement) => {
+        return statement.id;
+      });
+      let searchString = `?statements=${statements.join('+')}`;
+      if(statementPage.userInput) {
+        if(statementPage.userInput.zip) {
+          searchString += `&zip=${statementPage.userInput.zip}`;
+        }
+      }
       let url = statementPage.url ? statementPage.url.urlText : null;
       if(url) {
-        dispatch(push('/statements/' + url + '/options'));
+        dispatch(push(`/statements/${url}/options${searchString}`));
       }
       else {
-        dispatch(push('/options'));
+        dispatch(push(`/options${searchString}`));
       }
       dispatch(generateOptions(selectedStatements, statementPage));
     }
