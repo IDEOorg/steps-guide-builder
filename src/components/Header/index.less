@@ -5,12 +5,22 @@
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   z-index: 100;
   background: white;
   box-shadow: 0 1px 4px 0 fade(@base-blue, 20%);
   .header_title {
     margin-left: 0.75rem;
+  }
+}
+
+.header_back_box {
+  display: flex;
+  margin-left: 1.5rem;
+  align-items: center;
+  p {
+    color: @base-darker-blue;
+    font-weight: 600;
   }
 }

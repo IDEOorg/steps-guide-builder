@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.less';
 import config from '../../data/config';
-
+let arrowIcon = require('../../assets/arrow-left.svg');
 
 let headerIconData = null;
 if(config.guideMaterials.headerIcon) {
@@ -27,8 +27,17 @@ const Header = () =>  {
   }
   return (
     <div className="header">
-      { headerIconBlock }
-      { headerTitleBlock }
+      <a href="https://steps.ideo.org/guides">
+        <div className="header_back_box">
+          <img className="header_arrow" src={arrowIcon} />
+          <p>Home</p>
+        </div>
+      </a>
+      <div>
+        { headerIconBlock }
+        { headerTitleBlock }
+      </div>
+      <div></div>
     </div>
   );
 };
