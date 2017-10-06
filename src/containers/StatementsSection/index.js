@@ -11,7 +11,6 @@ import ProgressBar from "../../components/ProgressBar";
 import UserInputSection from "../UserInputSection";
 import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
-import { supportsHistory } from "history/lib/DOMUtils";
 import config from "../../data/config";
 
 const StatementsSection = props => {
