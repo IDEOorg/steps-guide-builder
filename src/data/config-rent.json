@@ -1,0 +1,768 @@
+{
+  "title": "I Can't Pay My Rent",
+  "guideMaterials": {
+    "headerIcon": {
+      "id": "yfN3BkEgISmCMyamiq0mU"
+    },
+    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform",
+    "contentType": "guideMaterials"
+  },
+  "optionsPage": {
+    "navigation": {
+      "title": "What can you do?",
+      "linkText": "Back to statements",
+      "contentType": "navigation"
+    },
+    "options": [
+      {
+        "id": "3jEpqtVTygyIOYoEuuMIq4"
+      },
+      {
+        "id": "2OD7sGaLBKuUMcU6KsQ466"
+      },
+      {
+        "id": "4de8lryJlKK6eIA6wQgKug"
+      },
+      {
+        "id": "4PYd75NXeUqCCGCKMSKMCW"
+      },
+      {
+        "id": "2j8sWhX4AUKu02cKgAySuw"
+      },
+      {
+        "id": "1q2XvrvKQo0s0yUuAqAoO6"
+      },
+      {
+        "id": "4IKABcabbycsMmS6SiuIQs"
+      },
+      {
+        "id": "3rCNv511b2QSkeSsMkMgg6"
+      }
+    ],
+    "contentType": "optionsPage"
+  },
+  "statementsPages": [
+    {
+      "title": "Statements",
+      "statements": [
+        {
+          "id": "2Wqw8YUtCoWwSmcUqqOWKS"
+        },
+        {
+          "id": "5prmY98iWs4W08Q08gUSoq"
+        },
+        {
+          "id": "3usUZICBniicsgMSW2SQUW"
+        },
+        {
+          "id": "J1O6UR0UkSowCSKKiiqwG"
+        },
+        {
+          "id": "cswm8riVDagEuoEAkuWyY"
+        },
+        {
+          "id": "4Sq7Sok94A2qMQAyCC2USq"
+        }
+      ],
+      "sidebar": {
+        "content": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# I Can't Pay My Rent\nThere are still options to explore when you can't pay rent. To get started, choose all the statements on the right that apply to you.",
+        "position": true,
+        "textAlign": true,
+        "contentType": "sidebar"
+      },
+      "statementsToOptions": {
+        "title": "Statement Rules",
+        "statementsToOptions": [
+          {
+            "override": true,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "cswm8riVDagEuoEAkuWyY"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4Sq7Sok94A2qMQAyCC2USq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "4IKABcabbycsMmS6SiuIQs"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": true,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2Wqw8YUtCoWwSmcUqqOWKS"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "4Sq7Sok94A2qMQAyCC2USq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "4IKABcabbycsMmS6SiuIQs"
+              },
+              {
+                "id": "2j8sWhX4AUKu02cKgAySuw"
+              },
+              {
+                "id": "1q2XvrvKQo0s0yUuAqAoO6"
+              },
+              {
+                "id": "4de8lryJlKK6eIA6wQgKug"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": true,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2Wqw8YUtCoWwSmcUqqOWKS"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "cswm8riVDagEuoEAkuWyY"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "2Wqw8YUtCoWwSmcUqqOWKS"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "2j8sWhX4AUKu02cKgAySuw"
+              },
+              {
+                "id": "4de8lryJlKK6eIA6wQgKug"
+              },
+              {
+                "id": "1q2XvrvKQo0s0yUuAqAoO6"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "5prmY98iWs4W08Q08gUSoq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3jEpqtVTygyIOYoEuuMIq4"
+              },
+              {
+                "id": "2OD7sGaLBKuUMcU6KsQ466"
+              },
+              {
+                "id": "4de8lryJlKK6eIA6wQgKug"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3usUZICBniicsgMSW2SQUW"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3jEpqtVTygyIOYoEuuMIq4"
+              },
+              {
+                "id": "2OD7sGaLBKuUMcU6KsQ466"
+              },
+              {
+                "id": "4de8lryJlKK6eIA6wQgKug"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "J1O6UR0UkSowCSKKiiqwG"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "3jEpqtVTygyIOYoEuuMIq4"
+              },
+              {
+                "id": "2OD7sGaLBKuUMcU6KsQ466"
+              },
+              {
+                "id": "4de8lryJlKK6eIA6wQgKug"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "cswm8riVDagEuoEAkuWyY"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "4Sq7Sok94A2qMQAyCC2USq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "4IKABcabbycsMmS6SiuIQs"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "options": [
+              {
+                "id": "3jEpqtVTygyIOYoEuuMIq4"
+              },
+              {
+                "id": "2OD7sGaLBKuUMcU6KsQ466"
+              },
+              {
+                "id": "4de8lryJlKK6eIA6wQgKug"
+              },
+              {
+                "id": "4PYd75NXeUqCCGCKMSKMCW"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          }
+        ],
+        "contentType": "statementsToOptionsRules"
+      },
+      "statementPageLayout": false,
+      "contentType": "statementPage"
+    }
+  ],
+  "contentType": "guide",
+  "entryIds": {
+    "yfN3BkEgISmCMyamiq0mU": {
+      "url": "//images.contentful.com/2h2wj50mwc16/yfN3BkEgISmCMyamiq0mU/993fc8f13cdbdf40862f0a305869fb91/steps-logo.svg",
+      "fileName": "steps-logo.svg"
+    },
+    "adCfBNvZrGeMQEqCuCAIe": {
+      "url": "//images.contentful.com/2h2wj50mwc16/adCfBNvZrGeMQEqCuCAIe/94ab7a6e3ffcc603a696b77b70c55534/talktolandlord-icon-1.svg",
+      "fileName": "talktolandlord-icon-1.svg"
+    },
+    "3JHbVgfADSYCS0yuqSUCmY": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3JHbVgfADSYCS0yuqSUCmY/51e01d8096d71970a3c561238419cfe6/talktolandlord-icon-2.png",
+      "fileName": "talktolandlord-icon-2.png"
+    },
+    "6debw1vhSMQwyOgKWeIgEY": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6debw1vhSMQwyOgKWeIgEY/632ff3b74e1e191857af0074f34c5da5/talktolandlord-icon-3.svg",
+      "fileName": "talktolandlord-icon-3.svg"
+    },
+    "3EcYojKbDqSCCyQiAquEKQ": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3EcYojKbDqSCCyQiAquEKQ/cfc9639b2f3ec07f756ed7955019c25a/talktolandlord-icon-4.svg",
+      "fileName": "talktolandlord-icon-4.svg"
+    },
+    "3jEpqtVTygyIOYoEuuMIq4": {
+      "text": "Talk to your landlord",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "adCfBNvZrGeMQEqCuCAIe"
+          },
+          "content": [
+            {
+              "content": "### Get in touch sooner than later\nTaking the initiative to contact your landlord will help build trust. Try giving him/her a call and saying something like, “Hi (landlord), just wanted to make you aware that I’m having some trouble with the rent this month. I’m very sorry for the inconvenience, and I hope we can work out a plan to get it paid as soon as possible.” This allows your landlord to consider their options as well as yours in a calm, and informed way.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3JHbVgfADSYCS0yuqSUCmY"
+          },
+          "content": [
+            {
+              "content": "### Be easy to reach\nBe sure to answer any calls, emails or texts from your landlord as soon as you receive them. When you are responsive, you show your landlord that you respect his/her time and that you aren’t going to disappear. ",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "6debw1vhSMQwyOgKWeIgEY"
+          },
+          "content": [
+            {
+              "content": "### Suggest solutions\nYou want your landlord to know that you eventually intend to pay. As a show of good faith, it’s very helpful to suggest temporary or alternate solutions, such as a partial payment or a payment plan. Make sure to get any agreement in writing.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3EcYojKbDqSCCyQiAquEKQ"
+          },
+          "content": [
+            {
+              "content": "### Apologies are better than excuses\nUnless the details of your situation will lead to a viable payment solution, then it’s best not to offer any extra information. Simply apologize and focus on the best way to get your rent paid in the shortest amount of time.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1ZpKB4fXSs4uAMMCWmisas": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1ZpKB4fXSs4uAMMCWmisas/1b844d7ec0d7dc3470dd9ea2457ccd55/utility-icon-1.svg",
+      "fileName": "utility-icon-1.svg"
+    },
+    "413iyVUCreWACM6kmqa0EA": {
+      "url": "//images.contentful.com/2h2wj50mwc16/413iyVUCreWACM6kmqa0EA/c21614219c8bc581462aa4ac6935eda4/utility-icon-2.svg",
+      "fileName": "utility-icon-2.svg"
+    },
+    "BJS9Y6ldxmaS8oYiOUcio": {
+      "url": "//images.contentful.com/2h2wj50mwc16/BJS9Y6ldxmaS8oYiOUcio/0de5fa719eb72afee7fe574596bf5d88/utility-icon-3.svg",
+      "fileName": "utility-icon-3.svg"
+    },
+    "2OD7sGaLBKuUMcU6KsQ466": {
+      "text": "Get utility assistance",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1ZpKB4fXSs4uAMMCWmisas"
+          },
+          "content": [
+            {
+              "content": "### Call your Utility Provider\nYour utility company may have a program that can help customers pay their bills, including creating a payment plan.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "413iyVUCreWACM6kmqa0EA"
+          },
+          "content": [
+            {
+              "content": "### Find government assistance\nMany state and local government agencies have programs that can help with your utility bill. Find out more here:",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "GO TO UTILITYBILLASSISTANCE.COM",
+              "url": "www.utilitybillassistance.com",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "BJS9Y6ldxmaS8oYiOUcio"
+          },
+          "content": [
+            {
+              "content": "### Apply for LIHEAP\nAssistance is available through the federal Low-Income Home Energy Assistance Program. Each state is different, so make sure to look up your state and ask about what it takes to qualify.",
+              "contentType": "contentBox"
+            },
+            {
+              "content": "__General Criteria__\n- Residents with very young children, elderly or disabled family members\n- Homes with low-incomes and high regional costs",
+              "contentType": "criteriaBox"
+            },
+            {
+              "text": "FIND YOUR STATE’S CONTACT INFORMATION",
+              "url": "https://liheapch.acf.hhs.gov/db/index.php",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2aMLH4HXx6OoguYm0aA2su": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2aMLH4HXx6OoguYm0aA2su/21689e1d2502ee676ca08d4409dc3130/charity-icon-1.svg",
+      "fileName": "charity-icon-1.svg"
+    },
+    "143qaN35WeaUEgW2cggK4a": {
+      "url": "//images.contentful.com/2h2wj50mwc16/143qaN35WeaUEgW2cggK4a/a253e48c269900a194040d9c2c82d4ca/charity-icon-2.svg",
+      "fileName": "charity-icon-2.svg"
+    },
+    "4I7Hqh7vgI6o28isasS2sg": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4I7Hqh7vgI6o28isasS2sg/0c369e95fcc2a332248e836ad69d7efd/charity-icon-3.png",
+      "fileName": "charity-icon-3.png"
+    },
+    "4de8lryJlKK6eIA6wQgKug": {
+      "text": "Get emergency money",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2aMLH4HXx6OoguYm0aA2su"
+          },
+          "content": [
+            {
+              "content": "### Contact your local 2-1-1\nThey can connect you with other organizations that help with housing issues. See what’s available near you.",
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": "FIND YOUR LOCAL 2-1-1",
+              "beginningUrlText": "http://211.org/search?zip=",
+              "endUrlText": "&city=&state=",
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "143qaN35WeaUEgW2cggK4a"
+          },
+          "content": [
+            {
+              "content": "### Find a Catholic Charities agency\nThey help people with housing issues all the time. See what’s available in your neighborhood.",
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": "FIND YOUR LOCAL CATHOLIC CHARITIES",
+              "beginningUrlText": "https://catholiccharitiesusa.org/find-help?near=",
+              "endUrlText": "#results",
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "4I7Hqh7vgI6o28isasS2sg"
+          },
+          "content": [
+            {
+              "content": "### Apply for a Modest Needs grant\nThese small, emergency sums of money are allocated to low-income workers. Find out more by visiting their website.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "GO TO MODESTNEEDS.ORG",
+              "url": "https://www.modestneeds.org",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1D274JnlswEWuMOGISUk42": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1D274JnlswEWuMOGISUk42/d0ca4e25cb1d080bf0166ad3d9ab079a/advice-icon-1.svg",
+      "fileName": "advice-icon-1.svg"
+    },
+    "4PYd75NXeUqCCGCKMSKMCW": {
+      "text": "Find personalized advice",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1D274JnlswEWuMOGISUk42"
+          },
+          "content": [
+            {
+              "content": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": "FIND A HOUSING COUNSELOR NEAR YOU",
+              "beginningUrlText": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1loO7d4xA4s6uoOSukOoI4": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1loO7d4xA4s6uoOSukOoI4/eb1598dc05983da5e5cefbf8c13daff3/unemployment-icon-1.svg",
+      "fileName": "unemployment-icon-1.svg"
+    },
+    "2j8sWhX4AUKu02cKgAySuw": {
+      "text": "Secure regular income",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1loO7d4xA4s6uoOSukOoI4"
+          },
+          "content": [
+            {
+              "content": "### Apply for unemployment benefits\nDon’t wait to file! After you fill out your application, it can take a few weeks to get your first check.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "FIND UNEMPLOYMENT BENEFITS",
+              "url": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "36OGAlJiNGOgAQEeO0EaWA": {
+      "url": "//images.contentful.com/2h2wj50mwc16/36OGAlJiNGOgAQEeO0EaWA/e5afd93649dfdb7ac0e2cb0040572a1f/benefits-icon-1.svg",
+      "fileName": "benefits-icon-1.svg"
+    },
+    "1q2XvrvKQo0s0yUuAqAoO6": {
+      "text": "See if you qualify for any government benefits",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "36OGAlJiNGOgAQEeO0EaWA"
+          },
+          "content": [
+            {
+              "content": "### Take the Benefits assessment\nGovernment benefits can help with anything from food bills to doctors bills. Even if you don’t qualify for help with your rent bill, you might qualify for something else that will free up more money for your rent.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "GO TO BENEFITS.GOV",
+              "url": "https://www.benefits.gov",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2PgawfEf3OQ4OGa6OueQCQ": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2PgawfEf3OQ4OGa6OueQCQ/9b65b46c0786e30709e4f0e424b89c5b/legal-icon-1.svg",
+      "fileName": "legal-icon-1.svg"
+    },
+    "4IKABcabbycsMmS6SiuIQs": {
+      "text": "Get help immediately",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2PgawfEf3OQ4OGa6OueQCQ"
+          },
+          "content": [
+            {
+              "content": "### Save all documents and seek help\nIf you believe you are being treated unfairly by your landlord or property manager, get in touch with a tenants rights organization to see what your options are. The following website has a list of tenants rights resources and legal assistance available in your state. You may be able to get help from an attorney provided by the court for those who can’t afford a lawyer and they can help you understand the eviction process, your rights and your options. Your new attorney will need to see all notices, letters or emails from your landlord as well as from any other lawyers or courts.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "FIND TENANTS RIGHTS ADVOCATES IN YOUR STATE",
+              "url": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "gFV7bUtfnUkwI4sSWCyAY": {
+      "url": "//images.contentful.com/2h2wj50mwc16/gFV7bUtfnUkwI4sSWCyAY/89cc2fcf705b857936611e230fa70e46/savings-icon-1.svg",
+      "fileName": "savings-icon-1.svg"
+    },
+    "259eBSSq2I2UY6UsWI8EI0": {
+      "url": "//images.contentful.com/2h2wj50mwc16/259eBSSq2I2UY6UsWI8EI0/1274b65fe775597797d8e33cb34e3ed3/savings-icon-2.svg",
+      "fileName": "savings-icon-2.svg"
+    },
+    "1RXfuRwnd6ImoUawy2EuSs": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1RXfuRwnd6ImoUawy2EuSs/925b5fed31f9c183d2a63d40319713cf/savings-icon-3.svg",
+      "fileName": "savings-icon-3.svg"
+    },
+    "eM6IFMs5LaSoeQkoiIOa6": {
+      "url": "//images.contentful.com/2h2wj50mwc16/eM6IFMs5LaSoeQkoiIOa6/2f65cfc1325e81df70d21ea3f8e4eba9/savings-icon-4.svg",
+      "fileName": "savings-icon-4.svg"
+    },
+    "3rCNv511b2QSkeSsMkMgg6": {
+      "text": "Start your savings",
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "gFV7bUtfnUkwI4sSWCyAY"
+          },
+          "content": [
+            {
+              "content": "### Open a savings account\nWhen you save small amounts of money over time, you create a safety net for any unexpected bills. Have a savings goal in mind when you open your account, and it will give you the motivation to get started. Also, do an internet search to see if a nonprofit near you has an “Individual Development Account” (IDA) program, a special savings account that will add matching funds every time you save.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LEARN MORE ABOUT IDA PROGRAMS",
+              "url": "https://prosperitynow.org/everything-you-need-know-about-individual-development-accounts-idas#ques10",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "259eBSSq2I2UY6UsWI8EI0"
+          },
+          "content": [
+            {
+              "content": "### Set a savings goal\nMake a plan for building an emergency fund. Breaking down a savings goal by how much you'd need to save regularly, makes your big money goal more achievable.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "MAKE A PLAN TO ACHIEVE YOUR SAVINGS GOAL",
+              "url": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "1RXfuRwnd6ImoUawy2EuSs"
+          },
+          "content": [
+            {
+              "content": "### Set up automatic savings\nAutomatic withdrawal helps you save without having to think about it. Every month, some money from your checking account can be automatically deposited into your savings account. Decide on an amount that works for you, and ask your bank about it. Even $10 a month can make a big difference. Consider connecting your account to the EARN Starter Savings Program to get a maximum bonus of $60 for saving regularly in your account.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LEARN MORE ABOUT THE EARN STARTER SAVINGS PROGRAM",
+              "url": "https://help.earn.org/hc/en-us/articles/115001803146-How-does-it-work-",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "eM6IFMs5LaSoeQkoiIOa6"
+          },
+          "content": [
+            {
+              "content": "### Find a savings buddy\nFind a friend that is also learning how to save and you can help each other stay on track. Whenever you’re feeling tempted or if saving feels difficult, this person will help you stay motivated.",
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2Wqw8YUtCoWwSmcUqqOWKS": {
+      "text": "I recently lost my income",
+      "contentType": "statement"
+    },
+    "5prmY98iWs4W08Q08gUSoq": {
+      "text": "I've missed rent payments in the past",
+      "contentType": "statement"
+    },
+    "3usUZICBniicsgMSW2SQUW": {
+      "text": "I can't pay my utilities",
+      "contentType": "statement"
+    },
+    "J1O6UR0UkSowCSKKiiqwG": {
+      "text": "I don't have any money saved",
+      "contentType": "statement"
+    },
+    "cswm8riVDagEuoEAkuWyY": {
+      "text": "I won't be able to pay my rent for a while",
+      "contentType": "statement"
+    },
+    "4Sq7Sok94A2qMQAyCC2USq": {
+      "text": "I'm getting eviction notices",
+      "contentType": "statement"
+    }
+  }
+}
