@@ -6,6 +6,7 @@ import ProblemsPage from '../containers/ProblemsPage';
 import StatementsPage from '../containers/StatementsPage';
 import OptionsPage from '../containers/OptionsPage';
 import config from '../data/config';
+import "babel-polyfill";
 
 const Routes = (props) => {
   return (
