@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import marked from 'marked';
 import OptionsIntro from '../OptionsIntro';
+import classNames from 'classnames';
 import './index.less';
 
 const Sidebar = (props) => {
@@ -14,7 +15,7 @@ const Sidebar = (props) => {
       textAlignStyle = {textAlign: 'left'};
     }
     sidebarContent = (
-      <div className="sidebar_content" style={textAlignStyle} dangerouslySetInnerHTML={{"__html": marked(props.sidebar.content)}} />
+      <div className={classNames("sidebar_content", props.sidebar.position ? "sidebar_content_center" : null)} style={textAlignStyle} dangerouslySetInnerHTML={{"__html": marked(props.sidebar.content)}} />
     );
     // sidebarPosition = props.sidebar.position;
   }
