@@ -2,6 +2,7 @@ import React from 'react';
 import './index.less';
 import config from '../../data/config';
 let arrowIcon = require('../../assets/arrow-left.svg');
+let feedbackIcon = require('../../assets/feedback-blue.svg');
 
 let headerIconData = null;
 if(config.guideMaterials.headerIcon) {
@@ -14,7 +15,7 @@ if(headerIconData) {
 }
 let headerTitle = config.guideMaterials.headerTitle;
 
-const Header = () =>  {
+const Header = (props) =>  {
   let headerIconBlock = null;
   if(headerIconUrl) {
     headerIconBlock = <img src={headerIconUrl} />;
@@ -25,9 +26,20 @@ const Header = () =>  {
       <h2 className="header_title">{headerTitle}</h2>
     );
   }
+  let headerFeedbackBlock = null;
+  if(props.feedbackUrl) {
+    headerFeedbackBlock = (
+      <a className="header_feedback_link" href={props.feedbackUrl} target="_blank">
+        <div className="header_back_box">
+          <img className="feedback_icon" src={feedbackIcon} />
+          <p>Send Feedback</p>
+        </div>
+      </a>
+    );
+  }
   return (
     <div className="header">
-      <a href="https://steps.ideo.org/guides">
+      <a className="header_back_link" href="https://steps.ideo.org/guides">
         <div className="header_back_box">
           <img className="header_arrow" src={arrowIcon} />
           <p>Home</p>
@@ -37,7 +49,7 @@ const Header = () =>  {
         { headerIconBlock }
         { headerTitleBlock }
       </div>
-      <div></div>
+      { headerFeedbackBlock}
     </div>
   );
 };

@@ -17,8 +17,6 @@ class OptionsPage extends Component {
   constructor(props){
      super(props);
      let params = queryString.parse(this.props.location.search);
-     console.log(params);
-     console.log('RUSSELL WESTBROOK');
      let formattedIds = [];
      let userInput = {};
      if(params.statements !== null) {
@@ -201,8 +199,6 @@ function generateOption(id, currentOption, order, onLinkClick, onSelect) {
 }
 
 function mapStateToProps(state) {
-  console.log('donkey');
-  console.log(state);
   let userInput = null;
   if(state.statementPage) {
     userInput = state.statementPage.userInput;

@@ -33,11 +33,9 @@ const ProblemsSection = props => {
   );
 };
 
-/* eslint-disable no-unused-vars */
-function mapStateToProps(state) {
-  let problemsToStatements =
-    config.problemsPage.problemsToStatements.problemsToStatements;
-  const problems = config.problemsPage.problems.map(problemId => {
+function mapStateToProps() {
+  let problemsToStatements = config.problemsPage.problemsToStatements.problemsToStatements;
+  const problems = config.problemsPage.problems.map((problemId) => {
     let id = problemId.id;
     let url = null;
     for (let i = 0; i < problemsToStatements.length; i++) {

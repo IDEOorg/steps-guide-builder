@@ -2,8 +2,9 @@
   "title": "Credit Guide",
   "guideMaterials": {
     "headerIcon": {
-      "id": "gfF5yxg3f2suIwg2oMWg2"
+      "id": "yfN3BkEgISmCMyamiq0mU"
     },
+    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf8rHuPl0Y7vMs1fm-Nf3C1V-sh-7mOBm8jU3SymvCHDm0YkQ/viewform",
     "contentType": "guideMaterials"
   },
   "optionsPage": {
@@ -5254,10 +5255,9 @@
   ],
   "contentType": "guide",
   "entryIds": {
-    "gfF5yxg3f2suIwg2oMWg2": {
-      "description": "Header Icon",
-      "url": "//images.contentful.com/2h2wj50mwc16/gfF5yxg3f2suIwg2oMWg2/3896c542e0129788825e9836611fd509/header-icon.svg",
-      "fileName": "header-icon.svg"
+    "yfN3BkEgISmCMyamiq0mU": {
+      "url": "//images.contentful.com/2h2wj50mwc16/yfN3BkEgISmCMyamiq0mU/993fc8f13cdbdf40862f0a305869fb91/steps-logo.svg",
+      "fileName": "steps-logo.svg"
     },
     "5J3fQpjYac2WYeOyS44ygm": {
       "url": "//images.contentful.com/2h2wj50mwc16/5J3fQpjYac2WYeOyS44ygm/00535673c4d8d9e4f8d52abffaad2e18/refinance-loans-icon.svg",

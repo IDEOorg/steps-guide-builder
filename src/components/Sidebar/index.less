@@ -16,10 +16,11 @@
 }
 .sidebar_content {
   margin: 0 auto;
-  margin-bottom: 2em;
+  padding-bottom: 2em;
   .desktop({
     width: 70%;
     text-align: center;
+    height: 100%;
   });
   .mobile({
     order: 2;
@@ -66,7 +67,7 @@
     li {
       font-size: 0.875em;
       line-height: 1.416666666667em;
-      color: rgba(53, 58, 68, 0.7);
+      color: @text-color;
       margin-bottom: 0.833333333em;
     }
   }
@@ -74,4 +75,11 @@
     margin: 1.5em 0;
     border: 1px solid #dcddde;
   }
+}
+.sidebar_content_center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }

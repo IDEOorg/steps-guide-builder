@@ -1,11 +1,12 @@
 @import '../../globals/constants.less';
+@import '../../globals/responsive.less';
 
 .header {
-  height: 3rem;
+  height: 3.5rem;
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   z-index: 100;
   background: white;
@@ -15,12 +16,42 @@
   }
 }
 
+a.header_back_link {
+  text-decoration: none;
+  position: absolute;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  .desktop({
+    left: 1.5rem;
+  });
+  .mobile({
+    left: 0.75rem;
+  });
+}
 .header_back_box {
   display: flex;
-  margin-left: 1.5rem;
   align-items: center;
   p {
     color: @base-darker-blue;
     font-weight: 600;
   }
+}
+
+.feedback_icon {
+  padding-right: 0.5rem;
+}
+
+a.header_feedback_link {
+  text-decoration: none;
+  position: absolute;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  .desktop({
+    right: 1.5rem;
+  });
+  .mobile({
+    right: 0.75rem;
+  });
 }
