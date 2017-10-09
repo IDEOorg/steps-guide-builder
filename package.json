@@ -22,8 +22,7 @@
     "test": "jest",
     "test:CI": "babel-node tools/testCi.js",
     "test:cover": "npm run test -- --coverage ",
-    "test:cover:CI":
-      "npm run test:CI -- --coverage && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
+    "test:cover:CI": "npm run test:CI -- --coverage && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "test:watch": "npm run test -- --watch",
     "open:cover": "npm run test:cover && opn ./coverage/lcov-report/index.html",
     "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
@@ -116,10 +115,20 @@
     }
   },
   "babel": {
-    "presets": ["es2015", "react", "stage-2"],
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ],
     "env": {
       "development": {
-        "presets": ["env", "es2015", "react", "stage-2", "react-hmre"]
+        "presets": [
+          "env",
+          "es2015",
+          "react",
+          "stage-2",
+          "react-hmre"
+        ]
       },
       "production": {
         "presets": [
@@ -140,7 +149,9 @@
         ]
       },
       "test": {
-        "presets": ["env"]
+        "presets": [
+          "env"
+        ]
       }
     }
   },
@@ -151,7 +162,9 @@
       "plugin:import/errors",
       "plugin:import/warnings"
     ],
-    "plugins": ["react"],
+    "plugins": [
+      "react"
+    ],
     "parser": "babel-eslint",
     "parserOptions": {
       "ecmaVersion": 6,
@@ -173,7 +186,10 @@
       "no-console": 1,
       "no-debugger": 1,
       "no-var": 1,
-      "semi": [1, "always"],
+      "semi": [
+        1,
+        "always"
+      ],
       "no-trailing-spaces": 0,
       "eol-last": 0,
       "no-underscore-dangle": 0,
@@ -189,7 +205,9 @@
       "react/forbid-prop-types": [
         1,
         {
-          "forbid": ["any"]
+          "forbid": [
+            "any"
+          ]
         }
       ],
       "react/jsx-boolean-value": 0,

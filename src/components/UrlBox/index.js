@@ -12,8 +12,10 @@ const UrlBox = (props) => {
       className="action_button"
       url={props.url}
     >
-      <UrlImage image={require('../../assets/url-icon.svg')}/>
-      {props.text}
+      <div className="urlBox-button-span">
+        <UrlImage image={require('../../assets/url-icon.svg')} />
+        {props.text}
+      </div>
     </Button>
   );
 };
