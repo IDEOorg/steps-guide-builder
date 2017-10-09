@@ -32,7 +32,7 @@ const ProblemsSection = (props) => {
   );
 };
 
-function mapStateToProps(state) {
+function mapStateToProps() {
   let problemsToStatements = config.problemsPage.problemsToStatements.problemsToStatements;
   const problems = config.problemsPage.problems.map((problemId) => {
     let id = problemId.id;

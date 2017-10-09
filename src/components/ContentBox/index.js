@@ -11,7 +11,7 @@ marked.setOptions({
 
 const ContentBox = (props) => {
   return (
-    <div className={classNames("content_box", "steps-centered")} dangerouslySetInnerHTML={{"__html": marked(props.content)}} />
+    <div className={classNames("content_box")} dangerouslySetInnerHTML={{"__html": marked(props.content)}} />
   );
 };
 

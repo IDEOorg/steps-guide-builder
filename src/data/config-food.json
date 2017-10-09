@@ -2,8 +2,9 @@
   "title": "I'm Struggling to Buy Food",
   "guideMaterials": {
     "headerIcon": {
-      "id": "4BeRKfNfdeQCAkAGOieWMy"
+      "id": "yfN3BkEgISmCMyamiq0mU"
     },
+    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLScqXSagj0gq_TRjeTRp2NAdKS7PO0ZG1ap35euF0QBzNlRvng/viewform",
     "contentType": "guideMaterials"
   },
   "optionsPage": {
@@ -1036,9 +1037,9 @@
   },
   "contentType": "guide",
   "entryIds": {
-    "4BeRKfNfdeQCAkAGOieWMy": {
-      "url": "//images.contentful.com/2h2wj50mwc16/4BeRKfNfdeQCAkAGOieWMy/7a8df9338a3202072f57fda4777eb74d/header-coin-icon.svg",
-      "fileName": "header-coin-icon.svg"
+    "yfN3BkEgISmCMyamiq0mU": {
+      "url": "//images.contentful.com/2h2wj50mwc16/yfN3BkEgISmCMyamiq0mU/993fc8f13cdbdf40862f0a305869fb91/steps-logo.svg",
+      "fileName": "steps-logo.svg"
     },
     "1Z3GOqcc8UIE6W0GE4sy4M": {
       "url": "//images.contentful.com/2h2wj50mwc16/1Z3GOqcc8UIE6W0GE4sy4M/2285e783d43136392fb46ef46bb9ad19/foodstamps-basket.svg",
