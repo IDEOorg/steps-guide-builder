@@ -7,25 +7,33 @@ marked.setOptions({
   breaks: true
 });
 
+const hrLine = (<hr className="timeline-hr" />);
+
 const TimelineBox = (props) => {
   let sections = props.content;
   let items = [];
-  for(let i = 0; i < sections.length; i++) {
+  if (window.innerWidth < 1065) items.push(hrLine);
+  for (let i = 0; i < sections.length; i++) {
     items.push((
-        <div className="timeline_content_box" dangerouslySetInnerHTML={ {"__html": marked(sections[i].content)} } />
+      <div className="timeline_content_box" dangerouslySetInnerHTML={{ "__html": marked(sections[i].content) }} key={`${i}`} />
     ));
-    items.push((
-      <img src={require('../../assets/timeline-arrow.svg')} />
-    ));
+    if (window.innerWidth > 1065) {
+      items.push((
+        <img src={require('../../assets/timeline-arrow.svg')} />
+      ));
+    } else {
+      items.push(hrLine);
+    }
   }
-  if(items.length) {
+  if (items.length) {
     items.pop();
   }
+
   return (
     <div className="timeline_box">
-      <div className="timeline_title" dangerouslySetInnerHTML={ {"__html": marked(props.title)} } />
+      <div className="timeline_title" dangerouslySetInnerHTML={{ "__html": marked(props.title) }} />
       <div className="timeline_content_section">
-        { items }
+        {items}
       </div>
     </div>
   );
