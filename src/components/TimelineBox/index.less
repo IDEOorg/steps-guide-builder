@@ -1,4 +1,5 @@
 @import '../../globals/constants.less';
+@import '../../globals/responsive.less';
 
 .content_box {
   width: 100%;
@@ -36,16 +37,31 @@
 }
 
 .timeline_content_section {
-  display: flex;
   align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 1.25rem;
+  
+  .customTimeline({
+    flex-direction: column; 
+    align-items: center;
+  });
+
   img {
     padding-top: 1rem;
   }
 }
 
 .timeline_content_box {
+  max-width: 180px;
   padding: 0 1rem;
+
+  .customTimeline({
+    max-width: 350px;
+    margin: 1rem 0;
+  });
+  
   p {
     color: rgba(70,70,70,0.7);
     letter-spacing: 0.01875rem !important;
