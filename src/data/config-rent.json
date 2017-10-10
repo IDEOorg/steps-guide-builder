@@ -420,6 +420,18 @@
       "url": "//images.contentful.com/2h2wj50mwc16/BJS9Y6ldxmaS8oYiOUcio/0de5fa719eb72afee7fe574596bf5d88/utility-icon-3.svg",
       "fileName": "utility-icon-3.svg"
     },
+    "2GZ2aOHZvy2CAKAoAkoyE6": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2GZ2aOHZvy2CAKAoAkoyE6/95e7a09968f73ad72f0e20df66249855/utility-assistance.svg",
+      "fileName": "utility-assistance.svg"
+    },
+    "4k0iNBaRhmmm6s8UWk2Sw8": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4k0iNBaRhmmm6s8UWk2Sw8/47fa9ed1c8c7c3dea1fc7939e624cd89/utility-2.svg",
+      "fileName": "utility-2.svg"
+    },
+    "4ipMdWmSycuUwOAaUg2kQ6": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4ipMdWmSycuUwOAaUg2kQ6/bb51cf637a322e8a8426cf607f202e77/utility-subsidy.svg",
+      "fileName": "utility-subsidy.svg"
+    },
     "2OD7sGaLBKuUMcU6KsQ466": {
       "text": "Get utility assistance",
       "actions": [
@@ -472,6 +484,57 @@
             }
           ],
           "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2GZ2aOHZvy2CAKAoAkoyE6"
+          },
+          "content": [
+            {
+              "content": "__Reduce your home energy usage & costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricity usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "FIND YOUR STATE WAP",
+              "url": "https://www.usa.gov/repairing-home#item-35127",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "4k0iNBaRhmmm6s8UWk2Sw8"
+          },
+          "content": [
+            {
+              "content": "__Check out the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
+              "url": "http://www.lifelinesupport.org/ls/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "4ipMdWmSycuUwOAaUg2kQ6"
+          },
+          "content": [
+            {
+              "content": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "SEE IF YOU QUALIFY FOR AN INTERNET SUBSIDY",
+              "url": "http://everyoneon.org/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
         }
       ],
       "contentType": "option"
@@ -487,6 +550,10 @@
     "4I7Hqh7vgI6o28isasS2sg": {
       "url": "//images.contentful.com/2h2wj50mwc16/4I7Hqh7vgI6o28isasS2sg/0c369e95fcc2a332248e836ad69d7efd/charity-icon-3.png",
       "fileName": "charity-icon-3.png"
+    },
+    "2rMUoXIv0ECkWsA6ewYU08": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2rMUoXIv0ECkWsA6ewYU08/9a113289e5aaf3524bf3943bd5ab3e2e/emergency-money.svg",
+      "fileName": "emergency-money.svg"
     },
     "4de8lryJlKK6eIA6wQgKug": {
       "text": "Get emergency money",
@@ -543,6 +610,23 @@
             }
           ],
           "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2rMUoXIv0ECkWsA6ewYU08"
+          },
+          "content": [
+            {
+              "content": "__Apply for rental payment assistance__\nCheck to see if rental payment assistance is available where you live. Income restrictions may apply.",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "GO TO RENTASSISTANCE.US",
+              "url": "https://www.rentassistance.us/",
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
         }
       ],
       "contentType": "option"
@@ -578,6 +662,10 @@
       "url": "//images.contentful.com/2h2wj50mwc16/1loO7d4xA4s6uoOSukOoI4/eb1598dc05983da5e5cefbf8c13daff3/unemployment-icon-1.svg",
       "fileName": "unemployment-icon-1.svg"
     },
+    "3YR38wE1QIcEeQIICciS6A": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3YR38wE1QIcEeQIICciS6A/dc783a5f87f744e82d7d7455fca7cd1f/regular-income.svg",
+      "fileName": "regular-income.svg"
+    },
     "2j8sWhX4AUKu02cKgAySuw": {
       "text": "Secure regular income",
       "actions": [
@@ -594,6 +682,24 @@
               "text": "FIND UNEMPLOYMENT BENEFITS",
               "url": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx",
               "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3YR38wE1QIcEeQIICciS6A"
+          },
+          "content": [
+            {
+              "content": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs.",
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": "FIND YOUR LOCAL CAREER CENTER",
+              "beginningUrlText": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location=",
+              "endUrlText": "&radius=50&ct=0&y=0&w=0&e=0&sortcolumns=Program%20Type,GEOCODE&sortdirections=DESC,ASC&currentpage=1&olds=0&return=1&pagetype=result",
+              "contentType": "zipcodeBox"
             }
           ],
           "contentType": "actionBasic"
@@ -671,6 +777,10 @@
       "url": "//images.contentful.com/2h2wj50mwc16/eM6IFMs5LaSoeQkoiIOa6/2f65cfc1325e81df70d21ea3f8e4eba9/savings-icon-4.svg",
       "fileName": "savings-icon-4.svg"
     },
+    "2lx8Q8xKmoUsWqeUIG2Wgk": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2lx8Q8xKmoUsWqeUIG2Wgk/bf182db1bd261b9e68ef9ba3aceafffb/savings-app.svg",
+      "fileName": "savings-app.svg"
+    },
     "3rCNv511b2QSkeSsMkMgg6": {
       "text": "Start your savings",
       "actions": [
@@ -733,6 +843,23 @@
             {
               "content": "### Find a savings buddy\nFind a friend that is also learning how to save and you can help each other stay on track. Whenever you’re feeling tempted or if saving feels difficult, this person will help you stay motivated.",
               "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2lx8Q8xKmoUsWqeUIG2Wgk"
+          },
+          "content": [
+            {
+              "content": "__Try a savings app__\nThere are free or low-cost apps available to help you start saving automatically. Every app works a little differently, so if you’re interested in using a savings app, find and stick with the one that works for you. ",
+              "contentType": "contentBox"
+            },
+            {
+              "text": "LEARN MORE ABOUT SAVINGS APPS",
+              "url": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/",
+              "contentType": "urlBox"
             }
           ],
           "contentType": "actionBasic"
