@@ -7,9 +7,12 @@ marked.setOptions({
   breaks: true
 });
 
+const hrLine = (<hr className="timeline-hr" />);
+
 const TimelineBox = (props) => {
   let sections = props.content;
   let items = [];
+  if (window.innerWidth < 1065) items.push(hrLine);
   for (let i = 0; i < sections.length; i++) {
     items.push((
       <div className="timeline_content_box" dangerouslySetInnerHTML={{ "__html": marked(sections[i].content) }} key={`${i}`} />
@@ -18,12 +21,12 @@ const TimelineBox = (props) => {
       items.push((
         <img src={require('../../assets/timeline-arrow.svg')} />
       ));
+    } else {
+      items.push(hrLine);
     }
   }
-  if (window.innerWidth > 1065) {
-    if (items.length) {
-      items.pop();
-    }
+  if (items.length) {
+    items.pop();
   }
 
   return (
