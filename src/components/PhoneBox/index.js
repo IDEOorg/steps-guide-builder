@@ -11,8 +11,8 @@ const PhoneBox = (props) => {
       textStyleClass="phone_button_text"
       className="phone_button"
     >
-      <UrlImage image={require('../../assets/url-icon.svg')}/>
-      { props.introText + " " + props.phoneNumber }
+      <UrlImage image={require('../../assets/url-icon.svg')} />
+      {<a href={"tel:+" + props.phoneNumber}>{props.introText + " " + props.phoneNumber}</a>}
     </Button>
   );
 };
