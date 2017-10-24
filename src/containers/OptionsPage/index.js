@@ -143,7 +143,6 @@ class OptionsPage extends Component {
         />
       );
     }
-    console.log(this.props);
     return (
       <div className="options_container">
         <MediaQuery query="(min-width: 600px)">

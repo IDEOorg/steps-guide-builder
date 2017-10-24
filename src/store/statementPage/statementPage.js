@@ -12,7 +12,6 @@ export function selectStatement(id) {
 }
 
 export function loadStatements(ids, userInput) {
-  console.log(userInput);
   return {
     type: LOAD_STATEMENTS,
     loadedStatements: ids,
@@ -53,6 +52,7 @@ const statementPage = (state = [], action) => {
       };
     }
     case GENERATE_STATEMENTS: {
+      console.log(state);
       let problemId = action.problemId;
       let problemsToStatements = config.problemsPage.problemsToStatements.problemsToStatements;
       let statementPage = null;
@@ -76,7 +76,7 @@ const statementPage = (state = [], action) => {
       return {};
     }
     case LOAD_STATEMENTS: {
-      console.log('initial load');
+      console.log(state);
       if(action.userInput) {
         if(action.userInput.zip) {
           state = {
@@ -85,7 +85,6 @@ const statementPage = (state = [], action) => {
               zip: action.userInput.zip
             }
           };
-          console.log(state);
         }
       }
       if(action.problem) {
@@ -97,11 +96,10 @@ const statementPage = (state = [], action) => {
               url: problemsToStatements[i].url,
               navigation: problemsToStatements[i].navigation,
               sidebar: problemsToStatements[i].sidebar
-            }
+            };
           }
         }
       }
-      console.log('secondary load');
       let statements = [];
       let selectedIds = action.loadedStatements.map((statement) => {
         return statement.id;
@@ -117,11 +115,6 @@ const statementPage = (state = [], action) => {
           text: config.entryIds[statementObject.id].text
         }
       });
-      console.log({
-        ...state,
-        statements
-      });
-      console.log('ecuador')
       return {
         ...state,
         statements
