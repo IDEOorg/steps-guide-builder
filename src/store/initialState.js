@@ -30,7 +30,7 @@ const initialState = {
     currentOption: null,
     options: []
   },
-  language: 'en-US'
+  language: 'en'
 };
 
 export default initialState;

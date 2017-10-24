@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { selectLanguage } from '../../store/language/language';
 import './index.less';
 
-const CODE_EN = 'en-US';
+const CODE_EN = 'en';
 const CODE_ES = 'es';
 
 const TranslateToggle = (props) => {

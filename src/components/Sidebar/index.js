@@ -16,9 +16,6 @@ const Sidebar = (props) => {
     if(props.sidebar.textAlign === false) {
       textAlignStyle = {textAlign: 'left'};
     }
-    console.log(props.sidebar.content);
-    console.log(props.language);
-    console.log(getTranslation(props.sidebar.content, props.language));
     sidebarContent = (
       <div className={classNames("sidebar", props.sidebar.position ? "sidebar_center" : null)}>
         <div className="sidebar_content" style={textAlignStyle} dangerouslySetInnerHTML={{"__html": marked(getTranslation(props.sidebar.content, props.language))}} />

@@ -13,12 +13,12 @@ const ActionPlan = (props) => {
     action.zip = props.zip;
     if(action.contentType === 'actionBasic') {
       return (
-        <ActionBasic key={i} data={action} />
+        <ActionBasic key={i} data={action} language={props.language} />
       );
     }
     else if(action.contentType === 'actionFullWidth') {
       return (
-        <ActionFullPage key={i} data={action} />
+        <ActionFullPage key={i} data={action} language={props.language} />
       );
     }
   });
@@ -46,6 +46,7 @@ export default ActionPlan;
 
 ActionPlan.propTypes = {
   id: PropTypes.string,
+  language: PropTypes.string,
   isCurrentOption: PropTypes.bool
 };
 

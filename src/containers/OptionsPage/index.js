@@ -94,7 +94,7 @@ class OptionsPage extends Component {
       });
       actionPlans = filteredOptions.map((option) => {
         let id = option.id;
-        return generateActionPlan(id, currentOption, this.props.zipcode);
+        return generateActionPlan(id, currentOption, this.props.zipcode, this.props.language);
       });
       // mobile
       optionsActionsOutputMobile = filteredOptions.map((option, i) => {
@@ -116,7 +116,7 @@ class OptionsPage extends Component {
           <div key={id}>
             {optionBox}
             <div className="action_plan_mobile">
-              { generateActionPlan(id, currentOption, this.props.zipcode) }
+              { generateActionPlan(id, currentOption, this.props.zipcode, this.props.language) }
             </div>
           </div>
         );
@@ -172,13 +172,14 @@ class OptionsPage extends Component {
   }
 }
 
-function generateActionPlan(id, currentOption, zipcode) {
+function generateActionPlan(id, currentOption, zipcode, language) {
   return (
     <ActionPlan
       key={id}
       id={id}
       isCurrentOption={currentOption === id}
       zip={zipcode}
+      language={language}
     />
   );
 }
@@ -209,6 +210,7 @@ function mapStateToProps(state) {
   return {
     options: state.selectedOptions.options,
     currentOption: state.selectedOptions.currentOption,
+    language: state.language,
     zipcode: zipcode,
     statementPage: state.statementPage
   };
@@ -241,6 +243,7 @@ OptionsPage.propTypes = {
     tried: PropTypes.bool.isRequired
     })
   ),
+  language: PropTypes.string,
   toggleOption: PropTypes.func.isRequired,
   onSelect: PropTypes.func,
   goBack: PropTypes.func.isRequired,

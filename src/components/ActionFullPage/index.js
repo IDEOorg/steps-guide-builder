@@ -9,6 +9,7 @@ import TimelineBox from '../TimelineBox';
 import './index.less';
 import zipcodes from '../../data/ziptostate';
 import config from '../../data/config';
+import {getTranslation} from '../../globals/utils';
 
 function mapZipToState(zip) {
   return zipcodes[zip].state;
@@ -25,24 +26,25 @@ const ActionFullPage = (props) => {
   }
   let allContent = props.data.content.map((content, i) => {
     let box = null;
+    let localizedContent = getTranslation(content.content, props.language);
     if(content.contentType === 'contentBox') {
-      box = <ContentBox key={i} content={content.content} />;
+      box = <ContentBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'colorBox') {
-      box = <ContentBox key={i} content={content.content} />;
+      box = <ContentBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'urlBox') {
       let url = content.url;
       if(content.userInputFieldName) {
         url = mappingLogic[state][content.userInputFieldName.fieldName];
       }
-      box = <UrlBox key={i} text={content.text} url={url} />;
+      box = <UrlBox key={i} text={getTranslation(content.text, props.language)} url={url} />;
     }
     else if(content.contentType === 'zipcodeBox') {
       box = (
         <ZipcodeBox
           key={i}
-          buttonText={content.buttonText}
+          buttonText={getTranslation(content.buttonText, props.language)}
           defaultZip={props.data.zip}
           urlStart={content.beginningUrlText ? content.beginningUrlText : ""}
           urlEnd={content.endUrlText ? content.endUrlText : ""}
@@ -50,21 +52,21 @@ const ActionFullPage = (props) => {
       );
     }
     else if(content.contentType === 'criteriaBox') {
-      box = <CriteriaBox key={i} content={content.content} />;
+      box = <CriteriaBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'phoneBox') {
       let phoneNumber = content.phoneNumber ? content.phoneNumber : mappingLogic[state][content.userInputFieldName.fieldName];
       box = (
         <PhoneBox
           key={i}
-          introText={content.buttonText}
+          introText={getTranslation(content.buttonText, props.language)}
           phoneNumber={phoneNumber}
         />
       );
     }
     else if(content.contentType === 'timelineBox') {
       box = (
-        <TimelineBox key={i} content={content.content} title={content.title} />
+        <TimelineBox key={i} content={localizedContent} title={getTranslation(content.title, props.language)} />
       );
     }
     return (
