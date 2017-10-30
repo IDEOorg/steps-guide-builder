@@ -1,16 +1,48 @@
 {
-  "title": "I'm Struggling to Pay My Bills Guide",
+  "title": {
+    "en": "I'm Struggling to Pay My Bills Guide",
+    "es": "Yo Estoy Batallando para Pagar Mis Cobros"
+  },
   "guideMaterials": {
     "headerIcon": {
       "id": "yfN3BkEgISmCMyamiq0mU"
     },
-    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd5Hcf_cl6yoVqKoXlOAtRyCyfb80DZl55BlnkmPI1zIqS-pw/viewform",
+    "feedbackUrl": {
+      "en": "https://docs.google.com/forms/d/e/1FAIpQLSd5Hcf_cl6yoVqKoXlOAtRyCyfb80DZl55BlnkmPI1zIqS-pw/viewform",
+      "es": "https://docs.google.com/forms/d/e/1FAIpQLSd5Hcf_cl6yoVqKoXlOAtRyCyfb80DZl55BlnkmPI1zIqS-pw/viewform"
+    },
+    "feedbackText": {
+      "en": "Send Feedback",
+      "es": "Enviar Comentarios"
+    },
+    "homeText": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "showOptionsText": {
+      "en": "Show me my options",
+      "es": "Muéstrame mis opciones"
+    },
+    "iveAlreadyTriedThisText": {
+      "en": "I've already tried this.",
+      "es": "Ya lo he intentado."
+    },
+    "zipCodeBoxPlaceholder": {
+      "en": "MY ZIP CODE",
+      "es": "MI CÓDIGO POSTAL"
+    },
     "contentType": "guideMaterials"
   },
   "optionsPage": {
     "navigation": {
-      "title": "Here's what you can do",
-      "linkText": "Back to statements",
+      "title": {
+        "en": "Here's what you can do",
+        "es": "Esto es lo que puedes hacer"
+      },
+      "linkText": {
+        "en": "Back to statements",
+        "es": "Volver a las declaraciones"
+      },
       "contentType": "navigation"
     },
     "options": [
@@ -37,9 +69,6 @@
       },
       {
         "id": "2hEHNOW76YWWoSGO2ius4W"
-      },
-      {
-        "id": "3R3EqpC4zm4IOQccA2ieSO"
       },
       {
         "id": "7wwwMWoO8oq6qW6Mqq4iWS"
@@ -88,7 +117,10 @@
   },
   "statementsPages": [
     {
-      "title": "I'm Struggling to Pay My Bills",
+      "title": {
+        "en": "I'm Struggling to Pay My Bills",
+        "es": "I'm Struggling to Pay My Bills"
+      },
       "statements": [
         {
           "id": "1st5ZustSY6IOAMqC0E4Ss"
@@ -146,12 +178,18 @@
         }
       ],
       "sidebar": {
-        "content": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# I'm Struggling To Pay My Bills\nWhen you're overwhelmed with bill payments, it can be hard to prioritize which ones to take care of and to find resources to help you pay them off. Use our guide to find out how to stay on top of this.",
+        "content": {
+          "en": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# I'm Struggling To Pay My Bills\nWhen you're overwhelmed with bill payments, it can be hard to prioritize which ones to take care of and to find resources to help you pay them off. Use our guide to find out how to stay on top of this.",
+          "es": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# I'm Struggling To Pay My Bills\nWhen you're overwhelmed with bill payments, it can be hard to prioritize which ones to take care of and to find resources to help you pay them off. Use our guide to find out how to stay on top of this."
+        },
         "position": false,
         "contentType": "sidebar"
       },
       "statementsToOptions": {
-        "title": "Bills",
+        "title": {
+          "en": "Bills",
+          "es": "Bills"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -484,13 +522,22 @@
         "contentType": "statementsToOptionsRules"
       },
       "statementPageLayout": true,
-      "statementPageIntroSection": "### Choose the bills you’re struggling with.",
+      "statementPageIntroSection": {
+        "en": "### Choose the bills you’re struggling with.",
+        "es": "### Elige las facturas con las que estás luchando."
+      },
       "contentType": "statementPage"
     }
   ],
   "userInputSection": {
-    "introText": "Choose the bills you’re struggling with.",
-    "inputType": "Text Input",
+    "introText": {
+      "en": "Choose the bills you’re struggling with.",
+      "es": "Choose the bills you’re struggling with."
+    },
+    "inputType": {
+      "en": "Text Input",
+      "es": "Text Input"
+    },
     "contentType": "userInputSection"
   },
   "contentType": "guide",
@@ -508,7 +555,10 @@
       "fileName": "housing-guide-icon.svg"
     },
     "3dJ05ft48EwwC8iOEOmkSc": {
-      "text": "Get back on track with your rental payments",
+      "text": {
+        "en": "Get back on track with your rental payments",
+        "es": "Get back on track with your rental payments"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -516,13 +566,25 @@
           },
           "content": [
             {
-              "content": "__Talk to a housing counselor__\nYou can get personalized advice from a housing counselor. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
+              "content": {
+                "en": "__Talk to a housing counselor__\nYou can get personalized advice from a housing counselor. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
+                "es": "__Talk to a housing counselor__\nYou can get personalized advice from a housing counselor. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "Find a Housing Counselor Near You",
-              "beginningUrlText": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
-              "endUrlText": " ",
+              "buttonText": {
+                "en": "Find a Housing Counselor Near You",
+                "es": "Busque a un consejero de vivienda cerca de usted"
+              },
+              "beginningUrlText": {
+                "en": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+                "es": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode="
+              },
+              "endUrlText": {
+                "en": " ",
+                "es": " "
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -534,12 +596,21 @@
           },
           "content": [
             {
-              "content": "__Take the “I Can’t Pay My Rent” guide__\nLearn about options tailored to your situation by taking our guide “I Can’t Pay My Rent”.",
+              "content": {
+                "en": "__Take the “I Can’t Pay My Rent” guide__\nLearn about options tailored to your situation by taking our guide “I Can’t Pay My Rent”.",
+                "es": "__Take the “I Can’t Pay My Rent” guide__\nLearn about options tailored to your situation by taking our guide “I Can’t Pay My Rent”."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LAUNCH GUIDE",
-              "url": "https://steps.ideo.org/housing-guide",
+              "text": {
+                "en": "LAUNCH GUIDE",
+                "es": "LAUNCH GUIDE"
+              },
+              "url": {
+                "en": "https://steps.ideo.org/housing-guide",
+                "es": "https://steps.ideo.org/housing-guide"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -561,7 +632,10 @@
       "fileName": "steps-guide-icon.svg"
     },
     "j44HD31fxYyOAGYuGw24q": {
-      "text": "Find local food resources",
+      "text": {
+        "en": "Find local food resources",
+        "es": "Encuentre Fuentes Locales de Alimentos"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -569,12 +643,21 @@
           },
           "content": [
             {
-              "content": "__Get food through a pantry or meal program__\nFood banks distribute food through food pantries and meal programs. These resources are open to anyone who needs food.",
+              "content": {
+                "en": "__Get food through a pantry or meal program__\nFood banks distribute food through food pantries and meal programs. These resources are open to anyone who needs food.",
+                "es": "__Consiga comida a través de programas de despensas o alimentos__\nLos bancos de alimentos distribuyen comida a través de despensas y programas de alimentos Estas fuentes estan disponibles para cualquiera que necesite comida."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND A FOOD BANK NEAR YOU",
-              "url": "http://www.feedingamerica.org/find-your-local-foodbank",
+              "text": {
+                "en": "FIND A FOOD BANK NEAR YOU",
+                "es": "BUSQUE UN BANCO DE ALIMENTOS CERCA DE USTED"
+              },
+              "url": {
+                "en": "http://www.feedingamerica.org/find-your-local-foodbank",
+                "es": "http://www.feedingamerica.org/find-your-local-foodbank"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -586,12 +669,21 @@
           },
           "content": [
             {
-              "content": "__Call the Hunger Hotline__\nCall the Hunger Hotline for help finding emergency food near you or for information about other government and social services. ",
+              "content": {
+                "en": "__Call the Hunger Hotline__\nCall the Hunger Hotline for help finding emergency food near you or for information about other government and social services. ",
+                "es": "__Hable a la  linea telefónica directa del Hambre__\nHable a la linea telefónica directa del Hambre para encontrar comida de emergencia cerca de usted o para información sobre otros servicios sociales y gubernamentales."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND OUT MORE",
-              "url": "https://www.hungerfreeamerica.org/about/our-work/usda-national-hunger-hotline",
+              "text": {
+                "en": "FIND OUT MORE",
+                "es": "AVERIGUE MÁS"
+              },
+              "url": {
+                "en": "https://www.hungerfreeamerica.org/about/our-work/usda-national-hunger-hotline",
+                "es": "https://www.hungerfreeamerica.org/about/our-work/usda-national-hunger-hotline"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -603,12 +695,21 @@
           },
           "content": [
             {
-              "content": "__Take the “I’m Struggling to Buy Food” guide__\nLearn about options tailored to your situation by taking our guide “I’m Struggling to Buy Food”.",
+              "content": {
+                "en": "__Take the “I’m Struggling to Buy Food” guide__\nLearn about options tailored to your situation by taking our guide “I’m Struggling to Buy Food”.",
+                "es": "__Tome la Guía de \"Yo Estoy Batallando para Comprar Comida\"__\nConozca sobre las opciones adecuadas para su situación tomando nuestra Guía \"Estoy Batallando para Comprar Comida\"."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LAUNCH GUIDE",
-              "url": "https://ideoorg.github.io/steps-guide-food",
+              "text": {
+                "en": "LAUNCH GUIDE",
+                "es": "GUIA DE LANZAMIENTO"
+              },
+              "url": {
+                "en": "https://ideoorg.github.io/steps-guide-food",
+                "es": "https://ideoorg.github.io/steps-guide-food"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -634,7 +735,10 @@
       "fileName": "usage-and-costs-icon.svg"
     },
     "1wbVF2JfIQumMggyEoSM4e": {
-      "text": "Get utility assistance",
+      "text": {
+        "en": "Get utility assistance",
+        "es": "Consiga asistencia sobre servicios públicos."
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -642,7 +746,10 @@
           },
           "content": [
             {
-              "content": "__Call your utility provider__\nMost utility companies have programs that can help people in need with their bills, including creating a payment plan.",
+              "content": {
+                "en": "__Call your utility provider__\nMost utility companies have programs that can help people in need with their bills, including creating a payment plan.",
+                "es": "__Llámele a su proveedor de servicios públicos__\nLa mayor parte de las compañías tienen programas que pueden ayudar a la gente necesitada con sus pagos, incluyendo la creación de un plan de pagos."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -654,12 +761,21 @@
           },
           "content": [
             {
-              "content": "__Find government assistance__\nMany state and local government agencies have alternative assistance programs for utilities. Find out more here:",
+              "content": {
+                "en": "__Find government assistance__\nMany state and local government agencies have alternative assistance programs for utilities. Find out more here:",
+                "es": "__Busque apoyo del Gobierno__\nMuchas agencias de Gobierno locales y estatales tienen programas alternativos de asistencia para los servicios básicos. Averigue mas aquí:"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Go to Utilitybillassistance.com",
-              "url": "http://www.utilitybillassistance.com",
+              "text": {
+                "en": "Go to Utilitybillassistance.com",
+                "es": "Vaya a Utilitybillassistance.com"
+              },
+              "url": {
+                "en": "http://www.utilitybillassistance.com",
+                "es": "http://www.utilitybillassistance.com"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -671,16 +787,28 @@
           },
           "content": [
             {
-              "content": "__Apply for LIHEAP__\nAssistance is available through the federal Low-Income Home Energy Assistance Program (each state has their own set of qualifications). Also, the LIHEAP Clearinghouse National Energy Assistance Referral (NEAR) project is a free service to learn where to apply.",
+              "content": {
+                "en": "__Apply for LIHEAP__\nAssistance is available through the federal Low-Income Home Energy Assistance Program (each state has their own set of qualifications). Also, the LIHEAP Clearinghouse National Energy Assistance Referral (NEAR) project is a free service to learn where to apply.",
+                "es": "__Haga la aplicació para LIHEAP__\nHay apoyo disponible a través del Programa de Asistencia de Energía para Hogares de Bajos Ingresos (cada estado tiene sus propias especificaciones). También, el Proyecto Nacional de Referencia de Ayuda para la Energia de LIHEAP ( LIHEAP Clearinghouse National Energy Assistance  Referral (NEAR) Project), es un servicio gratuito para aprender donde aplicar."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "- Residents with very young children, elderly, or disabled family members.\n- Homes with low-incomes and high regional costs.",
+              "content": {
+                "en": "- Residents with very young children, elderly, or disabled family members.\n- Homes with low-incomes and high regional costs.",
+                "es": "- Residentes con miembros familiares que sean niños muy jóvenes, personas mayores o discapacitados.\n- Hogares con bajos ingresos y costos regionales altos."
+              },
               "contentType": "criteriaBox"
             },
             {
-              "text": "FIND YOUR STATE'S CONTACT INFORMATION",
-              "url": "https://liheapch.acf.hhs.gov/get_help.htm",
+              "text": {
+                "en": "FIND YOUR STATE'S CONTACT INFORMATION",
+                "es": "ENCUENTRE SU CONTACTO DE  INFORMACION  DEL ESTADO"
+              },
+              "url": {
+                "en": "https://liheapch.acf.hhs.gov/get_help.htm",
+                "es": "https://liheapch.acf.hhs.gov/get_help.htm"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -692,12 +820,21 @@
           },
           "content": [
             {
-              "content": "__Reduce your home energy usage and costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricty usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
+              "content": {
+                "en": "__Reduce your home energy usage and costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricty usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
+                "es": "__Reduzca el uso y costo de de energía en casa__\nLos Programas de Asistencia Climática (WAP) ayudan a los inquilinos y  propietarios de casas a reducir la calefaccion en casa, el aire acondicionado y el uso de la electricidad y proporcionan ayuda financiera para mejorar y actualizar los sistemas en casa. Algunas restricciones de ingreso economico aplican."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find your state WAP",
-              "url": "https://www.usa.gov/repairing-home#item-35127",
+              "text": {
+                "en": "find your state WAP",
+                "es": "Encuentre su WAP estatal"
+              },
+              "url": {
+                "en": "https://www.usa.gov/repairing-home#item-35127",
+                "es": "https://www.usa.gov/repairing-home#item-35127"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -715,7 +852,10 @@
       "fileName": "contact-nonprofit-icon.svg"
     },
     "wuLXY3ClDUUkoEWeMoMyo": {
-      "text": "Apply for transportation assistance",
+      "text": {
+        "en": "Apply for transportation assistance",
+        "es": "Aplique para ayuda de transporte"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -723,12 +863,21 @@
           },
           "content": [
             {
-              "content": "__See if you qualify for TANF in your state__\nTemporary Assistance for Needy Families (TANF) is a federal program which can provide transporation vouchers for families in need. ",
+              "content": {
+                "en": "__See if you qualify for TANF in your state__\nTemporary Assistance for Needy Families (TANF) is a federal program which can provide transporation vouchers for families in need. ",
+                "es": "__Vea si usted califica para TANF en su estado__\nLa AyudaTemporal para Familias Necesitadas (TANF) es un programa federal que puede proporcionar cupones para transportacion para familias necesitadas."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND YOUR LOCAL TANF WEBSITE",
-              "url": "https://www.acf.hhs.gov/ofa/help",
+              "text": {
+                "en": "FIND YOUR LOCAL TANF WEBSITE",
+                "es": "ENCUENTRE SU PAGINA WEB LOCAL DE TANF"
+              },
+              "url": {
+                "en": "https://www.acf.hhs.gov/ofa/help",
+                "es": "https://www.acf.hhs.gov/ofa/help"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -740,12 +889,21 @@
           },
           "content": [
             {
-              "content": "__Contact a local nonprofit organization__\nTransporation vouchers and other help are often administered by local nonprofit organizations.",
+              "content": {
+                "en": "__Contact a local nonprofit organization__\nTransporation vouchers and other help are often administered by local nonprofit organizations.",
+                "es": "__Haga contacto con una organizacion no lucrativa (non profit).__\nLos cupones de transportacion y otras ayudas estan administradas frecuentemente por organizaciones no lucrativas."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find a nonprofit",
-              "url": "https://www.auntbertha.com",
+              "text": {
+                "en": "find a nonprofit",
+                "es": "Encuentre una organización no lucrativa"
+              },
+              "url": {
+                "en": "https://www.auntbertha.com",
+                "es": "https://www.auntbertha.com"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -759,7 +917,10 @@
       "fileName": "childcare-resources-icon.svg"
     },
     "3ZBEzNbxocO0mOE4cCciYI": {
-      "text": "Apply for local childcare assistance",
+      "text": {
+        "en": "Apply for local childcare assistance",
+        "es": "Aplique para ayuda local de cuidado de niños"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -767,12 +928,21 @@
           },
           "content": [
             {
-              "content": "__Find local childcare resources__\nChild Care Resource & Referral (CCR&R) agencies help families find local child care options. They also connect child care providers to business resources.",
+              "content": {
+                "en": "__Find local childcare resources__\nChild Care Resource & Referral (CCR&R) agencies help families find local child care options. They also connect child care providers to business resources.",
+                "es": "__Encuentre recursos locales de cuidado de niños__\nLas agencias de referencia de cuidado de niños ayudan a las familias a que encuentran opciones para el cuidado de niños. También conectan a los proveedores de cuidado de niños con fuentes de negocios."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "search for an agency near you",
-              "url": "https://childcareaware.org/ccrr-search-form",
+              "text": {
+                "en": "search for an agency near you",
+                "es": "Busque una agencia cerca de usted"
+              },
+              "url": {
+                "en": "https://childcareaware.org/ccrr-search-form",
+                "es": "https://childcareaware.org/ccrr-search-form"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -790,7 +960,10 @@
       "fileName": "lower-bill-icon.svg"
     },
     "3KHfb1zWROcOWkEyaeCuuM": {
-      "text": "Find phone assistance and lower your phone bill",
+      "text": {
+        "en": "Find phone assistance and lower your phone bill",
+        "es": "Encuentre ayuda telefónica y reduzca el cobro de su recibo"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -798,12 +971,21 @@
           },
           "content": [
             {
-              "content": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+              "content": {
+                "en": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+                "es": "__Revise el programa federal de Lifeline__\nLifeline es un programa que puede ayudar a bajar los costos del teléfono y el internet para clientes calificados."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
-              "url": "http://www.lifelinesupport.org/ls",
+              "text": {
+                "en": "SEE IF YOU QUALIFY FOR LIFELINE",
+                "es": "VEA SI USTED CALIFICA PARA LIFELINE"
+              },
+              "url": {
+                "en": "http://www.lifelinesupport.org/ls",
+                "es": "http://www.lifelinesupport.org/ls"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -815,12 +997,21 @@
           },
           "content": [
             {
-              "content": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. ",
+              "content": {
+                "en": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. ",
+                "es": "__Encuentre maneras de bajar su pago de teléfono__\nUsted puede cambiar a una compañía de mas bajo costo sin perder la calidad de sus llamadas. Otras estrategias son deshacerse de su linea y combinar sus servicios con cable e internet."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Read more strategies",
-              "url": "https://www.thebalance.com/lower-your-phone-bill-1388724",
+              "text": {
+                "en": "Read more strategies",
+                "es": "Lea más estrategias"
+              },
+              "url": {
+                "en": "https://www.thebalance.com/lower-your-phone-bill-1388724",
+                "es": "https://www.thebalance.com/lower-your-phone-bill-1388724"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -834,7 +1025,10 @@
       "fileName": "harp-icon.svg"
     },
     "2EhXSgt6966IQo4oKiUCG4": {
-      "text": "Consider applying for HARP",
+      "text": {
+        "en": "Consider applying for HARP",
+        "es": "Considere aplicar para HARP"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -842,12 +1036,21 @@
           },
           "content": [
             {
-              "content": "__Learn about HARP__\nThe Home Affordable Refinance Program (HARP), is a federal program that allows qualified applicants to refinance their existing mortgages into more affordable mortgages. ",
+              "content": {
+                "en": "__Learn about HARP__\nThe Home Affordable Refinance Program (HARP), is a federal program that allows qualified applicants to refinance their existing mortgages into more affordable mortgages. ",
+                "es": "__Conozca más sobre HARP__\nEl Programa de Refinanciamiento Costeable de Casa, es un programa federal que permite a aplicantes calificados refinanciar sus hipotecas existentes en hipotecas mas accesibles."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LEARN MORE ABOUT HARP",
-              "url": "https://www.harp.gov/About",
+              "text": {
+                "en": "LEARN MORE ABOUT HARP",
+                "es": "CONOZCA MAS SOBRE HARP"
+              },
+              "url": {
+                "en": "https://www.harp.gov/About",
+                "es": "https://www.harp.gov/About"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -873,7 +1076,10 @@
       "fileName": "advice-icon.svg"
     },
     "2hEHNOW76YWWoSGO2ius4W": {
-      "text": "Lower your car payments or get out of your loan",
+      "text": {
+        "en": "Lower your car payments or get out of your loan",
+        "es": "Baje sus pagos del auto y sálgase de su préstamo"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -881,7 +1087,10 @@
           },
           "content": [
             {
-              "content": "__Call your auto lender__\nCall your auto lender as soon as you start or expect to have difficulty paying your auto loan. They may be able to help you temporarily or permanently pause or lower your payments and get back on track to avoid repossession. If your credit score has improved since you got your auto loan, try negotiating for a lower interest rate. ",
+              "content": {
+                "en": "__Call your auto lender__\nCall your auto lender as soon as you start or expect to have difficulty paying your auto loan. They may be able to help you temporarily or permanently pause or lower your payments and get back on track to avoid repossession. If your credit score has improved since you got your auto loan, try negotiating for a lower interest rate. ",
+                "es": "__Llámele a quien le presto para el auto__\nLlame a quien le presto para el auto tan pronto como usted considere que tendrá dificultades para pagar el préstamo. Ellos podrían ayudarle para que temporal o permanentemente haga una pausa o reduzca sus pagos y vuelva a la normalidad para evitar la recuperación por parte del prestador."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -893,12 +1102,21 @@
           },
           "content": [
             {
-              "content": "__Calculate whether to refinance__\nIf your credit score has improved since you got your auto loan, try negotiating for a lower interest rate with your auto lender or refinancing with another lender. This could reduce your monthly payments and the total amount of interest you will pay for credit card debt. Use an auto loan calculator to determine how much you can lower your monthly payment or save over the life of the loan with a new interest rate. There may be an upfront cost to refinance. ",
+              "content": {
+                "en": "__Calculate whether to refinance__\nIf your credit score has improved since you got your auto loan, try negotiating for a lower interest rate with your auto lender or refinancing with another lender. This could reduce your monthly payments and the total amount of interest you will pay for credit card debt. Use an auto loan calculator to determine how much you can lower your monthly payment or save over the life of the loan with a new interest rate. There may be an upfront cost to refinance. ",
+                "es": "__Calcule si puede refinanciar__\nSi su puntaje de crédito se ha mejorado desde que usted obtuvo su crédito de auto, trate de negociar a un interés mas bajo con quien le dió el credito, o refinanciar con otro prestamista. Esto pudiera reducir sus pagos mensuales y la cantidad total de intereses que usted pagará por su deuda de tarjeta de crédito. Use una calculadora de préstamos para auto para determinar en cuánto puede usted bajar su pago mensual y ahorrar durante la vida del préstamo con un nuevo interes. Podría haber un costo por el refinanciamiento."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO BANKRATE.COM TO CALCULATE",
-              "url": "http://www.bankrate.com/calculators/auto/auto-loan-calculator.aspx",
+              "text": {
+                "en": "GO TO BANKRATE.COM TO CALCULATE",
+                "es": "VAYA A BANKRATE.COM PARA CALCULAR"
+              },
+              "url": {
+                "en": "http://www.bankrate.com/calculators/auto/auto-loan-calculator.aspx",
+                "es": "http://www.bankrate.com/calculators/auto/auto-loan-calculator.aspx"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -910,12 +1128,21 @@
           },
           "content": [
             {
-              "content": "__Sell your car__\nAdvertise your car for sale for private buyers. You can also sell your car on a website like CarMax.com for a solid offer to buy immediately. ",
+              "content": {
+                "en": "__Sell your car__\nAdvertise your car for sale for private buyers. You can also sell your car on a website like CarMax.com for a solid offer to buy immediately. ",
+                "es": "__Venda su auto__\nAnuncie su auto para venta a compradores privados. Usted puede venderlo en una página web como carmax.com para una oferta sólida y para comprarse inmediatamente."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "go to carmax.com",
-              "url": "https://www.carmax.com/",
+              "text": {
+                "en": "go to carmax.com",
+                "es": "vaya a carmax.com"
+              },
+              "url": {
+                "en": "https://www.carmax.com/",
+                "es": "https://www.carmax.com/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -927,12 +1154,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. A credit counselor may be able to help you determine the best options for changing the payment terms or refinancing your auto loan. There may be a fee for these services.",
+              "content": {
+                "en": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. A credit counselor may be able to help you determine the best options for changing the payment terms or refinancing your auto loan. There may be a fee for these services.",
+                "es": "__Hable con un Consejero de Crédito  Certificado de NFCC__\nLa Agencia de la  Federación Nacional de Consejeros  (NFCC) apoya a quienes piden préstamos y que están teniendo dificultades para pagar su deuda. Un consejero de crédito puede ayudarle a determinar las mejores opciones para cambiar los términos de los pagos o a refinanciar su préstamo de auto.Pudiera haber un cargo por estos servicios."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find a credit counselor near you",
-              "url": "https://www.nfcc.org/locator",
+              "text": {
+                "en": "find a credit counselor near you",
+                "es": "Busque a un consejero de credito que este cerca de su area"
+              },
+              "url": {
+                "en": "https://www.nfcc.org/locator",
+                "es": "https://www.nfcc.org/locator"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -944,29 +1180,25 @@
           },
           "content": [
             {
-              "content": "__Visit a local credit union__\nYou may be able to refinance your auto loan to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+              "content": {
+                "en": "__Visit a local credit union__\nYou may be able to refinance your auto loan to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+                "es": "__Visite a una Unión de Crédito local__\nUsted puede refinanciar su préstamo de auto para obtener un interés más bajo en una Unión de Crédito. Esto pudiera ayudarle a ahorrar a usted dinero en sus pagos en cada mes y hacer más espacio en su presupuesto Algunas uniones de crédito también ofrecen consejería financiera."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a credit union",
-              "url": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+              "text": {
+                "en": "Find a credit union",
+                "es": "Busque una Unión de Crédito"
+              },
+              "url": {
+                "en": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+                "es": "https://www.mycreditunion.gov/Pages/mcu-map.aspx"
+              },
               "contentType": "urlBox"
             }
           ],
           "contentType": "actionBasic"
-        }
-      ],
-      "contentType": "option"
-    },
-    "3R3EqpC4zm4IOQccA2ieSO": {
-      "text": "Apply for a loan repayment plan",
-      "actions": [
-        {
-          "sys": {
-            "type": "Link",
-            "linkType": "Entry",
-            "id": "1FNLu7NBhqGecYwQ8wA68m"
-          }
         }
       ],
       "contentType": "option"
@@ -996,7 +1228,10 @@
       "fileName": "legal-icon.svg"
     },
     "7wwwMWoO8oq6qW6Mqq4iWS": {
-      "text": "Explore options for your private student loans",
+      "text": {
+        "en": "Explore options for your private student loans",
+        "es": "Explore opciones para sus préstamos privados estudiantiles"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1004,7 +1239,10 @@
           },
           "content": [
             {
-              "content": "__Pay extra toward your high-interest loans__\nIf refinancing is not an option, consider putting extra funds towards your high-interest loans. Make a list of the private loans you have and prioritize paying off the ones with the highest interest.",
+              "content": {
+                "en": "__Pay extra toward your high-interest loans__\nIf refinancing is not an option, consider putting extra funds towards your high-interest loans. Make a list of the private loans you have and prioritize paying off the ones with the highest interest.",
+                "es": "__Pague extra en sus préstamos de alto interés__\nSi refinanciar no es una opción, considere poner fondos extra en sus préstamos de interés alto. Haga una lista de créditos de préstamos privados que usted tiene y haga un orden para la liquidación de aquellos que tienen el interés más alto."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1016,7 +1254,10 @@
           },
           "content": [
             {
-              "content": "__Talk to your lender__\nCall your lender and see if they have any programs that can help you with your student loan payments, such as cancellation, income-driven repayment options, deferment, or forebearance. You may also be able to settle your debt for less than the original amount, although this may negatively impact your credit. Each program will have its own eligibility requirements. Gather all of your student loan paperwork before you call to be able to verify your type of loan. ",
+              "content": {
+                "en": "__Talk to your lender__\nCall your lender and see if they have any programs that can help you with your student loan payments, such as cancellation, income-driven repayment options, deferment, or forebearance. You may also be able to settle your debt for less than the original amount, although this may negatively impact your credit. Each program will have its own eligibility requirements. Gather all of your student loan paperwork before you call to be able to verify your type of loan. ",
+                "es": "__Hable con su prestamista__\nLlámele a su prestamista para ver si él tiene algún programa que pueda ayudarle a usted con sus pagos de préstamo de estudiante, tales como una cancelación, un plan de pago de acuerdo a sus ingresos, de algún alguna forma de retardar el pago o también alguna tolerancia. Usted también puede fijar su deuda por menos que la cantidad original, aunque esto pudiera pudiera tener un impacto negativo en su crédito. Cada programa tendrá sus propios requisitos de calificación. Reúna todos sus documentos del préstamo estudiantil antes de que usted llame, para poder así verificar su tipo de préstamo."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1028,7 +1269,10 @@
           },
           "content": [
             {
-              "content": "__Refinance your student loans__\nIf you’ve got solid income and a good credit history, or have a co-signer, this might be a goood option for you.  Refinancing with a new lender can give you access to a lower interest rate.",
+              "content": {
+                "en": "__Refinance your student loans__\nIf you’ve got solid income and a good credit history, or have a co-signer, this might be a goood option for you.  Refinancing with a new lender can give you access to a lower interest rate.",
+                "es": "__Refinancie sus préstamos estudiantiles__\nSi usted tiene un ingreso sólido y una buena historia de crédito, o tiene un co-firmante, alguien que firme junto a usted en un crédito, esto debe ser una buena opción para refinanciar con un nuevo prestamista y puede darle a usted acceso a una tasa de interés más baja."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1040,12 +1284,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. Student loan credit counselors may be able to help you understand your options, such as changing the payment terms, refinancing your student loans, or consolidation. There may be a fee for these services.",
+              "content": {
+                "en": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. Student loan credit counselors may be able to help you understand your options, such as changing the payment terms, refinancing your student loans, or consolidation. There may be a fee for these services.",
+                "es": "__Hable con un Consejero Certificado de Crédito de la NFCC__\nLa Agencia de la Federación Nacional de Consejeros de Crédito (NFCC) ayuda a quienes piden prestado y que están teniendo dificultades para pagar su deuda. Los consejeros de crédito para préstamos estudiantiles pueden ayudarle a entender sus opciones, tales como cambiar los términos del pago, refinanciar su préstamo estudiantil o la consolidación. Puede haber un costo por estos servicios."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find a credit counselor near you",
-              "url": "https://www.nfcc.org/our-services/student-loan-debt-counseling",
+              "text": {
+                "en": "find a credit counselor near you",
+                "es": "Busque un consejero de crédito cerca de usted"
+              },
+              "url": {
+                "en": "https://www.nfcc.org/our-services/student-loan-debt-counseling",
+                "es": "https://www.nfcc.org/our-services/student-loan-debt-counseling"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1057,12 +1310,21 @@
           },
           "content": [
             {
-              "content": "__Request validation for the debt__\nIf your private student loans are in collections, the collector must be able to provide you with paperwork to validate that they actually own the debt and that they have a legal right to collect on the debt. If the lender is not able to provide adequate validation for the loan, you may want to contact an attorney to assist you in disputing the debt. ",
+              "content": {
+                "en": "__Request validation for the debt__\nIf your private student loans are in collections, the collector must be able to provide you with paperwork to validate that they actually own the debt and that they have a legal right to collect on the debt. If the lender is not able to provide adequate validation for the loan, you may want to contact an attorney to assist you in disputing the debt. ",
+                "es": "__Solicite la validación de la deuda__\nSi usted tiene préstamos estudiantiles privados y estos están en situación de cobranza, el cobrador debe proporcionarle la documentacion que valide que ellos realmente son propietarios de la deuda y ellos tienen el derecho legal para cobrar en esa deuda. Si el prestamista no puede proporcionar una validación adecuada del préstamo, usted puede hacer contacto con un abogado para que le ayude en la disputa o la discusión de la deuda."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find sample debt validation letters ",
-              "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695",
+              "text": {
+                "en": "Find sample debt validation letters ",
+                "es": "Busque cartas de muestra de validacion de deuda"
+              },
+              "url": {
+                "en": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695",
+                "es": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1074,12 +1336,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a student loan attorney__\nIf you were treated unfairly by the school or lender, if the school(s) you were attending closed while you were still attending, or if your student loans are in collections, there are pro bono (free), affordable, or private attorneys available in your state who may be able to help. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+              "content": {
+                "en": "__Talk to a student loan attorney__\nIf you were treated unfairly by the school or lender, if the school(s) you were attending closed while you were still attending, or if your student loans are in collections, there are pro bono (free), affordable, or private attorneys available in your state who may be able to help. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+                "es": "__Hable con un abogado de préstamos estudiantiles__\nSi usted fue tratado de manera injusta por la escuela o por el prestamista, si la escuela a la que usted está asistiendo cerró, o si sus préstamos estudiantiles están ya en cobranza, existen abogados Pro Bono (gratis) accesibles o privados, que están disponibles en su estado y que pueden ayudarle a usted. Algunas restricciones de aceptación o de otro tipo pueden aplicar para calificar a los abogados Pro Bono o accesibles."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find pro bono legal aid attorneys",
-              "url": "http://www.lawhelp.org/find-help",
+              "text": {
+                "en": "Find pro bono legal aid attorneys",
+                "es": "Busque un Abogado de ayuda legal Pro Bono"
+              },
+              "url": {
+                "en": "http://www.lawhelp.org/find-help",
+                "es": "http://www.lawhelp.org/find-help"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1091,12 +1362,21 @@
           },
           "content": [
             {
-              "content": "### Visit a local credit union\nYou may be able to refinance credit card debt, auto loans, or other consumer debt, into loans with lower interest rates at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling to help you reach your financial goals.",
+              "content": {
+                "en": "### Visit a local credit union\nYou may be able to refinance credit card debt, auto loans, or other consumer debt, into loans with lower interest rates at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling to help you reach your financial goals.",
+                "es": "__Visite a una Unión de Crédito local__\nUsted puede refinanciar su deuda de tarjeta de crédito, sus préstamos de carro y otras deudas de consumidor y convertirlas en préstamos con tasas de interés más bajas en una Unión de Crédito. Esto pudiera ahorrarle usted dinero en pagos de intereses cada mes y haría espacio en su presupuesto. Algunas uniones de crédito también ofrecen consejería financiera para ayudarle a que usted alcance sus metas financieras."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a credit union",
-              "url": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+              "text": {
+                "en": "Find a credit union",
+                "es": "Busque una Union de Credito"
+              },
+              "url": {
+                "en": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+                "es": "https://www.mycreditunion.gov/Pages/mcu-map.aspx"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1114,7 +1394,10 @@
       "fileName": "lower-interest-rate-icon.svg"
     },
     "1NtJsitAKQYkEG020CwEqA": {
-      "text": "Call your credit card company",
+      "text": {
+        "en": "Call your credit card company",
+        "es": "Busque una Union de Credito"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1122,7 +1405,10 @@
           },
           "content": [
             {
-              "content": "__Find out about hardship programs__\nCall your credit card issuer to see if they have a hardship program before making a payment. Hardship program provide short term payment relief for clients who are having difficulty meeting their payment commitments.  ",
+              "content": {
+                "en": "__Find out about hardship programs__\nCall your credit card issuer to see if they have a hardship program before making a payment. Hardship program provide short term payment relief for clients who are having difficulty meeting their payment commitments.  ",
+                "es": "__Averigue acerca de programas de ayuda.__\nLlamele a quién le dió su tarjeta de crédito para ver si ellos tienen programas de ayuda antes de que haga algún pago. Los programas de ayuda proporcionan apoyo en pagos a corto plazo para clientes que están teniendo dificultades para cumplir con sus compromisos de pago."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1134,12 +1420,21 @@
           },
           "content": [
             {
-              "content": "__Negotiate to lower the interest rate on your credit cards__\nIf your credit score has improved since you've opened your credit cards, try asking for a lower Annual Percentage Rate (APR) on each of your credit cards. This could reduce your monthly payments and the total amount of interest you will pay for credit card debt.",
+              "content": {
+                "en": "__Negotiate to lower the interest rate on your credit cards__\nIf your credit score has improved since you've opened your credit cards, try asking for a lower Annual Percentage Rate (APR) on each of your credit cards. This could reduce your monthly payments and the total amount of interest you will pay for credit card debt.",
+                "es": "__Negocie a una tasa de interés más bajo en sus tarjetas de crédito__\nSi su puntuación de crédito se ha mejorado desde que usted tiene sus tarjetas de crédito, trate de pedir una tasa de porcentaje anual (APR) más baja en cada una de sus tarjetas de crédito Esto pudiera reducir sus pagos mensuales y la cantidad total de interés que usted pagará por su deuda de tarjetas de crédito."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Script for negotiating a lower interest rate",
-              "url": "http://www.creditcards.com/credit-card-news/script-negotiate-better-credit-card-deal-1267.php",
+              "text": {
+                "en": "Script for negotiating a lower interest rate",
+                "es": "Haga anotaciones para negociar in interés mas bajo"
+              },
+              "url": {
+                "en": "http://www.creditcards.com/credit-card-news/script-negotiate-better-credit-card-deal-1267.php",
+                "es": "http://www.creditcards.com/credit-card-news/script-negotiate-better-credit-card-deal-1267.php"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1153,7 +1448,10 @@
       "fileName": "long-term-plan-icon.svg"
     },
     "6lUXMSbu8g4akou2i6CIqU": {
-      "text": "Create a plan to pay down your debt",
+      "text": {
+        "en": "Create a plan to pay down your debt",
+        "es": "Haga un plan para pagar su deuda"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1161,12 +1459,21 @@
           },
           "content": [
             {
-              "content": "__Create a long-term plan__\nCreating a long-term plan will help you determine if paying off your debt on your own is realistic, or if you need to seek further assistance through a credit counselor, a debt management program, or bankruptcy. ",
+              "content": {
+                "en": "__Create a long-term plan__\nCreating a long-term plan will help you determine if paying off your debt on your own is realistic, or if you need to seek further assistance through a credit counselor, a debt management program, or bankruptcy. ",
+                "es": "__Haga un plan a largo plazo__\nHacer un plan a largo plazo le ayudará a determinar si liquidar su deuda usted mismo puede ser realista, o si usted necesita buscar apoyo adicional a través de un consejero de crédito o un programa de manejo de la deuda, o bancarrota."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "create a personalized debt payoff plan",
-              "url": "https://powerpay.org",
+              "text": {
+                "en": "create a personalized debt payoff plan",
+                "es": "Genere un plan personalizado de liquidacion de deuda"
+              },
+              "url": {
+                "en": "https://powerpay.org",
+                "es": "https://powerpay.org"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1178,12 +1485,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+              "content": {
+                "en": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+                "es": "__Hable con un consejero certificado de crédito de la(NFCC)__\nLa Agencia de la Federación Nacional de Consejeros de Crédito apoya a quienes piden prestado y que están teniendo dificultades para pagar su deuda. Si usted no puede pagar sus cobros a tiempo de manera consistente cada mes, entonces usted puede obtener apoyo personalizado de un consejero. Hable con un consejero para entender cuáles son sus opciones. Pudiera haber un costo por estos servicios."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find a credit counselor near you",
-              "url": "https://www.nfcc.org/locator",
+              "text": {
+                "en": "find a credit counselor near you",
+                "es": "Busque a un consejero de credito cerca de usted"
+              },
+              "url": {
+                "en": "https://www.nfcc.org/locator",
+                "es": "https://www.nfcc.org/locator"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1197,7 +1513,10 @@
       "fileName": "contact-tax-icon.svg"
     },
     "6EL12Rgiru4s4KQEIE8sCU": {
-      "text": "Start a payment plan or settle your tax debt",
+      "text": {
+        "en": "Start a payment plan or settle your tax debt",
+        "es": "Inicie un plan de pago y resuelva su deuda de impuestos"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1205,12 +1524,21 @@
           },
           "content": [
             {
-              "content": "__Contact the IRS and tax authorities__\nIf things are tight, the IRS and other tax authorities have programs to help you pay off your tax debt in installments. ",
+              "content": {
+                "en": "__Contact the IRS and tax authorities__\nIf things are tight, the IRS and other tax authorities have programs to help you pay off your tax debt in installments. ",
+                "es": "__Contacte a las autoridades del IRS y de impuestos__\nSi las situación esta complicada, las autoridades del IRS y otras autoridades de impuestos tienen programas para ayudarle a liquidar su deuda de impuestos en pagos."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Learn more about the IRS Fresh Start Program",
-              "url": "https://www.irs.gov/uac/newsroom/irs-fresh-start-program-helps-taxpayers-who-owe-the-irs",
+              "text": {
+                "en": "Learn more about the IRS Fresh Start Program",
+                "es": "Conozca mas del Programa Fresh Start de IRS"
+              },
+              "url": {
+                "en": "https://www.irs.gov/uac/newsroom/irs-fresh-start-program-helps-taxpayers-who-owe-the-irs",
+                "es": "https://www.irs.gov/uac/newsroom/irs-fresh-start-program-helps-taxpayers-who-owe-the-irs"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1222,12 +1550,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a pro bono tax attorney__\nContact a Low-Income Taxpayer Clinic to see if you qualify for pro bono (free) legal assistance. The IRS may consider an \"offer in compromise\" to settle your debt for less than the full amount owed. If you can't find one within traveling distance to you, and have only federal tax debt, many clinics may be able to represent clients throughout the U.S. ",
+              "content": {
+                "en": "__Talk to a pro bono tax attorney__\nContact a Low-Income Taxpayer Clinic to see if you qualify for pro bono (free) legal assistance. The IRS may consider an \"offer in compromise\" to settle your debt for less than the full amount owed. If you can't find one within traveling distance to you, and have only federal tax debt, many clinics may be able to represent clients throughout the U.S. ",
+                "es": "__Hable con un abogado de impuestos tipo Pro Bono (gratuito)__\nContacte a un grupo de profesionales que apoyan a los contribuyentes de bajos ingresos para ver si usted califica para una asistencia legal tipo Pro Bono (gratuito). El IRS puede considerar una \"oferta en compromiso\" para fijar su deuda por menos del monto total que se debe. Si usted no puede encontrar un sitio de estos cerca de su domicilio y solamente tiene deudas de impuestos federales, muchos grupos profesionales pueden representar a clientes a través de todos los  Estados Unidos."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a pro bono low-Income taxpayer clinic",
-              "url": "https://taxpayeradvocate.irs.gov/about/litc",
+              "text": {
+                "en": "Find a pro bono low-Income taxpayer clinic",
+                "es": "Busque ona oficina Pro Bono (gratuita) para contribuyentes de bajo ingreso"
+              },
+              "url": {
+                "en": "https://taxpayeradvocate.irs.gov/about/litc",
+                "es": "https://taxpayeradvocate.irs.gov/about/litc"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1241,7 +1578,10 @@
       "fileName": "courts-icon.svg"
     },
     "6oT5A6kmhaSSQEYmKeEmqK": {
-      "text": "Request to lower your child support order",
+      "text": {
+        "en": "Request to lower your child support order",
+        "es": "Solicite que le reduzcan su orden de pago de pensión alimenticia para los niños"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1249,7 +1589,10 @@
           },
           "content": [
             {
-              "content": "__Contact the courts__\nIf you’re struggling to pay your child support, contact a court. You may be able to decrease the order and avoid arrest. Keep in mind, failure to address the issue can result in driver’s license suspension, tax refund seizure, passport revocation, wage or benefit garnishment, property seizure or jail in some states.",
+              "content": {
+                "en": "__Contact the courts__\nIf you’re struggling to pay your child support, contact a court. You may be able to decrease the order and avoid arrest. Keep in mind, failure to address the issue can result in driver’s license suspension, tax refund seizure, passport revocation, wage or benefit garnishment, property seizure or jail in some states.",
+                "es": "__Haga contacto con la corte__\nSi usted está batallando para pagar la pensión alimenticia, haga contacto con la corte. Usted podría lograr disminuir el pago de esta pensión y evitar el arresto. Tenga en mente, que él no hacerse cargo del problema puede resultar en que se suspenda su licencia de manejar, que haya una incautación de su reembolso de los impuestos, la revocación de su pasaporte, el embargo de sus beneficios y de su salario, la incautación de sus propiedades o cárcel en algunos estados."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1263,7 +1606,10 @@
       "fileName": "phone-call-icon.svg"
     },
     "3sdWK6HiiQ2wkKyaeaYsUW": {
-      "text": "Call your medical provider",
+      "text": {
+        "en": "Call your medical provider",
+        "es": "Llamele a sus proveedor de servicios medicos"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1271,7 +1617,10 @@
           },
           "content": [
             {
-              "content": "__Ask about payment plans or other assistance__\nIf you’re struggling with medical bills, call your medical provider to see if they offer payment plans, financial assistance or can direct you to charitable relief. ",
+              "content": {
+                "en": "__Ask about payment plans or other assistance__\nIf you’re struggling with medical bills, call your medical provider to see if they offer payment plans, financial assistance or can direct you to charitable relief. ",
+                "es": "__Pregunte sobre planes de pago u otro tipo de ayudas__\nSi usted está batallando con sus pagos médicos, hable con su proveedor de servicios médicos para ver si ellos ofrecen planes de pago, ayuda financiera o pueden dirigirlo a un área de alivio caritativo."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1281,7 +1630,10 @@
       "contentType": "option"
     },
     "75C16Zln688Ks6WEWkEgGM": {
-      "text": "Find personalized advice",
+      "text": {
+        "en": "Find personalized advice",
+        "es": "Busque consejeria personalizada"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1289,12 +1641,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+              "content": {
+                "en": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+                "es": "__Hable con un consejero certificado de crédito de la NFCC__\nLa Agencia de la Federación Nacional de Consejeros de Crédito (NFCC), apoya a quienes piden prestado y que están teniendo dificultades para pagar su deuda. Si usted no puede pagar sus cobros a tiempo consistentemente cada mes, entonces usted puede querer obtener consejería personalizada. Hablé con su consejero para entender cuáles son sus opciones. Podría haber un cargo por esos servicios."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find a credit counselor near you",
-              "url": "https://www.nfcc.org/locator",
+              "text": {
+                "en": "find a credit counselor near you",
+                "es": "Busque un consejero de credito cerca de usted"
+              },
+              "url": {
+                "en": "https://www.nfcc.org/locator",
+                "es": "https://www.nfcc.org/locator"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1304,7 +1665,10 @@
       "contentType": "option"
     },
     "6jmJgSf4EEg6S0omYM46m4": {
-      "text": "Find phone assistance and lower your phone bill",
+      "text": {
+        "en": "Find phone assistance and lower your phone bill",
+        "es": "Busque ayuda para su teléfono y reduzca a su cobro de servicio telefónico"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1312,12 +1676,21 @@
           },
           "content": [
             {
-              "content": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+              "content": {
+                "en": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+                "es": "__Revise el programa federal de Lifeline__\nLifeline es un programa que puede ayudar a bajar los costos del teléfono y el internet para clientes calificados."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
-              "url": "http://www.lifelinesupport.org/ls",
+              "text": {
+                "en": "SEE IF YOU QUALIFY FOR LIFELINE",
+                "es": "VEA SI USTED CALIFICA PARA LIFELINE"
+              },
+              "url": {
+                "en": "http://www.lifelinesupport.org/ls",
+                "es": "http://www.lifelinesupport.org/ls"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1329,12 +1702,21 @@
           },
           "content": [
             {
-              "content": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. ",
+              "content": {
+                "en": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet.",
+                "es": "__Encuentre maneras de bajar su pago de teléfono__\nUsted puede cambiar a una compañía de mas bajo costo sin perder la calidad de sus llamadas. Otras estrategias son deshacerse de su linea y combinar sus servicios con cable e internet."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "read more strategies",
-              "url": "https://www.thebalance.com/lower-your-phone-bill-1388724",
+              "text": {
+                "en": "read more strategies",
+                "es": "Lea más estrategias"
+              },
+              "url": {
+                "en": "https://www.thebalance.com/lower-your-phone-bill-1388724",
+                "es": "https://www.thebalance.com/lower-your-phone-bill-1388724"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1360,7 +1742,10 @@
       "fileName": "bankruptcy-attorney-icon.svg"
     },
     "4JRWaZ0XtmEa8EWyOmGeqK": {
-      "text": "Get help lowering your mortgage costs",
+      "text": {
+        "en": "Get help lowering your mortgage costs",
+        "es": "Busque ayuda para reducir los costos de su hipoteca"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1368,13 +1753,25 @@
           },
           "content": [
             {
-              "content": "__Talk to a housing counselor__\nGet expert and personalized advice from a counselor to prevent losing your home and equity to foreclosure. Housing counselors can help you negotiate with your lender to lower payments, review refinancing options, or discuss if selling your home or bankruptcy is right for you.",
+              "content": {
+                "en": "__Talk to a housing counselor__\nGet expert and personalized advice from a counselor to prevent losing your home and equity to foreclosure. Housing counselors can help you negotiate with your lender to lower payments, review refinancing options, or discuss if selling your home or bankruptcy is right for you.",
+                "es": "__Hable con un consejero de vivienda__\nConsiga consejería experta y personalizada de un consejero para prevenir que usted pierda su casa o su préstamo de garantâa hipotecaria en un juicio hipotecario (foreclosure). Los consejeros de vivienda pueden ayudarle a usted a negociar con quién le prestó el dinero para bajar los pagos, revisar las opciones de refinanciamiento o discutir si vender su casa por  bancarrota es correcto para usted."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "Find a Housing Counselor Near You",
-              "beginningUrlText": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
-              "endUrlText": " ",
+              "buttonText": {
+                "en": "Find a Housing Counselor Near You",
+                "es": "Busque a un consejero de vivienda cerca de usted"
+              },
+              "beginningUrlText": {
+                "en": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+                "es": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode="
+              },
+              "endUrlText": {
+                "en": " ",
+                "es": " "
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -1386,7 +1783,10 @@
           },
           "content": [
             {
-              "content": "__Talk to your mortgage lender__\nCall your mortgage lender as soon as you start or expect to have difficulty paying your mortgage. They may be able to help you temporarily or permanently pause or lower your payments and get back on track to avoid foreclosure. ",
+              "content": {
+                "en": "__Talk to your mortgage lender__\nCall your mortgage lender as soon as you start or expect to have difficulty paying your mortgage. They may be able to help you temporarily or permanently pause or lower your payments and get back on track to avoid foreclosure. ",
+                "es": "__Hable con quien le presto para la hipoteca__\nLlámele a quien le prestó tan pronto como empiece o espere tener dificultades para pagar su  hipoteca. Ellos detienen o disminuyen sus pagos y lo regresan a la normalidad para evitar  un juicio hipotecario"
+              },
               "contentType": "colorBox"
             }
           ],
@@ -1398,12 +1798,21 @@
           },
           "content": [
             {
-              "content": "__Learn about HARP__\nThe Home Affordable Refinance Program (HARP), is a federal program that allows qualified applicants to refinance their existing mortgages into more affordable mortgages. ",
+              "content": {
+                "en": "__Learn about HARP__\nThe Home Affordable Refinance Program (HARP), is a federal program that allows qualified applicants to refinance their existing mortgages into more affordable mortgages. ",
+                "es": "__Conozca más sobre HARP__\nEl Programa de Refinanciamiento Costeable de Casa, es un programa federal que permite a aplicantes calificados refinanciar sus hipotecas existentes en hipotecas mas accesibles."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LEARN MORE ABOUT HARP",
-              "url": "https://www.harp.gov/About",
+              "text": {
+                "en": "LEARN MORE ABOUT HARP",
+                "es": "CONOZCA MAS SOBRE HARP"
+              },
+              "url": {
+                "en": "https://www.harp.gov/About",
+                "es": "https://www.harp.gov/About"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1415,7 +1824,10 @@
           },
           "content": [
             {
-              "content": "__Rent part of your home__\nIf you have an extra room in your home, consider renting it to others temporarily or for the long-term for extra income. Some options include: listing as a short-term vacation rental, renting a room on a monthly or annual basis, or homestays for international students. ",
+              "content": {
+                "en": "__Rent part of your home__\nIf you have an extra room in your home, consider renting it to others temporarily or for the long-term for extra income. Some options include: listing as a short-term vacation rental, renting a room on a monthly or annual basis, or homestays for international students. ",
+                "es": "__Rente parte de su casa__\nSi usted tiene una habitación extra en su casa, considere rentarla a otras personas temporalmente o por largo plazo para un ingreso extra. Algunas opciones incluyen ponerla en una lista en una programa de renta vacacional de corto plazo o rentar una habitación en base mensual o anual o estadías para estudiantes internacionales."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1427,12 +1839,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a bankruptcy attorney__\nIf you’ve spoken to a housing counselor and bankruptcy is a viable option, speak with a bankruptcy attorney. Depending on your situation and the type you qualify for, bankruptcy may allow you to remain in your home. If you are considering bankruptcy, there are pro bono (free), affordable, or private attorneys available in your state to help. ",
+              "content": {
+                "en": "__Talk to a bankruptcy attorney__\nIf you’ve spoken to a housing counselor and bankruptcy is a viable option, speak with a bankruptcy attorney. Depending on your situation and the type you qualify for, bankruptcy may allow you to remain in your home. If you are considering bankruptcy, there are pro bono (free), affordable, or private attorneys available in your state to help. ",
+                "es": "__Hable con un abogado de bancarrota__\nSi usted ha hablado con un consejero de vivienda y la bancarrota es una opción viable, hable con un abogado de bancarrota. Dependiendo de su situación y el tipo para el que usted califique, la bancarrota puede ayudarle a permanecer en su casa. Si usted está considerando la bancarrota, hay abogados Pro Bono (gratuitos) accesibles y también abogados privados disponibles en su estado para que le ayuden."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find pro bono legal aid attorneys",
-              "url": "http://www.lawhelp.org/find-help",
+              "text": {
+                "en": "Find pro bono legal aid attorneys",
+                "es": "Busque abogados Pro Bono para ayuda legal"
+              },
+              "url": {
+                "en": "http://www.lawhelp.org/find-help",
+                "es": "http://www.lawhelp.org/find-help"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1444,13 +1865,22 @@
           },
           "content": [
             {
-              "content": "__Visit a local credit union__\nYou may be able to refinance your mortgage to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+              "content": {
+                "en": "__Visit a local credit union__\nYou may be able to refinance your mortgage to get a lower interest rate at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling.",
+                "es": "__Visite a una Unión de Crédito local__\nUsted puede refinanciar su hipoteca para obtener un interés más bajo en una Unión de Crédito. Esto pudiera ayudarle a ahorrar dinero en el pago de los intereses cada mes y hacer más espacio en su presupuesto. Algunas Uniones de Crédito también ofrecen consejería financiera."
+              },
               "textCentered": false,
               "contentType": "contentBox"
             },
             {
-              "text": "Find a credit union",
-              "url": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+              "text": {
+                "en": "Find a credit union",
+                "es": "Busque una Unión de Crédito"
+              },
+              "url": {
+                "en": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+                "es": "https://www.mycreditunion.gov/Pages/mcu-map.aspx"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1464,7 +1894,10 @@
       "fileName": "internet-subsidy-icon.svg"
     },
     "5KQZYszgQMCmo6AUqOMcUw": {
-      "text": "Reduce your internet bills",
+      "text": {
+        "en": "Reduce your internet bills",
+        "es": "Reduzca sus cobros de Internet"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1472,12 +1905,21 @@
           },
           "content": [
             {
-              "content": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+              "content": {
+                "en": "__Checkout the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers. ",
+                "es": "__Revise el programa federal de Lifeline__\nLifeline es un programa que puede ayudar a bajar los costos del teléfono y el internet para clientes calificados."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
-              "url": "http://www.lifelinesupport.org/ls",
+              "text": {
+                "en": "SEE IF YOU QUALIFY FOR LIFELINE",
+                "es": "VEA SI USTED CALIFICA PARA LIFELINE"
+              },
+              "url": {
+                "en": "http://www.lifelinesupport.org/ls",
+                "es": "http://www.lifelinesupport.org/ls"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1489,12 +1931,21 @@
           },
           "content": [
             {
-              "content": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
+              "content": {
+                "en": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
+                "es": "__Aplique para un subsidio de Internet__\nMuchos proveedores de Internet han reducido sus tarifas para que las familias que ganan menos de $35,000 al año reciban SNAP o una ayuda Pública para la Vivienda o califiquen para una comida gratis o de costo reducido."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "See if you qualify for an internet subsidy",
-              "url": "http://everyoneon.org",
+              "text": {
+                "en": "See if you qualify for an internet subsidy",
+                "es": "Vea si usted califica para un subsidio de internet"
+              },
+              "url": {
+                "en": "http://everyoneon.org",
+                "es": "http://everyoneon.org"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1506,12 +1957,21 @@
           },
           "content": [
             {
-              "content": "__Find ways to lower your internet bill__\nStrategies to try include negotiating with your internet provider, switching to a local provider, or switching to a lower tier plan.",
+              "content": {
+                "en": "__Find ways to lower your internet bill__\nStrategies to try include negotiating with your internet provider, switching to a local provider, or switching to a lower tier plan.",
+                "es": "__Find ways to lower your internet bill__\nStrategies to try include negotiating with your internet provider, switching to a local provider, or switching to a lower tier plan."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Read more about how to save",
-              "url": "http://broadbandnow.com/report/13-creative-ways-save-money-internet-bill",
+              "text": {
+                "en": "Read more about how to save",
+                "es": "Read more about how to save"
+              },
+              "url": {
+                "en": "http://broadbandnow.com/report/13-creative-ways-save-money-internet-bill",
+                "es": "http://broadbandnow.com/report/13-creative-ways-save-money-internet-bill"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1525,7 +1985,10 @@
       "fileName": "healthcare-navigator-icon.svg"
     },
     "5nv7zxWv1SwieumScsIGCM": {
-      "text": "Lower your insurance premiums",
+      "text": {
+        "en": "Lower your insurance premiums",
+        "es": "Reduzca sus Primas de Seguro"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1533,12 +1996,21 @@
           },
           "content": [
             {
-              "content": "__Contact a Healthcare Navigator__\nHealthcare Navigators are trained and unbiased individuals or organizations that can help you look for affordable health coverage options. They also also help you apply for insurance from your state health insurance marketplace.",
+              "content": {
+                "en": "__Contact a Healthcare Navigator__\nHealthcare Navigators are trained and unbiased individuals or organizations that can help you look for affordable health coverage options. They also also help you apply for insurance from your state health insurance marketplace.",
+                "es": "__Contacte a su navegador de salud__\nLos navegadores de salud son organizaciones o individuos entrenados e imparciales que pueden ayudarle a buscar opciones de cobertura de salud accesibles Ellos también ayudan a que usted aplique para su seguro de los que existen en el mercado de seguros de salud de su Estado."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a local healthcare navigator",
-              "url": "https://localhelp.healthcare.gov",
+              "text": {
+                "en": "Find a local healthcare navigator",
+                "es": "Busque un navegador de salud"
+              },
+              "url": {
+                "en": "https://localhelp.healthcare.gov",
+                "es": "https://localhelp.healthcare.gov"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1550,12 +2022,21 @@
           },
           "content": [
             {
-              "content": "__Find ways to save on auto insurance__\nThere are strategies to lower the cost of your auto insurance. Learn more here:",
+              "content": {
+                "en": "__Find ways to save on auto insurance__\nThere are strategies to lower the cost of your auto insurance. Learn more here:",
+                "es": "__Busqué formas de ahorrar en su seguro de auto__\nHay algunas estrategias para bajar el costo de su seguro de auto. Conozca más aquí:"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "save on auto insurance",
-              "url": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
+              "text": {
+                "en": "save on auto insurance",
+                "es": "Ahorre en Seguro de Auto"
+              },
+              "url": {
+                "en": "http://www.iii.org/article/how-can-i-save-money-auto-insurance",
+                "es": "http://www.iii.org/article/how-can-i-save-money-auto-insurance"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1567,12 +2048,21 @@
           },
           "content": [
             {
-              "content": "__Find ways to save on homeowners insurance__\nThere are strategies to lower the cost of your homeowners insurance. Learn more here:",
+              "content": {
+                "en": "__Find ways to save on homeowners insurance__\nThere are strategies to lower the cost of your homeowners insurance. Learn more here:",
+                "es": "__Encuentre formas de ahorrar en su seguro de casa__\nHay estrategias para bajar el costo de su seguro de casa. Aprenda más aquí."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "save on homeowners insurance",
-              "url": "http://www.iii.org/article/how-to-save-money-on-your-homeowners-insurance",
+              "text": {
+                "en": "save on homeowners insurance",
+                "es": "Ahorre en su seguro de casa"
+              },
+              "url": {
+                "en": "http://www.iii.org/article/how-to-save-money-on-your-homeowners-insurance",
+                "es": "http://www.iii.org/article/how-to-save-money-on-your-homeowners-insurance"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1602,7 +2092,10 @@
       "fileName": "eye-care-icon.svg"
     },
     "c3ORUhZ2daUqGy4wsKyYE": {
-      "text": "Find low-cost medical care  or financial assistance",
+      "text": {
+        "en": "Find low-cost medical care or financial assistance",
+        "es": "Busque cuidado médico o ayuda financiera de bajo costo"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1610,12 +2103,21 @@
           },
           "content": [
             {
-              "content": "__Call your medical provider__\nIf you're struggling with medical bills, call your medical provider to see if they offer payment plans, financial assistance or can direct you to charitable relief. Some hospitals offer a program called \"Charity Care\" to patients who cannot afford medical care.",
+              "content": {
+                "en": "__Call your medical provider__\nIf you're struggling with medical bills, call your medical provider to see if they offer payment plans, financial assistance or can direct you to charitable relief. Some hospitals offer a program called \"Charity Care\" to patients who cannot afford medical care.",
+                "es": "__Llamele de su proveedor de Servicios Médicos__\nSi usted está batallando con los cobros médicos, háblele a su proveedor de Servicios Médicos para ver si ellos ofrecen planes de pago, asistencia financiera o pueden dirigirlo a un alivio caritativo. Algunos hospitales ofrecen un programa llamado \"Charity Care\" (Cuidado Caritativo) para pacientes que no les alcanza para el cuidado médico."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Learn about how your provider can help",
-              "url": "https://www.moneyunder30.com/paying-medical-bills-you-cant-afford",
+              "text": {
+                "en": "Learn about how your provider can help",
+                "es": "Conozca como le puede ayudar su proveedor de servicios"
+              },
+              "url": {
+                "en": "https://www.moneyunder30.com/paying-medical-bills-you-cant-afford",
+                "es": "https://www.moneyunder30.com/paying-medical-bills-you-cant-afford"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1627,12 +2129,21 @@
           },
           "content": [
             {
-              "content": "__Find a community health center__\nLocal community health centers offer free or low-cost health care, even if you don't have health insurance. Fees are based on your income. Contact a health center to confirm what services they provide and to make an appointment.",
+              "content": {
+                "en": "__Find a community health center__\nLocal community health centers offer free or low-cost health care, even if you don't have health insurance. Fees are based on your income. Contact a health center to confirm what services they provide and to make an appointment.",
+                "es": "__Encuentre un Centro de Salud comunitario__\nLos Centros de Salud Comunitarios Locales ofrecen servicios de salud gratuitos o de bajo costo aunque usted no tenga seguro de salud. Los pagos están basados en su ingreso. Contacte al centro de salud para confirmar qué servicios proporcionan ellos y para hacer una cita."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find your local community health center",
-              "url": "https://findahealthcenter.hrsa.gov/index.html",
+              "text": {
+                "en": "Find your local community health center",
+                "es": "Busque su Centro de Salud Comunitario Local"
+              },
+              "url": {
+                "en": "https://findahealthcenter.hrsa.gov/index.html",
+                "es": "https://findahealthcenter.hrsa.gov/index.html"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1644,12 +2155,21 @@
           },
           "content": [
             {
-              "content": "__Contact a local nonprofit organization__\nAssistance with medical and dental services, and small grants to help pay for costs, are sometimes administered by local nonprofit organizations. Use the website below and search for \"medical\" resources in your zip code.",
+              "content": {
+                "en": "__Contact a local nonprofit organization__\nAssistance with medical and dental services, and small grants to help pay for costs, are sometimes administered by local nonprofit organizations. Use the website below and search for \"medical\" resources in your zip code.",
+                "es": "__Haga contacto con una organización local no lucrativa (non profit).__\nLa ayuda con servicios médicos y dentales y pequeñas ayudas pueden ayudar a pagar costos y son algunas veces administradas por organizaciones locales no lucrativas (non profit). Use las páginas web que están a continuación y busqué recursos \"médicos\" en el área de su código postal (zip code)."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a nonprofit",
-              "url": "https://www.auntbertha.com",
+              "text": {
+                "en": "Find a nonprofit",
+                "es": "Busque una Organizacion no Lucrativa (non profit)"
+              },
+              "url": {
+                "en": "https://www.auntbertha.com",
+                "es": "https://www.auntbertha.com"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1661,12 +2181,21 @@
           },
           "content": [
             {
-              "content": "__Get help from your state__\nSome state offices or social service agencies offer direct aid. They may also be able to refer you to other organizations for help.",
+              "content": {
+                "en": "__Get help from your state__\nSome state offices or social service agencies offer direct aid. They may also be able to refer you to other organizations for help.",
+                "es": "__Consiga ayuda de su Estado__\nAlgunas Oficinas Estatales o agencias de Servicio Social ofrecen ayuda directa. También pueden referirlo a usted a otras organizaciones de ayuda."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find help in your state",
-              "url": "http://www.aphsa.org/content/APHSA/en/resources/LINKS/STATE_CONTACTS.html",
+              "text": {
+                "en": "Find help in your state",
+                "es": "Busque ayuda en su Estado"
+              },
+              "url": {
+                "en": "http://www.aphsa.org/content/APHSA/en/resources/LINKS/STATE_CONTACTS.html",
+                "es": "http://www.aphsa.org/content/APHSA/en/resources/LINKS/STATE_CONTACTS.html"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1678,12 +2207,21 @@
           },
           "content": [
             {
-              "content": "__Get help with dental care__\nYou may be able to find free or low-cost dental care assistance from local health departments and dental schools.",
+              "content": {
+                "en": "__Get help with dental care__\nYou may be able to find free or low-cost dental care assistance from local health departments and dental schools.",
+                "es": "__Consiga ayuda con su Cuidado Dental__\nUsted puede encontrar ayuda de Cuidado Dental gratuito o de bajo costo de los Departamentos Locales de Salud o de las Escuelas Dentales."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find low-cost dental care",
-              "url": "https://www.hhs.gov/answers/health-care/where-can-i-find-low-cost-dental-care/",
+              "text": {
+                "en": "Find low-cost dental care",
+                "es": "Busque cuidado dental de bajo costo"
+              },
+              "url": {
+                "en": "https://www.hhs.gov/answers/health-care/where-can-i-find-low-cost-dental-care/",
+                "es": "https://www.hhs.gov/answers/health-care/where-can-i-find-low-cost-dental-care/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1695,12 +2233,21 @@
           },
           "content": [
             {
-              "content": "__Get help with vision and eye care__\nYou may be able to find free or low-cost vision and eye care, and financial assistance with paying for these services. Income and age restrictions may apply.",
+              "content": {
+                "en": "__Get help with vision and eye care__\nYou may be able to find free or low-cost vision and eye care, and financial assistance with paying for these services. Income and age restrictions may apply.",
+                "es": "__Consiga ayuda en el cuidado de sus ojos y de su visión__\nUsted puede encontrar servicio de cuidado de sus ojos y su visión a bajo costo o gratuitos y ayuda financiera con el pago de estos servicios. Su ingreso y su edad son restricciones que pueden aplicar."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find assistance for vision and eye care",
-              "url": "https://nei.nih.gov/health/financialaid",
+              "text": {
+                "en": "find assistance for vision and eye care",
+                "es": "Busque ayuda para el cuidado de su vision y sus ojos"
+              },
+              "url": {
+                "en": "https://nei.nih.gov/health/financialaid",
+                "es": "https://nei.nih.gov/health/financialaid"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1714,7 +2261,10 @@
       "fileName": "repayment-plan-icon.svg"
     },
     "yghvR8GarYEMOASMKw8yy": {
-      "text": "Get help with your federal  student loan payments",
+      "text": {
+        "en": "Get help with your federal student loan payments",
+        "es": "Consiga ayuda con para sus pagos federales estudiantiles"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1722,12 +2272,21 @@
           },
           "content": [
             {
-              "content": "__Request an income driven repayment plan__\nFor federal student loans, the government offers multiple income-driven plans each with their own set of eligibility requirements. You can estimate what your payments might be based on your income and household size using the repayment estimator.",
+              "content": {
+                "en": "__Request an income driven repayment plan__\nFor federal student loans, the government offers multiple income-driven plans each with their own set of eligibility requirements. You can estimate what your payments might be based on your income and household size using the repayment estimator.",
+                "es": "__Solicite un plan de Repago basado en sus ingresos__\nPara Préstamos Estudiantiles Federales. El Gobierno ofrece planes múltiples en base al ingreso, cada uno con su propio grupo de requisitos de calificación. Usted puede estimar cuáles serian sus pagos basados en su ingreso y en el tamaño de su casa utilizando un Estimador de Repago."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "go to studentaid.gov",
-              "url": "https://studentaid.ed.gov/sa/repay-loans",
+              "text": {
+                "en": "go to studentaid.gov",
+                "es": "Vaya a studentaid.gov"
+              },
+              "url": {
+                "en": "https://studentaid.ed.gov/sa/repay-loans",
+                "es": "https://studentaid.ed.gov/sa/repay-loans"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1739,12 +2298,21 @@
           },
           "content": [
             {
-              "content": "__Request loan deferment or forebearance__\nIf an income-driven repayment plan will not work for your situation, call your student loan servicer to temporarily pause your monthly payments by requesting deferment or forebearance. ",
+              "content": {
+                "en": "__Request loan deferment or forebearance__\nIf an income-driven repayment plan will not work for your situation, call your student loan servicer to temporarily pause your monthly payments by requesting deferment or forebearance. ",
+                "es": "__Solicite un aplazamiento o Paciencia en el pago__\nSi un Plan de Pago en base al ingreso no trabaja para su situación. Llamele a quién da el servicio de préstamos estudiantiles para temporalmente detener sus pagos mensuales por medio de la solicitud de un aplazamiento o paciencia para hacer sus pagos."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find your student loan servicer",
-              "url": "https://studentaid.ed.gov/npas/index.htm",
+              "text": {
+                "en": "find your student loan servicer",
+                "es": "Busque a quien le dió el servicio de préstamo estudiantil"
+              },
+              "url": {
+                "en": "https://studentaid.ed.gov/npas/index.htm",
+                "es": "https://studentaid.ed.gov/npas/index.htm"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1756,12 +2324,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a student loan attorney__\nIf you were treated unfairly by the school or lender, if the school(s) you were attending closed while you were still attending, or if your student loans are in collections, there are pro bono (free), affordable, or private attorneys available in your state who may be able to help. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+              "content": {
+                "en": "__Talk to a student loan attorney__\nIf you were treated unfairly by the school or lender, if the school(s) you were attending closed while you were still attending, or if your student loans are in collections, there are pro bono (free), affordable, or private attorneys available in your state who may be able to help. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+                "es": "__Hable con un abogado de préstamos estudiantiles__\nSi usted fue tratado de manera injusta por la escuela o por el prestamista, si la escuela a la que usted está asistiendo cerró, o si sus préstamos estudiantiles están ya en cobranza, existen abogados Pro Bono (gratis) accesibles o privados, que están disponibles en su estado y que pueden ayudarle a usted. Algunas restricciones de aceptación o de otro tipo pueden aplicar para calificar a los abogados Pro Bono o accesibles."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find pro bono legal aid attorneys",
-              "url": "http://www.lawhelp.org/find-help",
+              "text": {
+                "en": "Find pro bono legal aid attorneys",
+                "es": "Busque un Abogado de ayuda legal Pro Bono"
+              },
+              "url": {
+                "en": "http://www.lawhelp.org/find-help",
+                "es": "http://www.lawhelp.org/find-help"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1779,7 +2356,10 @@
       "fileName": "negotiate-debt-collector-icon.svg"
     },
     "58wZ4YwQJa4gYmWCUq4y6W": {
-      "text": "Get in control of your collection debt",
+      "text": {
+        "en": "Get in control of your collection debt",
+        "es": "Logre estar en control de su Deuda de Cobranza"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1787,12 +2367,21 @@
           },
           "content": [
             {
-              "content": "__Stop harrassment from a debt collector__\nIf a debt collector is repeatedly calling and threatening you, you have a right to end communication. You can: submit a compaint with the Consumer Financial Protection Bureau (CFPB) online or by phone, contact your state's attorney general's office, or send a letter to the collector. Keep notes and times of your conversations, as well as any letters you've received and sent.  ",
+              "content": {
+                "en": "__Stop harrassment from a debt collector__\nIf a debt collector is repeatedly calling and threatening you, you have a right to end communication. You can: submit a compaint with the Consumer Financial Protection Bureau (CFPB) online or by phone, contact your state's attorney general's office, or send a letter to the collector. Keep notes and times of your conversations, as well as any letters you've received and sent.  ",
+                "es": "__Detenga el acoso del colector de deudas__\nSi un colector de deudas está repetidamente  llamándole y amenazándole, usted tiene el derecho de cortar la comunicación. Usted puede enviar una queja al Buró de Protección Financiera del Consumidor (CFPB), en línea o por teléfono, contáctese a la Oficina Estatal del Abogado General, o mande una carta al colector. Guarde notas y tiempos de sus conversaciones así como las cartas que usted ha recibido y enviado."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Tips to stop harassment from collectors",
-              "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-harassment-by-a-debt-collector-en-336",
+              "text": {
+                "en": "Tips to stop harassment from collectors",
+                "es": "Consejos para detener el acoso de los colectores de deuda"
+              },
+              "url": {
+                "en": "https://www.consumerfinance.gov/ask-cfpb/what-is-harassment-by-a-debt-collector-en-336",
+                "es": "https://www.consumerfinance.gov/ask-cfpb/what-is-harassment-by-a-debt-collector-en-336"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1804,12 +2393,21 @@
           },
           "content": [
             {
-              "content": "__Request validation for the debt__\nIf you are not sure that you owe the collection agency that is attempting to collect from you, consider requesting validation. Debt collectors must be able to provide you with paperwork to validate that they actually own the debt and that they have a legal right to collect on the debt. It is best to send letters requesting validation by certified mail to maintain an official record.",
+              "content": {
+                "en": "__Request validation for the debt__\nIf you are not sure that you owe the collection agency that is attempting to collect from you, consider requesting validation. Debt collectors must be able to provide you with paperwork to validate that they actually own the debt and that they have a legal right to collect on the debt. It is best to send letters requesting validation by certified mail to maintain an official record.",
+                "es": "__Solicite una validación de la deuda__\nSi usted no está seguro de que usted debe a la agencia de colección de deudas que está intentando cobrarle a usted, considere solicitar una validación. Los colectores de deuda deben proporcionarle usted la documentación para validar que en realidad usted tiene la deuda, y que ellos tienen el derecho legal para cobrar esa deuda. Es mejor mandar cartas solicitando la validación por Correo Certificado para mantener un récord oficial."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find sample debt validation letters here",
-              "url": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695",
+              "text": {
+                "en": "Find sample debt validation letters here",
+                "es": "Encuentre ejemplos de cartas de validacion de deuda aquí"
+              },
+              "url": {
+                "en": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695",
+                "es": "https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1821,12 +2419,21 @@
           },
           "content": [
             {
-              "content": "__Negotiate with the debt collector__\nIf you are sure you owe the debt to the collection agency attempting to collect from you, or if you have received adequate validation that they own the debt, consider settling with the collection agency for less than the total amount owed. Settling for a one-time payment is more advantageous than a payment plan. ",
+              "content": {
+                "en": "__Negotiate with the debt collector__\nIf you are sure you owe the debt to the collection agency attempting to collect from you, or if you have received adequate validation that they own the debt, consider settling with the collection agency for less than the total amount owed. Settling for a one-time payment is more advantageous than a payment plan. ",
+                "es": "__Negocie con el colector de deudas__\nSi usted está seguro que usted tiene esa deuda con la agencia de colección de deudas que está intentando cobrarle a usted, o si usted ha recibido una validación adecuada de que tiene una deuda con ellos, considere resolver con la agencia de colección de deudas por menos de la cantidad total que se debe. Resolver con un pago total tiene más ventajas que establecer un plan de pagos."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Strategies for negotiating with a collector",
-              "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-best-way-to-negotiate-a-settlement-with-a-debt-collector-en-1447",
+              "text": {
+                "en": "Strategies for negotiating with a collector",
+                "es": "Strategies for negotiating with a collector"
+              },
+              "url": {
+                "en": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-best-way-to-negotiate-a-settlement-with-a-debt-collector-en-1447",
+                "es": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-best-way-to-negotiate-a-settlement-with-a-debt-collector-en-1447"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1838,12 +2445,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a consumer debt attorney__\nPro bono (free), affordable, or private attorneys may be available in your state to help validate collection debt, dispute debt, or discuss other relief options such as bankruptcy. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+              "content": {
+                "en": "__Talk to a consumer debt attorney__\nPro bono (free), affordable, or private attorneys may be available in your state to help validate collection debt, dispute debt, or discuss other relief options such as bankruptcy. Income and other eligibility restrictions may apply to qualify for pro bono or affordable attorneys. ",
+                "es": "__Hable con un abogado de deudas del consumidor__\nPuede haber abogados privados, accesibles o Pro Bono gratuitos que pueden estar disponibles en su estado para ayudarle a validar su deuda de cobranza o su deuda en disputa, o discutir otras opciones tales como la bancarrota. Su ingreso y otras restricciones de calificación pueden aplicar para que califique usted para los abogados accesibles o Pro Bono gratuitos."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find pro bono legal aid attorneys",
-              "url": "http://www.lawhelp.org/find-help",
+              "text": {
+                "en": "find pro bono legal aid attorneys",
+                "es": "Busque abogados de ayuda legal pro bono (gratuitos)"
+              },
+              "url": {
+                "en": "http://www.lawhelp.org/find-help",
+                "es": "http://www.lawhelp.org/find-help"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1853,75 +2469,129 @@
       "contentType": "option"
     },
     "1st5ZustSY6IOAMqC0E4Ss": {
-      "text": "Rent",
+      "text": {
+        "en": "Rent",
+        "es": "Renta"
+      },
       "contentType": "statement"
     },
     "2Hxj6AAs7uY6mGOiwEmGQM": {
-      "text": "Mortgage",
+      "text": {
+        "en": "Mortgage",
+        "es": "Hipoteca"
+      },
       "contentType": "statement"
     },
     "7ux1zOA9dmWoaks8M4YqQW": {
-      "text": "Food",
+      "text": {
+        "en": "Food",
+        "es": "Alimentos"
+      },
       "contentType": "statement"
     },
     "2QaRD8zK4EU8ScGQgwCyoA": {
-      "text": "Childcare",
+      "text": {
+        "en": "Childcare",
+        "es": "Cuidado de los Niños"
+      },
       "contentType": "statement"
     },
     "2U8RQVnP6wKE2YygYCYgSk": {
-      "text": "Auto Loan",
+      "text": {
+        "en": "Auto Loan",
+        "es": "Préstamo para Carro"
+      },
       "contentType": "statement"
     },
     "7IXemd5cVGgI06QcuY6w0Y": {
-      "text": "Transportation",
+      "text": {
+        "en": "Transportation",
+        "es": "Transportación"
+      },
       "contentType": "statement"
     },
     "6aEjn8miLmmEG2iAW8AseQ": {
-      "text": "Electricity",
+      "text": {
+        "en": "Electricity",
+        "es": "Electricidad"
+      },
       "contentType": "statement"
     },
     "2kJOqST2Q0gASSayaiEcCo": {
-      "text": "Heat",
+      "text": {
+        "en": "Heat",
+        "es": "Calefacción"
+      },
       "contentType": "statement"
     },
     "3UYiTuEmJGaoSG0EggO6em": {
-      "text": "Phone",
+      "text": {
+        "en": "Phone",
+        "es": "Teléfono"
+      },
       "contentType": "statement"
     },
     "1ACd3LaBW4akK6mSQEeYYC": {
-      "text": "Internet/Cable",
+      "text": {
+        "en": "Internet/Cable",
+        "es": "Cable e internet"
+      },
       "contentType": "statement"
     },
     "1mIxD11JOAUG8wgUY8EYAk": {
-      "text": "Insurance",
+      "text": {
+        "en": "Insurance",
+        "es": "Seguros"
+      },
       "contentType": "statement"
     },
     "6o55WCpQxaK2aYE4CA4EC8": {
-      "text": "Credit Card Debt",
+      "text": {
+        "en": "Credit Card Debt",
+        "es": "Deuda de Tarjeta de Crédito"
+      },
       "contentType": "statement"
     },
     "XaL9jGTuSIuscaeC6aU4E": {
-      "text": "Tax Debt",
+      "text": {
+        "en": "Tax Debt",
+        "es": "Deuda de Impuestos"
+      },
       "contentType": "statement"
     },
     "2Pyd0o2nDa8Ayes4iMEAiW": {
-      "text": "Medical Bills",
+      "text": {
+        "en": "Medical Bills",
+        "es": "Cobros Médicos"
+      },
       "contentType": "statement"
     },
     "5bLkwFUBx6eeSiGqmscgqe": {
-      "text": "Private Student Loans",
+      "text": {
+        "en": "Private Student Loans",
+        "es": "Créditos Estudiantiles Privados"
+      },
       "contentType": "statement"
     },
     "7s7qe4b0WWy0AmKs2IKY6S": {
-      "text": "Federal Student Loans",
+      "text": {
+        "en": "Federal Student Loans",
+        "es": "Créditos Estudiantiles Federales"
+      },
       "contentType": "statement"
     },
     "3WG4SZQUnCgGmsGuy2QG4A": {
-      "text": "Child Support",
+      "text": {
+        "en": "Child Support",
+        "es": "Pensión Alimenticia"
+      },
       "contentType": "statement"
     },
     "1csYK8EJfEWWGkEamkK8yk": {
-      "text": "Collections",
+      "text": {
+        "en": "Collections",
+        "es": "Cobranzas"
+      },
       "contentType": "statement"
     }
   }

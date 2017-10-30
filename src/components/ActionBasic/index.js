@@ -28,7 +28,10 @@ const ActionBasic = (props) => {
     mappingLogic = config.userInputSection.userInputMappingLogic;
   }
   let allContent = props.data.content.map((content, i) => {
-    let localizedContent = getTranslation(content.content, props.language);
+    let localizedContent = null;
+    if(content.content) {
+      localizedContent = getTranslation(content.content, props.language);
+    }
     let box = null;
     if(content.contentType === 'contentBox') {
       box = <ContentBox key={i} content={localizedContent} />;
@@ -41,7 +44,7 @@ const ActionBasic = (props) => {
       if(content.userInputFieldName) {
         url = mappingLogic[state][content.userInputFieldName.fieldName];
       }
-      box = <UrlBox key={i} text={getTranslation(content.text, props.language)} url={url} />;
+      box = <UrlBox key={i} text={getTranslation(content.text, props.language)} url={getTranslation(url, props.language)} />;
     }
     else if(content.contentType === 'zipcodeBox') {
       box = (
@@ -51,6 +54,7 @@ const ActionBasic = (props) => {
           defaultZip={props.data.zip}
           urlStart={content.beginningUrlText ? content.beginningUrlText : ""}
           urlEnd={content.endUrlText ? content.endUrlText : ""}
+          language={props.language}
         />
       );
     }

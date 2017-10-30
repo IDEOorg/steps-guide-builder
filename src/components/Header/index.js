@@ -36,7 +36,7 @@ const Header = (props) =>  {
       <a className="header_feedback_link" href={getTranslation(props.feedbackUrl, props.language)} target="_blank">
         <div className="header_back_box">
           <img className="feedback_icon" src={feedbackIcon} />
-          <p className="feedback_text">Send Feedback</p>
+          <p className="feedback_text">{getTranslation(config.guideMaterials.feedbackText, props.language)}</p>
         </div>
       </a>
     );
@@ -46,7 +46,7 @@ const Header = (props) =>  {
       <a className="header_back_link" href="https://steps.ideo.org/guides">
         <div className="header_back_box">
           <img className="header_arrow" src={arrowIcon} />
-          <p>Home</p>
+          <p>{getTranslation(config.guideMaterials.homeText, props.language)}</p>
         </div>
       </a>
       <div>

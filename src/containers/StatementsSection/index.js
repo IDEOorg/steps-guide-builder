@@ -9,6 +9,7 @@ import Card from "../../components/Card";
 import Button from "../../components/Button";
 import ProgressBar from "../../components/ProgressBar";
 import UserInputSection from "../UserInputSection";
+import FormattedMsg from "../FormattedMsg";
 import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
@@ -20,10 +21,8 @@ const StatementsSection = (props) => {
   } else {
     isFullSize = true;
   }
-  console.log('ok');
-  console.log(props.statementPage);
+
   const statements = props.statementPage.statements.map(statement => {
-    console.log(statement);
     return (
       <Card
         key={statement.id}
@@ -99,7 +98,9 @@ const StatementsSection = (props) => {
             }
           }}
         >
-          Show me my options
+          <FormattedMsg>
+            {config.guideMaterials.showOptionsText}
+          </FormattedMsg>
         </Button>
       </div>
     </div>

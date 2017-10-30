@@ -16,6 +16,8 @@ function mapZipToState(zip) {
 }
 
 const ActionFullPage = (props) => {
+  console.log(props);
+  console.log('action full');
   let mappingLogic = null;
   let state = null;
   if(props.data.zip) {
@@ -48,6 +50,7 @@ const ActionFullPage = (props) => {
           defaultZip={props.data.zip}
           urlStart={content.beginningUrlText ? content.beginningUrlText : ""}
           urlEnd={content.endUrlText ? content.endUrlText : ""}
+          language={props.language}
         />
       );
     }

@@ -11,6 +11,26 @@
       "en": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform",
       "es": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform"
     },
+    "feedbackText": {
+      "en": "Send Feedback",
+      "es": "Enviar Comentarios"
+    },
+    "homeText": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "showOptionsText": {
+      "en": "Show me my options",
+      "es": "Muéstrame mis opciones"
+    },
+    "iveAlreadyTriedThisText": {
+      "en": "I've already tried this.",
+      "es": "Ya he intentado esto"
+    },
+    "zipCodeBoxPlaceholder": {
+      "en": "MY ZIP CODE",
+      "es": "MI CÓDIGO POSTAL"
+    },
     "contentType": "guideMaterials"
   },
   "optionsPage": {
@@ -82,16 +102,10 @@
       "sidebar": {
         "content": {
           "en": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# I Can't Pay My Rent\nThere are still options to explore when you can't pay rent. To get started, choose all the statements on the right that apply to you.",
-          "es": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# No puedo pagar mis servicios publicos\nThere are still options to explore when you can't pay rent. To get started, choose all the statements on the right that apply to you."
+          "es": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# No Puedo Pagar Mi Renta\nTodavía hay opciones para explorar cuando no se puede pagar la renta. Para empezar, elija todas las declaraciones de la derecha que se aplican a usted."
         },
-        "position": {
-          "en": true,
-          "es": true
-        },
-        "textAlign": {
-          "en": true,
-          "es": true
-        },
+        "position": true,
+        "textAlign": true,
         "contentType": "sidebar"
       },
       "statementsToOptions": {
@@ -101,29 +115,20 @@
         },
         "statementsToOptions": [
           {
-            "override": {
-              "en": true,
-              "es": true
-            },
+            "override": true,
             "statementRules": [
               {
                 "statement": {
                   "id": "cswm8riVDagEuoEAkuWyY"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               },
               {
                 "statement": {
                   "id": "4Sq7Sok94A2qMQAyCC2USq"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -135,29 +140,20 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": true,
-              "es": true
-            },
+            "override": true,
             "statementRules": [
               {
                 "statement": {
                   "id": "2Wqw8YUtCoWwSmcUqqOWKS"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               },
               {
                 "statement": {
                   "id": "4Sq7Sok94A2qMQAyCC2USq"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -181,29 +177,20 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": true,
-              "es": true
-            },
+            "override": true,
             "statementRules": [
               {
                 "statement": {
                   "id": "2Wqw8YUtCoWwSmcUqqOWKS"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               },
               {
                 "statement": {
                   "id": "cswm8riVDagEuoEAkuWyY"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -215,19 +202,13 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "statementRules": [
               {
                 "statement": {
                   "id": "2Wqw8YUtCoWwSmcUqqOWKS"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -248,19 +229,13 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "statementRules": [
               {
                 "statement": {
                   "id": "5prmY98iWs4W08Q08gUSoq"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -281,19 +256,13 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "statementRules": [
               {
                 "statement": {
                   "id": "3usUZICBniicsgMSW2SQUW"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -314,19 +283,13 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "statementRules": [
               {
                 "statement": {
                   "id": "J1O6UR0UkSowCSKKiiqwG"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -347,19 +310,13 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "statementRules": [
               {
                 "statement": {
                   "id": "cswm8riVDagEuoEAkuWyY"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -371,19 +328,13 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "statementRules": [
               {
                 "statement": {
                   "id": "4Sq7Sok94A2qMQAyCC2USq"
                 },
-                "selected": {
-                  "en": true,
-                  "es": true
-                },
+                "selected": true,
                 "contentType": "statementRule"
               }
             ],
@@ -398,10 +349,7 @@
             "contentType": "statementsToOptions"
           },
           {
-            "override": {
-              "en": false,
-              "es": false
-            },
+            "override": false,
             "options": [
               {
                 "id": "3jEpqtVTygyIOYoEuuMIq4"
@@ -421,10 +369,7 @@
         ],
         "contentType": "statementsToOptionsRules"
       },
-      "statementPageLayout": {
-        "en": false,
-        "es": false
-      },
+      "statementPageLayout": false,
       "contentType": "statementPage"
     }
   ],
@@ -631,14 +576,14 @@
             {
               "content": {
                 "en": "__Reduce your home energy usage & costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricity usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
-                "es": "__Reduce your home energy usage & costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricity usage and provide financial assistance to improve and update home systems. Income restrictions may apply. "
+                "es": "__Reduce su consumo de energía en casa y costos__\nProgramas de Ayuda para la Climatización (WAP) ayuda a inquilinos y propietarios de viviendas a reducir su calefacción, refrigeración y uso de electricidad y proporcionar asistencia financiera para mejorar y actualizar los sistemas domésticos. Las restricciones de ingresos pueden aplicarse."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "FIND YOUR STATE WAP",
-                "es": "FIND YOUR STATE WAP"
+                "es": "ENCUENTRE EN SU ESTADO WAP"
               },
               "url": {
                 "en": "https://www.usa.gov/repairing-home#item-35127",
@@ -657,14 +602,14 @@
             {
               "content": {
                 "en": "__Check out the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers.",
-                "es": "__Check out the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers."
+                "es": "__Revise el programa federal Lifeline__\nLifeline es un programa federal que puede ayudar a reducir los costos mensuales de teléfono e Internet para clientes elegibles."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "SEE IF YOU QUALIFY FOR LIFELINE",
-                "es": "SEE IF YOU QUALIFY FOR LIFELINE"
+                "es": "VEA SI CALIFICA PARA LIFELINE"
               },
               "url": {
                 "en": "http://www.lifelinesupport.org/ls/",
@@ -683,14 +628,14 @@
             {
               "content": {
                 "en": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
-                "es": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. "
+                "es": "__Applique para un subsidio de Internet__\nMuchos proveedores de Internet tienen tarifas reducidas para las familias que ganan menos de $35,000/año, reciben ayuda de SNAP o de la vivienda pública, o califican para el almuerzo gratis y reducido."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "SEE IF YOU QUALIFY FOR AN INTERNET SUBSIDY",
-                "es": "SEE IF YOU QUALIFY FOR AN INTERNET SUBSIDY"
+                "es": "VEA SI CALIFICA PARA EL SUBSIDIO DE INTERNET"
               },
               "url": {
                 "en": "http://everyoneon.org/",
@@ -820,14 +765,14 @@
             {
               "content": {
                 "en": "__Apply for rental payment assistance__\nCheck to see if rental payment assistance is available where you live. Income restrictions may apply.",
-                "es": "__Apply for rental payment assistance__\nCheck to see if rental payment assistance is available where you live. Income restrictions may apply."
+                "es": "__Aplique para la asistencia del pago de renta__\nCompruebe si la asistencia de pago de renta está disponible donde usted vive. Las restricciones de ingresos pueden aplicarse."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "GO TO RENTASSISTANCE.US",
-                "es": "GO TO RENTASSISTANCE.US"
+                "es": "VAYA A RENTASSISTANCE.US"
               },
               "url": {
                 "en": "https://www.rentassistance.us/",
@@ -848,7 +793,7 @@
     "4PYd75NXeUqCCGCKMSKMCW": {
       "text": {
         "en": "Find personalized advice",
-        "es": "Find personalized advice"
+        "es": "Encuentre consejos personalizados"
       },
       "actions": [
         {
@@ -859,14 +804,14 @@
             {
               "content": {
                 "en": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
-                "es": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance."
+                "es": "### Hable con un consejero\nSi no es puede pagar su renta por el momento, entonces una sesión gratis con un consejero de viviendas es la mejor opción para usted. El consejero puede saber sobre opciones de menor costo de renta en su área o programas en los que puedes calificar. Un consejero también puede ayudarle a ordenar sus gastos y buscar ayuda para sus pagos."
               },
               "contentType": "contentBox"
             },
             {
               "buttonText": {
                 "en": "FIND A HOUSING COUNSELOR NEAR YOU",
-                "es": "FIND A HOUSING COUNSELOR NEAR YOU"
+                "es": "ENCUENTRE UN CONSEJERO DE VIVIENDA CERCA DE USTED"
               },
               "beginningUrlText": {
                 "en": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
@@ -891,7 +836,7 @@
     "2j8sWhX4AUKu02cKgAySuw": {
       "text": {
         "en": "Secure regular income",
-        "es": "Secure regular income"
+        "es": "Asegure sus ingresos regulares"
       },
       "actions": [
         {
@@ -902,14 +847,14 @@
             {
               "content": {
                 "en": "### Apply for unemployment benefits\nDon’t wait to file! After you fill out your application, it can take a few weeks to get your first check.",
-                "es": "### Apply for unemployment benefits\nDon’t wait to file! After you fill out your application, it can take a few weeks to get your first check."
+                "es": "### Aplique para los beneficios de desempleo\n¡No se espere a archivar! Después de que llene su aplicación, puede tomar algunas semanas para que reciba su primer cheque."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "FIND UNEMPLOYMENT BENEFITS",
-                "es": "FIND UNEMPLOYMENT BENEFITS"
+                "es": "BUSQUE BENEFICIOS DE DESEMPLEO"
               },
               "url": {
                 "en": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx",
@@ -960,7 +905,7 @@
     "1q2XvrvKQo0s0yUuAqAoO6": {
       "text": {
         "en": "See if you qualify for any government benefits",
-        "es": "See if you qualify for any government benefits"
+        "es": "Vea si usted califica para algún beneficio del gobierno."
       },
       "actions": [
         {
@@ -971,14 +916,14 @@
             {
               "content": {
                 "en": "### Take the Benefits assessment\nGovernment benefits can help with anything from food bills to doctors bills. Even if you don’t qualify for help with your rent bill, you might qualify for something else that will free up more money for your rent.",
-                "es": "### Take the Benefits assessment\nGovernment benefits can help with anything from food bills to doctors bills. Even if you don’t qualify for help with your rent bill, you might qualify for something else that will free up more money for your rent."
+                "es": "### Tome la evaluación de Beneficios\nLos beneficios de Gobierno pueden ayudarle con cualquier cosa desde sus cobros de alimentos hasta sus cobros médicos. Incluso si no califica para la ayuda de su cobro de renta, puede calificar para algo más que le ayude a tener dinero libre para su renta."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "GO TO BENEFITS.GOV",
-                "es": "GO TO BENEFITS.GOV"
+                "es": "VAYA A BENEFITS.GOV"
               },
               "url": {
                 "en": "https://www.benefits.gov",
@@ -999,7 +944,7 @@
     "4IKABcabbycsMmS6SiuIQs": {
       "text": {
         "en": "Get help immediately",
-        "es": "Get help immediately"
+        "es": "Consiga ayuda inmediatamente"
       },
       "actions": [
         {
@@ -1010,14 +955,14 @@
             {
               "content": {
                 "en": "### Save all documents and seek help\nIf you believe you are being treated unfairly by your landlord or property manager, get in touch with a tenants rights organization to see what your options are. The following website has a list of tenants rights resources and legal assistance available in your state. You may be able to get help from an attorney provided by the court for those who can’t afford a lawyer and they can help you understand the eviction process, your rights and your options. Your new attorney will need to see all notices, letters or emails from your landlord as well as from any other lawyers or courts.",
-                "es": "### Save all documents and seek help\nIf you believe you are being treated unfairly by your landlord or property manager, get in touch with a tenants rights organization to see what your options are. The following website has a list of tenants rights resources and legal assistance available in your state. You may be able to get help from an attorney provided by the court for those who can’t afford a lawyer and they can help you understand the eviction process, your rights and your options. Your new attorney will need to see all notices, letters or emails from your landlord as well as from any other lawyers or courts."
+                "es": "### Guarde todos sus documentos y busque ayuda\nSi cree que ha sido tratado injustamente por el rentero o el administrador de la propiedad, pongase en contacto con una organización de derechos de los inquilinos para ver que opciones tiene. La siguiente página web tiene una lista de los derechos humanos de los inquilinos y asistencia legal disponible en su estado. Usted puede conseguir ayuda de un abogado proporcionado por la corte para aquellos que no pueden pagar uno, y ellos pueden ayudarle a comprender el proceso de desalojo y sus derechos y sus opciones. Su nuevo abogado deberá ver todos los avisos, cartas o correos del rentero asi como de los otros abogados o cortes."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "FIND TENANTS RIGHTS ADVOCATES IN YOUR STATE",
-                "es": "FIND TENANTS RIGHTS ADVOCATES IN YOUR STATE"
+                "es": "BUSQUE A LOS ABOGADOS DE DERECHOS DE LOS INQUILINOS EN SU ESTADO"
               },
               "url": {
                 "en": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights",
@@ -1065,7 +1010,7 @@
             {
               "content": {
                 "en": "### Open a savings account\nWhen you save small amounts of money over time, you create a safety net for any unexpected bills. Have a savings goal in mind when you open your account, and it will give you the motivation to get started. Also, do an internet search to see if a nonprofit near you has an “Individual Development Account” (IDA) program, a special savings account that will add matching funds every time you save.",
-                "es": "### Abra una cuenta de ahorros.\nCuando ahorra pequeñas cantidades de dinero con el tiempo, crea una red de seguridad para algun cobro inesperado. Tenga una meta de ahorro en mente cuando abra su cuenta, eso le dará una motivación a empezar. También, haga una busqueda en internet para ver si hay un programa no lucrativo, como el programa de  \"Cuenta de Desarrollo Individual\" (IDA), una cuenta especial de ahorro que añadirá fondos correspondientes cada que vez que usted ahorre."
+                "es": "### Abra una cuenta de ahorros\nCuando ahorra pequeñas cantidades de dinero con el tiempo, crea una red de seguridad para algun cobro inesperado. Tenga una meta de ahorro en mente cuando abra su cuenta, eso le dará una motivación a empezar. También, haga una busqueda en internet para ver si hay un programa no lucrativo, como el programa de  \"Cuenta de Desarrollo Individual\" (IDA), una cuenta especial de ahorro que añadirá fondos correspondientes cada que vez que usted ahorre."
               },
               "contentType": "contentBox"
             },
@@ -1158,14 +1103,14 @@
             {
               "content": {
                 "en": "__Try a savings app__\nThere are free or low-cost apps available to help you start saving automatically. Every app works a little differently, so if you’re interested in using a savings app, find and stick with the one that works for you. ",
-                "es": "__Try a savings app__\nThere are free or low-cost apps available to help you start saving automatically. Every app works a little differently, so if you’re interested in using a savings app, find and stick with the one that works for you. "
+                "es": "__Trate una aplicación de ahorros__\nHay algunos gratis o de bajo costo disponibles que le pueden ayudar a ahorrar automáticamente. Cada aplicación trabaja de manera diferente, si usted esta interesado en usar una aplicacion para ahorrar, busque y quedese con una que va a funcionar para usted."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "LEARN MORE ABOUT SAVINGS APPS",
-                "es": "LEARN MORE ABOUT SAVINGS APPS"
+                "es": "APRENDA MAS ACERCA DE APLICACIONES DE AHORROS"
               },
               "url": {
                 "en": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/",

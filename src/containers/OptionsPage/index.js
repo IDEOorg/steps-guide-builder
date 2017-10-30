@@ -11,6 +11,7 @@ import OptionsIntro from '../../components/OptionsIntro';
 import ActionPlan from '../../components/ActionPlan';
 import TriedOptions from '../TriedOptions';
 import config from '../../data/config';
+import {getTranslation} from '../../globals/utils';
 const queryString = require('query-string');
 
 class OptionsPage extends Component {
@@ -78,6 +79,8 @@ class OptionsPage extends Component {
     }
   }
   render() {
+    console.log(this.props);
+    console.log('options page');
     const currentOption = this.props.currentOption;
     const filteredOptions = this.props.options.filter((option) => !option.tried);
 
@@ -90,7 +93,7 @@ class OptionsPage extends Component {
         let id = option.id;
         let onLinkClick = () => {this.props.markTried(id);};
         let onSelect = () => {this.scrollOnOptionSelect(id); this.props.onSelect(id);};
-        return generateOption(id, currentOption, i + 1, onLinkClick, onSelect);
+        return generateOption(id, currentOption, i + 1, onLinkClick, onSelect, this.props.language);
       });
       actionPlans = filteredOptions.map((option) => {
         let id = option.id;
@@ -108,7 +111,7 @@ class OptionsPage extends Component {
           };
           optionBox = (
             <div data-option={id} className="option_box_mobile">
-              { generateOption(id, currentOption, i + 1, onLinkClick, onSelect) }
+              { generateOption(id, currentOption, i + 1, onLinkClick, onSelect, this.props.language) }
             </div>
           );
         }
@@ -184,7 +187,7 @@ function generateActionPlan(id, currentOption, zipcode, language) {
   );
 }
 
-function generateOption(id, currentOption, order, onLinkClick, onSelect) {
+function generateOption(id, currentOption, order, onLinkClick, onSelect, language) {
   return (
     <Option
       key={id}
@@ -192,7 +195,7 @@ function generateOption(id, currentOption, order, onLinkClick, onSelect) {
       selected={id === currentOption}
       order={order}
       onLinkClick={onLinkClick}
-      linkText={"I've already tried this."}
+      linkText={getTranslation(config.guideMaterials.iveAlreadyTriedThisText, language)}
       onSelect={onSelect}
     />
   );
