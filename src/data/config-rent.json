@@ -1,16 +1,48 @@
 {
-  "title": "I Can't Pay My Rent",
+  "title": {
+    "en": "I Can't Pay My Rent",
+    "es": "No Puedo Pagar Mi Renta"
+  },
   "guideMaterials": {
     "headerIcon": {
       "id": "yfN3BkEgISmCMyamiq0mU"
     },
-    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform",
+    "feedbackUrl": {
+      "en": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform",
+      "es": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform"
+    },
+    "feedbackText": {
+      "en": "Send Feedback",
+      "es": "Enviar Comentarios"
+    },
+    "homeText": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "showOptionsText": {
+      "en": "Show me my options",
+      "es": "Muéstrame mis opciones"
+    },
+    "iveAlreadyTriedThisText": {
+      "en": "I've already tried this.",
+      "es": "Ya he intentado esto"
+    },
+    "zipCodeBoxPlaceholder": {
+      "en": "MY ZIP CODE",
+      "es": "MI CÓDIGO POSTAL"
+    },
     "contentType": "guideMaterials"
   },
   "optionsPage": {
     "navigation": {
-      "title": "What can you do?",
-      "linkText": "Back to statements",
+      "title": {
+        "en": "What can you do?",
+        "es": "¿Qué puede hacer?"
+      },
+      "linkText": {
+        "en": "Back to statements",
+        "es": "Volver a las declaraciones"
+      },
       "contentType": "navigation"
     },
     "options": [
@@ -43,7 +75,10 @@
   },
   "statementsPages": [
     {
-      "title": "Statements",
+      "title": {
+        "en": "Statements",
+        "es": "Statements"
+      },
       "statements": [
         {
           "id": "2Wqw8YUtCoWwSmcUqqOWKS"
@@ -65,13 +100,19 @@
         }
       ],
       "sidebar": {
-        "content": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# I Can't Pay My Rent\nThere are still options to explore when you can't pay rent. To get started, choose all the statements on the right that apply to you.",
+        "content": {
+          "en": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# I Can't Pay My Rent\nThere are still options to explore when you can't pay rent. To get started, choose all the statements on the right that apply to you.",
+          "es": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# No Puedo Pagar Mi Renta\nTodavía hay opciones para explorar cuando no se puede pagar la renta. Para empezar, elija todas las declaraciones de la derecha que se aplican a usted."
+        },
         "position": true,
         "textAlign": true,
         "contentType": "sidebar"
       },
       "statementsToOptions": {
-        "title": "Statement Rules",
+        "title": {
+          "en": "Statement Rules",
+          "es": "Statement Rules"
+        },
         "statementsToOptions": [
           {
             "override": true,
@@ -355,7 +396,10 @@
       "fileName": "talktolandlord-icon-4.svg"
     },
     "3jEpqtVTygyIOYoEuuMIq4": {
-      "text": "Talk to your landlord",
+      "text": {
+        "en": "Talk to your landlord",
+        "es": "Hable con su rentero"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -363,7 +407,10 @@
           },
           "content": [
             {
-              "content": "### Get in touch sooner than later\nTaking the initiative to contact your landlord will help build trust. Try giving him/her a call and saying something like, “Hi (landlord), just wanted to make you aware that I’m having some trouble with the rent this month. I’m very sorry for the inconvenience, and I hope we can work out a plan to get it paid as soon as possible.” This allows your landlord to consider their options as well as yours in a calm, and informed way.",
+              "content": {
+                "en": "### Get in touch sooner than later\nTaking the initiative to contact your landlord will help build trust. Try giving him/her a call and saying something like, “Hi (landlord), just wanted to make you aware that I’m having some trouble with the rent this month. I’m very sorry for the inconvenience, and I hope we can work out a plan to get it paid as soon as possible.” This allows your landlord to consider their options as well as yours in a calm, and informed way.",
+                "es": "### Pongase en contacto cuanto antes.\nTomar la iniciativa de contactar con el rentero ayudará a crear confianza. Intente llamarle y decir algo como, \"Hola (rentero), solo quería decirle que estoy teniendo problemas con la renta este mes. Lo siento mucho por la inconvenencia, y espero que lleguemos a un acuerdo para poder pagarlo lo mas pronto posible.\" Esto permite que el rentero considere sus opciones asi como las suyas de una manera calmada y en comunicacion."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -375,7 +422,10 @@
           },
           "content": [
             {
-              "content": "### Be easy to reach\nBe sure to answer any calls, emails or texts from your landlord as soon as you receive them. When you are responsive, you show your landlord that you respect his/her time and that you aren’t going to disappear. ",
+              "content": {
+                "en": "### Be easy to reach\nBe sure to answer any calls, emails or texts from your landlord as soon as you receive them. When you are responsive, you show your landlord that you respect his/her time and that you aren’t going to disappear. ",
+                "es": "### Sea facil de contactar.\nAsegurese de contestar todas las llamadas, correos o textos que reciba del rentero tan pronto como las reciba. Cuando es responsable, le demuestra  que respeta su tiempo y que no se esta escondiendo."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -387,7 +437,10 @@
           },
           "content": [
             {
-              "content": "### Suggest solutions\nYou want your landlord to know that you eventually intend to pay. As a show of good faith, it’s very helpful to suggest temporary or alternate solutions, such as a partial payment or a payment plan. Make sure to get any agreement in writing.",
+              "content": {
+                "en": "### Suggest solutions\nYou want your landlord to know that you eventually intend to pay. As a show of good faith, it’s very helpful to suggest temporary or alternate solutions, such as a partial payment or a payment plan. Make sure to get any agreement in writing.",
+                "es": "### Sugiere soluciones\nLo que usted quiere es que el rentero sepa que eventualmente pretende pagarle. Como una muestra de buena fe, es de mucha ayuda sugerir una solución temporal o alternativa, como un pago parcial o un plan de pago. Asegurese de llegar a un acuerdo escrito."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -399,7 +452,10 @@
           },
           "content": [
             {
-              "content": "### Apologies are better than excuses\nUnless the details of your situation will lead to a viable payment solution, then it’s best not to offer any extra information. Simply apologize and focus on the best way to get your rent paid in the shortest amount of time.",
+              "content": {
+                "en": "### Apologies are better than excuses\nUnless the details of your situation will lead to a viable payment solution, then it’s best not to offer any extra information. Simply apologize and focus on the best way to get your rent paid in the shortest amount of time.",
+                "es": "### Las disculpas son mejores que las excusas\nA menos que los detalles de su situación lleven a una solución de pago posible, lo mejor es no dar información extra. Simplemente disculpese y concentrese en la mejor forma de pagar su renta en el menor tiempo posible."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -433,7 +489,10 @@
       "fileName": "utility-subsidy.svg"
     },
     "2OD7sGaLBKuUMcU6KsQ466": {
-      "text": "Get utility assistance",
+      "text": {
+        "en": "Get utility assistance",
+        "es": "Consiga asistencia para los servicios publicos"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -441,7 +500,10 @@
           },
           "content": [
             {
-              "content": "### Call your Utility Provider\nYour utility company may have a program that can help customers pay their bills, including creating a payment plan.",
+              "content": {
+                "en": "### Call your Utility Provider\nYour utility company may have a program that can help customers pay their bills, including creating a payment plan.",
+                "es": "### Llame a su proveedor de servicios publicos.\nSu compañía de servicios publicos puede tener un programa que ayude a los clientes a pagar sus cobros, incluyendo crear un plan de pago."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -453,12 +515,21 @@
           },
           "content": [
             {
-              "content": "### Find government assistance\nMany state and local government agencies have programs that can help with your utility bill. Find out more here:",
+              "content": {
+                "en": "### Find government assistance\nMany state and local government agencies have programs that can help with your utility bill. Find out more here:",
+                "es": "### Busque asistencia gobernamental\nMuchos estados y agencias de gobiernos locales tienen programas que pueden ayudarle con las cobros de servicios publicos. Encuentre mas información aquí:"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO UTILITYBILLASSISTANCE.COM",
-              "url": "www.utilitybillassistance.com",
+              "text": {
+                "en": "GO TO UTILITYBILLASSISTANCE.COM",
+                "es": "VE A UTILITYBILLASSISTANCE.COM"
+              },
+              "url": {
+                "en": "www.utilitybillassistance.com",
+                "es": "www.utilitybillassistance.com"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -470,16 +541,28 @@
           },
           "content": [
             {
-              "content": "### Apply for LIHEAP\nAssistance is available through the federal Low-Income Home Energy Assistance Program. Each state is different, so make sure to look up your state and ask about what it takes to qualify.",
+              "content": {
+                "en": "### Apply for LIHEAP\nAssistance is available through the federal Low-Income Home Energy Assistance Program. Each state is different, so make sure to look up your state and ask about what it takes to qualify.",
+                "es": "### Aplique para la LIHEAP\nPrograma de asistencia para la energia de hogares con bajo salario. Cada estado es diferente, asi que asegurese de verificar el de su estado y preguntar sobre que se necesita para calificar en este programa."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "__General Criteria__\n- Residents with very young children, elderly or disabled family members\n- Homes with low-incomes and high regional costs",
+              "content": {
+                "en": "__General Criteria__\n- Residents with very young children, elderly or disabled family members\n- Homes with low-incomes and high regional costs",
+                "es": "__Criterios generales__\n- Residentes con hijos pequeños, personas de edad avanzada o miembros de familia discapacitados.\n- Hogares con bajo salario y altos costos regionales."
+              },
               "contentType": "criteriaBox"
             },
             {
-              "text": "FIND YOUR STATE’S CONTACT INFORMATION",
-              "url": "https://liheapch.acf.hhs.gov/db/index.php",
+              "text": {
+                "en": "FIND YOUR STATE’S CONTACT INFORMATION",
+                "es": "BUSQUE INFORMACION DE CONTACTOS DE SU ESTADO"
+              },
+              "url": {
+                "en": "https://liheapch.acf.hhs.gov/db/index.php",
+                "es": "https://liheapch.acf.hhs.gov/db/index.php"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -491,12 +574,21 @@
           },
           "content": [
             {
-              "content": "__Reduce your home energy usage & costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricity usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
+              "content": {
+                "en": "__Reduce your home energy usage & costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricity usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
+                "es": "__Reduce su consumo de energía en casa y costos__\nProgramas de Ayuda para la Climatización (WAP) ayuda a inquilinos y propietarios de viviendas a reducir su calefacción, refrigeración y uso de electricidad y proporcionar asistencia financiera para mejorar y actualizar los sistemas domésticos. Las restricciones de ingresos pueden aplicarse."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND YOUR STATE WAP",
-              "url": "https://www.usa.gov/repairing-home#item-35127",
+              "text": {
+                "en": "FIND YOUR STATE WAP",
+                "es": "ENCUENTRE EN SU ESTADO WAP"
+              },
+              "url": {
+                "en": "https://www.usa.gov/repairing-home#item-35127",
+                "es": "https://www.usa.gov/repairing-home#item-35127"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -508,12 +600,21 @@
           },
           "content": [
             {
-              "content": "__Check out the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers.",
+              "content": {
+                "en": "__Check out the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers.",
+                "es": "__Revise el programa federal Lifeline__\nLifeline es un programa federal que puede ayudar a reducir los costos mensuales de teléfono e Internet para clientes elegibles."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "SEE IF YOU QUALIFY FOR LIFELINE",
-              "url": "http://www.lifelinesupport.org/ls/",
+              "text": {
+                "en": "SEE IF YOU QUALIFY FOR LIFELINE",
+                "es": "VEA SI CALIFICA PARA LIFELINE"
+              },
+              "url": {
+                "en": "http://www.lifelinesupport.org/ls/",
+                "es": "http://www.lifelinesupport.org/ls/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -525,12 +626,21 @@
           },
           "content": [
             {
-              "content": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
+              "content": {
+                "en": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
+                "es": "__Applique para un subsidio de Internet__\nMuchos proveedores de Internet tienen tarifas reducidas para las familias que ganan menos de $35,000/año, reciben ayuda de SNAP o de la vivienda pública, o califican para el almuerzo gratis y reducido."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "SEE IF YOU QUALIFY FOR AN INTERNET SUBSIDY",
-              "url": "http://everyoneon.org/",
+              "text": {
+                "en": "SEE IF YOU QUALIFY FOR AN INTERNET SUBSIDY",
+                "es": "VEA SI CALIFICA PARA EL SUBSIDIO DE INTERNET"
+              },
+              "url": {
+                "en": "http://everyoneon.org/",
+                "es": "http://everyoneon.org/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -556,7 +666,10 @@
       "fileName": "emergency-money.svg"
     },
     "4de8lryJlKK6eIA6wQgKug": {
-      "text": "Get emergency money",
+      "text": {
+        "en": "Get emergency money",
+        "es": "Consiga dinero de emergencia"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -564,13 +677,25 @@
           },
           "content": [
             {
-              "content": "### Contact your local 2-1-1\nThey can connect you with other organizations that help with housing issues. See what’s available near you.",
+              "content": {
+                "en": "### Contact your local 2-1-1\nThey can connect you with other organizations that help with housing issues. See what’s available near you.",
+                "es": "### Contacte a su 2-1-1 LOCAL\nEllos pueden conectarle con otras organizaciones que ayudan a estos problemas de hogar. Mire cual está disponible cerca de usted."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND YOUR LOCAL 2-1-1",
-              "beginningUrlText": "http://211.org/search?zip=",
-              "endUrlText": "&city=&state=",
+              "buttonText": {
+                "en": "FIND YOUR LOCAL 2-1-1",
+                "es": "ENCUENTRE SU 2-1-1 LOCAL"
+              },
+              "beginningUrlText": {
+                "en": "http://211.org/search?zip=",
+                "es": "http://211.org/search?zip="
+              },
+              "endUrlText": {
+                "en": "&city=&state=",
+                "es": "&city=&state="
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -582,13 +707,25 @@
           },
           "content": [
             {
-              "content": "### Find a Catholic Charities agency\nThey help people with housing issues all the time. See what’s available in your neighborhood.",
+              "content": {
+                "en": "### Find a Catholic Charities agency\nThey help people with housing issues all the time. See what’s available in your neighborhood.",
+                "es": "### Encuentre una Agencia Caritativa Católica\nEllos ayudan a la gente con problemas en el hogar todo el tiempo. Verifique si hay alguna disponible en su vecindario."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND YOUR LOCAL CATHOLIC CHARITIES",
-              "beginningUrlText": "https://catholiccharitiesusa.org/find-help?near=",
-              "endUrlText": "#results",
+              "buttonText": {
+                "en": "FIND YOUR LOCAL CATHOLIC CHARITIES",
+                "es": "ENCUENTRA TU AGENCIA CARITATIVA CATOLICA LOCAL"
+              },
+              "beginningUrlText": {
+                "en": "https://catholiccharitiesusa.org/find-help?near=",
+                "es": "https://catholiccharitiesusa.org/find-help?near="
+              },
+              "endUrlText": {
+                "en": "#results",
+                "es": "#results"
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -600,12 +737,21 @@
           },
           "content": [
             {
-              "content": "### Apply for a Modest Needs grant\nThese small, emergency sums of money are allocated to low-income workers. Find out more by visiting their website.",
+              "content": {
+                "en": "### Apply for a Modest Needs grant\nThese small, emergency sums of money are allocated to low-income workers. Find out more by visiting their website.",
+                "es": "### Aplica para la concesion de Necesidades Modestas\nEstas pequeñas sumas de dinero para emergencias, son dirigidas a los trabajadores de bajo salario. Encuentre mas información visitando su pagina web."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO MODESTNEEDS.ORG",
-              "url": "https://www.modestneeds.org",
+              "text": {
+                "en": "GO TO MODESTNEEDS.ORG",
+                "es": "VE A MODESTNEEDS.ORG"
+              },
+              "url": {
+                "en": "https://www.modestneeds.org",
+                "es": "https://www.modestneeds.org"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -617,12 +763,21 @@
           },
           "content": [
             {
-              "content": "__Apply for rental payment assistance__\nCheck to see if rental payment assistance is available where you live. Income restrictions may apply.",
+              "content": {
+                "en": "__Apply for rental payment assistance__\nCheck to see if rental payment assistance is available where you live. Income restrictions may apply.",
+                "es": "__Aplique para la asistencia del pago de renta__\nCompruebe si la asistencia de pago de renta está disponible donde usted vive. Las restricciones de ingresos pueden aplicarse."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO RENTASSISTANCE.US",
-              "url": "https://www.rentassistance.us/",
+              "text": {
+                "en": "GO TO RENTASSISTANCE.US",
+                "es": "VAYA A RENTASSISTANCE.US"
+              },
+              "url": {
+                "en": "https://www.rentassistance.us/",
+                "es": "https://www.rentassistance.us/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -636,7 +791,10 @@
       "fileName": "advice-icon-1.svg"
     },
     "4PYd75NXeUqCCGCKMSKMCW": {
-      "text": "Find personalized advice",
+      "text": {
+        "en": "Find personalized advice",
+        "es": "Encuentre consejos personalizados"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -644,12 +802,21 @@
           },
           "content": [
             {
-              "content": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
+              "content": {
+                "en": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
+                "es": "### Hable con un consejero\nSi no es puede pagar su renta por el momento, entonces una sesión gratis con un consejero de viviendas es la mejor opción para usted. El consejero puede saber sobre opciones de menor costo de renta en su área o programas en los que puedes calificar. Un consejero también puede ayudarle a ordenar sus gastos y buscar ayuda para sus pagos."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND A HOUSING COUNSELOR NEAR YOU",
-              "beginningUrlText": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+              "buttonText": {
+                "en": "FIND A HOUSING COUNSELOR NEAR YOU",
+                "es": "ENCUENTRE UN CONSEJERO DE VIVIENDA CERCA DE USTED"
+              },
+              "beginningUrlText": {
+                "en": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
+                "es": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode="
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -667,7 +834,10 @@
       "fileName": "regular-income.svg"
     },
     "2j8sWhX4AUKu02cKgAySuw": {
-      "text": "Secure regular income",
+      "text": {
+        "en": "Secure regular income",
+        "es": "Asegure sus ingresos regulares"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -675,12 +845,21 @@
           },
           "content": [
             {
-              "content": "### Apply for unemployment benefits\nDon’t wait to file! After you fill out your application, it can take a few weeks to get your first check.",
+              "content": {
+                "en": "### Apply for unemployment benefits\nDon’t wait to file! After you fill out your application, it can take a few weeks to get your first check.",
+                "es": "### Aplique para los beneficios de desempleo\n¡No se espere a archivar! Después de que llene su aplicación, puede tomar algunas semanas para que reciba su primer cheque."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND UNEMPLOYMENT BENEFITS",
-              "url": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx",
+              "text": {
+                "en": "FIND UNEMPLOYMENT BENEFITS",
+                "es": "BUSQUE BENEFICIOS DE DESEMPLEO"
+              },
+              "url": {
+                "en": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx",
+                "es": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -692,13 +871,25 @@
           },
           "content": [
             {
-              "content": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs.",
+              "content": {
+                "en": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs.",
+                "es": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND YOUR LOCAL CAREER CENTER",
-              "beginningUrlText": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location=",
-              "endUrlText": "&radius=50&ct=0&y=0&w=0&e=0&sortcolumns=Program%20Type,GEOCODE&sortdirections=DESC,ASC&currentpage=1&olds=0&return=1&pagetype=result",
+              "buttonText": {
+                "en": "FIND YOUR LOCAL CAREER CENTER",
+                "es": "FIND YOUR LOCAL CAREER CENTER"
+              },
+              "beginningUrlText": {
+                "en": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location=",
+                "es": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location="
+              },
+              "endUrlText": {
+                "en": "&radius=50&ct=0&y=0&w=0&e=0&sortcolumns=Program%20Type,GEOCODE&sortdirections=DESC,ASC&currentpage=1&olds=0&return=1&pagetype=result",
+                "es": "&radius=50&ct=0&y=0&w=0&e=0&sortcolumns=Program%20Type,GEOCODE&sortdirections=DESC,ASC&currentpage=1&olds=0&return=1&pagetype=result"
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -712,7 +903,10 @@
       "fileName": "benefits-icon-1.svg"
     },
     "1q2XvrvKQo0s0yUuAqAoO6": {
-      "text": "See if you qualify for any government benefits",
+      "text": {
+        "en": "See if you qualify for any government benefits",
+        "es": "Vea si usted califica para algún beneficio del gobierno."
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -720,12 +914,21 @@
           },
           "content": [
             {
-              "content": "### Take the Benefits assessment\nGovernment benefits can help with anything from food bills to doctors bills. Even if you don’t qualify for help with your rent bill, you might qualify for something else that will free up more money for your rent.",
+              "content": {
+                "en": "### Take the Benefits assessment\nGovernment benefits can help with anything from food bills to doctors bills. Even if you don’t qualify for help with your rent bill, you might qualify for something else that will free up more money for your rent.",
+                "es": "### Tome la evaluación de Beneficios\nLos beneficios de Gobierno pueden ayudarle con cualquier cosa desde sus cobros de alimentos hasta sus cobros médicos. Incluso si no califica para la ayuda de su cobro de renta, puede calificar para algo más que le ayude a tener dinero libre para su renta."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO BENEFITS.GOV",
-              "url": "https://www.benefits.gov",
+              "text": {
+                "en": "GO TO BENEFITS.GOV",
+                "es": "VAYA A BENEFITS.GOV"
+              },
+              "url": {
+                "en": "https://www.benefits.gov",
+                "es": "https://www.benefits.gov"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -739,7 +942,10 @@
       "fileName": "legal-icon-1.svg"
     },
     "4IKABcabbycsMmS6SiuIQs": {
-      "text": "Get help immediately",
+      "text": {
+        "en": "Get help immediately",
+        "es": "Consiga ayuda inmediatamente"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -747,12 +953,21 @@
           },
           "content": [
             {
-              "content": "### Save all documents and seek help\nIf you believe you are being treated unfairly by your landlord or property manager, get in touch with a tenants rights organization to see what your options are. The following website has a list of tenants rights resources and legal assistance available in your state. You may be able to get help from an attorney provided by the court for those who can’t afford a lawyer and they can help you understand the eviction process, your rights and your options. Your new attorney will need to see all notices, letters or emails from your landlord as well as from any other lawyers or courts.",
+              "content": {
+                "en": "### Save all documents and seek help\nIf you believe you are being treated unfairly by your landlord or property manager, get in touch with a tenants rights organization to see what your options are. The following website has a list of tenants rights resources and legal assistance available in your state. You may be able to get help from an attorney provided by the court for those who can’t afford a lawyer and they can help you understand the eviction process, your rights and your options. Your new attorney will need to see all notices, letters or emails from your landlord as well as from any other lawyers or courts.",
+                "es": "### Guarde todos sus documentos y busque ayuda\nSi cree que ha sido tratado injustamente por el rentero o el administrador de la propiedad, pongase en contacto con una organización de derechos de los inquilinos para ver que opciones tiene. La siguiente página web tiene una lista de los derechos humanos de los inquilinos y asistencia legal disponible en su estado. Usted puede conseguir ayuda de un abogado proporcionado por la corte para aquellos que no pueden pagar uno, y ellos pueden ayudarle a comprender el proceso de desalojo y sus derechos y sus opciones. Su nuevo abogado deberá ver todos los avisos, cartas o correos del rentero asi como de los otros abogados o cortes."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND TENANTS RIGHTS ADVOCATES IN YOUR STATE",
-              "url": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights",
+              "text": {
+                "en": "FIND TENANTS RIGHTS ADVOCATES IN YOUR STATE",
+                "es": "BUSQUE A LOS ABOGADOS DE DERECHOS DE LOS INQUILINOS EN SU ESTADO"
+              },
+              "url": {
+                "en": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights",
+                "es": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -782,7 +997,10 @@
       "fileName": "savings-app.svg"
     },
     "3rCNv511b2QSkeSsMkMgg6": {
-      "text": "Start your savings",
+      "text": {
+        "en": "Start your savings",
+        "es": "Empiece sus ahorros"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -790,12 +1008,21 @@
           },
           "content": [
             {
-              "content": "### Open a savings account\nWhen you save small amounts of money over time, you create a safety net for any unexpected bills. Have a savings goal in mind when you open your account, and it will give you the motivation to get started. Also, do an internet search to see if a nonprofit near you has an “Individual Development Account” (IDA) program, a special savings account that will add matching funds every time you save.",
+              "content": {
+                "en": "### Open a savings account\nWhen you save small amounts of money over time, you create a safety net for any unexpected bills. Have a savings goal in mind when you open your account, and it will give you the motivation to get started. Also, do an internet search to see if a nonprofit near you has an “Individual Development Account” (IDA) program, a special savings account that will add matching funds every time you save.",
+                "es": "### Abra una cuenta de ahorros\nCuando ahorra pequeñas cantidades de dinero con el tiempo, crea una red de seguridad para algun cobro inesperado. Tenga una meta de ahorro en mente cuando abra su cuenta, eso le dará una motivación a empezar. También, haga una busqueda en internet para ver si hay un programa no lucrativo, como el programa de  \"Cuenta de Desarrollo Individual\" (IDA), una cuenta especial de ahorro que añadirá fondos correspondientes cada que vez que usted ahorre."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LEARN MORE ABOUT IDA PROGRAMS",
-              "url": "https://prosperitynow.org/everything-you-need-know-about-individual-development-accounts-idas#ques10",
+              "text": {
+                "en": "LEARN MORE ABOUT IDA PROGRAMS",
+                "es": "CONOZCA MAS SOBRE LOS PROGRAMAS \"IDA\""
+              },
+              "url": {
+                "en": "https://prosperitynow.org/everything-you-need-know-about-individual-development-accounts-idas#ques10",
+                "es": "https://prosperitynow.org/everything-you-need-know-about-individual-development-accounts-idas#ques10"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -807,12 +1034,21 @@
           },
           "content": [
             {
-              "content": "### Set a savings goal\nMake a plan for building an emergency fund. Breaking down a savings goal by how much you'd need to save regularly, makes your big money goal more achievable.",
+              "content": {
+                "en": "### Set a savings goal\nMake a plan for building an emergency fund. Breaking down a savings goal by how much you'd need to save regularly, makes your big money goal more achievable.",
+                "es": "### Establezca una meta de ahorros\nElabore un plan para crear un fondo de emergencia. Dividir una meta de ahorros basandose en lo que necesite ahorrar regularmente, hace que su meta de mucho dinero sea mas alcanzable."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "MAKE A PLAN TO ACHIEVE YOUR SAVINGS GOAL",
-              "url": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf",
+              "text": {
+                "en": "MAKE A PLAN TO ACHIEVE YOUR SAVINGS GOAL",
+                "es": "HAGA UN PLAN PARA LOGRAR SUS METAS DE AHORRO"
+              },
+              "url": {
+                "en": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf",
+                "es": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -824,12 +1060,21 @@
           },
           "content": [
             {
-              "content": "### Set up automatic savings\nAutomatic withdrawal helps you save without having to think about it. Every month, some money from your checking account can be automatically deposited into your savings account. Decide on an amount that works for you, and ask your bank about it. Even $10 a month can make a big difference. Consider connecting your account to the EARN Starter Savings Program to get a maximum bonus of $60 for saving regularly in your account.",
+              "content": {
+                "en": "### Set up automatic savings\nAutomatic withdrawal helps you save without having to think about it. Every month, some money from your checking account can be automatically deposited into your savings account. Decide on an amount that works for you, and ask your bank about it. Even $10 a month can make a big difference. Consider connecting your account to the EARN Starter Savings Program to get a maximum bonus of $60 for saving regularly in your account.",
+                "es": "### Prepare ahorros automaticos\nLos retiros automaticos le ayudan a ahorrar sin tener que pensar en ello. Cada mes, un poco del dinero de su cuenta de cheques será depositada automaticamente a su cuenta de ahorros. Debe decidir una cantidad que se ajuste a usted y solicitarselo al banco. Incluso $10 al mes puede hacer una gran diferencia. Considere conectar su cuenta al Programa Inicial de Ahorros (EARN) para conseguir un bono maximo de $60 por ahorrar regularmente en su cuenta."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LEARN MORE ABOUT THE EARN STARTER SAVINGS PROGRAM",
-              "url": "https://help.earn.org/hc/en-us/articles/115001803146-How-does-it-work-",
+              "text": {
+                "en": "LEARN MORE ABOUT THE EARN STARTER SAVINGS PROGRAM",
+                "es": "CONOZCA MAS SOBRE EL PROGRAMA \"EARN STARTER SAVINGS\""
+              },
+              "url": {
+                "en": "https://help.earn.org/hc/en-us/articles/115001803146-How-does-it-work-",
+                "es": "https://help.earn.org/hc/en-us/articles/115001803146-How-does-it-work-"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -841,7 +1086,10 @@
           },
           "content": [
             {
-              "content": "### Find a savings buddy\nFind a friend that is also learning how to save and you can help each other stay on track. Whenever you’re feeling tempted or if saving feels difficult, this person will help you stay motivated.",
+              "content": {
+                "en": "### Find a savings buddy\nFind a friend that is also learning how to save and you can help each other stay on track. Whenever you’re feeling tempted or if saving feels difficult, this person will help you stay motivated.",
+                "es": "### Encuentre a un compañero de ahorro\nEncuentre a un amigo que tambien esté aprendiendo a ahorrar y se puedan ayudar mutuamente, mantenganse unidos. Cuando sea que se sienta tentado a gastar sus ahorros o se le dificulte, esta persona le puede ayudar a mantenerse motivado."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -853,12 +1101,21 @@
           },
           "content": [
             {
-              "content": "__Try a savings app__\nThere are free or low-cost apps available to help you start saving automatically. Every app works a little differently, so if you’re interested in using a savings app, find and stick with the one that works for you. ",
+              "content": {
+                "en": "__Try a savings app__\nThere are free or low-cost apps available to help you start saving automatically. Every app works a little differently, so if you’re interested in using a savings app, find and stick with the one that works for you. ",
+                "es": "__Trate una aplicación de ahorros__\nHay algunos gratis o de bajo costo disponibles que le pueden ayudar a ahorrar automáticamente. Cada aplicación trabaja de manera diferente, si usted esta interesado en usar una aplicacion para ahorrar, busque y quedese con una que va a funcionar para usted."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "LEARN MORE ABOUT SAVINGS APPS",
-              "url": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/",
+              "text": {
+                "en": "LEARN MORE ABOUT SAVINGS APPS",
+                "es": "APRENDA MAS ACERCA DE APLICACIONES DE AHORROS"
+              },
+              "url": {
+                "en": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/",
+                "es": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -868,27 +1125,45 @@
       "contentType": "option"
     },
     "2Wqw8YUtCoWwSmcUqqOWKS": {
-      "text": "I recently lost my income",
+      "text": {
+        "en": "I recently lost my income",
+        "es": "Recientemente perdí mi sueldo"
+      },
       "contentType": "statement"
     },
     "5prmY98iWs4W08Q08gUSoq": {
-      "text": "I've missed rent payments in the past",
+      "text": {
+        "en": "I've missed rent payments in the past",
+        "es": "He tenido retrasos en los pagos de renta anteriormente"
+      },
       "contentType": "statement"
     },
     "3usUZICBniicsgMSW2SQUW": {
-      "text": "I can't pay my utilities",
+      "text": {
+        "en": "I can't pay my utilities",
+        "es": "No puedo pagar mis servicios publicos"
+      },
       "contentType": "statement"
     },
     "J1O6UR0UkSowCSKKiiqwG": {
-      "text": "I don't have any money saved",
+      "text": {
+        "en": "I don't have any money saved",
+        "es": "No tengo dinero ahorrado"
+      },
       "contentType": "statement"
     },
     "cswm8riVDagEuoEAkuWyY": {
-      "text": "I won't be able to pay my rent for a while",
+      "text": {
+        "en": "I won't be able to pay my rent for a while",
+        "es": "No seré capaz de pagar mi renta por un tiempo"
+      },
       "contentType": "statement"
     },
     "4Sq7Sok94A2qMQAyCC2USq": {
-      "text": "I'm getting eviction notices",
+      "text": {
+        "en": "I'm getting eviction notices",
+        "es": "Me llego un aviso de desalojo"
+      },
       "contentType": "statement"
     }
   }

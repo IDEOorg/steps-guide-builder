@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import './index.less';
 import ProblemsSection from '../ProblemsSection';
 import Sidebar from '../../components/Sidebar';
@@ -14,6 +15,15 @@ const ProblemsPage = () => {
   );
 };
 
-export default ProblemsPage;
+function mapStateToProps(state) {
+  return {
+    language: state.language,
+  };
+}
+
+export default connect(
+  mapStateToProps,
+  {}
+)(ProblemsPage);
 
 ProblemsPage.displayName = 'Problems Page';

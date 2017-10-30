@@ -9,17 +9,19 @@ import Card from "../../components/Card";
 import Button from "../../components/Button";
 import ProgressBar from "../../components/ProgressBar";
 import UserInputSection from "../UserInputSection";
+import FormattedMsg from "../FormattedMsg";
 import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
 
-const StatementsSection = props => {
+const StatementsSection = (props) => {
   let isFullSize;
   if (props.statementPage.statementPageLayout) {
     isFullSize = false;
   } else {
     isFullSize = true;
   }
+
   const statements = props.statementPage.statements.map(statement => {
     return (
       <Card
@@ -38,6 +40,7 @@ const StatementsSection = props => {
   const selectedStatements = props.statementPage.statements
     .filter(statement => statement.selected)
     .map(statement => {
+      console.log(statement);
       return {
         id: statement.id
       };
@@ -95,7 +98,9 @@ const StatementsSection = props => {
             }
           }}
         >
-          Show me my options
+          <FormattedMsg>
+            {config.guideMaterials.showOptionsText}
+          </FormattedMsg>
         </Button>
       </div>
     </div>
@@ -112,8 +117,6 @@ function mapDispatchToProps(dispatch) {
   return {
     onSelect: id => dispatch(selectStatement(id)),
     onSubmit: (selectedStatements, statementPage) => {
-      console.log(statementPage);
-      console.log("ssssstatementPage");
       const statements = selectedStatements.map(statement => {
         return statement.id;
       });

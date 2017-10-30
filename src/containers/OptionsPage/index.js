@@ -11,6 +11,7 @@ import OptionsIntro from '../../components/OptionsIntro';
 import ActionPlan from '../../components/ActionPlan';
 import TriedOptions from '../TriedOptions';
 import config from '../../data/config';
+import {getTranslation} from '../../globals/utils';
 const queryString = require('query-string');
 
 class OptionsPage extends Component {
@@ -78,6 +79,8 @@ class OptionsPage extends Component {
     }
   }
   render() {
+    console.log(this.props);
+    console.log('options page');
     const currentOption = this.props.currentOption;
     const filteredOptions = this.props.options.filter((option) => !option.tried);
 
@@ -90,11 +93,11 @@ class OptionsPage extends Component {
         let id = option.id;
         let onLinkClick = () => {this.props.markTried(id);};
         let onSelect = () => {this.scrollOnOptionSelect(id); this.props.onSelect(id);};
-        return generateOption(id, currentOption, i + 1, onLinkClick, onSelect);
+        return generateOption(id, currentOption, i + 1, onLinkClick, onSelect, this.props.language);
       });
       actionPlans = filteredOptions.map((option) => {
         let id = option.id;
-        return generateActionPlan(id, currentOption, this.props.zipcode);
+        return generateActionPlan(id, currentOption, this.props.zipcode, this.props.language);
       });
       // mobile
       optionsActionsOutputMobile = filteredOptions.map((option, i) => {
@@ -108,7 +111,7 @@ class OptionsPage extends Component {
           };
           optionBox = (
             <div data-option={id} className="option_box_mobile">
-              { generateOption(id, currentOption, i + 1, onLinkClick, onSelect) }
+              { generateOption(id, currentOption, i + 1, onLinkClick, onSelect, this.props.language) }
             </div>
           );
         }
@@ -116,7 +119,7 @@ class OptionsPage extends Component {
           <div key={id}>
             {optionBox}
             <div className="action_plan_mobile">
-              { generateActionPlan(id, currentOption, this.props.zipcode) }
+              { generateActionPlan(id, currentOption, this.props.zipcode, this.props.language) }
             </div>
           </div>
         );
@@ -143,7 +146,6 @@ class OptionsPage extends Component {
         />
       );
     }
-    console.log(this.props);
     return (
       <div className="options_container">
         <MediaQuery query="(min-width: 600px)">
@@ -173,18 +175,19 @@ class OptionsPage extends Component {
   }
 }
 
-function generateActionPlan(id, currentOption, zipcode) {
+function generateActionPlan(id, currentOption, zipcode, language) {
   return (
     <ActionPlan
       key={id}
       id={id}
       isCurrentOption={currentOption === id}
       zip={zipcode}
+      language={language}
     />
   );
 }
 
-function generateOption(id, currentOption, order, onLinkClick, onSelect) {
+function generateOption(id, currentOption, order, onLinkClick, onSelect, language) {
   return (
     <Option
       key={id}
@@ -192,7 +195,7 @@ function generateOption(id, currentOption, order, onLinkClick, onSelect) {
       selected={id === currentOption}
       order={order}
       onLinkClick={onLinkClick}
-      linkText={"I've already tried this."}
+      linkText={getTranslation(config.guideMaterials.iveAlreadyTriedThisText, language)}
       onSelect={onSelect}
     />
   );
@@ -210,6 +213,7 @@ function mapStateToProps(state) {
   return {
     options: state.selectedOptions.options,
     currentOption: state.selectedOptions.currentOption,
+    language: state.language,
     zipcode: zipcode,
     statementPage: state.statementPage
   };
@@ -242,6 +246,7 @@ OptionsPage.propTypes = {
     tried: PropTypes.bool.isRequired
     })
   ),
+  language: PropTypes.string,
   toggleOption: PropTypes.func.isRequired,
   onSelect: PropTypes.func,
   goBack: PropTypes.func.isRequired,

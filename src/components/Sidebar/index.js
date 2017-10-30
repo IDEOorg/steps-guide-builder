@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import marked from 'marked';
 import OptionsIntro from '../OptionsIntro';
+import TranslateToggle from '../../containers/TranslateToggle';
 import classNames from 'classnames';
+import { getTranslation } from '../../globals/utils';
 import './index.less';
 
 const Sidebar = (props) => {
@@ -15,7 +17,10 @@ const Sidebar = (props) => {
       textAlignStyle = {textAlign: 'left'};
     }
     sidebarContent = (
-      <div className={classNames("sidebar_content", props.sidebar.position ? "sidebar_content_center" : null)} style={textAlignStyle} dangerouslySetInnerHTML={{"__html": marked(props.sidebar.content)}} />
+      <div className={classNames("sidebar", props.sidebar.position ? "sidebar_center" : null)}>
+        <div className="sidebar_content" style={textAlignStyle} dangerouslySetInnerHTML={{"__html": marked(getTranslation(props.sidebar.content, props.language))}} />
+        <TranslateToggle />
+      </div>
     );
     // sidebarPosition = props.sidebar.position;
   }
