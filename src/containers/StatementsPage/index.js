@@ -19,8 +19,8 @@ const StatementsPage = (props) => {
 };
 
 function mapStateToProps(state) {
-  console.log('STATE OF THE UNION');
-  console.log(state);
+  // console.log('STATE OF THE UNION');
+  // console.log(state);
   return {
     navigation: state.statementPage.navigation,
     sidebar: state.statementPage.sidebar,
