@@ -9,17 +9,20 @@ import Card from "../../components/Card";
 import Button from "../../components/Button";
 import ProgressBar from "../../components/ProgressBar";
 import UserInputSection from "../UserInputSection";
+import FormattedMsg from "../FormattedMsg";
 import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
+import { getTranslation } from "../../globals/utils";
 
-const StatementsSection = props => {
+const StatementsSection = (props) => {
   let isFullSize;
   if (props.statementPage.statementPageLayout) {
     isFullSize = false;
   } else {
     isFullSize = true;
   }
+
   const statements = props.statementPage.statements.map(statement => {
     return (
       <Card
@@ -38,6 +41,7 @@ const StatementsSection = props => {
   const selectedStatements = props.statementPage.statements
     .filter(statement => statement.selected)
     .map(statement => {
+      console.log(statement);
       return {
         id: statement.id
       };
@@ -45,14 +49,15 @@ const StatementsSection = props => {
 
   let statementsSectionIntro = null;
   let introItems = [];
+  console.log('config.userInputSection');
   if (config.userInputSection) {
-    if (config.userInputSection.inputType === "Zip Code to State Input") {
+    if (getTranslation(config.userInputSection.inputType, props.language) === "Zip Code to State Input") {
       introItems.push(
         <UserInputSection key={1} data={config.userInputSection} />
       );
     }
     if (config.userInputSection.inputType === "Text Input") {
-      let statementPageIntroText = config.userInputSection.introText;
+      let statementPageIntroText = getTranslation(config.userInputSection.introText, props.language);
       introItems.push(
         <div
           key={2}
@@ -91,11 +96,13 @@ const StatementsSection = props => {
           })}
           onClick={() => {
             if (isSubmitEnabled) {
-              props.onSubmit(selectedStatements, props.statementPage);
+              props.onSubmit(selectedStatements, props.statementPage, props.language);
             }
           }}
         >
-          Show me my options
+          <FormattedMsg>
+            {config.guideMaterials.showOptionsText}
+          </FormattedMsg>
         </Button>
       </div>
     </div>
@@ -104,16 +111,15 @@ const StatementsSection = props => {
 
 function mapStateToProps(state) {
   return {
-    statementPage: state.statementPage
+    statementPage: state.statementPage,
+    language: state.language
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     onSelect: id => dispatch(selectStatement(id)),
-    onSubmit: (selectedStatements, statementPage) => {
-      console.log(statementPage);
-      console.log("ssssstatementPage");
+    onSubmit: (selectedStatements, statementPage, language) => {
       const statements = selectedStatements.map(statement => {
         return statement.id;
       });
@@ -124,6 +130,7 @@ function mapDispatchToProps(dispatch) {
         }
       }
       let url = statementPage.url ? statementPage.url.urlText : null;
+      url = getTranslation(url, language);
       if (url) {
         if (!window.history) {
           console.log("does not support window.history");

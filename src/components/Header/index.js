@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.less';
 import config from '../../data/config';
+import {getTranslation} from '../../globals/utils';
+
 let arrowIcon = require('../../assets/arrow-left.svg');
 let feedbackIcon = require('../../assets/feedback-blue.svg');
 
@@ -23,16 +25,18 @@ const Header = (props) =>  {
   let headerTitleBlock = null;
   if(headerTitle) {
     headerTitleBlock = (
-      <h2 className="header_title">{headerTitle}</h2>
+      <h2 className="header_title">
+        {getTranslation(headerTitle, props.language)}
+      </h2>
     );
   }
   let headerFeedbackBlock = null;
   if(props.feedbackUrl) {
     headerFeedbackBlock = (
-      <a className="header_feedback_link" href={props.feedbackUrl} target="_blank">
+      <a className="header_feedback_link" href={getTranslation(props.feedbackUrl, props.language)} target="_blank">
         <div className="header_back_box">
           <img className="feedback_icon" src={feedbackIcon} />
-          <p className="feedback_text">Send Feedback</p>
+          <p className="feedback_text">{getTranslation(config.guideMaterials.feedbackText, props.language)}</p>
         </div>
       </a>
     );
@@ -42,7 +46,7 @@ const Header = (props) =>  {
       <a className="header_back_link" href="https://steps.ideo.org/guides">
         <div className="header_back_box">
           <img className="header_arrow" src={arrowIcon} />
-          <p>Home</p>
+          <p>{getTranslation(config.guideMaterials.homeText, props.language)}</p>
         </div>
       </a>
       <div>

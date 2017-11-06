@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import TextInput from '../TextInput';
 import UrlBox from '../UrlBox';
 import './index.less';
+import {getTranslation} from '../../globals/utils';
+import config from '../../data/config';
 
 export default class ZipcodeBox extends Component {
   constructor(props) {
@@ -17,10 +19,10 @@ export default class ZipcodeBox extends Component {
           <TextInput
             className="zipcode_input"
             onChange={(value) => {this.setState({inputText: value});}}
-            placeholder="MY ZIP CODE"
+            placeholder={getTranslation(config.guideMaterials.zipCodeBoxPlaceholder, this.props.language)}
             value={this.state.inputText}/>
         </div>
-        <UrlBox url={this.props.urlStart + this.state.inputText + this.props.urlEnd} text={this.props.buttonText}/>
+        <UrlBox url={getTranslation(this.props.urlStart, this.props.language) + this.state.inputText + getTranslation(this.props.urlEnd, this.props.language)} text={this.props.buttonText}/>
       </div>
     );
   }

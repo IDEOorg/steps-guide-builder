@@ -26,7 +26,8 @@ const initialState = {
   selectedOptions: {
     currentOption: null,
     options: []
-  }
+  },
+  language: 'en'
 };
 
 export default initialState;

@@ -8,7 +8,7 @@ import Sidebar from '../../components/Sidebar';
 
 const StatementsPage = (props) => {
   let sidebar = (
-    <Sidebar navigation={props.navigation} goBack={props.goBack} sidebar={props.sidebar} />
+    <Sidebar navigation={props.navigation} goBack={props.goBack} sidebar={props.sidebar} language={props.language} />
   );
   return (
     <div className="main_page">
@@ -19,9 +19,8 @@ const StatementsPage = (props) => {
 };
 
 function mapStateToProps(state) {
-  // console.log('STATE OF THE UNION');
-  // console.log(state);
   return {
+    language: state.language,
     navigation: state.statementPage.navigation,
     sidebar: state.statementPage.sidebar,
     url: state.statementPage.url ? state.statementPage.url.urlText : '/',

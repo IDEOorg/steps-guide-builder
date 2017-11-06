@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import FormattedMsg from '../../containers/FormattedMsg';
 import './index.less';
 
 const Card = (props) => {
   let choicesBox = null;
-
   if(props.choices) {
     let choices = Object.keys(props.choices).map((choiceId) => {
       return (
@@ -63,7 +63,11 @@ const Card = (props) => {
         }}
       >
         { addIcon }
-        <h2 className={"card_text"}>{props.text}</h2>
+        <h2 className={"card_text"}>
+          <FormattedMsg>
+            {props.text}
+          </FormattedMsg>
+        </h2>
       </div>
       {choicesBox}
     </div>

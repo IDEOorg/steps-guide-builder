@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import './index.less';
 import Link from '../Link';
+import FormattedMsg from '../../containers/FormattedMsg';
 import config from '../../data/config';
 
 const Option = (props) => {
@@ -37,7 +38,9 @@ const Option = (props) => {
         {orderBox}
         <h2 className="option_headline"
           style={props.textStyles}>
-          { optionText }
+          <FormattedMsg>
+            { optionText }
+          </FormattedMsg>
         </h2>
         {link}
       </div>

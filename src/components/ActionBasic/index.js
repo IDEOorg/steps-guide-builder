@@ -10,12 +10,15 @@ import ColorBox from '../ColorBox';
 import './index.less';
 import zipcodes from '../../data/ziptostate';
 import config from '../../data/config';
+import {getTranslation} from '../../globals/utils';
 
 function mapZipToState(zip) {
   return zipcodes[zip].state;
 }
 
 const ActionBasic = (props) => {
+  console.log(props);
+  console.log('basic');
   let imgId = props.data.leftHandSideImage.id;
   let imgUrl = config.entryIds[imgId].url;
   let mappingLogic = null;
@@ -23,51 +26,60 @@ const ActionBasic = (props) => {
   if(props.data.zip) {
     state = mapZipToState(props.data.zip);
   }
-  if(config.userInputSection && config.userInputSection.inputType === "Zip Code to State Input") {
+  if(config.userInputSection && getTranslation(config.userInputSection.inputType, props.language) === "Zip Code to State Input") {
     mappingLogic = config.userInputSection.userInputMappingLogic;
   }
   let allContent = props.data.content.map((content, i) => {
+    let localizedContent = null;
+    if(content.content) {
+      localizedContent = getTranslation(content.content, props.language);
+    }
     let box = null;
     if(content.contentType === 'contentBox') {
-      box = <ContentBox key={i} content={content.content} />;
+      box = <ContentBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'colorBox') {
-      box = <ColorBox key={i} content={content.content} />;
+      box = <ColorBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'urlBox') {
       let url = content.url;
       if(content.userInputFieldName) {
-        url = mappingLogic[state][content.userInputFieldName.fieldName];
+        url = mappingLogic[state][getTranslation(content.userInputFieldName.fieldName, props.language)];
       }
-      box = <UrlBox key={i} text={content.text} url={url} />;
+      box = <UrlBox key={i} text={getTranslation(content.text, props.language)} url={getTranslation(url, props.language)} />;
     }
     else if(content.contentType === 'zipcodeBox') {
+      console.log(content);
+      console.log('zippp');
       box = (
         <ZipcodeBox
           key={i}
-          buttonText={content.buttonText}
+          buttonText={getTranslation(content.buttonText, props.language)}
           defaultZip={props.data.zip}
           urlStart={content.beginningUrlText ? content.beginningUrlText : ""}
           urlEnd={content.endUrlText ? content.endUrlText : ""}
+          language={props.language}
         />
       );
     }
     else if(content.contentType === 'criteriaBox') {
-      box = <CriteriaBox key={i} content={content.content} />;
+      box = <CriteriaBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'phoneBox') {
-      let phoneNumber = content.phoneNumber ? content.phoneNumber : mappingLogic[state][content.userInputFieldName.fieldName];
+      console.log('phoneeeee');
+      let phoneNumber = content.phoneNumber ? getTranslation(content.phoneNumber, props.language) : mappingLogic[state][getTranslation(content.userInputFieldName.fieldName, props.language)];
+      console.log(phoneNumber);
       box = (
         <PhoneBox
           key={i}
-          introText={content.buttonText}
+          introText={getTranslation(content.buttonText, props.language)}
           phoneNumber={phoneNumber}
         />
       );
     }
     else if(content.contentType === 'timelineBox') {
       box = (
-        <TimelineBox key={i} content={content.content} title={content.title} />
+        <TimelineBox key={i} content={localizedContent} title={getTranslation(content.title, props.language)} language={props.language} />
       );
     }
     return (
@@ -94,7 +106,8 @@ const ActionBasic = (props) => {
 export default ActionBasic;
 
 ActionBasic.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
+  language: PropTypes.string
 };
 
 ActionBasic.displayName = 'ActionBasic';
