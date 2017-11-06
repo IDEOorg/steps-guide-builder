@@ -6,6 +6,7 @@ import TextInput from '../../components/TextInput';
 import { saveInput } from '../../store/statementPage/statementPage';
 import zipcodes from '../../data/ziptostate';
 import './index.less';
+import { getTranslation } from '../../globals/utils';
 
 class UserInputSection extends Component {
   constructor(props) {
@@ -18,12 +19,16 @@ class UserInputSection extends Component {
         errorMsg: ''
       }
     };
+    console.log(props);
+    console.log('constructor');
     props.saveInput(defaultZip, this.state.output.isValid);
   }
   componentDidMount(){
     this.nameInput.focus();
   }
   render() {
+    console.log(this.props);
+    console.log('this.props user input section');
     let invalidMsg = null;
     let isValid = this.state.output && this.state.output.isValid ? true : false;
     if(!isValid) {
@@ -33,7 +38,7 @@ class UserInputSection extends Component {
     }
     return (
       <div>
-        <h3 className="intro_text">{this.props.data.introText}</h3>
+        <h3 className="intro_text">{getTranslation(this.props.data.introText, this.props.language)}</h3>
         <TextInput
           className={
             classNames({
@@ -43,7 +48,9 @@ class UserInputSection extends Component {
           }
           parentRef={(input) => { this.nameInput = input; }}
           onChange={(value) => {
-            let output = this.validateZip(value);
+            console.log(this.props.language);
+            console.log('validate zip');
+            let output = this.validateZip(value, this.props.language);
             this.setState({
               inputText: value,
               output
@@ -58,7 +65,7 @@ class UserInputSection extends Component {
     );
   }
 
-  validateZip(zipcode) {
+  validateZip(zipcode, language) {
     let output = {
       errorMsg: '',
       isValid: true
@@ -68,15 +75,30 @@ class UserInputSection extends Component {
     }
     else if(!isNumeric(zipcode)) {
       output.isValid = false;
-      output.errorMsg = 'Zipcode should be all numbers.';
+      if(language === 'en') {
+        output.errorMsg = 'Zipcode should be all numbers.';
+      }
+      else if(language === 'es') {
+        output.errorMsg = 'El código postal debe ser todos los números.';
+      }
     }
     else if(zipcode.length !== 5) {
       output.isValid = false;
-      output.errorMsg = 'Zipcode should have 5 digits.';
+      if(language === 'en') {
+        output.errorMsg = 'Zipcode should have 5 digits.';
+      }
+      else if(language === 'es') {
+        output.errorMsg = 'El código postal debe tener 5 dígitos.';
+      }
     }
     else if(!inZipDictionary(zipcode)) {
       output.isValid = false;
-      output.errorMsg = "Zipcode isn't in our list. Try a neighboring zipcode.";
+      if(language === 'en') {
+        output.errorMsg = "Zipcode isn't in our list. Try a neighboring zipcode.";
+      }
+      else if(language === 'es') {
+        output.errorMsg = "El código postal no está en nuestra lista. Pruebe con un código postal vecino.";
+      }
     }
     return output;
 
@@ -94,7 +116,8 @@ class UserInputSection extends Component {
 
 function mapStateToProps(state) {
   return {
-    input: state.statementPage
+    input: state.statementPage,
+    language: state.language
   };
 }
 

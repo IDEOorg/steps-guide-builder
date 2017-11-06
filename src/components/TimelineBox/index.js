@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import marked from 'marked';
 import './index.less';
+import { getTranslation } from '../../globals/utils';
 
 marked.setOptions({
   breaks: true
@@ -15,7 +16,7 @@ const TimelineBox = (props) => {
   if (window.innerWidth < 1065) items.push(hrLine);
   for (let i = 0; i < sections.length; i++) {
     items.push((
-      <div className="timeline_content_box" dangerouslySetInnerHTML={{ "__html": marked(sections[i].content) }} key={`${i}`} />
+      <div className="timeline_content_box" dangerouslySetInnerHTML={{ "__html": marked(getTranslation(sections[i].content, props.language)) }} key={`${i}`} />
     ));
     if (window.innerWidth > 1065) {
       items.push((
@@ -31,7 +32,7 @@ const TimelineBox = (props) => {
 
   return (
     <div className="timeline_box">
-      <div className="timeline_title" dangerouslySetInnerHTML={{ "__html": marked(props.title) }} />
+      <div className="timeline_title" dangerouslySetInnerHTML={{ "__html": marked(props.title, props.language) }} />
       <div className="timeline_content_section">
         {items}
       </div>

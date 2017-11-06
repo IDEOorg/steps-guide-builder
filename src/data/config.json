@@ -1,15 +1,15 @@
 {
   "title": {
-    "en": "I Can't Pay My Rent",
-    "es": "No Puedo Pagar Mi Renta"
+    "en": "I'm Struggling to Buy Food",
+    "es": "Estoy batallando para Comprar Comida"
   },
   "guideMaterials": {
     "headerIcon": {
       "id": "yfN3BkEgISmCMyamiq0mU"
     },
     "feedbackUrl": {
-      "en": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform",
-      "es": "https://docs.google.com/forms/d/e/1FAIpQLSf1C-F1Hb91vbuMaiYQiU2oFFFLsj1h9cxYDjhPA4N2xc8n8g/viewform"
+      "en": "https://docs.google.com/forms/d/e/1FAIpQLScqXSagj0gq_TRjeTRp2NAdKS7PO0ZG1ap35euF0QBzNlRvng/viewform",
+      "es": "https://docs.google.com/forms/d/e/1FAIpQLScqXSagj0gq_TRjeTRp2NAdKS7PO0ZG1ap35euF0QBzNlRvng/viewform"
     },
     "feedbackText": {
       "en": "Send Feedback",
@@ -47,28 +47,25 @@
     },
     "options": [
       {
-        "id": "3jEpqtVTygyIOYoEuuMIq4"
+        "id": "QFyiAvjWUMOmuuKCEQiya"
       },
       {
-        "id": "2OD7sGaLBKuUMcU6KsQ466"
+        "id": "5jPh8Pn8E0gsMw2OKws2aU"
       },
       {
-        "id": "4de8lryJlKK6eIA6wQgKug"
+        "id": "6MAgqo0BAka4yyCGi8K2EA"
       },
       {
-        "id": "4PYd75NXeUqCCGCKMSKMCW"
+        "id": "SoSAFO2w4oUIWeSYo6ekU"
       },
       {
-        "id": "2j8sWhX4AUKu02cKgAySuw"
+        "id": "20iPgs0bjqYi0Eyayeu8UK"
       },
       {
-        "id": "1q2XvrvKQo0s0yUuAqAoO6"
+        "id": "4rqBpsVd32g20A4iw2um8k"
       },
       {
-        "id": "4IKABcabbycsMmS6SiuIQs"
-      },
-      {
-        "id": "3rCNv511b2QSkeSsMkMgg6"
+        "id": "2msnUlgvK8Ouo0iaOmuGGm"
       }
     ],
     "contentType": "optionsPage"
@@ -76,57 +73,64 @@
   "statementsPages": [
     {
       "title": {
-        "en": "Statements",
-        "es": "Statements"
+        "en": "I'm Struggling to Buy Food",
+        "es": "Estoy batallando para Comprar Comida"
       },
       "statements": [
         {
-          "id": "2Wqw8YUtCoWwSmcUqqOWKS"
+          "id": "1bpd8NQyoGyIwA2WqSOg0g"
         },
         {
-          "id": "5prmY98iWs4W08Q08gUSoq"
+          "id": "43CYtJ6AU02QUSEYUss8Qq"
         },
         {
-          "id": "3usUZICBniicsgMSW2SQUW"
+          "id": "6cQOHSvyFOiySQICiEIIss"
         },
         {
-          "id": "J1O6UR0UkSowCSKKiiqwG"
-        },
-        {
-          "id": "cswm8riVDagEuoEAkuWyY"
-        },
-        {
-          "id": "4Sq7Sok94A2qMQAyCC2USq"
+          "id": "3HgvbSF0wE68emEeKkwwMI"
         }
       ],
       "sidebar": {
         "content": {
-          "en": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# I Can't Pay My Rent\nThere are still options to explore when you can't pay rent. To get started, choose all the statements on the right that apply to you.",
-          "es": "![city-scene](//images.contentful.com/2h2wj50mwc16/2epfwK3jpiC2COwCWE6i42/f95fe703954be367151e3fcdb26c2892/city-scene.svg)\n# No Puedo Pagar Mi Renta\nTodavía hay opciones para explorar cuando no se puede pagar la renta. Para empezar, elija todas las declaraciones de la derecha que se aplican a usted."
+          "en": "![1-hero](//images.contentful.com/2h2wj50mwc16/3GRqtKFHWocSC4e0i0466i/6510417f3e2ca40fc8b118b6a02e781d/1-hero.svg)\n# I'm Struggling to Buy Food\nIf you're struggling to purchase food for you and your family, there are many places to get help. This guide will help you explore your options and decide which are right for you. To get started, choose the statements on the right that apply to you.",
+          "es": "![1-hero](//images.contentful.com/2h2wj50mwc16/3GRqtKFHWocSC4e0i0466i/6510417f3e2ca40fc8b118b6a02e781d/1-hero.svg)\n# Estoy batallando para comprar comida\nSi usted está batallando para comprar comida para usted y su familia, hay muchos lugares para conseguir ayuda. Esta guía le ayudará a explorar sus opciones y decidir cuáles son las correctas para usted. Para empezar, elija las declaraciones de la derecha que se aplican a usted."
         },
         "position": true,
-        "textAlign": true,
         "contentType": "sidebar"
       },
       "statementsToOptions": {
         "title": {
-          "en": "Statement Rules",
-          "es": "Statement Rules"
+          "en": "Food",
+          "es": "Food"
         },
         "statementsToOptions": [
           {
-            "override": true,
+            "override": false,
             "statementRules": [
               {
                 "statement": {
-                  "id": "cswm8riVDagEuoEAkuWyY"
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
                 },
                 "selected": true,
                 "contentType": "statementRule"
               },
               {
                 "statement": {
-                  "id": "4Sq7Sok94A2qMQAyCC2USq"
+                  "id": "6cQOHSvyFOiySQICiEIIss"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "3HgvbSF0wE68emEeKkwwMI"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -134,69 +138,22 @@
             ],
             "options": [
               {
-                "id": "4IKABcabbycsMmS6SiuIQs"
-              }
-            ],
-            "contentType": "statementsToOptions"
-          },
-          {
-            "override": true,
-            "statementRules": [
-              {
-                "statement": {
-                  "id": "2Wqw8YUtCoWwSmcUqqOWKS"
-                },
-                "selected": true,
-                "contentType": "statementRule"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
               },
               {
-                "statement": {
-                  "id": "4Sq7Sok94A2qMQAyCC2USq"
-                },
-                "selected": true,
-                "contentType": "statementRule"
-              }
-            ],
-            "options": [
-              {
-                "id": "4IKABcabbycsMmS6SiuIQs"
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
               },
               {
-                "id": "2j8sWhX4AUKu02cKgAySuw"
+                "id": "SoSAFO2w4oUIWeSYo6ekU"
               },
               {
-                "id": "1q2XvrvKQo0s0yUuAqAoO6"
+                "id": "6MAgqo0BAka4yyCGi8K2EA"
               },
               {
-                "id": "4de8lryJlKK6eIA6wQgKug"
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
-              }
-            ],
-            "contentType": "statementsToOptions"
-          },
-          {
-            "override": true,
-            "statementRules": [
-              {
-                "statement": {
-                  "id": "2Wqw8YUtCoWwSmcUqqOWKS"
-                },
-                "selected": true,
-                "contentType": "statementRule"
-              },
-              {
-                "statement": {
-                  "id": "cswm8riVDagEuoEAkuWyY"
-                },
-                "selected": true,
-                "contentType": "statementRule"
-              }
-            ],
-            "options": [
-              {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -206,7 +163,21 @@
             "statementRules": [
               {
                 "statement": {
-                  "id": "2Wqw8YUtCoWwSmcUqqOWKS"
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "6cQOHSvyFOiySQICiEIIss"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -214,16 +185,19 @@
             ],
             "options": [
               {
-                "id": "2j8sWhX4AUKu02cKgAySuw"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
               },
               {
-                "id": "4de8lryJlKK6eIA6wQgKug"
+                "id": "6MAgqo0BAka4yyCGi8K2EA"
               },
               {
-                "id": "1q2XvrvKQo0s0yUuAqAoO6"
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -233,7 +207,21 @@
             "statementRules": [
               {
                 "statement": {
-                  "id": "5prmY98iWs4W08Q08gUSoq"
+                  "id": "3HgvbSF0wE68emEeKkwwMI"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -241,16 +229,19 @@
             ],
             "options": [
               {
-                "id": "3jEpqtVTygyIOYoEuuMIq4"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
               },
               {
-                "id": "2OD7sGaLBKuUMcU6KsQ466"
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
               },
               {
-                "id": "4de8lryJlKK6eIA6wQgKug"
+                "id": "SoSAFO2w4oUIWeSYo6ekU"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -260,7 +251,14 @@
             "statementRules": [
               {
                 "statement": {
-                  "id": "3usUZICBniicsgMSW2SQUW"
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "6cQOHSvyFOiySQICiEIIss"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -268,16 +266,19 @@
             ],
             "options": [
               {
-                "id": "3jEpqtVTygyIOYoEuuMIq4"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
               },
               {
-                "id": "2OD7sGaLBKuUMcU6KsQ466"
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
               },
               {
-                "id": "4de8lryJlKK6eIA6wQgKug"
+                "id": "6MAgqo0BAka4yyCGi8K2EA"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "QFyiAvjWUMOmuuKCEQiya"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -287,7 +288,14 @@
             "statementRules": [
               {
                 "statement": {
-                  "id": "J1O6UR0UkSowCSKKiiqwG"
+                  "id": "3HgvbSF0wE68emEeKkwwMI"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -295,16 +303,19 @@
             ],
             "options": [
               {
-                "id": "3jEpqtVTygyIOYoEuuMIq4"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
               },
               {
-                "id": "2OD7sGaLBKuUMcU6KsQ466"
+                "id": "SoSAFO2w4oUIWeSYo6ekU"
               },
               {
-                "id": "4de8lryJlKK6eIA6wQgKug"
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -314,7 +325,14 @@
             "statementRules": [
               {
                 "statement": {
-                  "id": "cswm8riVDagEuoEAkuWyY"
+                  "id": "3HgvbSF0wE68emEeKkwwMI"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -322,7 +340,19 @@
             ],
             "options": [
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "QFyiAvjWUMOmuuKCEQiya"
+              },
+              {
+                "id": "SoSAFO2w4oUIWeSYo6ekU"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -332,7 +362,14 @@
             "statementRules": [
               {
                 "statement": {
-                  "id": "4Sq7Sok94A2qMQAyCC2USq"
+                  "id": "3HgvbSF0wE68emEeKkwwMI"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "6cQOHSvyFOiySQICiEIIss"
                 },
                 "selected": true,
                 "contentType": "statementRule"
@@ -340,10 +377,210 @@
             ],
             "options": [
               {
-                "id": "4IKABcabbycsMmS6SiuIQs"
+                "id": "QFyiAvjWUMOmuuKCEQiya"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "SoSAFO2w4oUIWeSYo6ekU"
+              },
+              {
+                "id": "6MAgqo0BAka4yyCGi8K2EA"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              },
+              {
+                "statement": {
+                  "id": "6cQOHSvyFOiySQICiEIIss"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "6MAgqo0BAka4yyCGi8K2EA"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "43CYtJ6AU02QUSEYUss8Qq"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "QFyiAvjWUMOmuuKCEQiya"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "6cQOHSvyFOiySQICiEIIss"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "6MAgqo0BAka4yyCGi8K2EA"
+              },
+              {
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "QFyiAvjWUMOmuuKCEQiya"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "3HgvbSF0wE68emEeKkwwMI"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "QFyiAvjWUMOmuuKCEQiya"
+              },
+              {
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "SoSAFO2w4oUIWeSYo6ekU"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
+              }
+            ],
+            "contentType": "statementsToOptions"
+          },
+          {
+            "override": false,
+            "statementRules": [
+              {
+                "statement": {
+                  "id": "1bpd8NQyoGyIwA2WqSOg0g"
+                },
+                "selected": true,
+                "contentType": "statementRule"
+              }
+            ],
+            "options": [
+              {
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
+              },
+              {
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
+              },
+              {
+                "id": "2msnUlgvK8Ouo0iaOmuGGm"
+              },
+              {
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -352,16 +589,16 @@
             "override": false,
             "options": [
               {
-                "id": "3jEpqtVTygyIOYoEuuMIq4"
+                "id": "QFyiAvjWUMOmuuKCEQiya"
               },
               {
-                "id": "2OD7sGaLBKuUMcU6KsQ466"
+                "id": "5jPh8Pn8E0gsMw2OKws2aU"
               },
               {
-                "id": "4de8lryJlKK6eIA6wQgKug"
+                "id": "20iPgs0bjqYi0Eyayeu8UK"
               },
               {
-                "id": "4PYd75NXeUqCCGCKMSKMCW"
+                "id": "4rqBpsVd32g20A4iw2um8k"
               }
             ],
             "contentType": "statementsToOptions"
@@ -373,43 +610,519 @@
       "contentType": "statementPage"
     }
   ],
+  "userInputSection": {
+    "introText": {
+      "en": "My zip code is:",
+      "es": "Mi código postal es:"
+    },
+    "inputType": {
+      "en": "Zip Code to State Input",
+      "es": "Zip Code to State Input"
+    },
+    "userInputMappingLogic": {
+      "AK": {
+        "snapapp": "",
+        "wichotline": "1-907-465-3100",
+        "snaphotline": "1-907-465-3347",
+        "snapoffices": "http://dhss.alaska.gov/dpa/Pages/features/org/dpado.aspx",
+        "tanfhotline": "1-907-465-3030",
+        "snapstatename": "Alaska Food Stamp Program ",
+        "tanfstatename": "Alaska Temporary Assistance Program"
+      },
+      "AL": {
+        "snapapp": "https://www.myalabama.gov/",
+        "wichotline": "1-888-942-4673",
+        "snaphotline": "1-334-242-1700",
+        "snapoffices": "http://dhr.alabama.gov/counties/county_select.aspx",
+        "tanfhotline": "1-334-242-1310",
+        "snapstatename": "Alabama Food Assistance Program",
+        "tanfstatename": "Alabama Family Assistance Program"
+      },
+      "AR": {
+        "snapapp": "https://access.arkansas.gov/",
+        "wichotline": "1-800-462-0599",
+        "snaphotline": "1-800-482-8988",
+        "snapoffices": "http://humanservices.arkansas.gov/Pages/DHSCountyOffices.aspx",
+        "tanfhotline": "1-855-225-4440",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "AZ": {
+        "snapapp": "https://www.healthearizonaplus.gov/",
+        "wichotline": "1-800-252-5942",
+        "snaphotline": "1-800-352-8401",
+        "snapoffices": "https://eol.azdes.gov/",
+        "tanfhotline": "1-855-777-8590",
+        "snapstatename": "Nutrition Assistance",
+        "tanfstatename": "Arizona Cash Assistance"
+      },
+      "CA": {
+        "snapapp": "http://www.benefitscal.com/",
+        "wichotline": "1-888-942-9675",
+        "snaphotline": "1-877-847-3663",
+        "snapoffices": "http://www.cdss.ca.gov/County-Offices",
+        "tanfhotline": "1-916-657-2128",
+        "snapstatename": " CalFresh",
+        "tanfstatename": "California Work Opportunity and Responsibility to Kids (CalWORKs)"
+      },
+      "CO": {
+        "snapapp": "https://coloradopeak.secure.force.com/",
+        "wichotline": "1-888-942-9675",
+        "snaphotline": "1-800-536-5298",
+        "snapoffices": "https://www.colorado.gov/pacific/cdhs/contact-your-county",
+        "tanfhotline": "1-800-536-5298",
+        "snapstatename": "",
+        "tanfstatename": "Colorado Works"
+      },
+      "CT": {
+        "snapapp": "https://www.connect.ct.gov/access/jsp/access/Home.jsp",
+        "wichotline": "1-888-942-9675",
+        "snaphotline": "1-855-626-6632",
+        "snapoffices": "http://www.ct.gov/dss/cwp/view.asp?a=2345&q=490698",
+        "tanfhotline": "1-800-842-1508",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "DC": {
+        "snapapp": "",
+        "wichotline": "1-800-345-1942",
+        "snaphotline": "1-202-724-5506",
+        "snapoffices": "https://dhs.dc.gov/node/117522",
+        "tanfhotline": "1-202-724-5506",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "DE": {
+        "snapapp": "https://assist.dhss.delaware.gov/",
+        "wichotline": "1-800-222-2189",
+        "snaphotline": "1-800-372-2022",
+        "snapoffices": "http://dhss.delaware.gov/dhss/dss/ofclocations.html",
+        "tanfhotline": "1-302-255-9500",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "FL": {
+        "snapapp": "http://www.myflorida.com/accessflorida/",
+        "wichotline": "1-800-342-3556",
+        "snaphotline": "1-866-762-2237",
+        "snapoffices": "http://www.dcf.state.fl.us/programs/access/map.shtml",
+        "tanfhotline": "1-866-762-2237",
+        "snapstatename": "",
+        "tanfstatename": "Temporary Cash Assistance (TCA)"
+      },
+      "GA": {
+        "snapapp": "",
+        "wichotline": "1-800-228-9173",
+        "snaphotline": "1-877-423-4746",
+        "snapoffices": "https://dfcs.georgia.gov/county-offices",
+        "tanfhotline": "1-877-423-4746",
+        "snapstatename": "Georgia Food Stamp Program",
+        "tanfstatename": ""
+      },
+      "HI": {
+        "snapapp": "https://www.realchoices.org/site/408/financial_assistancefood_stamp_application_form.aspx",
+        "wichotline": "1-888-820-6425",
+        "snaphotline": "1-808-643-1643",
+        "snapoffices": "http://humanservices.hawaii.gov/wp-content/uploads/2016/02/Statewide-processing-Center-list-online-02-16.pdf",
+        "tanfhotline": "1-808-586-4997",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "IA": {
+        "snapapp": "https://secureapp.dhs.state.ia.us/oasis/OASIS0100.aspx",
+        "wichotline": "1-800-532-1579",
+        "snaphotline": "1-877-347-5678",
+        "snapoffices": "http://dhs.iowa.gov/dhs_office_locator",
+        "tanfhotline": "1-800-972-2017",
+        "snapstatename": "Food Assistance Program",
+        "tanfstatename": "Family Investment Program (FIP)"
+      },
+      "ID": {
+        "snapapp": "http://healthandwelfare.idaho.gov/FoodCashAssistance/ApplyforAssistance/tabid/1554/Default.aspx",
+        "wichotline": "1-877-456-1233",
+        "snaphotline": "1-877-456-1233",
+        "snapoffices": "http://healthandwelfare.idaho.gov/ContactUs/tabid/127/default.aspx",
+        "tanfhotline": "1-877-456-1233",
+        "snapstatename": "Idaho Food Stamp Program",
+        "tanfstatename": ""
+      },
+      "IL": {
+        "snapapp": "https://abe.illinois.gov/abe/access/",
+        "wichotline": "1-800-323-4769",
+        "snaphotline": "1-800-843-6154",
+        "snapoffices": "http://www.dhs.state.il.us/page.aspx?module=12",
+        "tanfhotline": "1-217-785-3300",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "IN": {
+        "snapapp": "https://www.fssabenefits.in.gov/CitizenPortal/application.do",
+        "wichotline": "1-800-323-4769",
+        "snaphotline": "1-800-403-0864",
+        "snapoffices": "http://www.in.gov/fssa/files/DFR_Map_and_County_List.pdf",
+        "tanfhotline": "1-800-446-1993",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "KS": {
+        "snapapp": "https://kscapportalp.dcf.ks.gov/client/start.swe?SWECmd=Start&SWEHo=kscapportalp.dcf.ks.gov",
+        "wichotline": "1-800-332-6262",
+        "snaphotline": "1-888-369-4777",
+        "snapoffices": "http://www.dcf.ks.gov/services/Pages/DCFOfficeLocatorMap.aspx",
+        "tanfhotline": "1-888-369-4777",
+        "snapstatename": "",
+        "tanfstatename": "Kansas Successful Families Program"
+      },
+      "KY": {
+        "snapapp": "https://benefind.ky.gov/",
+        "wichotline": "1-800-462-6122",
+        "snaphotline": "1-855-306-8959",
+        "snapoffices": "https://prdweb.chfs.ky.gov/Office_Phone/index.aspx#",
+        "tanfhotline": "1-502-564-3440",
+        "snapstatename": "",
+        "tanfstatename": "Kentucky Transitional Assistance Program (K-TAP)"
+      },
+      "LA": {
+        "snapapp": "https://cafe-cp.dcfs.la.gov/selfservice/",
+        "wichotline": "1-800-251-2229",
+        "snaphotline": "1-888-524-3578",
+        "snapoffices": "http://www.dcfs.louisiana.gov/index.cfm?md=directory&tmp=home&nid=143&pnid=0&pid=0",
+        "tanfhotline": "1-225-342-3947",
+        "snapstatename": "",
+        "tanfstatename": "Family Independence Temporary Assistance Program (FITAP)"
+      },
+      "MA": {
+        "snapapp": "https://hhsvgapps01.hhs.state.ma.us/ierhome/LandingPage.do?method=displayConsumerHomePage&pageSwitch=HOME",
+        "wichotline": "1-800-942-1007",
+        "snaphotline": "1-877-382-2363",
+        "snapoffices": "https://eohhs.ehs.state.ma.us/DTAOffices/default.aspx",
+        "tanfhotline": "1-800-249-2007",
+        "snapstatename": "",
+        "tanfstatename": "Transitional Aid to Families with Dependent Children (TAFDC)"
+      },
+      "MD": {
+        "snapapp": "https://mydhrbenefits.dhr.state.md.us/dashboardClient/",
+        "wichotline": "1-800-242-4942",
+        "snaphotline": "1-800-332-6347",
+        "snapoffices": "http://dhr.maryland.gov/local-offices/",
+        "tanfhotline": "1-800-332-6347",
+        "snapstatename": "Food Supplement Program",
+        "tanfstatename": "Temporary Cash Assistance (TCA)"
+      },
+      "ME": {
+        "snapapp": "",
+        "wichotline": "1-800-437-9300",
+        "snaphotline": "1-800-442-6003",
+        "snapoffices": "http://www.maine.gov/dhhs/DHSaddresses.htm",
+        "tanfhotline": "1-207-287-3707",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "MI": {
+        "snapapp": "https://www.mibridges.michigan.gov/access/",
+        "wichotline": "1-800-942-1636",
+        "snaphotline": "1-855-275-6424",
+        "snapoffices": "https://mdhhs.michigan.gov/CompositeDirPub/CountyCompositeDirectory.aspx",
+        "tanfhotline": "1-855-275-6424",
+        "snapstatename": "Food Assistance Program",
+        "tanfstatename": " Family Independence Program (FIP)"
+      },
+      "MN": {
+        "snapapp": "https://applymn.dhs.mn.gov/",
+        "wichotline": "1-800-657-3942",
+        "snaphotline": "1-800-657-3698",
+        "snapoffices": "https://mn.gov/dhs/people-we-serve/children-and-families/economic-assistance/food-nutrition/contact-us/",
+        "tanfhotline": "1-651-431-2000",
+        "snapstatename": "",
+        "tanfstatename": "Minnesota Family Investment Program (MFIP)"
+      },
+      "MO": {
+        "snapapp": "https://apps.dss.mo.gov/fmwBenefitCenter/Account/SignInInfo.aspx",
+        "wichotline": "1-800-392-8209",
+        "snaphotline": "1-855-373-4636",
+        "snapoffices": "http://dss.mo.gov/dss_map/",
+        "tanfhotline": "1-573-751-3221",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "MS": {
+        "snapapp": "",
+        "wichotline": "1-800-545-6747",
+        "snaphotline": "1-800-948-3050",
+        "snapoffices": "http://www.mdhs.state.ms.us/field-operations/programs-dfo/supplemental-nutrition-assistance-program-(snap)/",
+        "tanfhotline": "1-800-948-4060",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "MT": {
+        "snapapp": "https://apply.mt.gov/",
+        "wichotline": "1-800-433-4298",
+        "snaphotline": "1-888-706-1535",
+        "snapoffices": "http://dphhs.mt.gov/hcsd/OfficeofPublicAssistance",
+        "tanfhotline": "1-855-415-5558",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "NC": {
+        "snapapp": "https://epass.nc.gov/CitizenPortal/application.do",
+        "wichotline": "1-800-367-2229",
+        "snaphotline": "1-866-719-0141",
+        "snapoffices": "https://www.ncdhhs.gov/divisions/dss/local-county-social-services-offices",
+        "tanfhotline": "1-919-527-6300",
+        "snapstatename": "Food and Nutrition Services",
+        "tanfstatename": "Work First "
+      },
+      "ND": {
+        "snapapp": "http://www.nd.gov/dhs/eligibility/index.html",
+        "wichotline": "1-800-472-2286",
+        "snaphotline": "1-800-755-2716",
+        "snapoffices": "http://www.nd.gov/dhs/locations/countysocialserv/index.html",
+        "tanfhotline": "1-800-755-2716",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "NE": {
+        "snapapp": "https://dhhs-access-neb-menu.ne.gov/start/",
+        "wichotline": "1-800-942-1171",
+        "snaphotline": "1-800-383-4278",
+        "snapoffices": "http://dhhs.ne.gov/Pages/localoffices.aspx",
+        "tanfhotline": "1-800-383-4278",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "NH": {
+        "snapapp": "https://nheasy.nh.gov",
+        "wichotline": "1-800-942-4321",
+        "snaphotline": "1-603-271-9700",
+        "snapoffices": "http://www.dhhs.nh.gov/contactus/districtoffices.htm",
+        "tanfhotline": "1-603-271-9700",
+        "snapstatename": "",
+        "tanfstatename": "Financial Assistance to Needy Families Program (FANF)"
+      },
+      "NJ": {
+        "snapapp": "https://oneapp.dhs.state.nj.us/default.aspx",
+        "wichotline": "1-800-328-3838",
+        "snaphotline": "1-800-792-9773",
+        "snapoffices": "http://www.nj.gov/humanservices/dfd/programs/njsnap/cwa/",
+        "tanfhotline": "1-800-792-9773",
+        "snapstatename": "",
+        "tanfstatename": "WorkFirst NJ"
+      },
+      "NM": {
+        "snapapp": "https://www.yes.state.nm.us/yesnm/home/index",
+        "wichotline": "1-866-867-3124",
+        "snaphotline": "1-888-473-3676",
+        "snapoffices": "http://www.hsd.state.nm.us/LookingForAssistance/Field_Offices_1.aspx",
+        "tanfhotline": "1-888-473-3676",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "NV": {
+        "snapapp": "https://idcnv.dwss.nv.gov/nidp/idff/sso?id=17&sid=0&option=credential&sid=0&target=https%3A%2F%2Faccessnevada.dwss.nv.gov%2FNV-EAPPWEB%2FEAPPServlet%3FUSER_REQUEST%3DPR_MAIN_PAGE%26USER_ACTION%3DLOGIN%26GUI_ENV_DB_NUMBER%3DW100DP1",
+        "wichotline": "1-800-942-1171",
+        "snaphotline": "1-800-992-0900",
+        "snapoffices": "https://dwss.nv.gov/Contact/Welfare/",
+        "tanfhotline": "1-800-992-0900",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "NY": {
+        "snapapp": "https://mybenefits.ny.gov/mybenefits",
+        "wichotline": "1-800-522-5006",
+        "snaphotline": "1-800-342-3009",
+        "snapoffices": "http://otda.ny.gov/workingfamilies/dss.asp",
+        "tanfhotline": "1-800-342-3009",
+        "snapstatename": "",
+        "tanfstatename": "Temporary Assistance (TA)"
+      },
+      "OH": {
+        "snapapp": "https://odjfsbenefits.ohio.gov/SelfServiceSplash.jsf",
+        "wichotline": "1-800-755-4769",
+        "snaphotline": "1-866-244-0071",
+        "snapoffices": "http://jfs.ohio.gov/County/County_Directory.pdf",
+        "tanfhotline": "1-866-244-0071",
+        "snapstatename": "",
+        "tanfstatename": "Ohio Works First (OWF)"
+      },
+      "OK": {
+        "snapapp": "http://www.okdhslive.org/",
+        "wichotline": "1-888-655-2942",
+        "snaphotline": "1-877-653-4798",
+        "snapoffices": "http://www.okdhs.org/countyoffices/Pages/default.aspx",
+        "tanfhotline": "1-866-411-1877",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "OR": {
+        "snapapp": "https://apps.state.or.us/onlineApplication/",
+        "wichotline": "1-800-723-3638",
+        "snaphotline": "1-800-723-3638",
+        "snapoffices": "http://www.oregon.gov/DHS/Offices/Pages/Self-Sufficiency.aspx",
+        "tanfhotline": "1-503-945-5600",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "PA": {
+        "snapapp": "https://www.compass.state.pa.us/",
+        "wichotline": "1-800-942-9467",
+        "snaphotline": "1-800-692-7462",
+        "snapoffices": "http://www.dhs.pa.gov/learnaboutdhs/helpfultelephonenumbers/countyassistanceofficecontactinformation/index.htm",
+        "tanfhotline": "1-800-692-7462",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "RI": {
+        "snapapp": "https://healthyrhode.ri.gov/HIXWebI3/DisplayRIServices",
+        "wichotline": "1-800-942-7434",
+        "snaphotline": "1-855-697-4347",
+        "snapoffices": "http://www.dhs.ri.gov/DHSOffices/index.php",
+        "tanfhotline": "1-401-462-5300",
+        "snapstatename": "",
+        "tanfstatename": "Rhode Island Works"
+      },
+      "SC": {
+        "snapapp": "https://scmapp.sc.gov/",
+        "wichotline": "1-800-922-4406",
+        "snaphotline": "1-800-616-1309",
+        "snapoffices": "https://dss.sc.gov/contact/",
+        "tanfhotline": "1-800-616-1309",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "SD": {
+        "snapapp": "https://apps.sd.gov/ss36snap/web/Portal/Default.aspx",
+        "wichotline": "1-800-738-2301",
+        "snaphotline": "1-877-999-5612",
+        "snapoffices": "http://dss.sd.gov/findyourlocaloffice/",
+        "tanfhotline": "1-605-773-4678",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "TN": {
+        "snapapp": "https://faonlineapp.dhs.tn.gov/",
+        "wichotline": "1-800-342-5942",
+        "snaphotline": "1-866-311-4287",
+        "snapoffices": "http://tennessee.gov/humanservices/article/office-locator-family-assistance",
+        "tanfhotline": "1-866-311-4287",
+        "snapstatename": "",
+        "tanfstatename": "Tennessee Families First"
+      },
+      "TX": {
+        "snapapp": "https://www.yourtexasbenefits.com",
+        "wichotline": "1-800-942-3678",
+        "snaphotline": "1-877-541-7905",
+        "snapoffices": "https://www.yourtexasbenefits.com/wps/portal/hhsc/Member/FindAnOfficeWizard/!ut/p/a1/jZDBUoMwEIafhitZGmSot0UqYEpRZ7Q0Fyc4KWWmJJ0kFX17I2db3dvufN_uzk84aQlX4mPohRu0EsefnidvS1yvygYWrFmxGBCLvCjokkIae2Dngc0TFCXGEWswuwOssnqTZzkFSP7n04ollSdYevN67_2obqLnegHVn_6W8Bm59sEMXDsxA3ChEMgD4f1Rd3MeO1QdTXvCjdxLI014Nn58cO5kbwMIYJqm8EufjZOfwnZSyf3gbPiuxwDWUhgVQKlH-duig7aOtBd9chpfWhgex21q8RvuzjPy/dl5/d5/L2dBISEvZ0FBIS9nQSEh/?localeInfo=en",
+        "tanfhotline": "1-877-541-7905",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "UT": {
+        "snapapp": "https://jobs.utah.gov/customereducation/services/foodstamps/",
+        "wichotline": "1-877-942-5437",
+        "snaphotline": "1-866-526-3663",
+        "snapoffices": "https://jobs.utah.gov/Regions/ec.html",
+        "tanfhotline": "1-866-435-7414",
+        "snapstatename": "",
+        "tanfstatename": "Temporary Assistance"
+      },
+      "VA": {
+        "snapapp": "https://commonhelp.virginia.gov/access/",
+        "wichotline": "1-888-942-3663",
+        "snaphotline": "1-800-552-3431",
+        "snapoffices": "http://www.dss.state.va.us/localagency/index.html",
+        "tanfhotline": "1-855-635-4370",
+        "snapstatename": "",
+        "tanfstatename": ""
+      },
+      "VT": {
+        "snapapp": "https://mybenefits.ahs.state.vt.us/Client_Registration.aspx",
+        "wichotline": "1-800-649-4357",
+        "snaphotline": "1-800-479-6151",
+        "snapoffices": "http://dcf.vermont.gov/esd/contact-us/districts",
+        "tanfhotline": "1-802-871-3390",
+        "snapstatename": "3SquaresVT",
+        "tanfstatename": "Vermont Reach Up"
+      },
+      "WA": {
+        "snapapp": "https://www.washingtonconnection.org/home/",
+        "wichotline": "1-800-841-1410",
+        "snaphotline": "1-877-501-2233",
+        "snapoffices": "https://fortress.wa.gov/dshs/f2ws03apps/caofficespub/offices/general/OfficePick.asp",
+        "tanfhotline": "1-877-501-2233",
+        "snapstatename": "Basic Food",
+        "tanfstatename": ""
+      },
+      "WI": {
+        "snapapp": "https://access.wisconsin.gov/",
+        "wichotline": "1-800-722-2295",
+        "snaphotline": "1-800-362-3002",
+        "snapoffices": "https://www.dhs.wisconsin.gov/forwardhealth/imagency/index.htm",
+        "tanfhotline": "1-608-266-6886",
+        "snapstatename": "FoodShare Wisconsin",
+        "tanfstatename": "Wisconsin Works (W-2)"
+      },
+      "WV": {
+        "snapapp": "https://www.wvinroads.org/selfservice/",
+        "wichotline": "1-304-558-0030",
+        "snaphotline": "1-800-642-8589",
+        "snapoffices": "http://www.dhhr.wv.gov/bcf/Pages/MapList.aspx",
+        "tanfhotline": "1-877-716-1212",
+        "snapstatename": "",
+        "tanfstatename": "WV WORKS"
+      },
+      "WY": {
+        "snapapp": "",
+        "wichotline": "1-800-994-4769",
+        "snaphotline": "1-307-777-5846",
+        "snapoffices": "https://docs.google.com/document/d/12-lvMvb2Tn230-FN-bC9Tt0N5RjgcaqkvSSaNc0tw84/edit",
+        "tanfhotline": "1-307-777-5846",
+        "snapstatename": "",
+        "tanfstatename": ""
+      }
+    },
+    "contentType": "userInputSection"
+  },
   "contentType": "guide",
   "entryIds": {
     "yfN3BkEgISmCMyamiq0mU": {
       "url": "//images.contentful.com/2h2wj50mwc16/yfN3BkEgISmCMyamiq0mU/993fc8f13cdbdf40862f0a305869fb91/steps-logo.svg",
       "fileName": "steps-logo.svg"
     },
-    "adCfBNvZrGeMQEqCuCAIe": {
-      "url": "//images.contentful.com/2h2wj50mwc16/adCfBNvZrGeMQEqCuCAIe/94ab7a6e3ffcc603a696b77b70c55534/talktolandlord-icon-1.svg",
-      "fileName": "talktolandlord-icon-1.svg"
+    "1Z3GOqcc8UIE6W0GE4sy4M": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1Z3GOqcc8UIE6W0GE4sy4M/2285e783d43136392fb46ef46bb9ad19/foodstamps-basket.svg",
+      "fileName": "foodstamps-basket.svg"
     },
-    "3JHbVgfADSYCS0yuqSUCmY": {
-      "url": "//images.contentful.com/2h2wj50mwc16/3JHbVgfADSYCS0yuqSUCmY/51e01d8096d71970a3c561238419cfe6/talktolandlord-icon-2.png",
-      "fileName": "talktolandlord-icon-2.png"
+    "1SXigyLf0oSSWSMGIQ2aos": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1SXigyLf0oSSWSMGIQ2aos/9e738f3af09ea5a8b5c0dbdc6931900d/foodstamps-eligibility.svg",
+      "fileName": "foodstamps-eligibility.svg"
     },
-    "6debw1vhSMQwyOgKWeIgEY": {
-      "url": "//images.contentful.com/2h2wj50mwc16/6debw1vhSMQwyOgKWeIgEY/632ff3b74e1e191857af0074f34c5da5/talktolandlord-icon-3.svg",
-      "fileName": "talktolandlord-icon-3.svg"
+    "1qrOKEhnYcium86EeeSmoA": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1qrOKEhnYcium86EeeSmoA/9dc6c4d8328d3c6cb20d0e2d950c8be3/foodstamps-online.svg",
+      "fileName": "foodstamps-online.svg"
     },
-    "3EcYojKbDqSCCyQiAquEKQ": {
-      "url": "//images.contentful.com/2h2wj50mwc16/3EcYojKbDqSCCyQiAquEKQ/cfc9639b2f3ec07f756ed7955019c25a/talktolandlord-icon-4.svg",
-      "fileName": "talktolandlord-icon-4.svg"
+    "434pBzsfde6WSGowMUY6A4": {
+      "url": "//images.contentful.com/2h2wj50mwc16/434pBzsfde6WSGowMUY6A4/5161c5426f71d06a0e9be44adc3b7c96/foodstamps-hotline.svg",
+      "fileName": "foodstamps-hotline.svg"
     },
-    "3jEpqtVTygyIOYoEuuMIq4": {
+    "5LWH9iNLxuw0oUCqkk0o8s": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5LWH9iNLxuw0oUCqkk0o8s/d5382dc9acabd0bd9163799e01587729/foodstamps-office.svg",
+      "fileName": "foodstamps-office.svg"
+    },
+    "QFyiAvjWUMOmuuKCEQiya": {
       "text": {
-        "en": "Talk to your landlord",
-        "es": "Hable con su rentero"
+        "en": "Apply for food stamps",
+        "es": "Aplicar para Cupones de Comida"
       },
       "actions": [
         {
           "leftHandSideImage": {
-            "id": "adCfBNvZrGeMQEqCuCAIe"
+            "id": "1Z3GOqcc8UIE6W0GE4sy4M"
           },
           "content": [
             {
               "content": {
-                "en": "### Get in touch sooner than later\nTaking the initiative to contact your landlord will help build trust. Try giving him/her a call and saying something like, “Hi (landlord), just wanted to make you aware that I’m having some trouble with the rent this month. I’m very sorry for the inconvenience, and I hope we can work out a plan to get it paid as soon as possible.” This allows your landlord to consider their options as well as yours in a calm, and informed way.",
-                "es": "### Pongase en contacto cuanto antes.\nTomar la iniciativa de contactar con el rentero ayudará a crear confianza. Intente llamarle y decir algo como, \"Hola (rentero), solo quería decirle que estoy teniendo problemas con la renta este mes. Lo siento mucho por la inconvenencia, y espero que lleguemos a un acuerdo para poder pagarlo lo mas pronto posible.\" Esto permite que el rentero considere sus opciones asi como las suyas de una manera calmada y en comunicacion."
+                "en": "__About food stamps__\nFood stamps, officially called the Supplemental Nutrition Assistance Program (SNAP), is a federal program that provides benefits to individuals and families to purchase food.\nEach state is responsible for administering the program for state residents and may refer to the program differently. For example, in California, SNAP is known as CalFresh. In order to receive benefits, you must meet eligibility requirements and apply through your local or state agency.\nIf approved, your benefits will be automatically received monthly on an EBT (electronic benefit transfer) card. This card works just like a debit card, and you will be able to purchase a variety of foods at grocery stores, food co-ops, farmers markets, and convenience stores.",
+                "es": "__About comida stamps__\nCupones de alimentos, oficialmente llamado el Programa de Asistencia Nutricional Suplementaria (SNAP), es un programa federal que proporciona beneficios a individuos y familias para comprar alimentos.\nCada Estado es responsable de administrar el programa para los residentes del estado y puede referirse al programa de manera diferente. Por ejemplo, en California, Snap se conoce como CalFresh. Para recibir beneficios, usted debe cumplir con los requisitos de elegibilidad y aplicar a través de su agencia local o estatal.\nSi es aprovado, sus beneficios se recibirán automáticamente mensualmente en una tarjeta de EBT (transferencia electrónica de beneficios). Esta tarjeta funciona como una tarjeta de débito, y usted puede comprar una variedad de alimentos en las tiendas de comestibles, cooperativas de alimentos, mercados de agricultores y tiendas de conveniencia."
               },
               "contentType": "contentBox"
             }
@@ -417,151 +1130,67 @@
           "contentType": "actionBasic"
         },
         {
-          "leftHandSideImage": {
-            "id": "3JHbVgfADSYCS0yuqSUCmY"
-          },
           "content": [
             {
-              "content": {
-                "en": "### Be easy to reach\nBe sure to answer any calls, emails or texts from your landlord as soon as you receive them. When you are responsive, you show your landlord that you respect his/her time and that you aren’t going to disappear. ",
-                "es": "### Sea facil de contactar.\nAsegurese de contestar todas las llamadas, correos o textos que reciba del rentero tan pronto como las reciba. Cuando es responsable, le demuestra  que respeta su tiempo y que no se esta escondiendo."
+              "title": {
+                "en": "__THE SNAP BENEFITS TIMELINE__",
+                "es": "__La línea de tiempo de beneficios de SNAP__"
               },
-              "contentType": "contentBox"
+              "content": [
+                {
+                  "content": {
+                    "en": "![foodstamps-timeline-1](//images.contentful.com/2h2wj50mwc16/13GnoVT5cESWyaEKCoQk6O/583152e4ad92697bf5db3b27457ce1ba/foodstamps-timeline-1.svg)\n__SUBMIT YOUR APPLICATION__\nEither online, over the phone or in-person. This should take 2 hours or less",
+                    "es": "![foodstamps-timeline-1](//images.contentful.com/2h2wj50mwc16/13GnoVT5cESWyaEKCoQk6O/583152e4ad92697bf5db3b27457ce1ba/foodstamps-timeline-1.svg)\n__SUBMIT YOUR APPLICATION__\nEither online, over the phone or in-person. This should take 2 hours or less"
+                  },
+                  "contentType": "timelineContent"
+                },
+                {
+                  "content": {
+                    "en": "![foodstamps-timeline-2](//images.contentful.com/2h2wj50mwc16/1ZGOUc6TveS0okoKUWK6gU/b444842910e8aa201fb06710be538a79/foodstamps-timeline-2.svg)\n__WAIT UP TO 30 DAYS__\nDuring this period, you may need to show up for in-person appointments",
+                    "es": "![foodstamps-timeline-2](//images.contentful.com/2h2wj50mwc16/1ZGOUc6TveS0okoKUWK6gU/b444842910e8aa201fb06710be538a79/foodstamps-timeline-2.svg)\n__WAIT UP TO 30 DAYS__\nDuring this period, you may need to show up for in-person appointments"
+                  },
+                  "contentType": "timelineContent"
+                },
+                {
+                  "content": {
+                    "en": "![foodstamps-timeline-3](//images.contentful.com/2h2wj50mwc16/5jOU8CJ6mIosiswUCskoy8/0835ccf69bd8446a1d6eba544425a1e4/foodstamps-timeline-3.svg)\n__GET YOUR BENEFITS__\nYou will receive retroactive benefits starting from submitting your application",
+                    "es": "![foodstamps-timeline-3](//images.contentful.com/2h2wj50mwc16/5jOU8CJ6mIosiswUCskoy8/0835ccf69bd8446a1d6eba544425a1e4/foodstamps-timeline-3.svg)\n__GET YOUR BENEFITS__\nYou will receive retroactive benefits starting from submitting your application"
+                  },
+                  "contentType": "timelineContent"
+                }
+              ],
+              "contentType": "timelineBox"
             }
           ],
-          "contentType": "actionBasic"
+          "contentType": "actionFullWidth"
         },
         {
           "leftHandSideImage": {
-            "id": "6debw1vhSMQwyOgKWeIgEY"
+            "id": "1SXigyLf0oSSWSMGIQ2aos"
           },
           "content": [
             {
               "content": {
-                "en": "### Suggest solutions\nYou want your landlord to know that you eventually intend to pay. As a show of good faith, it’s very helpful to suggest temporary or alternate solutions, such as a partial payment or a payment plan. Make sure to get any agreement in writing.",
-                "es": "### Sugiere soluciones\nLo que usted quiere es que el rentero sepa que eventualmente pretende pagarle. Como una muestra de buena fe, es de mucha ayuda sugerir una solución temporal o alternativa, como un pago parcial o un plan de pago. Asegurese de llegar a un acuerdo escrito."
-              },
-              "contentType": "contentBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "3EcYojKbDqSCCyQiAquEKQ"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Apologies are better than excuses\nUnless the details of your situation will lead to a viable payment solution, then it’s best not to offer any extra information. Simply apologize and focus on the best way to get your rent paid in the shortest amount of time.",
-                "es": "### Las disculpas son mejores que las excusas\nA menos que los detalles de su situación lleven a una solución de pago posible, lo mejor es no dar información extra. Simplemente disculpese y concentrese en la mejor forma de pagar su renta en el menor tiempo posible."
-              },
-              "contentType": "contentBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        }
-      ],
-      "contentType": "option"
-    },
-    "1ZpKB4fXSs4uAMMCWmisas": {
-      "url": "//images.contentful.com/2h2wj50mwc16/1ZpKB4fXSs4uAMMCWmisas/1b844d7ec0d7dc3470dd9ea2457ccd55/utility-icon-1.svg",
-      "fileName": "utility-icon-1.svg"
-    },
-    "413iyVUCreWACM6kmqa0EA": {
-      "url": "//images.contentful.com/2h2wj50mwc16/413iyVUCreWACM6kmqa0EA/c21614219c8bc581462aa4ac6935eda4/utility-icon-2.svg",
-      "fileName": "utility-icon-2.svg"
-    },
-    "BJS9Y6ldxmaS8oYiOUcio": {
-      "url": "//images.contentful.com/2h2wj50mwc16/BJS9Y6ldxmaS8oYiOUcio/0de5fa719eb72afee7fe574596bf5d88/utility-icon-3.svg",
-      "fileName": "utility-icon-3.svg"
-    },
-    "2GZ2aOHZvy2CAKAoAkoyE6": {
-      "url": "//images.contentful.com/2h2wj50mwc16/2GZ2aOHZvy2CAKAoAkoyE6/95e7a09968f73ad72f0e20df66249855/utility-assistance.svg",
-      "fileName": "utility-assistance.svg"
-    },
-    "4k0iNBaRhmmm6s8UWk2Sw8": {
-      "url": "//images.contentful.com/2h2wj50mwc16/4k0iNBaRhmmm6s8UWk2Sw8/47fa9ed1c8c7c3dea1fc7939e624cd89/utility-2.svg",
-      "fileName": "utility-2.svg"
-    },
-    "4ipMdWmSycuUwOAaUg2kQ6": {
-      "url": "//images.contentful.com/2h2wj50mwc16/4ipMdWmSycuUwOAaUg2kQ6/bb51cf637a322e8a8426cf607f202e77/utility-subsidy.svg",
-      "fileName": "utility-subsidy.svg"
-    },
-    "2OD7sGaLBKuUMcU6KsQ466": {
-      "text": {
-        "en": "Get utility assistance",
-        "es": "Consiga asistencia para los servicios publicos"
-      },
-      "actions": [
-        {
-          "leftHandSideImage": {
-            "id": "1ZpKB4fXSs4uAMMCWmisas"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Call your Utility Provider\nYour utility company may have a program that can help customers pay their bills, including creating a payment plan.",
-                "es": "### Llame a su proveedor de servicios publicos.\nSu compañía de servicios publicos puede tener un programa que ayude a los clientes a pagar sus cobros, incluyendo crear un plan de pago."
-              },
-              "contentType": "contentBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "413iyVUCreWACM6kmqa0EA"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Find government assistance\nMany state and local government agencies have programs that can help with your utility bill. Find out more here:",
-                "es": "### Busque asistencia gobernamental\nMuchos estados y agencias de gobiernos locales tienen programas que pueden ayudarle con las cobros de servicios publicos. Encuentre mas información aquí:"
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "GO TO UTILITYBILLASSISTANCE.COM",
-                "es": "VE A UTILITYBILLASSISTANCE.COM"
-              },
-              "url": {
-                "en": "www.utilitybillassistance.com",
-                "es": "www.utilitybillassistance.com"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "BJS9Y6ldxmaS8oYiOUcio"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Apply for LIHEAP\nAssistance is available through the federal Low-Income Home Energy Assistance Program. Each state is different, so make sure to look up your state and ask about what it takes to qualify.",
-                "es": "### Aplique para la LIHEAP\nPrograma de asistencia para la energia de hogares con bajo salario. Cada estado es diferente, asi que asegurese de verificar el de su estado y preguntar sobre que se necesita para calificar en este programa."
+                "en": "__Check your eligibility__\nBefore starting the application process, first check to make sure you are eligible for SNAP. Contrary to what you may have heard, even those who work full time, own a house or receive other benefits may still still be eligible. The best way to find out is to apply.",
+                "es": "__Verifica tu elegibilidad__\nAntes de iniciar el proceso de solicitud, primero asegúrese de que usted es elegible para Snap. Contrariamente a lo que usted haya oído, incluso aquellos que trabajan a tiempo completo, son dueños de una casa o reciben otros beneficios todavía pueden ser elegibles. La mejor manera de averiguarlo es aplicando."
               },
               "contentType": "contentBox"
             },
             {
               "content": {
-                "en": "__General Criteria__\n- Residents with very young children, elderly or disabled family members\n- Homes with low-incomes and high regional costs",
-                "es": "__Criterios generales__\n- Residentes con hijos pequeños, personas de edad avanzada o miembros de familia discapacitados.\n- Hogares con bajo salario y altos costos regionales."
+                "en": "__GENERAL ELIGIBILITY REQUIREMENTS FOR SNAP__\\r\\n\\r\\n- You must be a US Citizen or a legal immigrant who has lived in the US for at least 5 years. Even if other members of your household are non-citizens, you may still be eligible.\\r\\n- Your income can\\u2019t exceed certain gross and net income limits based on your household size. Deductions for certain things like shelter, child care, and child support, can reduce your income, so if you\\u2019re above a limit, apply, as you may still qualify. Income limits are adjusted annually.\\r\\n\\r\\n| HOUSEHOLD SIZE     | GROSS MONTHLY INCOME     | NET MONTHLY INCOME     |\\r\\n| ---------- | ---------- | ---------- |\\r\\n| 1       | $1276       | $981       |\\r\\n| 2       | $1726       | $1328       |\\r\\n| 3       | $2177       | $1675       |\\r\\n| 4       | $2628       | $2021       |\\r\\n| 5       | $3078       | $2368       |\\r\\n| 6       | $3529       | $2715       |\\r\\n| 7       | $3980       | $3061       |\\r\\n| 8       | $4430       | $3408       |\\r\\n| Each additional person       | + $451       | + $347       |\\r\\n\\r\\n- You can\\u2019t have too many countable resources available\\u2014things like cash in a bank account. The limit is $2500 for most, or $3250 if you or a family member is over 60 or disabled. Generally, things like your home, retirement plans, and a primary vehicle are not counted, but this can vary by state.\\r\\n- If you aren\\u2019t disabled or a senior, then most states require that you work, be registered for and looking for work, or to participate in a work training program.  You\\u2019ll need to take a job that is offered to you, and can\\u2019t voluntarily quit your job or reduce work hours.  The requirements will vary depending on your state.",
+                "es": "__Requisitos generales de elegibilidad para SNAP__\n- Usted debe ser un ciudadano de los Estados Unidos o un inmigrante legal que ha vivido en los Estados Unidos por lo menos 5 años. Incluso si otros miembros de su hogar no son ciudadanos, usted puede ser elegible.\n- Sus ingresos no pueden exceder ciertos límites de ingresos brutos y netos basados en el tamaño de su hogar. Las deducciones para ciertas cosas como refugio, cuidado de niños, y manutención de los hijos, pueden reducir sus ingresos, por lo que si usted está por encima de un límite, aplique, usted todavía puede calificar. Los límites de ingresos se ajustan anualmente.\n\\r\\n\\r\\n| TAMAÑO DEL HOGAR     | INGRESO MENSUAL BRUTO     | INGRESO MENSUAL NETO     |\\r\\n| ---------- | ---------- | ---------- |\\r\\n| 1       | $1276       | $981       |\\r\\n| 2       | $1726       | $1328       |\\r\\n| 3       | $2177       | $1675       |\\r\\n| 4       | $2628       | $2021       |\\r\\n| 5       | $3078       | $2368       |\\r\\n| 6       | $3529       | $2715       |\\r\\n| 7       | $3980       | $3061       |\\r\\n| 8       | $4430       | $3408       |\\r\\n| Cada persona adicional       | + $451       | + $347       |\\r\\n\\r\\n\n- Usted no puede tener muchos recursos contables disponibles ‰ ÛÓ cosas como dinero en efectivo en una cuenta bancaria. El límite es de $2500 para la mayoría, o $3250 si usted o un miembro de la familia es más de 60 o discapacitado. Generalmente, las cosas como su hogar, planes de jubilación, y el carro principal no se cuentan, pero esto puede variar según el estado.\n- Si usted no está discapacitado o en una persona mayor (Senior), entonces la mayoría de los Estados requieren que usted trabaje, se registre y busque trabajo, o participe en un programa de capacitación laboral.  Usted tendrá que tomar un trabajo que se le ofrece, y no puede renunciar voluntariamente a su trabajo o reducir las horas de trabajo.  Los requisitos variarán dependiendo de su estado."
               },
               "contentType": "criteriaBox"
             },
             {
               "text": {
-                "en": "FIND YOUR STATE’S CONTACT INFORMATION",
-                "es": "BUSQUE INFORMACION DE CONTACTOS DE SU ESTADO"
+                "en": "LEARN MORE ABOUT ELIGIBILITY",
+                "es": "APRENDA MAS ACERCA DE ELEGIBILIDAD"
               },
               "url": {
-                "en": "https://liheapch.acf.hhs.gov/db/index.php",
-                "es": "https://liheapch.acf.hhs.gov/db/index.php"
+                "en": "https://www.fns.usda.gov/snap/eligibility",
+                "es": "https://www.fns.usda.gov/snap/eligibility"
               },
               "contentType": "urlBox"
             }
@@ -570,24 +1199,27 @@
         },
         {
           "leftHandSideImage": {
-            "id": "2GZ2aOHZvy2CAKAoAkoyE6"
+            "id": "1qrOKEhnYcium86EeeSmoA"
           },
           "content": [
             {
               "content": {
-                "en": "__Reduce your home energy usage & costs__\nWeatherization Assistance Programs (WAP) help renters and homeowners reduce their home heating, cooling, and electricity usage and provide financial assistance to improve and update home systems. Income restrictions may apply. ",
-                "es": "__Reduce su consumo de energía en casa y costos__\nProgramas de Ayuda para la Climatización (WAP) ayuda a inquilinos y propietarios de viviendas a reducir su calefacción, refrigeración y uso de electricidad y proporcionar asistencia financiera para mejorar y actualizar los sistemas domésticos. Las restricciones de ingresos pueden aplicarse."
+                "en": "__Apply online__\nEvery state has their own website and digital application form for SNAP. If your application is accepted, you will still need to visit your local SNAP office in person.",
+                "es": "__Aplique en linea__\nCada Estado tiene su propio sitio web y formulario de aplicación digital para Snap. Si su solicitud es aceptada, usted todavía tendrá que ir a su oficina local de Snap en persona."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
-                "en": "FIND YOUR STATE WAP",
-                "es": "ENCUENTRE EN SU ESTADO WAP"
+                "en": "GO TO SNAP APPLICATION",
+                "es": "VAYA A LA APLICACION DE SNAP"
               },
-              "url": {
-                "en": "https://www.usa.gov/repairing-home#item-35127",
-                "es": "https://www.usa.gov/repairing-home#item-35127"
+              "userInputFieldName": {
+                "fieldName": {
+                  "en": "snapapp",
+                  "es": "snapapp"
+                },
+                "contentType": "userInputField"
               },
               "contentType": "urlBox"
             }
@@ -596,50 +1228,56 @@
         },
         {
           "leftHandSideImage": {
-            "id": "4k0iNBaRhmmm6s8UWk2Sw8"
+            "id": "434pBzsfde6WSGowMUY6A4"
           },
           "content": [
             {
               "content": {
-                "en": "__Check out the Lifeline federal program__\nLifeline is a federal program that can help lower the monthly costs of phone and internet for eligible customers.",
-                "es": "__Revise el programa federal Lifeline__\nLifeline es un programa federal que puede ayudar a reducir los costos mensuales de teléfono e Internet para clientes elegibles."
+                "en": "__Apply over the phone__\nEvery state has their own SNAP hotline number for applying over the phone. For most states, you may need to navigate a phone tree to speak to someone.",
+                "es": "__Aplique por teléfono__\nCada estado tiene su propio número de línea directa para la aplicación por teléfono. Para la mayoría de los Estados, es posible que tenga que navegar por un árbol telefónico para hablar con alguien."
               },
               "contentType": "contentBox"
             },
             {
-              "text": {
-                "en": "SEE IF YOU QUALIFY FOR LIFELINE",
-                "es": "VEA SI CALIFICA PARA LIFELINE"
+              "buttonText": {
+                "en": "SNAP HOTLINE:",
+                "es": "LINEA DIRECTA DE SNAP"
               },
-              "url": {
-                "en": "http://www.lifelinesupport.org/ls/",
-                "es": "http://www.lifelinesupport.org/ls/"
+              "userInputFieldName": {
+                "fieldName": {
+                  "en": "snaphotline",
+                  "es": "snaphotline"
+                },
+                "contentType": "userInputField"
               },
-              "contentType": "urlBox"
+              "contentType": "phoneBox"
             }
           ],
           "contentType": "actionBasic"
         },
         {
           "leftHandSideImage": {
-            "id": "4ipMdWmSycuUwOAaUg2kQ6"
+            "id": "5LWH9iNLxuw0oUCqkk0o8s"
           },
           "content": [
             {
               "content": {
-                "en": "__Apply for an internet subsidy__\nMany internet providers have reduced rates for families who earn below $35,000/year, receive SNAP or public housing assistance, or qualify for free and reduced lunch. ",
-                "es": "__Applique para un subsidio de Internet__\nMuchos proveedores de Internet tienen tarifas reducidas para las familias que ganan menos de $35,000/año, reciben ayuda de SNAP o de la vivienda pública, o califican para el almuerzo gratis y reducido."
+                "en": "__Apply in person__\nFind a local Social Security or Human Resources office to apply for SNAP benefits in person:",
+                "es": "__Aplique en persona__\nEncuentre una oficina local de Seguro Social o Recursos Humanos para solicitar beneficios de Snap en persona:"
               },
               "contentType": "contentBox"
             },
             {
               "text": {
-                "en": "SEE IF YOU QUALIFY FOR AN INTERNET SUBSIDY",
-                "es": "VEA SI CALIFICA PARA EL SUBSIDIO DE INTERNET"
+                "en": "FIND YOUR LOCAL SNAP OFFICE",
+                "es": "ENCUENTRE SU OFICINA LOCAL DE SNAP"
               },
-              "url": {
-                "en": "http://everyoneon.org/",
-                "es": "http://everyoneon.org/"
+              "userInputFieldName": {
+                "fieldName": {
+                  "en": "snapoffices",
+                  "es": "snapoffices"
+                },
+                "contentType": "userInputField"
               },
               "contentType": "urlBox"
             }
@@ -649,48 +1287,325 @@
       ],
       "contentType": "option"
     },
-    "2aMLH4HXx6OoguYm0aA2su": {
-      "url": "//images.contentful.com/2h2wj50mwc16/2aMLH4HXx6OoguYm0aA2su/21689e1d2502ee676ca08d4409dc3130/charity-icon-1.svg",
-      "fileName": "charity-icon-1.svg"
+    "3ebolOyfu0COee6YOqYoSa": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3ebolOyfu0COee6YOqYoSa/23483cfa2764c64395b7e2182c83f4c7/foodbank-feedingamerica.svg",
+      "fileName": "foodbank-feedingamerica.svg"
     },
-    "143qaN35WeaUEgW2cggK4a": {
-      "url": "//images.contentful.com/2h2wj50mwc16/143qaN35WeaUEgW2cggK4a/a253e48c269900a194040d9c2c82d4ca/charity-icon-2.svg",
-      "fileName": "charity-icon-2.svg"
+    "3qyMiN7LN6OkE2ymWyyYIw": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3qyMiN7LN6OkE2ymWyyYIw/e6a8c3c830832dd363632116d559d157/foodbank-hunger.svg",
+      "fileName": "foodbank-hunger.svg"
     },
-    "4I7Hqh7vgI6o28isasS2sg": {
-      "url": "//images.contentful.com/2h2wj50mwc16/4I7Hqh7vgI6o28isasS2sg/0c369e95fcc2a332248e836ad69d7efd/charity-icon-3.png",
-      "fileName": "charity-icon-3.png"
-    },
-    "2rMUoXIv0ECkWsA6ewYU08": {
-      "url": "//images.contentful.com/2h2wj50mwc16/2rMUoXIv0ECkWsA6ewYU08/9a113289e5aaf3524bf3943bd5ab3e2e/emergency-money.svg",
-      "fileName": "emergency-money.svg"
-    },
-    "4de8lryJlKK6eIA6wQgKug": {
+    "5jPh8Pn8E0gsMw2OKws2aU": {
       "text": {
-        "en": "Get emergency money",
-        "es": "Consiga dinero de emergencia"
+        "en": "Find a local food bank or soup kitchen",
+        "es": "Encuentre un banco de comida local o cocina de la sopa"
       },
       "actions": [
         {
           "leftHandSideImage": {
-            "id": "2aMLH4HXx6OoguYm0aA2su"
+            "id": "3ebolOyfu0COee6YOqYoSa"
           },
           "content": [
             {
               "content": {
-                "en": "### Contact your local 2-1-1\nThey can connect you with other organizations that help with housing issues. See what’s available near you.",
-                "es": "### Contacte a su 2-1-1 LOCAL\nEllos pueden conectarle con otras organizaciones que ayudan a estos problemas de hogar. Mire cual está disponible cerca de usted."
+                "en": "__Feeding America__\nFind a food bank or soup kitchen in your area for immediate food assistance:",
+                "es": "__Alimentando a América__\nEncuentre un banco de comida o una cocina de sopa en su área para recibir ayuda inmediata de comida:"
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "text": {
+                "en": "GO TO FEEDING AMERICA",
+                "es": "VAYA A ALIMENTANDO AMERICA"
+              },
+              "url": {
+                "en": "http://www.feedingamerica.org/find-your-local-foodbank/",
+                "es": "http://www.feedingamerica.org/find-your-local-foodbank/"
+              },
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3qyMiN7LN6OkE2ymWyyYIw"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__National Hunger Hotline__\nUSDA’s National Hunger Hotline provides information about community, grassroots, and non-governmental organizations that can assist with local food resources. The hotline is available Monday through Friday, 8 a.m. to 8 p.m. Eastern Time, but they also maintain a “clearinghouse” database you can search online.",
+                "es": "__Línea de ayuda directa Nacional del Hambre (National Hunger Hotline)__\nLa línea directa Nacional del Hambre de USDA proporciona información sobre organizaciones comunitarias, de base y no gubernamentales que pueden ayudar con los recursos alimenticios locales. La línea de ayuda está disponible de lunes a viernes, de 8 a.m. a 8 p.m. hora del este, pero también mantienen una base de datos de \"\"centro de intercambio\"\" que puede buscar en línea."
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": {
+                "en": "HOTLINE:",
+                "es": "NUMERO DE LINEA DIRECTA:"
+              },
+              "phoneNumber": {
+                "en": "1-866-348-6479",
+                "es": "1-866-348-6479"
+              },
+              "contentType": "phoneBox"
+            },
+            {
+              "content": {
+                "en": "__OR__",
+                "es": "__O__"
+              },
+              "textCentered": true,
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": {
+                "en": "Go To National Hunger Clearinghouse",
+                "es": "Vaya al \"centro de intercambio\" de Nacional del Hambre (National Hunger)"
+              },
+              "beginningUrlText": {
+                "en": "https://nhc.fns.usda.gov/nhc/national-hunger-organizations?field_org_addressfield_locality=&field_org_addressfield_administrative_area=&field_org_addressfield_postal_code=",
+                "es": "https://nhc.fns.usda.gov/nhc/national-hunger-organizations?field_org_addressfield_locality=&field_org_addressfield_administrative_area=&field_org_addressfield_postal_code="
+              },
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "2PXC3aGR96KISKAQyaUG8a": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2PXC3aGR96KISKAQyaUG8a/448f4d1f398ced5e2eda1703dcf08220/seniors-benefitscheckup.svg",
+      "fileName": "seniors-benefitscheckup.svg"
+    },
+    "2fmWdXhDWEI4IyEIuKyKOe": {
+      "url": "//images.contentful.com/2h2wj50mwc16/2fmWdXhDWEI4IyEIuKyKOe/361bf7c174e7cdfdf703e9e078f1f4f2/seniors-mealsonwheels.svg",
+      "fileName": "seniors-mealsonwheels.svg"
+    },
+    "6MAgqo0BAka4yyCGi8K2EA": {
+      "text": {
+        "en": "Find benefits for seniors",
+        "es": "Encuentre beneficios para personas mayores"
+      },
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "2PXC3aGR96KISKAQyaUG8a"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Visit BenefitsCheckUp®__\nCreated by the National Council on Aging, the BenefitsCheckUp® website is a free screening tool that checks eligibility for over 2,500 federal, state, and private benefit programs and helps seniors apply for the ones that are right for them. Food and nutritional programs they check for include:\n\n- Supplemental Nutrition Assistance Program (SNAP)\n- Home Delivered and Congregate/Group Meals\n- Commodity Supplemental Food Program (CSFP)\n- The Emergency Food Assistance Program (TEFAP)\n- Senior Farmers' Market Nutrition Program",
+                "es": "__Visita BenefitsCheckUp®__\nCreado por el Consejo Nacional de Envejecimiento, el sitio web de BenefitsCheckUp® es un sitio de internet de detección gratuita que comprueba la elegibilidad para más de 2,500 programas federales, estatales y privados de beneficios y ayuda a las personas de la tercera edad a aplicar para los que son adecuados para ellos. Los programas alimenticios y nutricionales incluyen:\n\n- Programa Suplemental de Nutricion (SNAP)\n- Hogar Entregado y Congregación/ Comidas de Grupo\n- Programa de alimentos suplementarios para consumo (CSFP)\n- Programa de asistencia para emergencia de comida (TEFAP)\n- Programa de nutrición del mercado de agricultores para personas mayores"
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "text": {
+                "en": "GO TO BenefitsCheckUp.org",
+                "es": "VAYA A BenefitsCheckUp.org"
+              },
+              "url": {
+                "en": "https://www.benefitscheckup.org/",
+                "es": "https://www.benefitscheckup.org/"
+              },
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "2fmWdXhDWEI4IyEIuKyKOe"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Meals on Wheels__\nThe Meals on Wheels program provides seniors with adequate nutritional support and companionship through in-home meal delivery. Meals on Wheels operates nationally through local community organizations—find your local program by following the link below:",
+                "es": "__Comidas sobre Ruedas__\nEl programa de Comidas sobre Ruedas proporciona a las personas mayores el apoyo nutricional adecuado y la compañía a través de la entrega de comida en el hogar. Las comidas sobre ruedas operan a nivel nacional a través de organizaciones comunitarias locales %ÛÓ encuentre su programa local siguiendo el siguiente enlace:"
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": {
+                "en": "FIND YOUR LOCAL MOW PROGRAM",
+                "es": "ENCUENTRE SU PROGRAMA LOCAS DE MOW"
+              },
+              "beginningUrlText": {
+                "en": "http://www.mealsonwheelsamerica.org/signup/aboutmealsonwheels/find-programs?filter=",
+                "es": "http://www.mealsonwheelsamerica.org/signup/aboutmealsonwheels/find-programs?filter="
+              },
+              "contentType": "zipcodeBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "1FXratMse4iYSeyeEsKMgs": {
+      "url": "//images.contentful.com/2h2wj50mwc16/1FXratMse4iYSeyeEsKMgs/e78dca870cba38693a460950f164e4f2/kids-WIC.svg",
+      "fileName": "kids-WIC.svg"
+    },
+    "3jDaIrLTyEKg8yyaakwmc4": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3jDaIrLTyEKg8yyaakwmc4/84724e324079518543def63c78dd4adc/kids-TANF.svg",
+      "fileName": "kids-TANF.svg"
+    },
+    "jyrmXDxSrQAis6YEkuC2g": {
+      "url": "//images.contentful.com/2h2wj50mwc16/jyrmXDxSrQAis6YEkuC2g/896179ea6fdc84f31fc5adf811b093a8/kids-NSLP.svg",
+      "fileName": "kids-NSLP.svg"
+    },
+    "3NMijWTyoMoAymUC8O0UEg": {
+      "url": "//images.contentful.com/2h2wj50mwc16/3NMijWTyoMoAymUC8O0UEg/c70bb9b32c8935dd135a8f5474b41a7a/kids-summermeals.svg",
+      "fileName": "kids-summermeals.svg"
+    },
+    "SoSAFO2w4oUIWeSYo6ekU": {
+      "text": {
+        "en": "Find benefits for kids",
+        "es": "Encuentre beneficios para niños"
+      },
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "1FXratMse4iYSeyeEsKMgs"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Apply for WIC__\nThe Special Supplemental Nutrition Program for Woman, Infants, and Children (WIC) provides help with food when you're pregnant, and if you're a mother with young children (newborns to age 5). If you already receive SNAP, Medicaid or TANF, you may be automatically eligible. You'll also receive a free screening from a health professional to determine eligibility. To learn more and apply, you will need to call your local state agency.",
+                "es": "__Aplique para WIC__\nEl programa especial de nutrición suplementaria para mujeres, bebés y niños (WIC) proporciona ayuda con alimentos cuando usted está embarazada, y si usted es una madre con niños pequeños (recién nacidos a los 5 años de edad). Si usted ya recibe Snap, Medicaid o TANF, usted puede ser elegible automáticamente. También recibirá una evaluación gratuita de un profesional de la salud para determinar la elegibilidad. Para obtener más información y aplicar, deberá llamar a su agencia estatal local."
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": {
+                "en": "WIC HOTLINE:",
+                "es": "LÍNEA DIRECTA DE WIC:"
+              },
+              "userInputFieldName": {
+                "fieldName": {
+                  "en": "wichotline",
+                  "es": "wichotline"
+                },
+                "contentType": "userInputField"
+              },
+              "contentType": "phoneBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3jDaIrLTyEKg8yyaakwmc4"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Apply for TANF__\nThe Temporary Assistance for Needy Families (TANF) program provides cash assistance to help you achieve self sufficiency. You must be pregnant or have children in order to qualify. To learn more and apply, you will need to call your local state agency.",
+                "es": "__Aplique para TANF__\nEl programa de asistencia temporal para familias necesitadas (TANF) proporciona asistencia en efectivo para ayudarle a lograr la autosuficiencia. Usted debe estar embarazada o tener hijos para calificar. Para obtener más información y aplicar, deberá llamar a su agencia estatal local."
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "buttonText": {
+                "en": "TANF HOTLINE:",
+                "es": "LÍNEA DIRECTA DE TANF"
+              },
+              "userInputFieldName": {
+                "fieldName": {
+                  "en": "tanfhotline",
+                  "es": "tanfhotline"
+                },
+                "contentType": "userInputField"
+              },
+              "contentType": "phoneBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "jyrmXDxSrQAis6YEkuC2g"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Apply for NSLP__\nYour children could receive free or discounted meals at school if you qualify for the National School Lunch Program (NSLP). If you already receive SNAP or TANF benefits, then your child will automatically be eligible. Other circumstances, like receiving unemployment compensation may also qualify your child in some states. To learn more and apply, contact your child’s school district directly.",
+                "es": "__Aplique para NSLP__\nSus hijos pueden recibir comidas gratis o con descuento en la escuela si usted califica para el Programa Nacional de Almuerzos Escolares (NSLP). Si usted ya recibe beneficios de SNAP o TANF, entonces su hijo será elegible automáticamente. Otras circunstancias, como recibir una indemnización por desempleo, también pueden calificar a su hijo en algunos Estados. Para obtener más información y aplicar, comuníquese directamente con el distrito escolar de su hijo."
+              },
+              "contentType": "contentBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "3NMijWTyoMoAymUC8O0UEg"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Find free summer meals__\nThe Summer Food Service Program (SFSP) provides free meals during summer months to children 18 years and under. No application or approval is necessary, but children must be present to be served meals at SFSP sites. Find a location near you:",
+                "es": "__Encuentre comidas en el verano gratis__\nEl Programa de Servicio de Comidas de Verano (PASF) ofrece comidas gratuitas durante los meses de verano a los niños de 18 años y menores. No es necesaria ninguna solicitud o aprobación, pero los niños deben estar presentes para ser servidos en las comidas en los sitios de SFSP. Encuentre una oficina cerca de usted:"
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "text": {
+                "en": "FIND AN SFSP LOCATION",
+                "es": "ENCUENTRE UNA OFICINA DE SFSP"
+              },
+              "url": {
+                "en": "https://www.fns.usda.gov/summerfoodrocks",
+                "es": "https://www.fns.usda.gov/summerfoodrocks"
+              },
+              "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        }
+      ],
+      "contentType": "option"
+    },
+    "4TqeElTdN6yUmGiOWo6s4e": {
+      "url": "//images.contentful.com/2h2wj50mwc16/4TqeElTdN6yUmGiOWo6s4e/9478f113b0bab3ab18745aca8f4ffb42/charity-icon-1.svg",
+      "fileName": "charity-icon-1.svg"
+    },
+    "29cvVLp8SsMAccYYM4QiO8": {
+      "url": "//images.contentful.com/2h2wj50mwc16/29cvVLp8SsMAccYYM4QiO8/a30a24262d0fc9ce457a62af271a4bc4/charity-icon-2.svg",
+      "fileName": "charity-icon-2.svg"
+    },
+    "5IxDrp1X1YEGeggw2gAMKU": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5IxDrp1X1YEGeggw2gAMKU/1d0e7fa4125d09eabea54cae91e65853/charity-icon-3.png",
+      "fileName": "charity-icon-3.png"
+    },
+    "20iPgs0bjqYi0Eyayeu8UK": {
+      "text": {
+        "en": "Get emergency money",
+        "es": "Obtenga dinero de emergencia"
+      },
+      "actions": [
+        {
+          "leftHandSideImage": {
+            "id": "4TqeElTdN6yUmGiOWo6s4e"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Contact your local 2-1-1__\nThey can connect you with other organizations that  can help you get food. See what’s available near you:",
+                "es": "__Contacte a su 2-1-1 local__\nEllos le pueden comunicar con otras organizaciones que pueden ayudarle a que obtenga comida. Vea que hay disponible cerca de usted:"
               },
               "contentType": "contentBox"
             },
             {
               "buttonText": {
                 "en": "FIND YOUR LOCAL 2-1-1",
-                "es": "ENCUENTRE SU 2-1-1 LOCAL"
+                "es": "EUNCUENTRE SU 2-1-1- LOCAL"
               },
               "beginningUrlText": {
-                "en": "http://211.org/search?zip=",
-                "es": "http://211.org/search?zip="
+                "en": "http://www.211.org/search?zip=",
+                "es": "http://www.211.org/search?zip="
               },
               "endUrlText": {
                 "en": "&city=&state=",
@@ -703,20 +1618,20 @@
         },
         {
           "leftHandSideImage": {
-            "id": "143qaN35WeaUEgW2cggK4a"
+            "id": "29cvVLp8SsMAccYYM4QiO8"
           },
           "content": [
             {
               "content": {
-                "en": "### Find a Catholic Charities agency\nThey help people with housing issues all the time. See what’s available in your neighborhood.",
-                "es": "### Encuentre una Agencia Caritativa Católica\nEllos ayudan a la gente con problemas en el hogar todo el tiempo. Verifique si hay alguna disponible en su vecindario."
+                "en": "__Find a Catholic Charities agency__\nThey help people with food assistance all the time. See what’s available in your neighborhood:",
+                "es": "__Encuentre una agencia de Caridades Catolicas__\nEllos pueden ayudarle con asistencia de comida en todo momento. Vea que esta disponible en su vecindario."
               },
               "contentType": "contentBox"
             },
             {
               "buttonText": {
                 "en": "FIND YOUR LOCAL CATHOLIC CHARITIES",
-                "es": "ENCUENTRA TU AGENCIA CARITATIVA CATOLICA LOCAL"
+                "es": "ENCUENTRE SU CARIDADES CATOLICAS LOCALES"
               },
               "beginningUrlText": {
                 "en": "https://catholiccharitiesusa.org/find-help?near=",
@@ -733,50 +1648,24 @@
         },
         {
           "leftHandSideImage": {
-            "id": "4I7Hqh7vgI6o28isasS2sg"
+            "id": "5IxDrp1X1YEGeggw2gAMKU"
           },
           "content": [
             {
               "content": {
-                "en": "### Apply for a Modest Needs grant\nThese small, emergency sums of money are allocated to low-income workers. Find out more by visiting their website.",
-                "es": "### Aplica para la concesion de Necesidades Modestas\nEstas pequeñas sumas de dinero para emergencias, son dirigidas a los trabajadores de bajo salario. Encuentre mas información visitando su pagina web."
+                "en": "__Apply for a Modest Needs grant__\nThese small, emergency grants are allocated to low-income workers. Find out more by visiting their website.",
+                "es": "__Aplique para el subsidio de Necesidades Modestas__\nSon pequeños, subsidios de emergencia para trabajadores de ingreso bajo. Aprenda más visitando su página de internet."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
-                "en": "GO TO MODESTNEEDS.ORG",
-                "es": "VE A MODESTNEEDS.ORG"
+                "en": "GO TO modestneeds.org",
+                "es": "VAYA A MODESTNEEDS.ORG"
               },
               "url": {
-                "en": "https://www.modestneeds.org",
-                "es": "https://www.modestneeds.org"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "2rMUoXIv0ECkWsA6ewYU08"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "__Apply for rental payment assistance__\nCheck to see if rental payment assistance is available where you live. Income restrictions may apply.",
-                "es": "__Aplique para la asistencia del pago de renta__\nCompruebe si la asistencia de pago de renta está disponible donde usted vive. Las restricciones de ingresos pueden aplicarse."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "GO TO RENTASSISTANCE.US",
-                "es": "VAYA A RENTASSISTANCE.US"
-              },
-              "url": {
-                "en": "https://www.rentassistance.us/",
-                "es": "https://www.rentassistance.us/"
+                "en": "https://www.modestneeds.org/index.asp",
+                "es": "https://www.modestneeds.org/index.asp"
               },
               "contentType": "urlBox"
             }
@@ -786,148 +1675,36 @@
       ],
       "contentType": "option"
     },
-    "1D274JnlswEWuMOGISUk42": {
-      "url": "//images.contentful.com/2h2wj50mwc16/1D274JnlswEWuMOGISUk42/d0ca4e25cb1d080bf0166ad3d9ab079a/advice-icon-1.svg",
-      "fileName": "advice-icon-1.svg"
+    "6EQfbsexVeg84wYGc6Ko0w": {
+      "url": "//images.contentful.com/2h2wj50mwc16/6EQfbsexVeg84wYGc6Ko0w/bfe939cc291373b3fab61b233ef39755/advice-icon.svg",
+      "fileName": "advice-icon.svg"
     },
-    "4PYd75NXeUqCCGCKMSKMCW": {
+    "4rqBpsVd32g20A4iw2um8k": {
       "text": {
         "en": "Find personalized advice",
-        "es": "Encuentre consejos personalizados"
+        "es": "Encuentre Asesoramiento Poersnalizado"
       },
       "actions": [
         {
           "leftHandSideImage": {
-            "id": "1D274JnlswEWuMOGISUk42"
+            "id": "6EQfbsexVeg84wYGc6Ko0w"
           },
           "content": [
             {
               "content": {
-                "en": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
-                "es": "### Hable con un consejero\nSi no es puede pagar su renta por el momento, entonces una sesión gratis con un consejero de viviendas es la mejor opción para usted. El consejero puede saber sobre opciones de menor costo de renta en su área o programas en los que puedes calificar. Un consejero también puede ayudarle a ordenar sus gastos y buscar ayuda para sus pagos."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "buttonText": {
-                "en": "FIND A HOUSING COUNSELOR NEAR YOU",
-                "es": "ENCUENTRE UN CONSEJERO DE VIVIENDA CERCA DE USTED"
-              },
-              "beginningUrlText": {
-                "en": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode=",
-                "es": "https://www.consumerfinance.gov/find-a-housing-counselor/?zipcode="
-              },
-              "contentType": "zipcodeBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        }
-      ],
-      "contentType": "option"
-    },
-    "1loO7d4xA4s6uoOSukOoI4": {
-      "url": "//images.contentful.com/2h2wj50mwc16/1loO7d4xA4s6uoOSukOoI4/eb1598dc05983da5e5cefbf8c13daff3/unemployment-icon-1.svg",
-      "fileName": "unemployment-icon-1.svg"
-    },
-    "3YR38wE1QIcEeQIICciS6A": {
-      "url": "//images.contentful.com/2h2wj50mwc16/3YR38wE1QIcEeQIICciS6A/dc783a5f87f744e82d7d7455fca7cd1f/regular-income.svg",
-      "fileName": "regular-income.svg"
-    },
-    "2j8sWhX4AUKu02cKgAySuw": {
-      "text": {
-        "en": "Secure regular income",
-        "es": "Asegure sus ingresos regulares"
-      },
-      "actions": [
-        {
-          "leftHandSideImage": {
-            "id": "1loO7d4xA4s6uoOSukOoI4"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Apply for unemployment benefits\nDon’t wait to file! After you fill out your application, it can take a few weeks to get your first check.",
-                "es": "### Aplique para los beneficios de desempleo\n¡No se espere a archivar! Después de que llene su aplicación, puede tomar algunas semanas para que reciba su primer cheque."
+                "en": "__Talk to a counselor__\nIf you're struggling to buy food, you may benefit from speaking to a financial counselor. They may not be able to help you find local resources for food in an emergency, but they can help you by reviewing your income and expenses, building a budget, and providing credit and debt counseling.",
+                "es": "__Hable con un consejero__\nSi esta ballando para comprar comida, tal vez se beneficie hablando con un consejero financiero. Ellos no pueden ayudarle a encontrar recursos de comida en una emergencia, pero si le pueden ayudar a revisar su ingreso y gastos, hacer un presupuesto y dar consejeria de crédito y deuda."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
-                "en": "FIND UNEMPLOYMENT BENEFITS",
-                "es": "BUSQUE BENEFICIOS DE DESEMPLEO"
+                "en": "Find a counselor near you",
+                "es": "Encuentre un consejero cerca de usted"
               },
               "url": {
-                "en": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx",
-                "es": "https://www.careeronestop.org/localhelp/unemploymentbenefits/unemployment-benefits.aspx"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "3YR38wE1QIcEeQIICciS6A"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs.",
-                "es": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "buttonText": {
-                "en": "FIND YOUR LOCAL CAREER CENTER",
-                "es": "FIND YOUR LOCAL CAREER CENTER"
-              },
-              "beginningUrlText": {
-                "en": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location=",
-                "es": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location="
-              },
-              "endUrlText": {
-                "en": "&radius=50&ct=0&y=0&w=0&e=0&sortcolumns=Program%20Type,GEOCODE&sortdirections=DESC,ASC&currentpage=1&olds=0&return=1&pagetype=result",
-                "es": "&radius=50&ct=0&y=0&w=0&e=0&sortcolumns=Program%20Type,GEOCODE&sortdirections=DESC,ASC&currentpage=1&olds=0&return=1&pagetype=result"
-              },
-              "contentType": "zipcodeBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        }
-      ],
-      "contentType": "option"
-    },
-    "36OGAlJiNGOgAQEeO0EaWA": {
-      "url": "//images.contentful.com/2h2wj50mwc16/36OGAlJiNGOgAQEeO0EaWA/e5afd93649dfdb7ac0e2cb0040572a1f/benefits-icon-1.svg",
-      "fileName": "benefits-icon-1.svg"
-    },
-    "1q2XvrvKQo0s0yUuAqAoO6": {
-      "text": {
-        "en": "See if you qualify for any government benefits",
-        "es": "Vea si usted califica para algún beneficio del gobierno."
-      },
-      "actions": [
-        {
-          "leftHandSideImage": {
-            "id": "36OGAlJiNGOgAQEeO0EaWA"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Take the Benefits assessment\nGovernment benefits can help with anything from food bills to doctors bills. Even if you don’t qualify for help with your rent bill, you might qualify for something else that will free up more money for your rent.",
-                "es": "### Tome la evaluación de Beneficios\nLos beneficios de Gobierno pueden ayudarle con cualquier cosa desde sus cobros de alimentos hasta sus cobros médicos. Incluso si no califica para la ayuda de su cobro de renta, puede calificar para algo más que le ayude a tener dinero libre para su renta."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "GO TO BENEFITS.GOV",
-                "es": "VAYA A BENEFITS.GOV"
-              },
-              "url": {
-                "en": "https://www.benefits.gov",
-                "es": "https://www.benefits.gov"
+                "en": "https://www.nfcc.org/locator/",
+                "es": "https://www.nfcc.org/locator/"
               },
               "contentType": "urlBox"
             }
@@ -937,38 +1714,64 @@
       ],
       "contentType": "option"
     },
-    "2PgawfEf3OQ4OGa6OueQCQ": {
-      "url": "//images.contentful.com/2h2wj50mwc16/2PgawfEf3OQ4OGa6OueQCQ/9b65b46c0786e30709e4f0e424b89c5b/legal-icon-1.svg",
-      "fileName": "legal-icon-1.svg"
+    "5BUmwLWEIEgAG80GaaoQ2k": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5BUmwLWEIEgAG80GaaoQ2k/74bfe0eac3c2355320ffe202f16e9b38/fresh-ebt-logo.png",
+      "fileName": "fresh-ebt-logo.png"
     },
-    "4IKABcabbycsMmS6SiuIQs": {
+    "5XBB7nMMMMQ4K4ewuM0IYW": {
+      "url": "//images.contentful.com/2h2wj50mwc16/5XBB7nMMMMQ4K4ewuM0IYW/6ec7612bfc0ed2eaf7e7709c846a699c/manage-reapply.svg",
+      "fileName": "manage-reapply.svg"
+    },
+    "2msnUlgvK8Ouo0iaOmuGGm": {
       "text": {
-        "en": "Get help immediately",
-        "es": "Consiga ayuda inmediatamente"
+        "en": "Manage your food stamps",
+        "es": "Administre su cupones de comida"
       },
       "actions": [
         {
           "leftHandSideImage": {
-            "id": "2PgawfEf3OQ4OGa6OueQCQ"
+            "id": "5BUmwLWEIEgAG80GaaoQ2k"
           },
           "content": [
             {
               "content": {
-                "en": "### Save all documents and seek help\nIf you believe you are being treated unfairly by your landlord or property manager, get in touch with a tenants rights organization to see what your options are. The following website has a list of tenants rights resources and legal assistance available in your state. You may be able to get help from an attorney provided by the court for those who can’t afford a lawyer and they can help you understand the eviction process, your rights and your options. Your new attorney will need to see all notices, letters or emails from your landlord as well as from any other lawyers or courts.",
-                "es": "### Guarde todos sus documentos y busque ayuda\nSi cree que ha sido tratado injustamente por el rentero o el administrador de la propiedad, pongase en contacto con una organización de derechos de los inquilinos para ver que opciones tiene. La siguiente página web tiene una lista de los derechos humanos de los inquilinos y asistencia legal disponible en su estado. Usted puede conseguir ayuda de un abogado proporcionado por la corte para aquellos que no pueden pagar uno, y ellos pueden ayudarle a comprender el proceso de desalojo y sus derechos y sus opciones. Su nuevo abogado deberá ver todos los avisos, cartas o correos del rentero asi como de los otros abogados o cortes."
+                "en": "__Get Fresh EBT__\nFresh EBT is an app that links to your EBT account to show your food stamps and benefits balance on your phone. The app also includes a map showing food stamp offices, stores that accept food stamps, and food pantries.",
+                "es": "__Obteng Fresh EBT__\nFresh EBT es una aplicación que se conecta a su cuenta de EBT para mostrarle sus cupones de comida y su saldo de beneficios en su teléfono. Esta aplicación tambien incluye un mapa enseñando las oficinas de cupones de comida, tiendas donde las aceptan y despensas de alimentos."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
-                "en": "FIND TENANTS RIGHTS ADVOCATES IN YOUR STATE",
-                "es": "BUSQUE A LOS ABOGADOS DE DERECHOS DE LOS INQUILINOS EN SU ESTADO"
+                "en": "GET FRESH EBT",
+                "es": "OBTENGA FRESH EBT"
               },
               "url": {
-                "en": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights",
-                "es": "https://portal.hud.gov/hudportal/HUD?src=/topics/rental_assistance/tenantrights"
+                "en": "http://www.freshebt.com/",
+                "es": "http://www.freshebt.com/"
               },
               "contentType": "urlBox"
+            }
+          ],
+          "contentType": "actionBasic"
+        },
+        {
+          "leftHandSideImage": {
+            "id": "5XBB7nMMMMQ4K4ewuM0IYW"
+          },
+          "content": [
+            {
+              "content": {
+                "en": "__Reapply for food stamps__\nMost states require you to reapply for benefits every six months to stay on the program (sometimes called “re-certification”). This process checks for changes to your income, household members, and expenditures. If you miss this deadline, you may lose your benefits and have to completely re-enroll in the SNAP program—an unnecessary process that may take up to two months. ",
+                "es": "__Vuelva aplicar para cupones de comida__\nLa mayoría de los estados requieren que vuelva aplicar para sus beneficios cada seis meses para que este en el programa (algunos le llaman \"\"re-certificación\"\")Este proceso verifica los cambios en su ingreso, miembros en la casa, y gastos. Si se le pasa la fecha de límite, pudiera perder su beneficios y tendria que volver a inscribirse en el programa de SNAP un proceso inecesario que podría llevarse hasta dos meses."
+              },
+              "contentType": "contentBox"
+            },
+            {
+              "content": {
+                "en": "__TIPS FOR REAPPLICATION__\n- Keep track of when exactly your SNAP application was officially accepted—you must reapply for your benefits within six months of this day.\n- About 45 days before your benefits expire, your state agency should send you a notice and reapplication form by mail which you will need submit to in-person.\n- If you move while recieving benefits, make sure to inform your state's social services agency of your new address so they don’t send your reapplication notice to your old address.",
+                "es": "__CONSEJOS PARA VOLVER APLICAR__\n- Llevar un registro de cuándo exactamente su aplicación de Snap fue aceptada oficialmente—usted debe volver a aplicar para sus beneficios en el plazo de seis meses de ese día.\n- Cerca de 45 días antes de que sus beneficios expiren, su agencia estatal debe enviarle un formulario de notificación y re-solicitud por correo que usted necesitará enviar en persona.\n- Si se cambia mientras recibe beneficios, asegúrese de informar a la Agencia de servicios sociales de su estado de su nueva dirección para que no envíen su notificación de re-solicitud a su antigua dirección."
+              },
+              "contentType": "criteriaBox"
             }
           ],
           "contentType": "actionBasic"
@@ -976,193 +1779,40 @@
       ],
       "contentType": "option"
     },
-    "gFV7bUtfnUkwI4sSWCyAY": {
-      "url": "//images.contentful.com/2h2wj50mwc16/gFV7bUtfnUkwI4sSWCyAY/89cc2fcf705b857936611e230fa70e46/savings-icon-1.svg",
-      "fileName": "savings-icon-1.svg"
-    },
-    "259eBSSq2I2UY6UsWI8EI0": {
-      "url": "//images.contentful.com/2h2wj50mwc16/259eBSSq2I2UY6UsWI8EI0/1274b65fe775597797d8e33cb34e3ed3/savings-icon-2.svg",
-      "fileName": "savings-icon-2.svg"
-    },
-    "1RXfuRwnd6ImoUawy2EuSs": {
-      "url": "//images.contentful.com/2h2wj50mwc16/1RXfuRwnd6ImoUawy2EuSs/925b5fed31f9c183d2a63d40319713cf/savings-icon-3.svg",
-      "fileName": "savings-icon-3.svg"
-    },
-    "eM6IFMs5LaSoeQkoiIOa6": {
-      "url": "//images.contentful.com/2h2wj50mwc16/eM6IFMs5LaSoeQkoiIOa6/2f65cfc1325e81df70d21ea3f8e4eba9/savings-icon-4.svg",
-      "fileName": "savings-icon-4.svg"
-    },
-    "2lx8Q8xKmoUsWqeUIG2Wgk": {
-      "url": "//images.contentful.com/2h2wj50mwc16/2lx8Q8xKmoUsWqeUIG2Wgk/bf182db1bd261b9e68ef9ba3aceafffb/savings-app.svg",
-      "fileName": "savings-app.svg"
-    },
-    "3rCNv511b2QSkeSsMkMgg6": {
+    "1bpd8NQyoGyIwA2WqSOg0g": {
       "text": {
-        "en": "Start your savings",
-        "es": "Empiece sus ahorros"
+        "en": "I currently receive food stamps",
+        "es": "Estoy recibiendo cupones para comida"
       },
-      "actions": [
+      "contentType": "statement"
+    },
+    "43CYtJ6AU02QUSEYUss8Qq": {
+      "text": {
+        "en": "I need to get food today",
+        "es": "Necestio conseguir comida hoy"
+      },
+      "contentType": "statement"
+    },
+    "6cQOHSvyFOiySQICiEIIss": {
+      "text": {
+        "en": "My household includes someone age 60 or older",
+        "es": "Mi hogar incluye a alguien de edad 60 o más"
+      },
+      "choices": [
         {
-          "leftHandSideImage": {
-            "id": "gFV7bUtfnUkwI4sSWCyAY"
+          "text": {
+            "en": "THIS IS ME",
+            "es": "THIS IS ME"
           },
-          "content": [
-            {
-              "content": {
-                "en": "### Open a savings account\nWhen you save small amounts of money over time, you create a safety net for any unexpected bills. Have a savings goal in mind when you open your account, and it will give you the motivation to get started. Also, do an internet search to see if a nonprofit near you has an “Individual Development Account” (IDA) program, a special savings account that will add matching funds every time you save.",
-                "es": "### Abra una cuenta de ahorros\nCuando ahorra pequeñas cantidades de dinero con el tiempo, crea una red de seguridad para algun cobro inesperado. Tenga una meta de ahorro en mente cuando abra su cuenta, eso le dará una motivación a empezar. También, haga una busqueda en internet para ver si hay un programa no lucrativo, como el programa de  \"Cuenta de Desarrollo Individual\" (IDA), una cuenta especial de ahorro que añadirá fondos correspondientes cada que vez que usted ahorre."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "LEARN MORE ABOUT IDA PROGRAMS",
-                "es": "CONOZCA MAS SOBRE LOS PROGRAMAS \"IDA\""
-              },
-              "url": {
-                "en": "https://prosperitynow.org/everything-you-need-know-about-individual-development-accounts-idas#ques10",
-                "es": "https://prosperitynow.org/everything-you-need-know-about-individual-development-accounts-idas#ques10"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "259eBSSq2I2UY6UsWI8EI0"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Set a savings goal\nMake a plan for building an emergency fund. Breaking down a savings goal by how much you'd need to save regularly, makes your big money goal more achievable.",
-                "es": "### Establezca una meta de ahorros\nElabore un plan para crear un fondo de emergencia. Dividir una meta de ahorros basandose en lo que necesite ahorrar regularmente, hace que su meta de mucho dinero sea mas alcanzable."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "MAKE A PLAN TO ACHIEVE YOUR SAVINGS GOAL",
-                "es": "HAGA UN PLAN PARA LOGRAR SUS METAS DE AHORRO"
-              },
-              "url": {
-                "en": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf",
-                "es": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201705_cfpb_MAYG_My-New-Money-Goal.pdf"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "1RXfuRwnd6ImoUawy2EuSs"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Set up automatic savings\nAutomatic withdrawal helps you save without having to think about it. Every month, some money from your checking account can be automatically deposited into your savings account. Decide on an amount that works for you, and ask your bank about it. Even $10 a month can make a big difference. Consider connecting your account to the EARN Starter Savings Program to get a maximum bonus of $60 for saving regularly in your account.",
-                "es": "### Prepare ahorros automaticos\nLos retiros automaticos le ayudan a ahorrar sin tener que pensar en ello. Cada mes, un poco del dinero de su cuenta de cheques será depositada automaticamente a su cuenta de ahorros. Debe decidir una cantidad que se ajuste a usted y solicitarselo al banco. Incluso $10 al mes puede hacer una gran diferencia. Considere conectar su cuenta al Programa Inicial de Ahorros (EARN) para conseguir un bono maximo de $60 por ahorrar regularmente en su cuenta."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "LEARN MORE ABOUT THE EARN STARTER SAVINGS PROGRAM",
-                "es": "CONOZCA MAS SOBRE EL PROGRAMA \"EARN STARTER SAVINGS\""
-              },
-              "url": {
-                "en": "https://help.earn.org/hc/en-us/articles/115001803146-How-does-it-work-",
-                "es": "https://help.earn.org/hc/en-us/articles/115001803146-How-does-it-work-"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "eM6IFMs5LaSoeQkoiIOa6"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "### Find a savings buddy\nFind a friend that is also learning how to save and you can help each other stay on track. Whenever you’re feeling tempted or if saving feels difficult, this person will help you stay motivated.",
-                "es": "### Encuentre a un compañero de ahorro\nEncuentre a un amigo que tambien esté aprendiendo a ahorrar y se puedan ayudar mutuamente, mantenganse unidos. Cuando sea que se sienta tentado a gastar sus ahorros o se le dificulte, esta persona le puede ayudar a mantenerse motivado."
-              },
-              "contentType": "contentBox"
-            }
-          ],
-          "contentType": "actionBasic"
-        },
-        {
-          "leftHandSideImage": {
-            "id": "2lx8Q8xKmoUsWqeUIG2Wgk"
-          },
-          "content": [
-            {
-              "content": {
-                "en": "__Try a savings app__\nThere are free or low-cost apps available to help you start saving automatically. Every app works a little differently, so if you’re interested in using a savings app, find and stick with the one that works for you. ",
-                "es": "__Trate una aplicación de ahorros__\nHay algunos gratis o de bajo costo disponibles que le pueden ayudar a ahorrar automáticamente. Cada aplicación trabaja de manera diferente, si usted esta interesado en usar una aplicacion para ahorrar, busque y quedese con una que va a funcionar para usted."
-              },
-              "contentType": "contentBox"
-            },
-            {
-              "text": {
-                "en": "LEARN MORE ABOUT SAVINGS APPS",
-                "es": "APRENDA MAS ACERCA DE APLICACIONES DE AHORROS"
-              },
-              "url": {
-                "en": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/",
-                "es": "https://www.nerdwallet.com/blog/banking/best-money-saving-apps/"
-              },
-              "contentType": "urlBox"
-            }
-          ],
-          "contentType": "actionBasic"
+          "contentType": "choice"
         }
       ],
-      "contentType": "option"
-    },
-    "2Wqw8YUtCoWwSmcUqqOWKS": {
-      "text": {
-        "en": "I recently lost my income",
-        "es": "Recientemente perdí mi sueldo"
-      },
       "contentType": "statement"
     },
-    "5prmY98iWs4W08Q08gUSoq": {
+    "3HgvbSF0wE68emEeKkwwMI": {
       "text": {
-        "en": "I've missed rent payments in the past",
-        "es": "He tenido retrasos en los pagos de renta anteriormente"
-      },
-      "contentType": "statement"
-    },
-    "3usUZICBniicsgMSW2SQUW": {
-      "text": {
-        "en": "I can't pay my utilities",
-        "es": "No puedo pagar mis servicios publicos"
-      },
-      "contentType": "statement"
-    },
-    "J1O6UR0UkSowCSKKiiqwG": {
-      "text": {
-        "en": "I don't have any money saved",
-        "es": "No tengo dinero ahorrado"
-      },
-      "contentType": "statement"
-    },
-    "cswm8riVDagEuoEAkuWyY": {
-      "text": {
-        "en": "I won't be able to pay my rent for a while",
-        "es": "No seré capaz de pagar mi renta por un tiempo"
-      },
-      "contentType": "statement"
-    },
-    "4Sq7Sok94A2qMQAyCC2USq": {
-      "text": {
-        "en": "I'm getting eviction notices",
-        "es": "Me llego un aviso de desalojo"
+        "en": "My household includes at least one child under 18 years of age",
+        "es": "Mi hogar incluye al menos un niño menor de 18 años de edad"
       },
       "contentType": "statement"
     }

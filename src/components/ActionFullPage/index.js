@@ -17,7 +17,7 @@ function mapZipToState(zip) {
 
 const ActionFullPage = (props) => {
   console.log(props);
-  console.log('action full');
+  console.log('full page');
   let mappingLogic = null;
   let state = null;
   if(props.data.zip) {
@@ -69,7 +69,7 @@ const ActionFullPage = (props) => {
     }
     else if(content.contentType === 'timelineBox') {
       box = (
-        <TimelineBox key={i} content={localizedContent} title={getTranslation(content.title, props.language)} />
+        <TimelineBox key={i} content={localizedContent} title={getTranslation(content.title, props.language)} language={props.language} />
       );
     }
     return (

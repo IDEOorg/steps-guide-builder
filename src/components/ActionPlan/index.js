@@ -8,8 +8,6 @@ import './index.less';
 import config from '../../data/config';
 
 const ActionPlan = (props) => {
-  console.log(props);
-  console.log('action plan');
   let option =  config.entryIds[props.id];
   let actions = option.actions;
   actions = actions.map((action, i) => {

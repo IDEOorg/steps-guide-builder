@@ -1,20 +1,55 @@
 {
-  "title": "Credit Guide",
+  "title": {
+    "en": "Credit Guide",
+    "es": "Guia de Crédito"
+  },
   "guideMaterials": {
     "headerIcon": {
       "id": "yfN3BkEgISmCMyamiq0mU"
     },
-    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf8rHuPl0Y7vMs1fm-Nf3C1V-sh-7mOBm8jU3SymvCHDm0YkQ/viewform",
+    "feedbackUrl": {
+      "en": "https://docs.google.com/forms/d/e/1FAIpQLSf8rHuPl0Y7vMs1fm-Nf3C1V-sh-7mOBm8jU3SymvCHDm0YkQ/viewform",
+      "es": "https://docs.google.com/forms/d/e/1FAIpQLSf8rHuPl0Y7vMs1fm-Nf3C1V-sh-7mOBm8jU3SymvCHDm0YkQ/viewform"
+    },
+    "feedbackText": {
+      "en": "Send Feedback",
+      "es": "Enviar Comentarios"
+    },
+    "homeText": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "showOptionsText": {
+      "en": "Show me my options",
+      "es": "Muéstrame mis opciones"
+    },
+    "iveAlreadyTriedThisText": {
+      "en": "I've already tried this.",
+      "es": "Ya he intentado esto."
+    },
+    "zipCodeBoxPlaceholder": {
+      "en": "MY ZIP CODE",
+      "es": "MI CÓDIGO POSTAL"
+    },
     "contentType": "guideMaterials"
   },
   "optionsPage": {
     "url": {
-      "urlText": "options",
+      "urlText": {
+        "en": "options",
+        "es": "options"
+      },
       "contentType": "url"
     },
     "navigation": {
-      "title": "What can you do?",
-      "linkText": "Back to statements",
+      "title": {
+        "en": "What can you do?",
+        "es": "¿Qué puede hacer?"
+      },
+      "linkText": {
+        "en": "Back to statements",
+        "es": "Volver a las declaraciones"
+      },
       "contentType": "navigation"
     },
     "options": [
@@ -44,7 +79,10 @@
   },
   "problemsPage": {
     "url": {
-      "urlText": "/",
+      "urlText": {
+        "en": "/",
+        "es": "/"
+      },
       "contentType": "url"
     },
     "problems": [
@@ -80,7 +118,10 @@
       }
     ],
     "sidebar": {
-      "content": "![credit-guide-icon](//images.contentful.com/2h2wj50mwc16/Gm8PpJoX0AYW02A66sGYg/65e183a930dec801bbced6f6e7096428/credit-guide-icon.gif)\n## My Credit is Keeping Me from My Goal\n\nMaintaining good credit is tough, and it affects our lives in so many ways. If you’re having a hard time getting approved for things like an apartment or a loan, you can take steps to improve your credit. Let’s get started.",
+      "content": {
+        "en": "![credit-guide-icon](//images.contentful.com/2h2wj50mwc16/Gm8PpJoX0AYW02A66sGYg/65e183a930dec801bbced6f6e7096428/credit-guide-icon.gif)\n## My Credit is Keeping Me from My Goal\n\nMaintaining good credit is tough, and it affects our lives in so many ways. If you’re having a hard time getting approved for things like an apartment or a loan, you can take steps to improve your credit. Let’s get started.",
+        "es": "![credit-guide-icon](//images.contentful.com/2h2wj50mwc16/Gm8PpJoX0AYW02A66sGYg/65e183a930dec801bbced6f6e7096428/credit-guide-icon.gif)\n## Mi Crédito me esta alejando de mi meta.\n\nMantener un buen crédito es dificil y afecta nuestras vidas de muchas maneras. Si usted esta teniendo dificultades para estar aprobado para cosas como un apartamento o un préstamo, usted puede tomar decisiones para mejorar su crédito. Vamos a empezar.\""
+      },
       "position": false,
       "contentType": "sidebar"
     },
@@ -91,7 +132,10 @@
             "id": "lsJ429v83eqkMgYCeqYOi"
           },
           "statementPage": {
-            "title": "Car",
+            "title": {
+              "en": "Car",
+              "es": "Car"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -119,18 +163,30 @@
               }
             ],
             "sidebar": {
-              "content": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nIf you’re having trouble being approved for a car loan, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- Your credit score is too low\n- Your income is not high enough to afford the car\n\n__Let’s get you on the road to better credit by exploring your options.__",
+              "content": {
+                "en": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nIf you’re having trouble being approved for a car loan, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- Your credit score is too low\n- Your income is not high enough to afford the car\n\n__Let’s get you on the road to better credit by exploring your options.__",
+                "es": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nSi usted esta teniendo problemas para ser aprobado para un préstamo de auto, su crédito podría ser la razón. Los prestamistas tradicionales probablemente no lo aprobarán si:\n- Su puntaje de crédito es demasiado bajo\n- Sus ingresos no son lo suficiente altos para pagar el auto\n\n__Vamos a ponerlo en el camino para mejorar su crédito explorando sus opciones.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "I wanted a car",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "I wanted a car",
+                "es": "Yo quiero un carro"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -340,7 +396,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "car",
+              "urlText": {
+                "en": "car",
+                "es": "car"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -352,7 +411,10 @@
             "id": "1Yx4N4wEmkiKcMkiUgGq28"
           },
           "statementPage": {
-            "title": "House",
+            "title": {
+              "en": "House",
+              "es": "House"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -380,18 +442,30 @@
               }
             ],
             "sidebar": {
-              "content": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\nIs getting a mortgage a little harder than you thought? Your credit might be the reason. Here are some of the reasons traditional lenders won’t approve you:\n- Your credit score is too low\n- Your income may be insufficient\n- You may have too much debt\n\n__There are still many ways you can improve your credit. Let’s take a look.__",
+              "content": {
+                "en": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\nIs getting a mortgage a little harder than you thought? Your credit might be the reason. Here are some of the reasons traditional lenders won’t approve you:\n- Your credit score is too low\n- Your income may be insufficient\n- You may have too much debt\n\n__There are still many ways you can improve your credit. Let’s take a look.__",
+                "es": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\n¿Es obtener una hipoteca un poco más dificil que lo que penso? Su crédito puede ser la razón. Aqui hay algunas razones los prestamistas tradicionales no lo aprobarán:\n- Su puntaje de crédito es demasiado bajo\n- Su ingreso no es suficiente \n- Tiene mucha deuda\n\n__Hay muchas maneras como puede mejorar su crédito. Vamos a ver.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Buying a home",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Buying a home",
+                "es": "Comprando una casa"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -601,7 +675,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "house",
+              "urlText": {
+                "en": "house",
+                "es": "house"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -613,7 +690,10 @@
             "id": "66M7Wf698sCmG26YssAqsO"
           },
           "statementPage": {
-            "title": "Car Insurance",
+            "title": {
+              "en": "Car Insurance",
+              "es": "Car Insurance"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -641,18 +721,30 @@
               }
             ],
             "sidebar": {
-              "content": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nIn some states, insurers are allowed to use your credit as a factor in deciding how much to charge you for, or in some cases to not offer you insurance coverage at all. If this is something you’re dealing with, don’t worry.\n\n__There are still options you can try. Let’s explore them together.__",
+              "content": {
+                "en": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nIn some states, insurers are allowed to use your credit as a factor in deciding how much to charge you for, or in some cases to not offer you insurance coverage at all. If this is something you’re dealing with, don’t worry.\n\n__There are still options you can try. Let’s explore them together.__",
+                "es": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nEn algunos estados, los aseguradores pueden usar su crédito como factor para decidir cuánto cobrarle, o en algunos casos no ofrecerle cobertura de seguro. Si esto es algo con lo que estás tratando, no te preocupes.\n__Hay todavía opciones que puedes tratar. Vamos a explorarlos juntos.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Buying car insurance",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Buying car insurance",
+                "es": "Comprando seguro de carro"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -862,7 +954,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "car-insurance",
+              "urlText": {
+                "en": "car-insurance",
+                "es": "car-insurance"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -874,7 +969,10 @@
             "id": "5JKT2zKcxOakiWIisIGqOm"
           },
           "statementPage": {
-            "title": "Credit Card",
+            "title": {
+              "en": "Credit Card",
+              "es": "Credit Card"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -902,18 +1000,30 @@
               }
             ],
             "sidebar": {
-              "content": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\nIs getting approved credit card difficult for you? We’re sorry, we know that can be very stressful. Most traditional lenders won’t approve you if:\n- Your credit score is below 630\n- You don’t have sufficient credit history\n\n__There are still options you can try. Let’s get started.__",
+              "content": {
+                "en": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\nIs getting approved credit card difficult for you? We’re sorry, we know that can be very stressful. Most traditional lenders won’t approve you if:\n- Your credit score is below 630\n- You don’t have sufficient credit history\n\n__There are still options you can try. Let’s get started.__",
+                "es": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\n¿Se le esta dificultando ser aprobado para una tarjeta de crédito? Lo sentimos, sabemos que puede ser muy estresante. La mayoría de los prestamistas tradicionales no lo aprueban si:\n- Su puntaje de crédito está por debajo de 630\n- No tiene suficiente historial de crédito\n\n__Hay algunas opciones que puede intentar. Vamos a empezar.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Getting a credit card",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Getting a credit card",
+                "es": "Obteniendo una tarjeta de credito"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -1123,7 +1233,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "credit-card",
+              "urlText": {
+                "en": "credit-card",
+                "es": "credit-card"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -1135,7 +1248,10 @@
             "id": "7hCB179qRaou8oc02mSYUC"
           },
           "statementPage": {
-            "title": "Job",
+            "title": {
+              "en": "Job",
+              "es": "Job"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -1163,18 +1279,30 @@
               }
             ],
             "sidebar": {
-              "content": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nOur credit can sometimes affect us when applying for a new job. If you’ve recently missed out on a job opportunity, your credit history may look like this:\n- Inconsistent bill payments\n- High amounts of debt\n- A record of a past bankruptcy or foreclosure\n\n__Don’t get discouraged! The path to better credit starts with exploring your options.__",
+              "content": {
+                "en": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nOur credit can sometimes affect us when applying for a new job. If you’ve recently missed out on a job opportunity, your credit history may look like this:\n- Inconsistent bill payments\n- High amounts of debt\n- A record of a past bankruptcy or foreclosure\n\n__Don’t get discouraged! The path to better credit starts with exploring your options.__",
+                "es": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nNuestro crédito puede algunas veces afectarnos cuando aplicamos para un nuevo trabajo. Si ha perdido recientemente la oportunidad de un trabajo, su historial de crédito se puede ver asi:\n- Pagos no constantes\n- Cantidad alta en deuda\n- Tiene record de haberse declarado en bancarrota o embargo\n\n__¡No se desanime! El camino para mejorar su crédito empieza explorando sus opciones.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Getting a job",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Getting a job",
+                "es": "Obteniendo un trabajo"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -1384,7 +1512,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "job",
+              "urlText": {
+                "en": "job",
+                "es": "job"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -1396,7 +1527,10 @@
             "id": "1EaxaqqF1KYAkmKUqcyeoG"
           },
           "statementPage": {
-            "title": "Personal Loan",
+            "title": {
+              "en": "Personal Loan",
+              "es": "Personal Loan"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -1424,18 +1558,30 @@
               }
             ],
             "sidebar": {
-              "content": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\nAre you having trouble getting approved for a personal loan? These are some of the reasons a traditional lender would not approve:\n- Your credit score is below 630\n- You don't have sufficient credit history\n\n__Don’t give up! You still have options for improving your credit.__",
+              "content": {
+                "en": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\nAre you having trouble getting approved for a personal loan? These are some of the reasons a traditional lender would not approve:\n- Your credit score is below 630\n- You don't have sufficient credit history\n\n__Don’t give up! You still have options for improving your credit.__",
+                "es": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\n¿Tiene problemas para obtener un préstamo personal? Estas son algunas de las razones por las que un prestamista tradicional no lo aprobaría:\n- Su puntaje de crédito está por debajo de 630\n- Usted no tiene suficiente historial de crédito\n\n__¡ No se de por vencido! Usted todavía tiene opciones para mejorar su crédito.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Getting a personal loan",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Getting a personal loan",
+                "es": "Obteniendo un préstamo personal"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -1645,7 +1791,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "personal-loan",
+              "urlText": {
+                "en": "personal-loan",
+                "es": "personal-loan"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -1657,7 +1806,10 @@
             "id": "4gFmKi5zQI8qW2wE6GCKIO"
           },
           "statementPage": {
-            "title": "School",
+            "title": {
+              "en": "School",
+              "es": "School"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -1685,18 +1837,30 @@
               }
             ],
             "sidebar": {
-              "content": "![school-icon](//images.contentful.com/2h2wj50mwc16/4LzJfcUzokAASMGuUEIAoi/9bde60a302c30d50af87d826c8b15159/school-icon.svg)\nIf you’re having trouble getting approved for a __federal student loan__, the most common reason is: \n- You might have a default on other federal student loans\nSome immediate options to consider are rehabilitation or consolidation of your loans. To learn more explore [forgivemystudentdebt.org](http://forgivemystudentdebt.org/how-to-get-out-of-default \"Student Borrower Assistance\").\n\n---\n\nIf you’re having trouble getting approved for a __private student loan__, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- You don't have sufficient cash flow\n- You already have too much debt\n- You don't have a co-signer\n\n__Let’s work on some options for improving your credit.__",
+              "content": {
+                "en": "![school-icon](//images.contentful.com/2h2wj50mwc16/4LzJfcUzokAASMGuUEIAoi/9bde60a302c30d50af87d826c8b15159/school-icon.svg)\nIf you’re having trouble getting approved for a __federal student loan__, the most common reason is: \n- You might have a default on other federal student loans\nSome immediate options to consider are rehabilitation or consolidation of your loans. To learn more explore [forgivemystudentdebt.org](http://forgivemystudentdebt.org/how-to-get-out-of-default \"Student Borrower Assistance\").\n\n---\n\nIf you’re having trouble getting approved for a __private student loan__, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- You don't have sufficient cash flow\n- You already have too much debt\n- You don't have a co-signer\n\n__Let’s work on some options for improving your credit.__",
+                "es": "Si usted esta teniendo problemas para ser aprobado para un __préstamo de estudiante federal__, la razón mas común es:\n- Usted podría estar atrazado en otros prestamos de estudiante federales. \nAlgunas opciones inmediatas a considerar son traerlos al corriente o la consolidación de sus préstamos. Para aprender más explore [forgivemystudentdebt.org](http://forgivemy studentdebt.org/how-\nto-get-out-of-default \"Asistencia para prestatario estudiante\").\n\n---\n\nSi usted esta teniendo problemas para ser aprobado para un __préstamo de estudiante privado__, su crédito podría ser la razón. Prestamistas tradicionales no lo aprobaran si usted:\n- No tiene suficiente flujo de dinero\n- Usted ya tiene mucha deuda\n- No tienes un codeudor\n\n__Vamos a trabajar en algunas opciones para mejorar su crédito.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Going to school",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Going to school",
+                "es": "Ir a la escuela"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -1906,7 +2070,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "school",
+              "urlText": {
+                "en": "school",
+                "es": "school"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -1918,7 +2085,10 @@
             "id": "5XBG0bXHKoWQ6eEwQ260A6"
           },
           "statementPage": {
-            "title": "Apartment",
+            "title": {
+              "en": "Apartment",
+              "es": "Apartment"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -1946,18 +2116,30 @@
               }
             ],
             "sidebar": {
-              "content": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nApartment hunting takes a lot of time and energy, and it can get tiring when you’re having trouble getting approved. Traditional landlords probably won’t approve you if:\n- Your credit score is too low\n- You have an inconsistent payment history\n- You already have too much debt\n\n__It’s never too late to work on improving your credit. Let’s get started.__",
+              "content": {
+                "en": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nApartment hunting takes a lot of time and energy, and it can get tiring when you’re having trouble getting approved. Traditional landlords probably won’t approve you if:\n- Your credit score is too low\n- You have an inconsistent payment history\n- You already have too much debt\n\n__It’s never too late to work on improving your credit. Let’s get started.__",
+                "es": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nLa busqueda de apartamentos toma mucho tiempo y energía, y puede ser agotador cuando tienes problemas para ser aprobado. Los propietarios\ntradicionales probablemente no lo aprobarán si:\n- Su puntaje de crédito es demasiado bajo.\n- Tiene un historial de pagos no constante\n- Ya tiene mucha deuda\n\n__Nunca es tarde para trabajar en mejorar su crédito. Vamos a empezar.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Renting an apartment",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Renting an apartment",
+                "es": "Rentando un apartamento"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -2167,7 +2349,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "apartment",
+              "urlText": {
+                "en": "apartment",
+                "es": "apartment"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -2179,7 +2364,10 @@
             "id": "1o4l5qxIe0komuQ8I6Sc48"
           },
           "statementPage": {
-            "title": "Utilities",
+            "title": {
+              "en": "Utilities",
+              "es": "Utilities"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -2207,18 +2395,30 @@
               }
             ],
             "sidebar": {
-              "content": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nYour credit can get in the way of getting approved for utility service. A utility company might not provide serve to you if:\n- You owe money on a previous account in your name\n- You made payments inconsistently in the past\n\n__There are still options you can try. Let’s explore them together.__",
+              "content": {
+                "en": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nYour credit can get in the way of getting approved for utility service. A utility company might not provide serve to you if:\n- You owe money on a previous account in your name\n- You made payments inconsistently in the past\n\n__There are still options you can try. Let’s explore them together.__",
+                "es": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nSu crédito puede intervenir en la manera de conseguir ser aprobado para servicio publicos. Una compañía de servicios públicos podría no proporcionarle servicio si:\n- Usted debe dinero en una cuenta anterior en su nombre\n- Usted hizo pagos no constantes en el pasado\n\n__Todavía hay opciones que puede intentar. Vamos a explorarlos juntos.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "Getting electricity, gas, cable, or phone",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "Getting electricity, gas, cable, or phone",
+                "es": "Obteniendo luz, gas, cable, o teléfono"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -2428,7 +2628,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "utilities",
+              "urlText": {
+                "en": "utilities",
+                "es": "utilities"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -2440,7 +2643,10 @@
             "id": "5nLPPxoVfaWy20escGiCyg"
           },
           "statementPage": {
-            "title": "Business",
+            "title": {
+              "en": "Business",
+              "es": "Business"
+            },
             "statements": [
               {
                 "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -2468,18 +2674,30 @@
               }
             ],
             "sidebar": {
-              "content": "![business-icon](//images.contentful.com/2h2wj50mwc16/30U9f1KIMwCieSgm8AsqQI/503d9ee92956753bc7c0166d6193a5a7/business-icon.svg)\nIf you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:\n- Your credit score is too low\n- You don't have sufficient cash flow\n- You already have too much debt\n\n__Don't worry-you still have options.__",
+              "content": {
+                "en": "![business-icon](//images.contentful.com/2h2wj50mwc16/30U9f1KIMwCieSgm8AsqQI/503d9ee92956753bc7c0166d6193a5a7/business-icon.svg)\nIf you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:\n- Your credit score is too low\n- You don't have sufficient cash flow\n- You already have too much debt\n\n__Don't worry-you still have options.__",
+                "es": "Si le negaron un préstamo para comenzar su propio negocio, su crédito podría ser una razón. Los prestamistas tradicionales probablemente no lo  aprobarán si:\n- Su puntaje de crédito es demasiado bajo\n- Usted no tiene suficiente flujo de efectivo\n- Usted ya tiene mucha deuda\n\n__No se preocupe—Usted todavia tiene opciones.__"
+              },
               "position": false,
               "textAlign": false,
               "contentType": "sidebar"
             },
             "navigation": {
-              "title": "I wanted to start my own business",
-              "linkText": "Choose another problem",
+              "title": {
+                "en": "I wanted to start my own business",
+                "es": "Quiero empezar mi propio negocio"
+              },
+              "linkText": {
+                "en": "Choose another problem",
+                "es": "Elige otro problema"
+              },
               "contentType": "navigation"
             },
             "statementsToOptions": {
-              "title": "Credit",
+              "title": {
+                "en": "Credit",
+                "es": "Credit"
+              },
               "statementsToOptions": [
                 {
                   "override": false,
@@ -2689,7 +2907,10 @@
               "contentType": "statementsToOptionsRules"
             },
             "url": {
-              "urlText": "business",
+              "urlText": {
+                "en": "business",
+                "es": "business"
+              },
               "contentType": "url"
             },
             "contentType": "statementPage"
@@ -2703,7 +2924,10 @@
   },
   "statementsPages": [
     {
-      "title": "Car",
+      "title": {
+        "en": "Car",
+        "es": "Car"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -2731,18 +2955,30 @@
         }
       ],
       "sidebar": {
-        "content": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nIf you’re having trouble being approved for a car loan, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- Your credit score is too low\n- Your income is not high enough to afford the car\n\n__Let’s get you on the road to better credit by exploring your options.__",
+        "content": {
+          "en": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nIf you’re having trouble being approved for a car loan, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- Your credit score is too low\n- Your income is not high enough to afford the car\n\n__Let’s get you on the road to better credit by exploring your options.__",
+          "es": "![car-icon](//images.contentful.com/2h2wj50mwc16/2FMYnSDIKA4WYYMcA8o0eA/5e01f275f3d4946989811801478be66c/car-icon.svg)\nSi usted esta teniendo problemas para ser aprobado para un préstamo de auto, su crédito podría ser la razón. Los prestamistas tradicionales probablemente no lo aprobarán si:\n- Su puntaje de crédito es demasiado bajo\n- Sus ingresos no son lo suficiente altos para pagar el auto\n\n__Vamos a ponerlo en el camino para mejorar su crédito explorando sus opciones.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "I wanted a car",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "I wanted a car",
+          "es": "Yo quiero un carro"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -2952,13 +3188,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "car",
+        "urlText": {
+          "en": "car",
+          "es": "car"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Apartment",
+      "title": {
+        "en": "Apartment",
+        "es": "Apartment"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -2986,18 +3228,30 @@
         }
       ],
       "sidebar": {
-        "content": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nApartment hunting takes a lot of time and energy, and it can get tiring when you’re having trouble getting approved. Traditional landlords probably won’t approve you if:\n- Your credit score is too low\n- You have an inconsistent payment history\n- You already have too much debt\n\n__It’s never too late to work on improving your credit. Let’s get started.__",
+        "content": {
+          "en": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nApartment hunting takes a lot of time and energy, and it can get tiring when you’re having trouble getting approved. Traditional landlords probably won’t approve you if:\n- Your credit score is too low\n- You have an inconsistent payment history\n- You already have too much debt\n\n__It’s never too late to work on improving your credit. Let’s get started.__",
+          "es": "![apartment-icon](//images.contentful.com/2h2wj50mwc16/3UBow13GJOOis4kwK08mks/ded532b97e2b8286649a68d13cb782af/apartment-icon.svg)\nLa busqueda de apartamentos toma mucho tiempo y energía, y puede ser agotador cuando tienes problemas para ser aprobado. Los propietarios\ntradicionales probablemente no lo aprobarán si:\n- Su puntaje de crédito es demasiado bajo.\n- Tiene un historial de pagos no constante\n- Ya tiene mucha deuda\n\n__Nunca es tarde para trabajar en mejorar su crédito. Vamos a empezar.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Renting an apartment",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Renting an apartment",
+          "es": "Rentando un apartamento"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -3207,13 +3461,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "apartment",
+        "urlText": {
+          "en": "apartment",
+          "es": "apartment"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Business",
+      "title": {
+        "en": "Business",
+        "es": "Business"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -3241,18 +3501,30 @@
         }
       ],
       "sidebar": {
-        "content": "![business-icon](//images.contentful.com/2h2wj50mwc16/30U9f1KIMwCieSgm8AsqQI/503d9ee92956753bc7c0166d6193a5a7/business-icon.svg)\nIf you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:\n- Your credit score is too low\n- You don't have sufficient cash flow\n- You already have too much debt\n\n__Don't worry-you still have options.__",
+        "content": {
+          "en": "![business-icon](//images.contentful.com/2h2wj50mwc16/30U9f1KIMwCieSgm8AsqQI/503d9ee92956753bc7c0166d6193a5a7/business-icon.svg)\nIf you were denied a loan to start your own business, your credit might be a reason. Traditional lenders probably won't approve you if:\n- Your credit score is too low\n- You don't have sufficient cash flow\n- You already have too much debt\n\n__Don't worry-you still have options.__",
+          "es": "Si le negaron un préstamo para comenzar su propio negocio, su crédito podría ser una razón. Los prestamistas tradicionales probablemente no lo  aprobarán si:\n- Su puntaje de crédito es demasiado bajo\n- Usted no tiene suficiente flujo de efectivo\n- Usted ya tiene mucha deuda\n\n__No se preocupe—Usted todavia tiene opciones.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "I wanted to start my own business",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "I wanted to start my own business",
+          "es": "Quiero empezar mi propio negocio"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -3462,13 +3734,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "business",
+        "urlText": {
+          "en": "business",
+          "es": "business"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "School",
+      "title": {
+        "en": "School",
+        "es": "School"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -3496,18 +3774,30 @@
         }
       ],
       "sidebar": {
-        "content": "![school-icon](//images.contentful.com/2h2wj50mwc16/4LzJfcUzokAASMGuUEIAoi/9bde60a302c30d50af87d826c8b15159/school-icon.svg)\nIf you’re having trouble getting approved for a __federal student loan__, the most common reason is: \n- You might have a default on other federal student loans\nSome immediate options to consider are rehabilitation or consolidation of your loans. To learn more explore [forgivemystudentdebt.org](http://forgivemystudentdebt.org/how-to-get-out-of-default \"Student Borrower Assistance\").\n\n---\n\nIf you’re having trouble getting approved for a __private student loan__, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- You don't have sufficient cash flow\n- You already have too much debt\n- You don't have a co-signer\n\n__Let’s work on some options for improving your credit.__",
+        "content": {
+          "en": "![school-icon](//images.contentful.com/2h2wj50mwc16/4LzJfcUzokAASMGuUEIAoi/9bde60a302c30d50af87d826c8b15159/school-icon.svg)\nIf you’re having trouble getting approved for a __federal student loan__, the most common reason is: \n- You might have a default on other federal student loans\nSome immediate options to consider are rehabilitation or consolidation of your loans. To learn more explore [forgivemystudentdebt.org](http://forgivemystudentdebt.org/how-to-get-out-of-default \"Student Borrower Assistance\").\n\n---\n\nIf you’re having trouble getting approved for a __private student loan__, your credit might be the reason. Traditional lenders probably won’t approve you if:\n- You don't have sufficient cash flow\n- You already have too much debt\n- You don't have a co-signer\n\n__Let’s work on some options for improving your credit.__",
+          "es": "Si usted esta teniendo problemas para ser aprobado para un __préstamo de estudiante federal__, la razón mas común es:\n- Usted podría estar atrazado en otros prestamos de estudiante federales. \nAlgunas opciones inmediatas a considerar son traerlos al corriente o la consolidación de sus préstamos. Para aprender más explore [forgivemystudentdebt.org](http://forgivemy studentdebt.org/how-\nto-get-out-of-default \"Asistencia para prestatario estudiante\").\n\n---\n\nSi usted esta teniendo problemas para ser aprobado para un __préstamo de estudiante privado__, su crédito podría ser la razón. Prestamistas tradicionales no lo aprobaran si usted:\n- No tiene suficiente flujo de dinero\n- Usted ya tiene mucha deuda\n- No tienes un codeudor\n\n__Vamos a trabajar en algunas opciones para mejorar su crédito.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Going to school",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Going to school",
+          "es": "Ir a la escuela"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -3717,13 +4007,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "school",
+        "urlText": {
+          "en": "school",
+          "es": "school"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "House",
+      "title": {
+        "en": "House",
+        "es": "House"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -3751,18 +4047,30 @@
         }
       ],
       "sidebar": {
-        "content": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\nIs getting a mortgage a little harder than you thought? Your credit might be the reason. Here are some of the reasons traditional lenders won’t approve you:\n- Your credit score is too low\n- Your income may be insufficient\n- You may have too much debt\n\n__There are still many ways you can improve your credit. Let’s take a look.__",
+        "content": {
+          "en": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\nIs getting a mortgage a little harder than you thought? Your credit might be the reason. Here are some of the reasons traditional lenders won’t approve you:\n- Your credit score is too low\n- Your income may be insufficient\n- You may have too much debt\n\n__There are still many ways you can improve your credit. Let’s take a look.__",
+          "es": "![house-icon](//images.contentful.com/2h2wj50mwc16/5D5pjCrMHK4KiYAAoEmA8y/c0f3e9616e0bc3c0d9e93ea277bd0a62/house-icon.svg)\n¿Es obtener una hipoteca un poco más dificil que lo que penso? Su crédito puede ser la razón. Aqui hay algunas razones los prestamistas tradicionales no lo aprobarán:\n- Su puntaje de crédito es demasiado bajo\n- Su ingreso no es suficiente \n- Tiene mucha deuda\n\n__Hay muchas maneras como puede mejorar su crédito. Vamos a ver.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Buying a home",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Buying a home",
+          "es": "Comprando una casa"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -3972,13 +4280,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "house",
+        "urlText": {
+          "en": "house",
+          "es": "house"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Job",
+      "title": {
+        "en": "Job",
+        "es": "Job"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -4006,18 +4320,30 @@
         }
       ],
       "sidebar": {
-        "content": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nOur credit can sometimes affect us when applying for a new job. If you’ve recently missed out on a job opportunity, your credit history may look like this:\n- Inconsistent bill payments\n- High amounts of debt\n- A record of a past bankruptcy or foreclosure\n\n__Don’t get discouraged! The path to better credit starts with exploring your options.__",
+        "content": {
+          "en": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nOur credit can sometimes affect us when applying for a new job. If you’ve recently missed out on a job opportunity, your credit history may look like this:\n- Inconsistent bill payments\n- High amounts of debt\n- A record of a past bankruptcy or foreclosure\n\n__Don’t get discouraged! The path to better credit starts with exploring your options.__",
+          "es": "![job-icon](//images.contentful.com/2h2wj50mwc16/5ADteab06kIyOCKauieyeO/de43204817acdcb55829548db3f36364/job-icon.svg)\nNuestro crédito puede algunas veces afectarnos cuando aplicamos para un nuevo trabajo. Si ha perdido recientemente la oportunidad de un trabajo, su historial de crédito se puede ver asi:\n- Pagos no constantes\n- Cantidad alta en deuda\n- Tiene record de haberse declarado en bancarrota o embargo\n\n__¡No se desanime! El camino para mejorar su crédito empieza explorando sus opciones.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Getting a job",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Getting a job",
+          "es": "Obteniendo un trabajo"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -4227,13 +4553,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "job",
+        "urlText": {
+          "en": "job",
+          "es": "job"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Credit Card",
+      "title": {
+        "en": "Credit Card",
+        "es": "Credit Card"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -4261,18 +4593,30 @@
         }
       ],
       "sidebar": {
-        "content": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\nIs getting approved credit card difficult for you? We’re sorry, we know that can be very stressful. Most traditional lenders won’t approve you if:\n- Your credit score is below 630\n- You don’t have sufficient credit history\n\n__There are still options you can try. Let’s get started.__",
+        "content": {
+          "en": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\nIs getting approved credit card difficult for you? We’re sorry, we know that can be very stressful. Most traditional lenders won’t approve you if:\n- Your credit score is below 630\n- You don’t have sufficient credit history\n\n__There are still options you can try. Let’s get started.__",
+          "es": "![credit-card-problem-icon](//images.contentful.com/2h2wj50mwc16/61UxmyFfxeUogs8kOsQUqK/1a8cab4da4cfbc5bf3227a5d7f4ceac8/credit-card-problem-icon.svg)\n¿Se le esta dificultando ser aprobado para una tarjeta de crédito? Lo sentimos, sabemos que puede ser muy estresante. La mayoría de los prestamistas tradicionales no lo aprueban si:\n- Su puntaje de crédito está por debajo de 630\n- No tiene suficiente historial de crédito\n\n__Hay algunas opciones que puede intentar. Vamos a empezar.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Getting a credit card",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Getting a credit card",
+          "es": "Obteniendo una tarjeta de credito"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -4482,13 +4826,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "credit-card",
+        "urlText": {
+          "en": "credit-card",
+          "es": "credit-card"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Personal Loan",
+      "title": {
+        "en": "Personal Loan",
+        "es": "Personal Loan"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -4516,18 +4866,30 @@
         }
       ],
       "sidebar": {
-        "content": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\nAre you having trouble getting approved for a personal loan? These are some of the reasons a traditional lender would not approve:\n- Your credit score is below 630\n- You don't have sufficient credit history\n\n__Don’t give up! You still have options for improving your credit.__",
+        "content": {
+          "en": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\nAre you having trouble getting approved for a personal loan? These are some of the reasons a traditional lender would not approve:\n- Your credit score is below 630\n- You don't have sufficient credit history\n\n__Don’t give up! You still have options for improving your credit.__",
+          "es": "![personal-loan-icon](//images.contentful.com/2h2wj50mwc16/1tu2qoeE7aquUMCKSsqkEG/8d63c3240001b603119433a74dad2615/personal-loan-icon.svg)\n¿Tiene problemas para obtener un préstamo personal? Estas son algunas de las razones por las que un prestamista tradicional no lo aprobaría:\n- Su puntaje de crédito está por debajo de 630\n- Usted no tiene suficiente historial de crédito\n\n__¡ No se de por vencido! Usted todavía tiene opciones para mejorar su crédito.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Getting a personal loan",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Getting a personal loan",
+          "es": "Obteniendo un préstamo personal"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -4737,13 +5099,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "personal-loan",
+        "urlText": {
+          "en": "personal-loan",
+          "es": "personal-loan"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Car Insurance",
+      "title": {
+        "en": "Car Insurance",
+        "es": "Car Insurance"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -4771,18 +5139,30 @@
         }
       ],
       "sidebar": {
-        "content": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nIn some states, insurers are allowed to use your credit as a factor in deciding how much to charge you for, or in some cases to not offer you insurance coverage at all. If this is something you’re dealing with, don’t worry.\n\n__There are still options you can try. Let’s explore them together.__",
+        "content": {
+          "en": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nIn some states, insurers are allowed to use your credit as a factor in deciding how much to charge you for, or in some cases to not offer you insurance coverage at all. If this is something you’re dealing with, don’t worry.\n\n__There are still options you can try. Let’s explore them together.__",
+          "es": "![car-insurance-icon](//images.contentful.com/2h2wj50mwc16/2xiX2mTnokeeki4Os6KMe0/5bd687bd22156534b6700f0607040077/car-insurance-icon.svg)\nEn algunos estados, los aseguradores pueden usar su crédito como factor para decidir cuánto cobrarle, o en algunos casos no ofrecerle cobertura de seguro. Si esto es algo con lo que estás tratando, no te preocupes.\n__Hay todavía opciones que puedes tratar. Vamos a explorarlos juntos.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Buying car insurance",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Buying car insurance",
+          "es": "Comprando seguro de carro"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -4992,13 +5372,19 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "car-insurance",
+        "urlText": {
+          "en": "car-insurance",
+          "es": "car-insurance"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
     },
     {
-      "title": "Utilities",
+      "title": {
+        "en": "Utilities",
+        "es": "Utilities"
+      },
       "statements": [
         {
           "id": "27ll08QlXSCWgEuwgwQgEm"
@@ -5026,18 +5412,30 @@
         }
       ],
       "sidebar": {
-        "content": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nYour credit can get in the way of getting approved for utility service. A utility company might not provide serve to you if:\n- You owe money on a previous account in your name\n- You made payments inconsistently in the past\n\n__There are still options you can try. Let’s explore them together.__",
+        "content": {
+          "en": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nYour credit can get in the way of getting approved for utility service. A utility company might not provide serve to you if:\n- You owe money on a previous account in your name\n- You made payments inconsistently in the past\n\n__There are still options you can try. Let’s explore them together.__",
+          "es": "![utilities-icon](//images.contentful.com/2h2wj50mwc16/5Qx6cBqA2AyCsSKmaCMOm8/a4f4823925c652caf230d6cced80540f/utilities-icon.svg)\nSu crédito puede intervenir en la manera de conseguir ser aprobado para servicio publicos. Una compañía de servicios públicos podría no proporcionarle servicio si:\n- Usted debe dinero en una cuenta anterior en su nombre\n- Usted hizo pagos no constantes en el pasado\n\n__Todavía hay opciones que puede intentar. Vamos a explorarlos juntos.__"
+        },
         "position": false,
         "textAlign": false,
         "contentType": "sidebar"
       },
       "navigation": {
-        "title": "Getting electricity, gas, cable, or phone",
-        "linkText": "Choose another problem",
+        "title": {
+          "en": "Getting electricity, gas, cable, or phone",
+          "es": "Obteniendo luz, gas, cable, o teléfono"
+        },
+        "linkText": {
+          "en": "Choose another problem",
+          "es": "Elige otro problema"
+        },
         "contentType": "navigation"
       },
       "statementsToOptions": {
-        "title": "Credit",
+        "title": {
+          "en": "Credit",
+          "es": "Credit"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -5247,7 +5645,10 @@
         "contentType": "statementsToOptionsRules"
       },
       "url": {
-        "urlText": "utilities",
+        "urlText": {
+          "en": "utilities",
+          "es": "utilities"
+        },
         "contentType": "url"
       },
       "contentType": "statementPage"
@@ -5268,7 +5669,10 @@
       "fileName": "advice-icon.svg"
     },
     "1fRWYb9dR4GU8asUy4uQMI": {
-      "text": "Find personalized advice",
+      "text": {
+        "en": "Find personalized advice",
+        "es": "Encuentre consejos personalizados"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5276,11 +5680,17 @@
           },
           "content": [
             {
-              "content": "### Talk to a NFCC Certified Credit Counselor\nIf you’re having trouble paying your bills on time every month, then you may want to get personalized advice from a counselor that can help.  ",
+              "content": {
+                "en": "### Talk to a NFCC Certified Credit Counselor\nIf you're having trouble paying your bills on time every month, then you may want to get personalized advice from a counselor that can help.  ",
+                "es": "### Hable con un Consejero de Crédito Certificado de NFCC\nSi esta teniendo problemas pagando sus cobros a tiempo cada mes, después usted tal vez quiera obtener un consejo de un consejero que lo pueda ayudar."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "### Your Payment History\nThe biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are.",
+              "content": {
+                "en": "### Your Payment History\nThe biggest factor that affects your credit score is your payment history. Talk to a counselor to understand what your options are.",
+                "es": "### Su Historial de Pago\nEl mayor factor que afecta a su puntuación de crédito es su historial de pago. Hable con un consejero para entender cuáles son sus opciones."
+              },
               "contentType": "colorBox"
             }
           ],
@@ -5292,12 +5702,21 @@
           },
           "content": [
             {
-              "content": "### Visit a local credit union\nYou may be able to refinance credit card debt, auto loans, or other consumer debt, into loans with lower interest rates at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling to help you reach your financial goals.",
+              "content": {
+                "en": "### Visit a local credit union\nYou may be able to refinance credit card debt, auto loans, or other consumer debt, into loans with lower interest rates at a credit union. This could save you money on interest payments each month and make more room in your budget. Some credit unions also offer financial counseling to help you reach your financial goals.",
+                "es": "__Visite a una Unión de Crédito local__\nUsted puede refinanciar su deuda de tarjeta de crédito, sus préstamos de carro y otras deudas de consumidor y convertirlas en préstamos con tasas de interés más bajas en una Unión de Crédito. Esto pudiera ahorrarle usted dinero en pagos de intereses cada mes y haría espacio en su presupuesto. Algunas uniones de crédito también ofrecen consejería financiera para ayudarle a que usted alcance sus metas financieras."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a credit union",
-              "url": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+              "text": {
+                "en": "Find a credit union",
+                "es": "Busque una Union de Credito"
+              },
+              "url": {
+                "en": "https://www.mycreditunion.gov/Pages/mcu-map.aspx",
+                "es": "https://www.mycreditunion.gov/Pages/mcu-map.aspx"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5319,7 +5738,10 @@
       "fileName": "credit-raise-icon.svg"
     },
     "74srq6uWC4gyuMkC2MmGcC": {
-      "text": "Work towards getting your debt below 30%",
+      "text": {
+        "en": "Work towards getting your debt below 30%",
+        "es": "Trabaje para reducir su deuda menos del 30%"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5327,11 +5749,17 @@
           },
           "content": [
             {
-              "content": "### Understanding “credit utilization\"\nCredit utilization is how much of the available credit you use across all of your cards. This is an important factor that can affect your credit score.",
+              "content": {
+                "en": "### Understanding \"credit utilization\"\nCredit utilization is how much of the available credit you use across all of your cards. This is an important factor that can affect your credit score.",
+                "es": "### Entendiendo \"utilización de crédito\"\nLa utilización del crédito es la cantidad de crédito disponible que utiliza en todas sus tarjetas. Este es un factor importante que puede afectar su puntajede crédito."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "### Example:\nYour credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%",
+              "content": {
+                "en": "### Example:\nYour credit card has a $1000 limit. You put about $300 on your credit card every month, divide $300/$1000 and you get 0.30. So your credit utilization is about 30%",
+                "es": "### Ejemplo:\nSu tarjeta de crédito tiene un límite de $1000. Usted gasta alrededor de $300 en su tarjeta de crédito cada mes, divida $300/$1000 y obtienes 0.30. Así que la utilización del crédito es del 30%."
+              },
               "contentType": "colorBox"
             }
           ],
@@ -5343,12 +5771,21 @@
           },
           "content": [
             {
-              "content": "### Use the avalanche or snowball method\nThere are two powerful ways to tackle debt every month: The avalanche method is when you put any extra money on the highest interest balance you owe, which can save you money and time in the long run. The snowball method is when you put extra money on the smallest balance you owe. This will build confidence and give you the motivation you need to pay off your debts.",
+              "content": {
+                "en": "### Use the avalanche or snowball method\nThere are two powerful ways to tackle debt every month: The avalanche method is when you put any extra money on the highest interest balance you owe, which can save you money and time in the long run. The snowball method is when you put extra money on the smallest balance you owe. This will build confidence and give you the motivation you need to pay off your debts.",
+                "es": "### Utilice el método Avalancha o Pelota de nieve\nHay dos maneras poderosas de hacer frente a la deuda cada mes: el método de avalancha es cuando usted manda cualquier dinero extra en el saldo de intereses más alto que usted debe, que puede ahorrarle dinero y tiempo a largo plazo. El método de pelota de nieve es cuando se manda dinero extra en el menor saldo que debe. Esto creará confianza y le dará la motivación que necesita para pagar sus deudas."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Which method is right for you?",
-              "url": "https://www.powerpay.org",
+              "text": {
+                "en": "Which method is right for you?",
+                "es": "¿Qué método es el adecuado para usted?"
+              },
+              "url": {
+                "en": "https://www.powerpay.org",
+                "es": "https://www.powerpay.org"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5360,7 +5797,10 @@
           },
           "content": [
             {
-              "content": "### Raise your credit limit\nDid you know that raising your credit limit can actually improve your credit score? As long as you raise the limit while also keeping your utilization below 30%, your score will get a boost.",
+              "content": {
+                "en": "### Raise your credit limit\nDid you know that raising your credit limit can actually improve your credit score? As long as you raise the limit while also keeping your utilization below 30%, your score will get a boost.",
+                "es": "### Suba su límite de crédito\n¿Sabía que aumentar su límite de crédito puede mejorar su puntaje de credito? Mientras usted eleve el límite mientras también mantenga su utilización por debajo del 30%, su puntuación obtendrá un impulso."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -5378,12 +5818,18 @@
       "fileName": "credit-bank-icon.svg"
     },
     "2p17rdPDUgA4muCAoQ8qWg": {
-      "text": "Your credit score matters",
+      "text": {
+        "en": "Your credit score matters",
+        "es": "Su puntaje de crédito importa"
+      },
       "actions": [
         {
           "content": [
             {
-              "content": "__Your credit score is a three-digit number that is determined by how you pay off your debt (payment history), and how much you borrow (credit owed).__\n![credit-bubbleplot-icon](//images.contentful.com/2h2wj50mwc16/6pPne9TVAI2oIeEeqm4Agg/29597f833de547cc51772e7c9810ca2f/credit-bubbleplot-icon.svg)\n__The first step to to improving your score is by understanding where you are and where to focus you efforts on. Check your credit score for free at these places:__",
+              "content": {
+                "en": "__Your credit score is a three-digit number that is determined by how you pay off your debt (payment history), and how much you borrow (credit owed).__\n![credit-bubbleplot-icon](//images.contentful.com/2h2wj50mwc16/6pPne9TVAI2oIeEeqm4Agg/29597f833de547cc51772e7c9810ca2f/credit-bubbleplot-icon.svg)\n__The first step to to improving your score is by understanding where you are and where to focus you efforts on. Check your credit score for free at these places:__",
+                "es": "__Su puntuación de crédito es un número de tres dígitos que se determina por la forma en que usted paga su deuda (historial de pago), y cuánto pide prestado (crédito adeudado).__\n![credit-bubbleplot-icon](//images.contentful.com/2h2wj50mwc16/6pPne9TVAI2oIeEeqm4Agg/29597f833de547cc51772e7c9810ca2f/credit-bubbleplot-Icon.svg)\n__El primer paso para mejorar tu puntuación es entendiendo dónde estás y dónde concentrar sus esfuerzos. Revisa tu puntuación de crédito gratis en estos lugares:__"
+              },
               "contentType": "contentBox"
             }
           ],
@@ -5395,12 +5841,21 @@
           },
           "content": [
             {
-              "content": "### Get your free credit score at NerdWallet\nEvery week you can check your latest credit score for free. Set your goals and watch your progress. Signing up won’t affect your score at all.",
+              "content": {
+                "en": "### Get your free credit score at NerdWallet\nEvery week you can check your latest credit score for free. Set your goals and watch your progress. Signing up won't affect your score at all.",
+                "es": "### Obtén tu puntaje de crédito gratis en NerdWallet\nCada semana puedes consultar tu último puntaje de crédito gratis. Fije sus metas y vea su progreso. El inscribirse no afectará su puntuación en absoluto."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "NERDWALLET.COM",
-              "url": "https://www.nerdwallet.com/home/dashboard/credit-score",
+              "text": {
+                "en": "NERDWALLET.COM",
+                "es": "NERDWALLET.COM"
+              },
+              "url": {
+                "en": "https://www.nerdwallet.com/home/dashboard/credit-score",
+                "es": "https://www.nerdwallet.com/home/dashboard/credit-score"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5412,12 +5867,21 @@
           },
           "content": [
             {
-              "content": "### Find a bank or credit union that provides free FICO scores\nThe Consumer Financial Protection Bureau has a great list of companies that provide free access to credit scores. You may need to sign up for an account to gain access.",
+              "content": {
+                "en": "### Find a bank or credit union that provides free FICO scores\nThe Consumer Financial Protection Bureau has a great list of companies that provide free access to credit scores. You may need to sign up for an account to gain access.",
+                "es": "### Encontrar un banco o una cooperativa de crédito que proporcione puntuaciones gratuitas de FICO\nLa Oficina de Protección Financiera del Consumidor tiene una gran lista de empresas que ofrecen acceso gratuito a los puntajes crediticios. Es posible que tenga que inscribirse en una cuenta para obtener acceso."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "DOWNLOAD PDF FROM CONSUMERFINANCE.GOV",
-              "url": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201702_cfpb_finding-free-access-to-credit-score_handout.pdf",
+              "text": {
+                "en": "DOWNLOAD PDF FROM CONSUMERFINANCE.GOV",
+                "es": "Descargue el PDF de CONSUMERFINANCE.GOV"
+              },
+              "url": {
+                "en": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201702_cfpb_finding-free-access-to-credit-score_handout.pdf",
+                "es": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/201702_cfpb_finding-free-access-to-credit-score_handout.pdf"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5431,7 +5895,10 @@
       "fileName": "credit-ecoa-icon.svg"
     },
     "3hVHxoQV72EOoc0w6WKSsW": {
-      "text": "Understand why you were denied",
+      "text": {
+        "en": "Understand why you were denied",
+        "es": "Entienda porque fue rechazado"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5439,7 +5906,10 @@
           },
           "content": [
             {
-              "content": "### Make a request to your lenders under the Equal Credit Opportunity Act\nUnder the Equal Credit Opportunity Act, lenders are required to provide written documentation as to why you were denied for a loan. This will help you understand how you need to improve.",
+              "content": {
+                "en": "### Make a request to your lenders under the Equal Credit Opportunity Act\nUnder the Equal Credit Opportunity Act, lenders are required to provide written documentation as to why you were denied for a loan. This will help you understand how you need to improve.",
+                "es": "### Haz una petición a tus prestamistas bajo la Ley de Igualdad de Oportunidades de Crédito\nBajo la Ley de Igualdad de Oportunidades de Crédito, se requiere que los prestamistas proporcionen documentación escrita sobre por qué se le negó un préstamo. Esto le ayudará a entender cómo necesita mejorarlo."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -5461,7 +5931,10 @@
       "fileName": "credit-builder-icon.png"
     },
     "2VYWwuKFrWQw2qqc2aqiKU": {
-      "text": "Build your credit history",
+      "text": {
+        "en": "Build your credit history",
+        "es": "Construya su historial de crédito"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5469,11 +5942,17 @@
           },
           "content": [
             {
-              "content": "### Apply for a secured credit card\nA secured credit card is low-risk for credit card issuers, and a great way to help you build a healthy history of financial habits. To get access to credit on the card, you first put down a cash deposit that matches your credit. Using the card responsibly can eventually give you access to an unsecured card (i.e. one that doesn’t require a deposit).",
+              "content": {
+                "en": "### Apply for a secured credit card\nA secured credit card is low-risk for credit card issuers, and a great way to help you build a healthy history of financial habits. To get access to credit on the card, you first put down a cash deposit that matches your credit. Using the card responsibly can eventually give you access to an unsecured card (i.e. one that doesn't require a deposit).",
+                "es": "### Solicite una tarjeta de crédito garantizada\nUna tarjeta de crédito garantizada es de bajo riesgo para los emisores de tarjetas de crédito, y una gran manera de ayudarle a construir una historial saludable de hábitos financieros. Para obtener el acceso al crédito en la tarjeta, usted primero pone un depósito en efectivo que coincida con su crédito. El uso responsable de la tarjeta puede eventualmente darle acceso a una tarjeta no segura (es decir, una que no requiere un depósito)."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "__For example:__\nIf you put down a $500 deposit, you would receive a $500 credit limit. To build a healthy credit history, make sure to pay the bill on time every month and try not to have a balance of more than $150 (or 30%) at any time.",
+              "content": {
+                "en": "__For example:__\nIf you put down a $500 deposit, you would receive a $500 credit limit. To build a healthy credit history, make sure to pay the bill on time every month and try not to have a balance of more than $150 (or 30%) at any time.",
+                "es": "__Por ejemplo:__\nSi usted deja un depósito de $500, usted recibiría $500 límite de crédito. Para construir un historial de crédito, asegúrese de pagar el cobro a tiempo cada mes y tratar de no tener un saldo de más de $150 (o 30%) en cualquier momento."
+              },
               "contentType": "colorBox"
             }
           ],
@@ -5485,7 +5964,10 @@
           },
           "content": [
             {
-              "content": "### Consider getting a co-signer\nA cosigner is a friend or family member that can increase your chances of getting approved for a loan. If this person’s credit and income meets a lender’s requirements, they can sign for a loan with you and will be obligated to pay it back if you are unable to.",
+              "content": {
+                "en": "### Consider getting a co-signer\nA cosigner is a friend or family member that can increase your chances of getting approved for a loan. If this person's credit and income meets a lender’s requirements, they can sign for a loan with you and will be obligated to pay it back if you are unable to.",
+                "es": "### Considere conseguir un cosignatario\nUn cosignatario es un amigo o miembro de la familia que puede aumentar sus probabilidades de obtener aprobación para un préstamo. Si el crédito y los ingresos de esta persona satisfacen los requisitos de un prestamista, pueden firmar un préstamo con usted y estarán obligados a pagarlo si usted no puede."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -5497,7 +5979,10 @@
           },
           "content": [
             {
-              "content": "### Consider a credit-builder loan\nCredit-builder loans are small loans designed to help you establish or boost your credit history. These loans, issued by credit unions and some banks, might be exactly what you need to rebuild your credit. See if there’s one that’s right for you.",
+              "content": {
+                "en": "### Consider a credit-builder loan\nCredit-builder loans are small loans designed to help you establish or boost your credit history. These loans, issued by credit unions and some banks, might be exactly what you need to rebuild your credit. See if there’s one that's right for you.",
+                "es": "### Considere un préstamo para construir crédito\nLos préstamos para construir credito son pequeños préstamos diseñados para ayudarle a establecer o subir su historial crediticio. Estos préstamos, emitidos por cooperativas de ahorro y crédito y algunos bancos, podrían ser exactamente lo que usted necesita para reconstruir su crédito. Mira si hay uno que sea adecuado para ti."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -5523,7 +6008,10 @@
       "fileName": "credit-45days-icon.svg"
     },
     "3Ur6C5biz60CcUwGQcWmGU": {
-      "text": "Check your credit report for errors",
+      "text": {
+        "en": "Check your credit report for errors",
+        "es": "Verifique su reporte de crédito por errores"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5531,12 +6019,21 @@
           },
           "content": [
             {
-              "content": "### Get your free credit report at [annualcreditreport.com](https://www.annualcreditreport.com \"annualcreditreport.com\")\n[annualcreditreport.com](https://www.annualcreditreport.com \"Annualcreditreport.com\") is jointly operated by the three major credit reporting agencies, Equifax, Experian, and Transunion. With this service you can receive up to three free credit reports per year.",
+              "content": {
+                "en": "### Get your free credit report at [annualcreditreport.com](https://www.annualcreditreport.com \"annualcreditreport.com\")\n[annualcreditreport.com](https://www.annualcreditreport.com \"Annualcreditreport.com\") is jointly operated by the three major credit reporting agencies, Equifax, Experian, and Transunion. With this service you can receive up to three free credit reports per year.",
+                "es": "### Obtenga su reporte de crédito gratis en [annualcreditreport.com](https://www.annualcreditreport.com \"annualcreditreport.com\")\n[annualcreditreport.com](https://www.annualcreditreport.com  \"Annualcreditreport.com\") es operado junto con las tres principales agencias de informes crediticios, Equifax, Experian y TransUnion. Con este servicio usted puede recibir hasta tres reportes de crédito gratuitos por año."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "ANNUALCREDITREPORT.COM",
-              "url": "https://www.annualcreditreport.com",
+              "text": {
+                "en": "ANNUALCREDITREPORT.COM",
+                "es": "ANNUALCREDITREPORT.COM"
+              },
+              "url": {
+                "en": "https://www.annualcreditreport.com",
+                "es": "https://www.annualcreditreport.com"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5548,12 +6045,21 @@
           },
           "content": [
             {
-              "content": "### Errors are fairly common on credit reports\nSome common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors. Visit the Consumer Financial Protection Bureau (CFPB) for more information.",
+              "content": {
+                "en": "### Errors are fairly common on credit reports\nSome common errors include: identity errors, incorrect reporting of account status, data management errors, and balance errors. Visit the Consumer Financial Protection Bureau (CFPB) for more information.",
+                "es": "### Los errores son bastante comunes en los reportes de crédito\nAlgunos errores comunes incluyen: errores de identidad, informes incorrectos del estado de la cuenta, errores de administración de datos y errores de equilibrio. Para obtener más información, visite la Oficina de Protección Financiera del Consumidor (CFPB)."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "VISIT CONSUMERFINANCE.GOV",
-              "url": "https://www.consumerfinance.gov/",
+              "text": {
+                "en": "VISIT CONSUMERFINANCE.GOV",
+                "es": "VISITE CONSUMERFINANCE.GOV"
+              },
+              "url": {
+                "en": "https://www.consumerfinance.gov/",
+                "es": "https://www.consumerfinance.gov/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5565,11 +6071,17 @@
           },
           "content": [
             {
-              "content": "### If there's an error, dispute it\nKeep records of your correspondences and contact the relevant credit reporting agency to report any errors.",
+              "content": {
+                "en": "### If there's an error, dispute it\nKeep records of your correspondences and contact the relevant credit reporting agency to report any errors.",
+                "es": "### SI hay un error, lo disputa\nMantenga registros de sus correspondencias y comuníquese con la Agencia de informes de crédito relacionada para reportar cualquier error."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "### Follow Up\nIt usually takes credit unions 30 to 45 days to process disputes. If you haven’t heard from them by day 45, be sure to follow up with them.",
+              "content": {
+                "en": "### Follow Up\nIt usually takes credit unions 30 to 45 days to process disputes. If you haven't heard from them by day 45, be sure to follow up with them.",
+                "es": "### Seguimiento\nPor lo general, las cooperativas de ahorro y crédito tardan de 30 a 45 días en procesar conflictos. Si usted no ha oído de ellos para el día 45, asegúrese de dar seguimiento con ellos."
+              },
               "contentType": "colorBox"
             }
           ],
@@ -5581,7 +6093,10 @@
           },
           "content": [
             {
-              "content": "### Follow up if you don’t hear anything after 45 days\nIt usually takes credit unions 30 to 45 days to process disputes. If you haven’t heard from them by day 45, be sure to follow up with them.",
+              "content": {
+                "en": "### Follow up if you don’t hear anything after 45 days\nIt usually takes credit unions 30 to 45 days to process disputes. If you haven't heard from them by day 45, be sure to follow up with them.",
+                "es": "### De seguimiento si no oyes nada después de 45 días\nPor lo general, las cooperativas de ahorro y crédito tardan de 30 a 45 días en procesar conflictos. Si usted no ha oído hablar de ellos por el día 45, asegúrese de dar seguimiento con ellos."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -5591,7 +6106,10 @@
       "contentType": "option"
     },
     "18izRntqCasKi080mQ6KwA": {
-      "text": "Go check a credit simulator",
+      "text": {
+        "en": "Go check a credit simulator",
+        "es": "Revise un simulador de crédito"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5599,12 +6117,21 @@
           },
           "content": [
             {
-              "content": "### Use NerdWallet's credit simulator\nA credit simulator can help you understand how financial decisions impact your credit score.",
+              "content": {
+                "en": "### Use NerdWallet's credit simulator\nA credit simulator can help you understand how financial decisions impact your credit score.",
+                "es": "### Use el simulador de crédito de NerdWallet\nUn simulador de crédito puede ayudarle a entender cómo las decisiones financieras impactan su puntaje de crédito."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO NERDWALLET.COM",
-              "url": "https://www.nerdwallet.com/blog/finance/credit-score-simulator/",
+              "text": {
+                "en": "GO TO NERDWALLET.COM",
+                "es": "VAYA A NERDWALLET.COM"
+              },
+              "url": {
+                "en": "https://www.nerdwallet.com/blog/finance/credit-score-simulator/",
+                "es": "https://www.nerdwallet.com/blog/finance/credit-score-simulator/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -5614,79 +6141,136 @@
       "contentType": "option"
     },
     "lsJ429v83eqkMgYCeqYOi": {
-      "text": "Getting a car",
+      "text": {
+        "en": "Getting a car",
+        "es": "Obtener un carro"
+      },
       "contentType": "problem"
     },
     "5XBG0bXHKoWQ6eEwQ260A6": {
-      "text": "Renting an apartment",
+      "text": {
+        "en": "Renting an apartment",
+        "es": "Rentar un apartamento"
+      },
       "contentType": "problem"
     },
     "5nLPPxoVfaWy20escGiCyg": {
-      "text": "Starting my own business",
+      "text": {
+        "en": "Starting my own business",
+        "es": "Empezar mi propio negocio"
+      },
       "contentType": "problem"
     },
     "4gFmKi5zQI8qW2wE6GCKIO": {
-      "text": "Going to school",
+      "text": {
+        "en": "Going to school",
+        "es": "Ir a la escuela"
+      },
       "contentType": "problem"
     },
     "1Yx4N4wEmkiKcMkiUgGq28": {
-      "text": "Buying a home",
+      "text": {
+        "en": "Buying a home",
+        "es": "Comprar una casa"
+      },
       "contentType": "problem"
     },
     "7hCB179qRaou8oc02mSYUC": {
-      "text": "Getting a job",
+      "text": {
+        "en": "Getting a job",
+        "es": "Obtener un trabajo"
+      },
       "contentType": "problem"
     },
     "5JKT2zKcxOakiWIisIGqOm": {
-      "text": "Getting a credit card",
+      "text": {
+        "en": "Getting a credit card",
+        "es": "Obtener una tarjeta de crédito"
+      },
       "contentType": "problem"
     },
     "1EaxaqqF1KYAkmKUqcyeoG": {
-      "text": "Getting a personal loan",
+      "text": {
+        "en": "Getting a personal loan",
+        "es": "Obtener un préstamo personal"
+      },
       "contentType": "problem"
     },
     "66M7Wf698sCmG26YssAqsO": {
-      "text": "Buying car insurance",
+      "text": {
+        "en": "Buying car insurance",
+        "es": "Comprar seguro de carro"
+      },
       "contentType": "problem"
     },
     "1o4l5qxIe0komuQ8I6Sc48": {
-      "text": "Getting electricity, gas, cable, or phone",
+      "text": {
+        "en": "Getting electricity, gas, cable, or phone",
+        "es": "Obtener electricidad, gas, cable, or teléfono"
+      },
       "contentType": "problem"
     },
     "27ll08QlXSCWgEuwgwQgEm": {
-      "text": "I pay my credit bills on time, consistently each month",
+      "text": {
+        "en": "I pay my credit bills on time, consistently each month",
+        "es": "Pago mis facturas de crédito a tiempo, consistentemente cada mes"
+      },
       "contentType": "statement"
     },
     "4BrZ49x0daKiY22aImAGMQ": {
-      "text": "I have used a lot of my credit",
+      "text": {
+        "en": "I have used a lot of my credit",
+        "es": "He usado mucho de mi crédito"
+      },
       "contentType": "statement"
     },
     "5Iwa9uP0cMW4aSwEwSsWeq": {
-      "text": "I'm just getting started with credit",
+      "text": {
+        "en": "I'm just getting started with credit",
+        "es": "Estoy empezando con crédito"
+      },
       "contentType": "statement"
     },
     "3DIVQ0UPu0w4IyeU2CS8M6": {
-      "text": "I don't know what my credit score is",
+      "text": {
+        "en": "I don't know what my credit score is",
+        "es": "No sé cuál es mi puntaje de crédito"
+      },
       "contentType": "statement"
     },
     "3zIkDTN6LCauYUE2W8Y8y": {
-      "text": "I have some kind of loan or mortgage",
+      "text": {
+        "en": "I have some kind of loan or mortgage",
+        "es": "Tengo algún tipo de préstamo o hipoteca"
+      },
       "contentType": "statement"
     },
     "3piFwaEY7eAWeS0UwOaqSC": {
-      "text": "I have some kind of credit card",
+      "text": {
+        "en": "I have some kind of credit card",
+        "es": "Tengo algún tipo de tarjeta de crédito"
+      },
       "contentType": "statement"
     },
     "ekgo2EfLDa06wSqGoiSoU": {
-      "text": "I wasn't given an explanation as to why I wasn't approved",
+      "text": {
+        "en": "I wasn't given an explanation as to why I wasn't approved",
+        "es": "No me dieron una explicación de por qué no fui aprobado"
+      },
       "contentType": "statement"
     },
     "5HhoTsWCpG6EqAO4aoUq4M": {
-      "text": "I haven't checked my credit report this year",
+      "text": {
+        "en": "I haven't checked my credit report this year",
+        "es": "No he revisado mi informe de crédito este año"
+      },
       "contentType": "statement"
     },
     "75C16Zln688Ks6WEWkEgGM": {
-      "text": "Find personalized advice",
+      "text": {
+        "en": "Find personalized advice",
+        "es": "Busque consejeria personalizada"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -5694,12 +6278,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+              "content": {
+                "en": "__Talk to a NFCC Certified Credit Counselor__\nThe National Federation of Credit Counselors (NFCC) agency assists borrowers who are having difficulty paying their debt. If you can't pay your bills on time consistently each month, then you may want to get personalized advice from a counselor. Talk to a counselor to understand what your options are. There may be a fee for these services.",
+                "es": "__Hable con un consejero certificado de crédito de la NFCC__\nLa Agencia de la Federación Nacional de Consejeros de Crédito (NFCC), apoya a quienes piden prestado y que están teniendo dificultades para pagar su deuda. Si usted no puede pagar sus cobros a tiempo consistentemente cada mes, entonces usted puede querer obtener consejería personalizada. Hablé con su consejero para entender cuáles son sus opciones. Podría haber un cargo por esos servicios."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "find a credit counselor near you",
-              "url": "https://www.nfcc.org/locator",
+              "text": {
+                "en": "find a credit counselor near you",
+                "es": "Busque un consejero de credito cerca de usted"
+              },
+              "url": {
+                "en": "https://www.nfcc.org/locator",
+                "es": "https://www.nfcc.org/locator"
+              },
               "contentType": "urlBox"
             }
           ],

@@ -17,6 +17,8 @@ function mapZipToState(zip) {
 }
 
 const ActionBasic = (props) => {
+  console.log(props);
+  console.log('basic');
   let imgId = props.data.leftHandSideImage.id;
   let imgUrl = config.entryIds[imgId].url;
   let mappingLogic = null;
@@ -24,7 +26,7 @@ const ActionBasic = (props) => {
   if(props.data.zip) {
     state = mapZipToState(props.data.zip);
   }
-  if(config.userInputSection && config.userInputSection.inputType === "Zip Code to State Input") {
+  if(config.userInputSection && getTranslation(config.userInputSection.inputType, props.language) === "Zip Code to State Input") {
     mappingLogic = config.userInputSection.userInputMappingLogic;
   }
   let allContent = props.data.content.map((content, i) => {
@@ -42,11 +44,13 @@ const ActionBasic = (props) => {
     else if(content.contentType === 'urlBox') {
       let url = content.url;
       if(content.userInputFieldName) {
-        url = mappingLogic[state][content.userInputFieldName.fieldName];
+        url = mappingLogic[state][getTranslation(content.userInputFieldName.fieldName, props.language)];
       }
       box = <UrlBox key={i} text={getTranslation(content.text, props.language)} url={getTranslation(url, props.language)} />;
     }
     else if(content.contentType === 'zipcodeBox') {
+      console.log(content);
+      console.log('zippp');
       box = (
         <ZipcodeBox
           key={i}
@@ -62,7 +66,9 @@ const ActionBasic = (props) => {
       box = <CriteriaBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'phoneBox') {
-      let phoneNumber = content.phoneNumber ? content.phoneNumber : mappingLogic[state][content.userInputFieldName.fieldName];
+      console.log('phoneeeee');
+      let phoneNumber = content.phoneNumber ? getTranslation(content.phoneNumber, props.language) : mappingLogic[state][getTranslation(content.userInputFieldName.fieldName, props.language)];
+      console.log(phoneNumber);
       box = (
         <PhoneBox
           key={i}
@@ -73,7 +79,7 @@ const ActionBasic = (props) => {
     }
     else if(content.contentType === 'timelineBox') {
       box = (
-        <TimelineBox key={i} content={localizedContent} title={getTranslation(content.title, props.language)} />
+        <TimelineBox key={i} content={localizedContent} title={getTranslation(content.title, props.language)} language={props.language} />
       );
     }
     return (

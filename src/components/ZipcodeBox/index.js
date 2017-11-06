@@ -22,7 +22,7 @@ export default class ZipcodeBox extends Component {
             placeholder={getTranslation(config.guideMaterials.zipCodeBoxPlaceholder, this.props.language)}
             value={this.state.inputText}/>
         </div>
-        <UrlBox url={this.props.urlStart + this.state.inputText + this.props.urlEnd} text={this.props.buttonText}/>
+        <UrlBox url={getTranslation(this.props.urlStart, this.props.language) + this.state.inputText + getTranslation(this.props.urlEnd, this.props.language)} text={this.props.buttonText}/>
       </div>
     );
   }

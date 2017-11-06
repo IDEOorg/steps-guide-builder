@@ -6,6 +6,7 @@ import "./index.less";
 import Card from "../../components/Card";
 import ProgressBar from "../../components/ProgressBar";
 import { generateStatements } from "../../store/statementPage/statementPage";
+import { getTranslation } from "../../globals/utils";
 import config from "../../data/config";
 
 const ProblemsSection = props => {
@@ -17,7 +18,7 @@ const ProblemsSection = props => {
         text={problem.text}
         hideIcon={true}
         onSelect={() => {
-          props.onSelect(problem.id, problem.url);
+          props.onSelect(problem.id, problem.url, props.language);
         }}
       />
     );
@@ -33,7 +34,7 @@ const ProblemsSection = props => {
   );
 };
 
-function mapStateToProps() {
+function mapStateToProps(state) {
   let problemsToStatements = config.problemsPage.problemsToStatements.problemsToStatements;
   const problems = config.problemsPage.problems.map((problemId) => {
     let id = problemId.id;
@@ -52,16 +53,17 @@ function mapStateToProps() {
     };
   });
   return {
-    problems
+    problems,
+    language: state.language
   };
 }
 /* eslint-enable no-unused-vars */
 
 function mapDispatchToProps(dispatch) {
   return {
-    onSelect: (id, url) => {
+    onSelect: (id, url, language) => {
       dispatch(generateStatements(id));
-      dispatch(push("/statements/" + url));
+      dispatch(push("/statements/" + getTranslation(url, language)));
     }
   };
 }

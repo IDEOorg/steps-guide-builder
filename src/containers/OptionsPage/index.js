@@ -80,7 +80,7 @@ class OptionsPage extends Component {
   }
   render() {
     console.log(this.props);
-    console.log('options page');
+    console.log('option page');
     const currentOption = this.props.currentOption;
     const filteredOptions = this.props.options.filter((option) => !option.tried);
 

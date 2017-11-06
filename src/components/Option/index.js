@@ -7,10 +7,6 @@ import FormattedMsg from '../../containers/FormattedMsg';
 import config from '../../data/config';
 
 const Option = (props) => {
-  console.log(props);
-  console.log('props');
-  console.log(config.entryIds[props.id].text);
-  console.log('option');
   let optionText = config.entryIds[props.id].text;
   let orderBox = null;
   if(props.order !== undefined) {

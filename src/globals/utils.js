@@ -1,5 +1,5 @@
 export const getTranslation = (field, language) => {
-  if(field === undefined) {
+  if(field === null) {
     return "";
   }
   if(field[language]) {

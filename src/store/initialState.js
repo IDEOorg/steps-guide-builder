@@ -8,10 +8,8 @@ if(problems) {
   });
 }
 else {
-  console.log('test stpg');
   statementPage = config.statementsPages[0];
   if(statementPage) {
-    console.log(statementPage.statements);
     statementPage.statements = statementPage.statements.map((statementObject) => {
       return {
         id: statementObject.id,
@@ -21,7 +19,6 @@ else {
     });
   }
 }
-console.log(statementPage);
 
 const initialState = {
   problems,

@@ -52,7 +52,6 @@ const statementPage = (state = [], action) => {
       };
     }
     case GENERATE_STATEMENTS: {
-      console.log(state);
       let problemId = action.problemId;
       let problemsToStatements = config.problemsPage.problemsToStatements.problemsToStatements;
       let statementPage = null;
@@ -76,7 +75,6 @@ const statementPage = (state = [], action) => {
       return {};
     }
     case LOAD_STATEMENTS: {
-      console.log(state);
       if(action.userInput) {
         if(action.userInput.zip) {
           state = {
