@@ -6,6 +6,7 @@ import configureStore from './store/configureStore';
 import { hashHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
 import Routes from './routes';
+
 import '../vendors/sanitize.min.css';
 import './index.less';
 
