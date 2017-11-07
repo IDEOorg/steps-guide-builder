@@ -7,10 +7,22 @@ import StatementsPage from '../containers/StatementsPage';
 import OptionsPage from '../containers/OptionsPage';
 import config from '../data/config';
 import "babel-polyfill";
+import { keenClient } from '../keen';
+
+function logPageView() {
+  keenClient.recordEvent('pageview', {matthew: false}, (err, res) => {
+    if (err) {
+      console.error('Keen Error', err);
+    }
+    else {
+      console.log('Keen even logged', res);
+    }
+  });
+}
 
 const Routes = (props) => {
   return (
-    <Router history={props.history}>
+    <Router history={props.history} onUpdate={logPageView}>
       <Route component={App}>
         <Route path="/" component={config.problemsPage ? ProblemsPage : StatementsPage} />
         <Route path="/statements/:statement" component={StatementsPage} />

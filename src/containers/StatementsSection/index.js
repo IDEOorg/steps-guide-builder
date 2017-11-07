@@ -14,6 +14,7 @@ import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
 import { getTranslation } from "../../globals/utils";
+import { keenClient } from '../../keen';
 
 const StatementsSection = (props) => {
   let isFullSize;
@@ -41,15 +42,16 @@ const StatementsSection = (props) => {
   const selectedStatements = props.statementPage.statements
     .filter(statement => statement.selected)
     .map(statement => {
-      console.log(statement);
+      // console.log(statement);
       return {
-        id: statement.id
+        id: statement.id,
+        text: statement.text
       };
     });
 
   let statementsSectionIntro = null;
   let introItems = [];
-  console.log('config.userInputSection');
+  // console.log('config.userInputSection');
   if (config.userInputSection) {
     if (getTranslation(config.userInputSection.inputType, props.language) === "Zip Code to State Input") {
       introItems.push(
@@ -131,6 +133,17 @@ function mapDispatchToProps(dispatch) {
       }
       let url = statementPage.url ? statementPage.url.urlText : null;
       url = getTranslation(url, language);
+
+  
+      keenClient.recordEvent('submitOptions', {selectedStatements: selectedStatements}, (err, res) => {
+        if (err) {
+          console.error('Keen Error', err);
+        }
+        else {
+          console.log('Keen event logged', res);
+        }
+      });
+
       if (url) {
         if (!window.history) {
           console.log("does not support window.history");

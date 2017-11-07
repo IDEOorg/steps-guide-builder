@@ -79,8 +79,8 @@ class OptionsPage extends Component {
     }
   }
   render() {
-    console.log(this.props);
-    console.log('option page');
+    // console.log(this.props);
+    // console.log('option page');
     const currentOption = this.props.currentOption;
     const filteredOptions = this.props.options.filter((option) => !option.tried);
 
@@ -126,7 +126,7 @@ class OptionsPage extends Component {
       });
     }
     else {
-      console.log('show something distinctive');
+      // console.log('show something distinctive');
     }
     let navigation = config.optionsPage.navigation;
     let optionsIntro = null;
