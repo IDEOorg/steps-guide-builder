@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import FormattedMsg from '../../containers/FormattedMsg';
+import GoogleAnalytics from 'react-ga';
 import './index.less';
 
 const Card = (props) => {
@@ -59,6 +60,11 @@ const Card = (props) => {
         card_with_choices: cardHasChoicesStyle
       })}
         onClick={() => {
+          GoogleAnalytics.event({
+            category: 'Statements',
+            action: 'select',
+            label: props.text
+          });
           props.onSelect();
         }}
       >
