@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import FormattedMsg from '../../containers/FormattedMsg';
-import { keenClient } from '../../keen';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
 import './index.less';
 
 const Card = (props) => {
@@ -67,7 +68,18 @@ const Card = (props) => {
         small_card: !isFullSize,
         card_with_choices: cardHasChoicesStyle
       })}
+<<<<<<< HEAD
         onClick={() => { props.onSelect(); }}
+=======
+        onClick={() => {
+          GoogleAnalytics.event({
+            category: 'Statements',
+            action: 'select',
+            label: props.text
+          });
+          props.onSelect();
+        }}
+>>>>>>> first event, this sux
       >
         { addIcon }
         <h2 className={"card_text"}>

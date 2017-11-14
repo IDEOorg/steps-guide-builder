@@ -7,12 +7,7 @@ import StatementsPage from '../containers/StatementsPage';
 import OptionsPage from '../containers/OptionsPage';
 import config from '../data/config';
 import "babel-polyfill";
-<<<<<<< HEAD
 import { withTracker } from '../globals/tracker';
-=======
-import withTracker from '../globals/withTracker';
-// for documentation for withTracker, see: https://github.com/react-ga/react-ga/wiki/React-Router-v4-withTracker
->>>>>>> adds google analytics HOC
 
 const Routes = (props) => {
   return (
