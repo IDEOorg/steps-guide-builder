@@ -5,6 +5,7 @@ import './index.less';
 import Link from '../Link';
 import FormattedMsg from '../../containers/FormattedMsg';
 import config from '../../data/config';
+import GoogleAnalytics from 'react-ga';
 
 const Option = (props) => {
   let optionText = config.entryIds[props.id].text;
@@ -21,7 +22,15 @@ const Option = (props) => {
     link = (
       <Link
       className="option_tried_link"
-      onClick={(e) => {props.onLinkClick(); e.stopPropagation();}}>
+      onClick={(e) => {
+        GoogleAnalytics.event({
+          category: 'UIActions',
+          action: 'click',
+          label: props.linkText
+        });
+        props.onLinkClick(); 
+        e.stopPropagation();
+      }}>
         { props.linkText }
       </Link>
     );
