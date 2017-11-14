@@ -14,6 +14,8 @@ import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
 import { getTranslation } from "../../globals/utils";
+import GoogleAnalytics from 'react-ga';
+
 
 const StatementsSection = (props) => {
   let isFullSize;
@@ -41,7 +43,7 @@ const StatementsSection = (props) => {
   const selectedStatements = props.statementPage.statements
     .filter(statement => statement.selected)
     .map(statement => {
-      console.log(statement);
+      // console.log(statement);
       return {
         id: statement.id
       };
@@ -49,7 +51,7 @@ const StatementsSection = (props) => {
 
   let statementsSectionIntro = null;
   let introItems = [];
-  console.log('config.userInputSection');
+  // console.log('config.userInputSection');
   if (config.userInputSection) {
     if (getTranslation(config.userInputSection.inputType, props.language) === "Zip Code to State Input") {
       introItems.push(
@@ -131,14 +133,21 @@ function mapDispatchToProps(dispatch) {
       }
       let url = statementPage.url ? statementPage.url.urlText : null;
       url = getTranslation(url, language);
+
+      GoogleAnalytics.event({
+        category: 'Statements',
+        action: 'submit',
+        label: searchString
+      });
+
       if (url) {
         if (!window.history) {
-          console.log("does not support window.history");
+          // console.log("does not support window.history");
         }
         dispatch(push(`/statements/${url}/options${searchString}`));
       } else {
         if (!window.history) {
-          console.log("does not support window.history");
+          // console.log("does not support window.history");
         }
         dispatch(push(`/options${searchString}`));
       }

@@ -17,7 +17,14 @@ const Card = (props) => {
               card_choice_selected: choiceId === props.selectedChoice,
               card_choice_unselected: choiceId !== props.selectedChoice
             })}
-          onClick={() => props.onChoiceSelect(props.id, choiceId)}>
+          onClick={() => {
+            GoogleAnalytics.event({
+              category: 'Statements',
+              action: 'subSelect',
+              label: props.choices[choiceId].text
+            });
+            props.onChoiceSelect(props.id, choiceId);
+          }}>
           <h6>{props.choices[choiceId].text}</h6>
         </div>
       );
@@ -63,7 +70,7 @@ const Card = (props) => {
           GoogleAnalytics.event({
             category: 'Statements',
             action: 'select',
-            label: props.text
+            label: props.text.en || props.text
           });
           props.onSelect();
         }}
