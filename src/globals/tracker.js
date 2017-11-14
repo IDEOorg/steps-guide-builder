@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Keen from 'keen-tracking';
 import MobileDetect from 'mobile-detect';
+import GoogleAnalytics from 'react-ga';
 
+GoogleAnalytics.initialize('UA-88223011-3', {debug});
 
 function initKeen () {
     const md = new MobileDetect();
@@ -133,8 +135,13 @@ export const keenClient = initKeen();
 
 /* HOC for tracking page views with React Router */
 export const withTracker = (WrappedComponent, options = {}) => {
-  const trackPage = (page) => { //eslint-disable-line no-unused-vars
+  const trackPage = (page) => { 
     keenClient.recordEvent('pageviews', {...options});
+    GoogleAnalytics.set({
+      page,
+      ...options,
+    });
+    GoogleAnalytics.pageview(page);
   };
 
   const HOC = class extends Component {

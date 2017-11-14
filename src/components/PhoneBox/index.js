@@ -9,7 +9,7 @@ const PhoneBox = (props) => {
   // console.log('phone boxxx');
   return (
     <Button
-      onClick={() => { console.log('phone number'); }}
+      // onClick={() => { console.log('phone number'); }}
       textStyleClass="phone_button_text"
       className="phone_button"
     >

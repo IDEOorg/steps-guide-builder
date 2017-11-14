@@ -25,6 +25,11 @@ const Card = (props) => {
               text: props.choices[choiceId].text || 'none',
               id: props.id || 'none'
             });
+            GoogleAnalytics.event({
+              category: 'Statements',
+              action: 'subSelect',
+              label: props.choices[choiceId].text
+            });
             props.onChoiceSelect(props.id, choiceId);
           }}>
           <h6>{props.choices[choiceId].text}</h6>
@@ -68,18 +73,7 @@ const Card = (props) => {
         small_card: !isFullSize,
         card_with_choices: cardHasChoicesStyle
       })}
-<<<<<<< HEAD
         onClick={() => { props.onSelect(); }}
-=======
-        onClick={() => {
-          GoogleAnalytics.event({
-            category: 'Statements',
-            action: 'select',
-            label: props.text
-          });
-          props.onSelect();
-        }}
->>>>>>> first event, this sux
       >
         { addIcon }
         <h2 className={"card_text"}>
