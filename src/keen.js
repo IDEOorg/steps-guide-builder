@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import Keen from 'keen-tracking';
 import MobileDetect from 'mobile-detect';
 
@@ -131,11 +132,9 @@ export const keenClient = initKeen();
 
 
 /* HOC for tracking page views with React Router */
-import React, { Component } from 'react';
-
 export const withTracker = (WrappedComponent, options = {}) => {
   const trackPage = (page) => {
-    keenClient.recordEvent('pageview', {...options});
+    keenClient.recordEvent('pageviews', {...options});
   };
 
   const HOC = class extends Component {
@@ -167,10 +166,5 @@ export const withTracker = (WrappedComponent, options = {}) => {
 /*
 TODO
 ----
-- basic event
-- make into action
-- add other events
-- test compute against metrics (esp. access to nested variables) - I'm beginning to suspect this is trouble.
-- scroll listeners
 - hide writeKey
 */
