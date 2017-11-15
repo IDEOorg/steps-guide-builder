@@ -19,16 +19,16 @@ class UserInputSection extends Component {
         errorMsg: ''
       }
     };
-    console.log(props);
-    console.log('constructor');
+    // console.log(props);
+    // console.log('constructor');
     props.saveInput(defaultZip, this.state.output.isValid);
   }
   componentDidMount(){
     this.nameInput.focus();
   }
   render() {
-    console.log(this.props);
-    console.log('this.props user input section');
+    // console.log(this.props);
+    // console.log('this.props user input section');
     let invalidMsg = null;
     let isValid = this.state.output && this.state.output.isValid ? true : false;
     if(!isValid) {
@@ -48,8 +48,8 @@ class UserInputSection extends Component {
           }
           parentRef={(input) => { this.nameInput = input; }}
           onChange={(value) => {
-            console.log(this.props.language);
-            console.log('validate zip');
+            // console.log(this.props.language);
+            // console.log('validate zip');
             let output = this.validateZip(value, this.props.language);
             this.setState({
               inputText: value,

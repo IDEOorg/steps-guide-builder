@@ -14,6 +14,7 @@ import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
 import { getTranslation } from "../../globals/utils";
+import { keenClient } from '../../keen';
 
 const StatementsSection = (props) => {
   let isFullSize;
@@ -41,7 +42,7 @@ const StatementsSection = (props) => {
   const selectedStatements = props.statementPage.statements
     .filter(statement => statement.selected)
     .map(statement => {
-      console.log(statement);
+      // console.log(statement);
       return {
         id: statement.id
       };
@@ -49,7 +50,7 @@ const StatementsSection = (props) => {
 
   let statementsSectionIntro = null;
   let introItems = [];
-  console.log('config.userInputSection');
+  // console.log('config.userInputSection');
   if (config.userInputSection) {
     if (getTranslation(config.userInputSection.inputType, props.language) === "Zip Code to State Input") {
       introItems.push(
@@ -131,6 +132,23 @@ function mapDispatchToProps(dispatch) {
       }
       let url = statementPage.url ? statementPage.url.urlText : null;
       url = getTranslation(url, language);
+
+      keenClient.recordEvent('submits', {
+        type: 'custom',
+        action: 'submitStatements',
+        query: searchString || 'none',
+        zipCode: statementPage.userInput.zip || 'none'
+      });
+
+      statements.forEach(statement => {
+        keenClient.recordEvent('clicks', {
+          type: 'select',
+          action: 'selectStatement',
+          id: statement.id || 'none',
+          text: statement.text || 'none'
+        });
+      });
+  
       if (url) {
         if (!window.history) {
           console.log("does not support window.history");

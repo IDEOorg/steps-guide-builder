@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import FormattedMsg from '../../containers/FormattedMsg';
+import { keenClient } from '../../keen';
 import './index.less';
 
 const Card = (props) => {
@@ -16,7 +17,15 @@ const Card = (props) => {
               card_choice_selected: choiceId === props.selectedChoice,
               card_choice_unselected: choiceId !== props.selectedChoice
             })}
-          onClick={() => props.onChoiceSelect(props.id, choiceId)}>
+          onClick={() => {
+            keenClient.recordEvent('clicks', {
+              type: 'select',
+              action: 'selectStatementsOption'
+              text: props.choices[choiceId].text || 'none',
+              id: props.id || 'none'
+            });
+            props.onChoiceSelect(props.id, choiceId);
+          }}>
           <h6>{props.choices[choiceId].text}</h6>
         </div>
       );
@@ -58,9 +67,7 @@ const Card = (props) => {
         small_card: !isFullSize,
         card_with_choices: cardHasChoicesStyle
       })}
-        onClick={() => {
-          props.onSelect();
-        }}
+        onClick={() => { props.onSelect(); }}
       >
         { addIcon }
         <h2 className={"card_text"}>

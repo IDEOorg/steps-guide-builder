@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { selectLanguage } from '../../store/language/language';
+import { keenClient } from '../../keen';
 import './index.less';
 
 const CODE_EN = 'en';
@@ -20,6 +21,12 @@ const TranslateToggle = (props) => {
   return (
     <div className="toggle_box">
       <a onClick={() => {
+        keenClient.recordEvent('clicks', {
+          type: 'ui',
+          action: 'toggleLanguage',
+          text: switchTo || 'none',
+          switchToCode: switchToCode || 'none'
+        });
         props.translate(switchToCode);
       }}>
         <p className="toggle_text">
