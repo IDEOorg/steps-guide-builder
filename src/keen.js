@@ -24,10 +24,12 @@ function initKeen () {
       requestType: 'jsonp'
     });
     
-    if (process.env.NODE_ENV !== 'production') {
-      // Optionally prevent recording in dev mode
-      Keen.enabled = true; // change to 'false' when going into production~!!!!!
-      // Display events in the browser console
+    const debug = process.env.NODE_ENV === 'development';
+    // // Optionally prevent recording in dev mode
+    // Keen.enabled = true; 
+    
+    // Display events in the browser console
+    if (debug) {
       Keen.debug = true;
       keenClient.on('recordEvent', Keen.log);
       keenClient.on('recordEvents', Keen.log);
@@ -36,7 +38,6 @@ function initKeen () {
     // Add custom properties to all events 
     keenClient.extendEvents(() => {
       return {
-        matthew: true,
         geo: {
           info: { /* Enriched */ },
           ip_address: '${keen.ip}',
@@ -91,6 +92,13 @@ function initKeen () {
                 page_url: 'page.url'
               },
               output: 'referrer.info'
+            },
+            {
+              "name": "keen:date_time_parser",
+              "input": {
+                "date_time": "keen.timestamp"                                
+              },
+              "output": "timestamp_info"
             }
           ]
         }
@@ -102,11 +110,11 @@ function initKeen () {
     or you can do it inside the code where you have access to stuff like state and props.
     */
 
-    Keen.listenTo({
-      'click .action_button, .action_button *': function(e){
-        console.log('currentTarget: ', e.currentTarget); // returns #document. If you need currentTarget, see my implementation below
-      }
-    });
+    // Keen.listenTo({
+    //   'click .action_button, .action_button *': function(e){
+    //     console.log('currentTarget: ', e.currentTarget); // returns #document. If you need currentTarget, see my implementation below
+    //   }
+    // });
 
     /* DOM Event Capturing - preserves event.currentTarget */
     // window.onload = ()=> {
@@ -119,9 +127,42 @@ function initKeen () {
     // };
     return keenClient;
   }
-
-
 export const keenClient = initKeen();
+
+
+/* HOC for tracking page views with React Router */
+import React, { Component } from 'react';
+
+export const withTracker = (WrappedComponent, options = {}) => {
+  const trackPage = (page) => {
+    keenClient.recordEvent('pageview', {...options});
+  };
+
+  const HOC = class extends Component {
+    componentDidMount() {
+      const page = this.props.location.pathname;
+      trackPage(page);
+    }
+
+    componentWillReceiveProps(nextProps) {
+      const currentPage = this.props.location.pathname;
+      const nextPage = nextProps.location.pathname;
+
+      if (currentPage !== nextPage) {
+        trackPage(nextPage);
+      }
+    }
+
+    render() {
+      return <WrappedComponent {...this.props} />;
+    }
+  };
+
+  return HOC;
+};
+
+
+
 
 /*
 TODO

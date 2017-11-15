@@ -123,6 +123,7 @@ function mapDispatchToProps(dispatch) {
     onSelect: id => dispatch(selectStatement(id)),
     onSubmit: (selectedStatements, statementPage, language) => {
       const statements = selectedStatements.map(statement => {
+        console.log(statement);
         return statement.id;
       });
       let searchString = `?statements=${statements.join("+")}`;
@@ -134,16 +135,20 @@ function mapDispatchToProps(dispatch) {
       let url = statementPage.url ? statementPage.url.urlText : null;
       url = getTranslation(url, language);
 
-  
-      keenClient.recordEvent('submitOptions', {selectedStatements: selectedStatements}, (err, res) => {
-        if (err) {
-          console.error('Keen Error', err);
-        }
-        else {
-          console.log('Keen event logged', res);
-        }
+      keenClient.recordEvent('submits', {
+        type: 'statementsPage',
+        query: searchString || 'none',
+        zipCode: statementPage.userInput.zip || 'none'
       });
 
+      statements.forEach(statement => {
+        keenClient.recordEvent('clicks', {
+          type: 'statementSelection',
+          id: statement.id || 'none',
+          text: statement.text || 'none'
+        });
+      });
+  
       if (url) {
         if (!window.history) {
           console.log("does not support window.history");
