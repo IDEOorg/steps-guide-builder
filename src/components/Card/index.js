@@ -20,7 +20,7 @@ const Card = (props) => {
           onClick={() => {
             keenClient.recordEvent('clicks', {
               type: 'select',
-              action: 'selectStatementsOption'
+              action: 'selectStatementsOption',
               text: props.choices[choiceId].text || 'none',
               id: props.id || 'none'
             });
