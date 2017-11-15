@@ -136,14 +136,16 @@ function mapDispatchToProps(dispatch) {
       url = getTranslation(url, language);
 
       keenClient.recordEvent('submits', {
-        type: 'statementsPage',
+        type: 'custom',
+        action: 'submitStatements',
         query: searchString || 'none',
         zipCode: statementPage.userInput.zip || 'none'
       });
 
       statements.forEach(statement => {
         keenClient.recordEvent('clicks', {
-          type: 'statementSelection',
+          type: 'select',
+          action: 'selectStatement',
           id: statement.id || 'none',
           text: statement.text || 'none'
         });

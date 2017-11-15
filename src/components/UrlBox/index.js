@@ -9,7 +9,8 @@ const UrlBox = (props) => {
     <Button
       onClick={() => {
         keenClient.recordEvent('clicks', {
-          type: 'resource',
+          type: 'linkOut',
+          action: 'clickResource',
           text: props.text || 'none',
           url: props.url || 'none'
         });

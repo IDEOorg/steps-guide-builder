@@ -25,6 +25,7 @@ const Option = (props) => {
       onClick={(e) => {
         keenClient.recordEvent('clicks', {
           type: 'ui',
+          action: 'hideShowResourceCategory',
           text: props.linkText || 'none'
         });
 
