@@ -804,7 +804,7 @@
             {
               "content": {
                 "en": "### Talk to a counselor\nIf you won’t be able to pay your rent for a while, then a free session with a housing counselor is the best option for you. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
-                "es": "### Hable con un consejero\nSi no es puede pagar su renta por el momento, entonces una sesión gratis con un consejero de viviendas es la mejor opción para usted. El consejero puede saber sobre opciones de menor costo de renta en su área o programas en los que puedes calificar. Un consejero también puede ayudarle a ordenar sus gastos y buscar ayuda para sus pagos."
+                "es": "### Hable con un consejero\nSi no se puede pagar su renta por el momento, entonces una sesión gratis con un consejero de viviendas es la mejor opción para usted. El consejero puede saber sobre opciones de menor costo de renta en su área o programas en los que puedes calificar. Un consejero también puede ayudarle a ordenar sus gastos y buscar ayuda para sus pagos."
               },
               "contentType": "contentBox"
             },
@@ -873,14 +873,14 @@
             {
               "content": {
                 "en": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs.",
-                "es": "__Connect with a career center__\nGet access to full-time or part-time job postings, free career counseling, and free or low-cost job training and certification programs."
+                "es": "__Ponte en contacto con un centro de carreras__\nTen acceso a trabajos de tiempo completo o tiempo medio, gratis consejeria de carrerars y gratis o de bajo costo entrenamiento de trabajo y programas de certificación."
               },
               "contentType": "contentBox"
             },
             {
               "buttonText": {
                 "en": "FIND YOUR LOCAL CAREER CENTER",
-                "es": "FIND YOUR LOCAL CAREER CENTER"
+                "es": "ENCUENTRE SU CENTRO DE CARRERA LOCAL"
               },
               "beginningUrlText": {
                 "en": "https://www.careeronestop.org/localhelp/americanjobcenters/find-american-job-centers.aspx?location=",

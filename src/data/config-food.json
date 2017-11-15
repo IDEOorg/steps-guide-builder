@@ -1,16 +1,48 @@
 {
-  "title": "I'm Struggling to Buy Food",
+  "title": {
+    "en": "I'm Struggling to Buy Food",
+    "es": "Estoy batallando para Comprar Comida"
+  },
   "guideMaterials": {
     "headerIcon": {
       "id": "yfN3BkEgISmCMyamiq0mU"
     },
-    "feedbackUrl": "https://docs.google.com/forms/d/e/1FAIpQLScqXSagj0gq_TRjeTRp2NAdKS7PO0ZG1ap35euF0QBzNlRvng/viewform",
+    "feedbackUrl": {
+      "en": "https://docs.google.com/forms/d/e/1FAIpQLScqXSagj0gq_TRjeTRp2NAdKS7PO0ZG1ap35euF0QBzNlRvng/viewform",
+      "es": "https://docs.google.com/forms/d/e/1FAIpQLScqXSagj0gq_TRjeTRp2NAdKS7PO0ZG1ap35euF0QBzNlRvng/viewform"
+    },
+    "feedbackText": {
+      "en": "Send Feedback",
+      "es": "Enviar Comentarios"
+    },
+    "homeText": {
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "showOptionsText": {
+      "en": "Show me my options",
+      "es": "Muéstrame mis opciones"
+    },
+    "iveAlreadyTriedThisText": {
+      "en": "I've already tried this.",
+      "es": "Ya he intentado esto"
+    },
+    "zipCodeBoxPlaceholder": {
+      "en": "MY ZIP CODE",
+      "es": "MI CÓDIGO POSTAL"
+    },
     "contentType": "guideMaterials"
   },
   "optionsPage": {
     "navigation": {
-      "title": "What can you do?",
-      "linkText": "Back to statements",
+      "title": {
+        "en": "What can you do?",
+        "es": "¿Qué puede hacer?"
+      },
+      "linkText": {
+        "en": "Back to statements",
+        "es": "Volver a las declaraciones"
+      },
       "contentType": "navigation"
     },
     "options": [
@@ -40,7 +72,10 @@
   },
   "statementsPages": [
     {
-      "title": "I'm Struggling to Buy Food",
+      "title": {
+        "en": "I'm Struggling to Buy Food",
+        "es": "Estoy batallando para Comprar Comida"
+      },
       "statements": [
         {
           "id": "1bpd8NQyoGyIwA2WqSOg0g"
@@ -56,12 +91,18 @@
         }
       ],
       "sidebar": {
-        "content": "![1-hero](//images.contentful.com/2h2wj50mwc16/3GRqtKFHWocSC4e0i0466i/6510417f3e2ca40fc8b118b6a02e781d/1-hero.svg)\n# I’m Struggling to Buy Food\nIf you’re struggling to purchase food for you and your family, there are many places to get help. This guide will help you explore your options and decide which are right for you. To get started, choose the statements on the right that apply to you.",
+        "content": {
+          "en": "![1-hero](//images.contentful.com/2h2wj50mwc16/3GRqtKFHWocSC4e0i0466i/6510417f3e2ca40fc8b118b6a02e781d/1-hero.svg)\n# I'm Struggling to Buy Food\nIf you're struggling to purchase food for you and your family, there are many places to get help. This guide will help you explore your options and decide which are right for you. To get started, choose the statements on the right that apply to you.",
+          "es": "![1-hero](//images.contentful.com/2h2wj50mwc16/3GRqtKFHWocSC4e0i0466i/6510417f3e2ca40fc8b118b6a02e781d/1-hero.svg)\n# Estoy batallando para comprar comida\nSi usted está batallando para comprar comida para usted y su familia, hay muchos lugares para conseguir ayuda. Esta guía le ayudará a explorar sus opciones y decidir cuáles son las correctas para usted. Para empezar, elija las declaraciones de la derecha que se aplican a usted."
+        },
         "position": true,
         "contentType": "sidebar"
       },
       "statementsToOptions": {
-        "title": "Food",
+        "title": {
+          "en": "Food",
+          "es": "Food"
+        },
         "statementsToOptions": [
           {
             "override": false,
@@ -570,8 +611,14 @@
     }
   ],
   "userInputSection": {
-    "introText": "My zip code is:",
-    "inputType": "Zip Code to State Input",
+    "introText": {
+      "en": "My zip code is:",
+      "es": "My zip code is:"
+    },
+    "inputType": {
+      "en": "Zip Code to State Input",
+      "es": "Zip Code to State Input"
+    },
     "userInputMappingLogic": {
       "AK": {
         "snapapp": "",
@@ -1062,7 +1109,10 @@
       "fileName": "foodstamps-office.svg"
     },
     "QFyiAvjWUMOmuuKCEQiya": {
-      "text": "Apply for food stamps",
+      "text": {
+        "en": "Apply for food stamps",
+        "es": "Aplicar para Cupones de Comida"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1070,7 +1120,10 @@
           },
           "content": [
             {
-              "content": "__About food stamps__\nFood stamps, officially called the Supplemental Nutrition Assistance Program (SNAP), is a federal program that provides benefits to individuals and families to purchase food.\nEach state is responsible for administering the program for state residents and may refer to the program differently. For example, in California, SNAP is known as CalFresh. In order to receive benefits, you must meet eligibility requirements and apply through your local or state agency.\nIf approved, your benefits will be automatically received monthly on an EBT (electronic benefit transfer) card. This card works just like a debit card, and you will be able to purchase a variety of foods at grocery stores, food co-ops, farmers markets, and convenience stores.",
+              "content": {
+                "en": "__About food stamps__\nFood stamps, officially called the Supplemental Nutrition Assistance Program (SNAP), is a federal program that provides benefits to individuals and families to purchase food.\nEach state is responsible for administering the program for state residents and may refer to the program differently. For example, in California, SNAP is known as CalFresh. In order to receive benefits, you must meet eligibility requirements and apply through your local or state agency.\nIf approved, your benefits will be automatically received monthly on an EBT (electronic benefit transfer) card. This card works just like a debit card, and you will be able to purchase a variety of foods at grocery stores, food co-ops, farmers markets, and convenience stores.",
+                "es": "__About comida stamps__\nCupones de alimentos, oficialmente llamado el Programa de Asistencia Nutricional Suplementaria (SNAP), es un programa federal que proporciona beneficios a individuos y familias para comprar alimentos.\nCada Estado es responsable de administrar el programa para los residentes del estado y puede referirse al programa de manera diferente. Por ejemplo, en California, Snap se conoce como CalFresh. Para recibir beneficios, usted debe cumplir con los requisitos de elegibilidad y aplicar a través de su agencia local o estatal.\nSi es aprovado, sus beneficios se recibirán automáticamente mensualmente en una tarjeta de EBT (transferencia electrónica de beneficios). Esta tarjeta funciona como una tarjeta de débito, y usted puede comprar una variedad de alimentos en las tiendas de comestibles, cooperativas de alimentos, mercados de agricultores y tiendas de conveniencia."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1079,18 +1132,30 @@
         {
           "content": [
             {
-              "title": "__THE SNAP BENEFITS TIMELINE__",
+              "title": {
+                "en": "__THE SNAP BENEFITS TIMELINE__",
+                "es": "__La línea de tiempo de beneficios de SNAP__"
+              },
               "content": [
                 {
-                  "content": "![foodstamps-timeline-1](//images.contentful.com/2h2wj50mwc16/13GnoVT5cESWyaEKCoQk6O/583152e4ad92697bf5db3b27457ce1ba/foodstamps-timeline-1.svg)\n__SUBMIT YOUR APPLICATION__\nEither online, over the phone or in-person. This should take 2 hours or less",
+                  "content": {
+                    "en": "![foodstamps-timeline-1](//images.contentful.com/2h2wj50mwc16/13GnoVT5cESWyaEKCoQk6O/583152e4ad92697bf5db3b27457ce1ba/foodstamps-timeline-1.svg)\n__SUBMIT YOUR APPLICATION__\nEither online, over the phone or in-person. This should take 2 hours or less",
+                    "es": "![foodstamps-timeline-1](//images.contentful.com/2h2wj50mwc16/13GnoVT5cESWyaEKCoQk6O/583152e4ad92697bf5db3b27457ce1ba/foodstamps-timeline-1.svg)\n__SUBMIT YOUR APPLICATION__\nEither online, over the phone or in-person. This should take 2 hours or less"
+                  },
                   "contentType": "timelineContent"
                 },
                 {
-                  "content": "![foodstamps-timeline-2](//images.contentful.com/2h2wj50mwc16/1ZGOUc6TveS0okoKUWK6gU/b444842910e8aa201fb06710be538a79/foodstamps-timeline-2.svg)\n__WAIT UP TO 30 DAYS__\nDuring this period, you may need to show up for in-person appointments",
+                  "content": {
+                    "en": "![foodstamps-timeline-2](//images.contentful.com/2h2wj50mwc16/1ZGOUc6TveS0okoKUWK6gU/b444842910e8aa201fb06710be538a79/foodstamps-timeline-2.svg)\n__WAIT UP TO 30 DAYS__\nDuring this period, you may need to show up for in-person appointments",
+                    "es": "![foodstamps-timeline-2](//images.contentful.com/2h2wj50mwc16/1ZGOUc6TveS0okoKUWK6gU/b444842910e8aa201fb06710be538a79/foodstamps-timeline-2.svg)\n__WAIT UP TO 30 DAYS__\nDuring this period, you may need to show up for in-person appointments"
+                  },
                   "contentType": "timelineContent"
                 },
                 {
-                  "content": "![foodstamps-timeline-3](//images.contentful.com/2h2wj50mwc16/5jOU8CJ6mIosiswUCskoy8/0835ccf69bd8446a1d6eba544425a1e4/foodstamps-timeline-3.svg)\n__GET YOUR BENEFITS__\nYou will receive retroactive benefits starting from submitting your application",
+                  "content": {
+                    "en": "![foodstamps-timeline-3](//images.contentful.com/2h2wj50mwc16/5jOU8CJ6mIosiswUCskoy8/0835ccf69bd8446a1d6eba544425a1e4/foodstamps-timeline-3.svg)\n__GET YOUR BENEFITS__\nYou will receive retroactive benefits starting from submitting your application",
+                    "es": "![foodstamps-timeline-3](//images.contentful.com/2h2wj50mwc16/5jOU8CJ6mIosiswUCskoy8/0835ccf69bd8446a1d6eba544425a1e4/foodstamps-timeline-3.svg)\n__GET YOUR BENEFITS__\nYou will receive retroactive benefits starting from submitting your application"
+                  },
                   "contentType": "timelineContent"
                 }
               ],
@@ -1105,16 +1170,28 @@
           },
           "content": [
             {
-              "content": "__Check your eligibility__\nBefore starting the application process, first check to make sure you are eligible for SNAP. Contrary to what you may have heard, even those who work full time, own a house or receive other benefits may still still be eligible. The best way to find out is to apply.",
+              "content": {
+                "en": "__Check your eligibility__\nBefore starting the application process, first check to make sure you are eligible for SNAP. Contrary to what you may have heard, even those who work full time, own a house or receive other benefits may still still be eligible. The best way to find out is to apply.",
+                "es": "__Verifica tu elegibilidad__\nAntes de iniciar el proceso de solicitud, primero asegúrese de que usted es elegible para Snap. Contrariamente a lo que usted haya oído, incluso aquellos que trabajan a tiempo completo, son dueños de una casa o reciben otros beneficios todavía pueden ser elegibles. La mejor manera de averiguarlo es aplicando."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "__GENERAL ELIGIBILITY REQUIREMENTS FOR SNAP__\r\n\r\n- You must be a US Citizen or a legal immigrant who has lived in the US for at least 5 years. Even if other members of your household are non-citizens, you may still be eligible.\r\n- Your income can\u2019t exceed certain gross and net income limits based on your household size. Deductions for certain things like shelter, child care, and child support, can reduce your income, so if you\u2019re above a limit, apply, as you may still qualify. Income limits are adjusted annually.\r\n\r\n| HOUSEHOLD SIZE     | GROSS MONTHLY INCOME     | NET MONTHLY INCOME     |\r\n| ---------- | ---------- | ---------- |\r\n| 1       | $1276       | $981       |\r\n| 2       | $1726       | $1328       |\r\n| 3       | $2177       | $1675       |\r\n| 4       | $2628       | $2021       |\r\n| 5       | $3078       | $2368       |\r\n| 6       | $3529       | $2715       |\r\n| 7       | $3980       | $3061       |\r\n| 8       | $4430       | $3408       |\r\n| Each additional person       | + $451       | + $347       |\r\n\r\n- You can\u2019t have too many countable resources available\u2014things like cash in a bank account. The limit is $2500 for most, or $3250 if you or a family member is over 60 or disabled. Generally, things like your home, retirement plans, and a primary vehicle are not counted, but this can vary by state.\r\n- If you aren\u2019t disabled or a senior, then most states require that you work, be registered for and looking for work, or to participate in a work training program.  You\u2019ll need to take a job that is offered to you, and can\u2019t voluntarily quit your job or reduce work hours.  The requirements will vary depending on your state.",
+              "content": {
+                "en": "__GENERAL ELIGIBILITY REQUIREMENTS FOR SNAP__\r\n\r\n- You must be a US Citizen or a legal immigrant who has lived in the US for at least 5 years. Even if other members of your household are non-citizens, you may still be eligible.\r\n- Your income can\\u2019t exceed certain gross and net income limits based on your household size. Deductions for certain things like shelter, child care, and child support, can reduce your income, so if you\\u2019re above a limit, apply, as you may still qualify. Income limits are adjusted annually.\r\n\r\n| HOUSEHOLD SIZE     | GROSS MONTHLY INCOME     | NET MONTHLY INCOME     |\r\n| ---------- | ---------- | ---------- |\r\n| 1       | $1276       | $981       |\r\n| 2       | $1726       | $1328       |\r\n| 3       | $2177       | $1675       |\r\n| 4       | $2628       | $2021       |\r\n| 5       | $3078       | $2368       |\r\n| 6       | $3529       | $2715       |\r\n| 7       | $3980       | $3061       |\r\n| 8       | $4430       | $3408       |\r\n| Each additional person       | + $451       | + $347       |\r\n\r\n- You can\\u2019t have too many countable resources available\\u2014things like cash in a bank account. The limit is $2500 for most, or $3250 if you or a family member is over 60 or disabled. Generally, things like your home, retirement plans, and a primary vehicle are not counted, but this can vary by state.\r\n- If you aren\\u2019t disabled or a senior, then most states require that you work, be registered for and looking for work, or to participate in a work training program.  You\\u2019ll need to take a job that is offered to you, and can\\u2019t voluntarily quit your job or reduce work hours.  The requirements will vary depending on your state.",
+                "es": "__Requisitos generales de elegibilidad para SNAP__\r\n\r\n\n- Usted debe ser un ciudadano de los Estados Unidos o un inmigrante legal que ha vivido en los Estados Unidos por lo menos 5 años. Incluso si otros miembros de su hogar no son ciudadanos, usted puede ser elegible.\n- Sus ingresos no pueden exceder ciertos límites de ingresos brutos y netos basados en el tamaño de su hogar. Las deducciones para ciertas cosas como refugio, cuidado de niños, y manutención de los hijos, pueden reducir sus ingresos, por lo que si usted está por encima de un límite, aplique, usted todavía puede calificar. Los límites de ingresos se ajustan anualmente.\r\n\r\n| TAMAÑO DEL HOGAR     | INGRESO MENSUAL BRUTO     | INGRESO MENSUAL NETO     |\r\n| ---------- | ---------- | ---------- |\r\n| 1       | $1276       | $981       |\r\n| 2       | $1726       | $1328       |\r\n| 3       | $2177       | $1675       |\r\n| 4       | $2628       | $2021       |\r\n| 5       | $3078       | $2368       |\r\n| 6       | $3529       | $2715       |\r\n| 7       | $3980       | $3061       |\r\n| 8       | $4430       | $3408       |\r\n| Cada persona adicional       | + $451       | + $347       |\r\n\r\n\n- Usted no puede tener muchos recursos contables disponibles ‰ ÛÓ cosas como dinero en efectivo en una cuenta bancaria. El límite es de $2500 para la mayoría, o $3250 si usted o un miembro de la familia es más de 60 o discapacitado. Generalmente, las cosas como su hogar, planes de jubilación, y el carro principal no se cuentan, pero esto puede variar según el estado.\n- Si usted no está discapacitado o es una persona mayor (Senior), entonces la mayoría de los Estados requieren que usted trabaje, se registre y busque trabajo, o participe en un programa de capacitación laboral.  Usted tendrá que tomar un trabajo que se le ofrece, y no puede renunciar voluntariamente a su trabajo o reducir las horas de trabajo.  Los requisitos variarán dependiendo de su estado."
+              },
               "contentType": "criteriaBox"
             },
             {
-              "text": "LEARN MORE ABOUT ELIGIBILITY",
-              "url": "https://www.fns.usda.gov/snap/eligibility",
+              "text": {
+                "en": "LEARN MORE ABOUT ELIGIBILITY",
+                "es": "APRENDA MAS ACERCA DE ELEGIBILIDAD"
+              },
+              "url": {
+                "en": "https://www.fns.usda.gov/snap/eligibility",
+                "es": "https://www.fns.usda.gov/snap/eligibility"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1126,13 +1203,22 @@
           },
           "content": [
             {
-              "content": "__Apply online__\nEvery state has their own website and digital application form for SNAP. If your application is accepted, you will still need to visit your local SNAP office in person.",
+              "content": {
+                "en": "__Apply online__\nEvery state has their own website and digital application form for SNAP. If your application is accepted, you will still need to visit your local SNAP office in person.",
+                "es": "__Aplique en linea__\nCada Estado tiene su propio sitio web y formulario de aplicación digital para Snap. Si su solicitud es aceptada, usted todavía tendrá que ir a su oficina local de Snap en persona."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO SNAP APPLICATION",
+              "text": {
+                "en": "GO TO SNAP APPLICATION",
+                "es": "VAYA A LA APLICACION DE SNAP"
+              },
               "userInputFieldName": {
-                "fieldName": "snapapp",
+                "fieldName": {
+                  "en": "snapapp",
+                  "es": "snapapp"
+                },
                 "contentType": "userInputField"
               },
               "contentType": "urlBox"
@@ -1146,13 +1232,22 @@
           },
           "content": [
             {
-              "content": "__Apply over the phone__\nEvery state has their own SNAP hotline number for applying over the phone. For most states, you may need to navigate a phone tree to speak to someone.",
+              "content": {
+                "en": "__Apply over the phone__\nEvery state has their own SNAP hotline number for applying over the phone. For most states, you may need to navigate a phone tree to speak to someone.",
+                "es": "__Aplique por teléfono__\nCada estado tiene su propio número de línea directa para la aplicación por teléfono. Para la mayoría de los Estados, es posible que tenga que navegar por un árbol telefónico para hablar con alguien."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "SNAP HOTLINE:",
+              "buttonText": {
+                "en": "SNAP HOTLINE:",
+                "es": "LINEA DIRECTA DE SNAP"
+              },
               "userInputFieldName": {
-                "fieldName": "snaphotline",
+                "fieldName": {
+                  "en": "snaphotline",
+                  "es": "snaphotline"
+                },
                 "contentType": "userInputField"
               },
               "contentType": "phoneBox"
@@ -1166,13 +1261,22 @@
           },
           "content": [
             {
-              "content": "__Apply in person__\nFind a local Social Security or Human Resources office to apply for SNAP benefits in person:",
+              "content": {
+                "en": "__Apply in person__\nFind a local Social Security or Human Resources office to apply for SNAP benefits in person:",
+                "es": "__Aplique en persona__\nEncuentre una oficina local de Seguro Social o Recursos Humanos para solicitar beneficios de Snap en persona:"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND YOUR LOCAL SNAP OFFICE",
+              "text": {
+                "en": "FIND YOUR LOCAL SNAP OFFICE",
+                "es": "ENCUENTRE SU OFICINA LOCAL DE SNAP"
+              },
               "userInputFieldName": {
-                "fieldName": "snapoffices",
+                "fieldName": {
+                  "en": "snapoffices",
+                  "es": "snapoffices"
+                },
                 "contentType": "userInputField"
               },
               "contentType": "urlBox"
@@ -1192,7 +1296,10 @@
       "fileName": "foodbank-hunger.svg"
     },
     "5jPh8Pn8E0gsMw2OKws2aU": {
-      "text": "Find a local food bank or soup kitchen",
+      "text": {
+        "en": "Find a local food bank or soup kitchen",
+        "es": "Encuentre un banco de comida local o cocina de la sopa"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1200,12 +1307,21 @@
           },
           "content": [
             {
-              "content": "__Feeding America__\nFind a food bank or soup kitchen in your area for immediate food assistance:",
+              "content": {
+                "en": "__Feeding America__\nFind a food bank or soup kitchen in your area for immediate food assistance:",
+                "es": "__Alimentando a América__\nEncuentre un banco de comida o una cocina de sopa en su área para recibir ayuda inmediata de comida:"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO FEEDING AMERICA",
-              "url": "http://www.feedingamerica.org/find-your-local-foodbank/",
+              "text": {
+                "en": "GO TO FEEDING AMERICA",
+                "es": "VAYA A ALIMENTANDO AMERICA"
+              },
+              "url": {
+                "en": "http://www.feedingamerica.org/find-your-local-foodbank/",
+                "es": "http://www.feedingamerica.org/find-your-local-foodbank/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1217,22 +1333,40 @@
           },
           "content": [
             {
-              "content": "__National Hunger Hotline__\nUSDA’s National Hunger Hotline provides information about community, grassroots, and non-governmental organizations that can assist with local food resources. The hotline is available Monday through Friday, 8 a.m. to 8 p.m. Eastern Time, but they also maintain a “clearinghouse” database you can search online.",
+              "content": {
+                "en": "__National Hunger Hotline__\nUSDA’s National Hunger Hotline provides information about community, grassroots, and non-governmental organizations that can assist with local food resources. The hotline is available Monday through Friday, 8 a.m. to 8 p.m. Eastern Time, but they also maintain a “clearinghouse” database you can search online.",
+                "es": "__Línea de ayuda directa Nacional del Hambre (National Hunger Hotline)__\nLa línea directa Nacional del Hambre de USDA proporciona información sobre organizaciones comunitarias, de base y no gubernamentales que pueden ayudar con los recursos alimenticios locales. La línea de ayuda está disponible de lunes a viernes, de 8 a.m. a 8 p.m. hora del este, pero también mantienen una base de datos de \"\"centro de intercambio\"\" que puede buscar en línea."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "HOTLINE:",
-              "phoneNumber": "1-866-348-6479",
+              "buttonText": {
+                "en": "HOTLINE:",
+                "es": "NUMERO DE LINEA DIRECTA:"
+              },
+              "phoneNumber": {
+                "en": "1-866-348-6479",
+                "es": "1-866-348-6479"
+              },
               "contentType": "phoneBox"
             },
             {
-              "content": "__OR__",
+              "content": {
+                "en": "__OR__",
+                "es": "__O__"
+              },
               "textCentered": true,
               "contentType": "contentBox"
             },
             {
-              "buttonText": "Go To National Hunger Clearinghouse",
-              "beginningUrlText": "https://nhc.fns.usda.gov/nhc/national-hunger-organizations?field_org_addressfield_locality=&field_org_addressfield_administrative_area=&field_org_addressfield_postal_code=",
+              "buttonText": {
+                "en": "Go To National Hunger Clearinghouse",
+                "es": "Vaya al \"centro de intercambio\" de Nacional del Hambre (National Hunger)"
+              },
+              "beginningUrlText": {
+                "en": "https://nhc.fns.usda.gov/nhc/national-hunger-organizations?field_org_addressfield_locality=&field_org_addressfield_administrative_area=&field_org_addressfield_postal_code=",
+                "es": "https://nhc.fns.usda.gov/nhc/national-hunger-organizations?field_org_addressfield_locality=&field_org_addressfield_administrative_area=&field_org_addressfield_postal_code="
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -1250,7 +1384,10 @@
       "fileName": "seniors-mealsonwheels.svg"
     },
     "6MAgqo0BAka4yyCGi8K2EA": {
-      "text": "Find benefits for seniors",
+      "text": {
+        "en": "Find benefits for seniors",
+        "es": "Encuentre beneficios para personas mayores"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1258,12 +1395,21 @@
           },
           "content": [
             {
-              "content": "__Visit BenefitsCheckUp®__\nCreated by the National Council on Aging, the BenefitsCheckUp® website is a free screening tool that checks eligibility for over 2,500 federal, state, and private benefit programs and helps seniors apply for the ones that are right for them. Food and nutritional programs they check for include:\n\n- Supplemental Nutrition Assistance Program (SNAP)\n- Home Delivered and Congregate/Group Meals\n- Commodity Supplemental Food Program (CSFP)\n- The Emergency Food Assistance Program (TEFAP)\n- Senior Farmers' Market Nutrition Program",
+              "content": {
+                "en": "__Visit BenefitsCheckUp®__\nCreated by the National Council on Aging, the BenefitsCheckUp® website is a free screening tool that checks eligibility for over 2,500 federal, state, and private benefit programs and helps seniors apply for the ones that are right for them. Food and nutritional programs they check for include:\n\n- Supplemental Nutrition Assistance Program (SNAP)\n- Home Delivered and Congregate/Group Meals\n- Commodity Supplemental Food Program (CSFP)\n- The Emergency Food Assistance Program (TEFAP)\n- Senior Farmers' Market Nutrition Program",
+                "es": "__Visita BenefitsCheckUp®__\nCreado por el Consejo Nacional de Envejecimiento, el sitio web de BenefitsCheckUp® es un sitio de internet de detección gratuita que comprueba la elegibilidad para más de 2,500 programas federales, estatales y privados de beneficios y ayuda a las personas de la tercera edad a aplicar para los que son adecuados para ellos. Los programas alimenticios y nutricionales incluyen:\n\n- Programa Suplemental de Nutricion (SNAP)\n- Hogar Entregado y Congregación/ Comidas de Grupo\n- Programa de alimentos suplementarios para consumo (CSFP)\n- Programa de asistencia para emergencia de comida (TEFAP)\n- Programa de nutrición del mercado de agricultores para personas mayores"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO BenefitsCheckUp.org",
-              "url": "https://www.benefitscheckup.org/",
+              "text": {
+                "en": "GO TO BenefitsCheckUp.org",
+                "es": "VAYA A BenefitsCheckUp.org"
+              },
+              "url": {
+                "en": "https://www.benefitscheckup.org/",
+                "es": "https://www.benefitscheckup.org/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1275,12 +1421,21 @@
           },
           "content": [
             {
-              "content": "__Meals on Wheels__\nThe Meals on Wheels program provides seniors with adequate nutritional support and companionship through in-home meal delivery. Meals on Wheels operates nationally through local community organizations—find your local program by following the link below:",
+              "content": {
+                "en": "__Meals on Wheels__\nThe Meals on Wheels program provides seniors with adequate nutritional support and companionship through in-home meal delivery. Meals on Wheels operates nationally through local community organizations—find your local program by following the link below:",
+                "es": "__Comidas sobre Ruedas__\nEl programa de Comidas sobre Ruedas proporciona a las personas mayores el apoyo nutricional adecuado y la compañía a través de la entrega de comida en el hogar. Las comidas sobre ruedas operan a nivel nacional a través de organizaciones comunitarias locales %ÛÓ encuentre su programa local siguiendo el siguiente enlace:"
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND YOUR LOCAL MOW PROGRAM",
-              "beginningUrlText": "http://www.mealsonwheelsamerica.org/signup/aboutmealsonwheels/find-programs?filter=",
+              "buttonText": {
+                "en": "FIND YOUR LOCAL MOW PROGRAM",
+                "es": "ENCUENTRE SU PROGRAMA LOCAS DE MOW"
+              },
+              "beginningUrlText": {
+                "en": "http://www.mealsonwheelsamerica.org/signup/aboutmealsonwheels/find-programs?filter=",
+                "es": "http://www.mealsonwheelsamerica.org/signup/aboutmealsonwheels/find-programs?filter="
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -1306,7 +1461,10 @@
       "fileName": "kids-summermeals.svg"
     },
     "SoSAFO2w4oUIWeSYo6ekU": {
-      "text": "Find benefits for kids",
+      "text": {
+        "en": "Find benefits for kids",
+        "es": "Encuentre beneficios para niños"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1314,13 +1472,22 @@
           },
           "content": [
             {
-              "content": "__Apply for WIC__\nThe Special Supplemental Nutrition Program for Woman, Infants, and Children (WIC) provides help with food when you're pregnant, and if you're a mother with young children (newborns to age 5). If you already receive SNAP, Medicaid or TANF, you may be automatically eligible. You'll also receive a free screening from a health professional to determine eligibility. To learn more and apply, you will need to call your local state agency.",
+              "content": {
+                "en": "__Apply for WIC__\nThe Special Supplemental Nutrition Program for Woman, Infants, and Children (WIC) provides help with food when you're pregnant, and if you're a mother with young children (newborns to age 5). If you already receive SNAP, Medicaid or TANF, you may be automatically eligible. You'll also receive a free screening from a health professional to determine eligibility. To learn more and apply, you will need to call your local state agency.",
+                "es": "__Aplique para WIC__\nEl programa especial de nutrición suplementaria para mujeres, bebés y niños (WIC) proporciona ayuda con alimentos cuando usted está embarazada, y si usted es una madre con niños pequeños (recién nacidos a los 5 años de edad). Si usted ya recibe Snap, Medicaid o TANF, usted puede ser elegible automáticamente. También recibirá una evaluación gratuita de un profesional de la salud para determinar la elegibilidad. Para obtener más información y aplicar, deberá llamar a su agencia estatal local."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "WIC HOTLINE:",
+              "buttonText": {
+                "en": "WIC HOTLINE:",
+                "es": "LÍNEA DIRECTA DE WIC:"
+              },
               "userInputFieldName": {
-                "fieldName": "wichotline",
+                "fieldName": {
+                  "en": "wichotline",
+                  "es": "wichotline"
+                },
                 "contentType": "userInputField"
               },
               "contentType": "phoneBox"
@@ -1334,13 +1501,22 @@
           },
           "content": [
             {
-              "content": "__Apply for TANF__\nThe Temporary Assistance for Needy Families (TANF) program provides cash assistance to help you achieve self sufficiency. You must be pregnant or have children in order to qualify. To learn more and apply, you will need to call your local state agency.",
+              "content": {
+                "en": "__Apply for TANF__\nThe Temporary Assistance for Needy Families (TANF) program provides cash assistance to help you achieve self sufficiency. You must be pregnant or have children in order to qualify. To learn more and apply, you will need to call your local state agency.",
+                "es": "__Aplique para TANF__\nEl programa de asistencia temporal para familias necesitadas (TANF) proporciona asistencia en efectivo para ayudarle a lograr la autosuficiencia. Usted debe estar embarazada o tener hijos para calificar. Para obtener más información y aplicar, deberá llamar a su agencia estatal local."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "TANF HOTLINE:",
+              "buttonText": {
+                "en": "TANF HOTLINE:",
+                "es": "LÍNEA DIRECTA DE TANF"
+              },
               "userInputFieldName": {
-                "fieldName": "tanfhotline",
+                "fieldName": {
+                  "en": "tanfhotline",
+                  "es": "tanfhotline"
+                },
                 "contentType": "userInputField"
               },
               "contentType": "phoneBox"
@@ -1354,7 +1530,10 @@
           },
           "content": [
             {
-              "content": "__Apply for NSLP__\nYour children could receive free or discounted meals at school if you qualify for the National School Lunch Program (NSLP). If you already receive SNAP or TANF benefits, then your child will automatically be eligible. Other circumstances, like receiving unemployment compensation may also qualify your child in some states. To learn more and apply, contact your child’s school district directly.",
+              "content": {
+                "en": "__Apply for NSLP__\nYour children could receive free or discounted meals at school if you qualify for the National School Lunch Program (NSLP). If you already receive SNAP or TANF benefits, then your child will automatically be eligible. Other circumstances, like receiving unemployment compensation may also qualify your child in some states. To learn more and apply, contact your child’s school district directly.",
+                "es": "__Aplique para NSLP__\nSus hijos pueden recibir comidas gratis o con descuento en la escuela si usted califica para el Programa Nacional de Almuerzos Escolares (NSLP). Si usted ya recibe beneficios de SNAP o TANF, entonces su hijo será elegible automáticamente. Otras circunstancias, como recibir una indemnización por desempleo, también pueden calificar a su hijo en algunos Estados. Para obtener más información y aplicar, comuníquese directamente con el distrito escolar de su hijo."
+              },
               "contentType": "contentBox"
             }
           ],
@@ -1366,12 +1545,21 @@
           },
           "content": [
             {
-              "content": "__Find free summer meals__\nThe Summer Food Service Program (SFSP) provides free meals during summer months to children 18 years and under. No application or approval is necessary, but children must be present to be served meals at SFSP sites. Find a location near you:",
+              "content": {
+                "en": "__Find free summer meals__\nThe Summer Food Service Program (SFSP) provides free meals during summer months to children 18 years and under. No application or approval is necessary, but children must be present to be served meals at SFSP sites. Find a location near you:",
+                "es": "__Encuentre comidas en el verano gratis__\nEl Programa de Servicio de Comidas de Verano (PASF) ofrece comidas gratuitas durante los meses de verano a los niños de 18 años y menores. No es necesaria ninguna solicitud o aprobación, pero los niños deben estar presentes para ser servidos en las comidas en los sitios de SFSP. Encuentre una oficina cerca de usted:"
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "FIND AN SFSP LOCATION",
-              "url": "https://www.fns.usda.gov/summerfoodrocks",
+              "text": {
+                "en": "FIND AN SFSP LOCATION",
+                "es": "ENCUENTRE UNA OFICINA DE SFSP"
+              },
+              "url": {
+                "en": "https://www.fns.usda.gov/summerfoodrocks",
+                "es": "https://www.fns.usda.gov/summerfoodrocks"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1393,7 +1581,10 @@
       "fileName": "charity-icon-3.png"
     },
     "20iPgs0bjqYi0Eyayeu8UK": {
-      "text": "Get emergency money",
+      "text": {
+        "en": "Get emergency money",
+        "es": "Obtenga dinero de emergencia"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1401,13 +1592,25 @@
           },
           "content": [
             {
-              "content": "__Contact your local 2-1-1__\nThey can connect you with other organizations that  can help you get food. See what’s available near you;",
+              "content": {
+                "en": "__Contact your local 2-1-1__\nThey can connect you with other organizations that  can help you get food. See what’s available near you:",
+                "es": "__Contacte a su 2-1-1 local__\nEllos le pueden comunicar con otras organizaciones que pueden ayudarle a que obtenga comida. Vea que hay disponible cerca de usted:"
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND YOUR LOCAL 2-1-1",
-              "beginningUrlText": "http://www.211.org/search?zip=",
-              "endUrlText": "&city=&state=",
+              "buttonText": {
+                "en": "FIND YOUR LOCAL 2-1-1",
+                "es": "EUNCUENTRE SU 2-1-1- LOCAL"
+              },
+              "beginningUrlText": {
+                "en": "http://www.211.org/search?zip=",
+                "es": "http://www.211.org/search?zip="
+              },
+              "endUrlText": {
+                "en": "&city=&state=",
+                "es": "&city=&state="
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -1419,13 +1622,25 @@
           },
           "content": [
             {
-              "content": "__Find a Catholic Charities agency__\nThey help people with food assistance all the time. See what’s available in your neighborhood:",
+              "content": {
+                "en": "__Find a Catholic Charities agency__\nThey help people with food assistance all the time. See what’s available in your neighborhood:",
+                "es": "__Encuentre una agencia de Caridades Catolicas__\nEllos pueden ayudarle con asistencia de comida en todo momento. Vea que esta disponible en su vecindario."
+              },
               "contentType": "contentBox"
             },
             {
-              "buttonText": "FIND YOUR LOCAL CATHOLIC CHARITIES",
-              "beginningUrlText": "https://catholiccharitiesusa.org/find-help?near=",
-              "endUrlText": "#results",
+              "buttonText": {
+                "en": "FIND YOUR LOCAL CATHOLIC CHARITIES",
+                "es": "ENCUENTRE SU CARIDADES CATOLICAS LOCALES"
+              },
+              "beginningUrlText": {
+                "en": "https://catholiccharitiesusa.org/find-help?near=",
+                "es": "https://catholiccharitiesusa.org/find-help?near="
+              },
+              "endUrlText": {
+                "en": "#results",
+                "es": "#results"
+              },
               "contentType": "zipcodeBox"
             }
           ],
@@ -1437,12 +1652,21 @@
           },
           "content": [
             {
-              "content": "__Apply for a Modest Needs grant__\nThese small, emergency grants are allocated to low-income workers. Find out more by visiting their website.",
+              "content": {
+                "en": "__Apply for a Modest Needs grant__\nThese small, emergency grants are allocated to low-income workers. Find out more by visiting their website.",
+                "es": "__Aplique para el subsidio de Necesidades Modestas__\nSon pequeños, subsidios de emergencia para trabajadores de ingreso bajo. Aprenda más visitando su página de internet."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GO TO modestneeds.org",
-              "url": "https://www.modestneeds.org/index.asp",
+              "text": {
+                "en": "GO TO modestneeds.org",
+                "es": "VAYA A MODESTNEEDS.ORG"
+              },
+              "url": {
+                "en": "https://www.modestneeds.org/index.asp",
+                "es": "https://www.modestneeds.org/index.asp"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1456,7 +1680,10 @@
       "fileName": "advice-icon.svg"
     },
     "4rqBpsVd32g20A4iw2um8k": {
-      "text": "Find personalized advice",
+      "text": {
+        "en": "Find personalized advice",
+        "es": "ENCUENTRE ASESORAMIENTO PERSONALIZADO"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1464,12 +1691,21 @@
           },
           "content": [
             {
-              "content": "__Talk to a counselor__\nIf you're struggling to buy food, you may benefit from speaking to a financial counselor. They may not be able to help you find local resources for food in an emergency, but they can help you by reviewing your income and expenses, building a budget, and providing credit and debt counseling.",
+              "content": {
+                "en": "__Talk to a counselor__\nIf you're struggling to buy food, you may benefit from speaking to a financial counselor. They may not be able to help you find local resources for food in an emergency, but they can help you by reviewing your income and expenses, building a budget, and providing credit and debt counseling.",
+                "es": "__Hable con un consejero__\nSi esta ballando para comprar comida, tal vez se beneficie hablando con un consejero financiero. Ellos no pueden ayudarle a encontrar recursos de comida en una emergencia, pero si le pueden ayudar a revisar su ingreso y gastos, hacer un presupuesto y dar consejeria de crédito y deuda."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "Find a counselor near you",
-              "url": "https://www.nfcc.org/locator/",
+              "text": {
+                "en": "Find a counselor near you",
+                "es": "Encuentre un consejero cerca de usted"
+              },
+              "url": {
+                "en": "https://www.nfcc.org/locator/",
+                "es": "https://www.nfcc.org/locator/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1487,7 +1723,10 @@
       "fileName": "manage-reapply.svg"
     },
     "2msnUlgvK8Ouo0iaOmuGGm": {
-      "text": "Manage your food stamps",
+      "text": {
+        "en": "Manage your food stamps",
+        "es": "Administre su cupones de comida"
+      },
       "actions": [
         {
           "leftHandSideImage": {
@@ -1495,12 +1734,21 @@
           },
           "content": [
             {
-              "content": "__Get Fresh EBT__\nFresh EBT is an app that links to your EBT account to show your food stamps and benefits balance on your phone. The app also includes a map showing food stamp offices, stores that accept food stamps, and food pantries.",
+              "content": {
+                "en": "__Get Fresh EBT__\nFresh EBT is an app that links to your EBT account to show your food stamps and benefits balance on your phone. The app also includes a map showing food stamp offices, stores that accept food stamps, and food pantries.",
+                "es": "__Obteng Fresh EBT__\nFresh EBT es una aplicación que se conecta a su cuenta de EBT para mostrarle sus cupones de comida y su saldo de beneficios en su teléfono. Esta aplicación tambien incluye un mapa enseñando las oficinas de cupones de comida, tiendas donde las aceptan y despensas de alimentos."
+              },
               "contentType": "contentBox"
             },
             {
-              "text": "GET FRESH EBT",
-              "url": "http://www.freshebt.com/",
+              "text": {
+                "en": "GET FRESH EBT",
+                "es": "OBTENGA FRESH EBT"
+              },
+              "url": {
+                "en": "http://www.freshebt.com/",
+                "es": "http://www.freshebt.com/"
+              },
               "contentType": "urlBox"
             }
           ],
@@ -1512,11 +1760,17 @@
           },
           "content": [
             {
-              "content": "__Reapply for food stamps__\nMost states require you to reapply for benefits every six months to stay on the program (sometimes called “re-certification”). This process checks for changes to your income, household members, and expenditures. If you miss this deadline, you may lose your benefits and have to completely re-enroll in the SNAP program—an unnecessary process that may take up to two months. ",
+              "content": {
+                "en": "__Reapply for food stamps__\nMost states require you to reapply for benefits every six months to stay on the program (sometimes called “re-certification”). This process checks for changes to your income, household members, and expenditures. If you miss this deadline, you may lose your benefits and have to completely re-enroll in the SNAP program—an unnecessary process that may take up to two months. ",
+                "es": "__Vuelva aplicar para cupones de comida__\nLa mayoría de los estados requieren que vuelva aplicar para sus beneficios cada seis meses para que este en el programa (algunos le llaman \"\"re-certificación\"\")Este proceso verifica los cambios en su ingreso, miembros en la casa, y gastos. Si se le pasa la fecha de límite, pudiera perder su beneficios y tendria que volver a inscribirse en el programa de SNAP un proceso inecesario que podría llevarse hasta dos meses."
+              },
               "contentType": "contentBox"
             },
             {
-              "content": "__TIPS FOR REAPPLICATION__\n- Keep track of when exactly your SNAP application was official accepted—you must reapply for your benefits within six months of this day.\n- About 45 days before your benefits expire, your state agency should send you a notice and reapplication form by mail which you will need submit to in-person.\n- If you move while recieving benefits, make sure to inform your state's social services agency of your new address so they don’t send your reapplication notice to your old address.",
+              "content": {
+                "en": "__TIPS FOR REAPPLICATION__\n- Keep track of when exactly your SNAP application was officially accepted—you must reapply for your benefits within six months of this day.\n- About 45 days before your benefits expire, your state agency should send you a notice and reapplication form by mail which you will need submit to in-person.\n- If you move while recieving benefits, make sure to inform your state's social services agency of your new address so they don’t send your reapplication notice to your old address.",
+                "es": "__CONSEJOS PARA VOLVER APLICAR__\n- Llevar un registro de cuándo exactamente su aplicación de Snap fue aceptada oficialmente—usted debe volver a aplicar para sus beneficios en el plazo de seis meses de ese día.\n- Cerca de 45 días antes de que sus beneficios expiren, su agencia estatal debe enviarle un formulario de notificación y re-solicitud por correo que usted necesitará enviar en persona.\n- Si se cambia mientras recibe beneficios, asegúrese de informar a la Agencia de servicios sociales de su estado de su nueva dirección para que no envíen su notificación de re-solicitud a su antigua dirección."
+              },
               "contentType": "criteriaBox"
             }
           ],
@@ -1526,25 +1780,40 @@
       "contentType": "option"
     },
     "1bpd8NQyoGyIwA2WqSOg0g": {
-      "text": "I currently receive food stamps",
+      "text": {
+        "en": "I currently receive food stamps",
+        "es": "Estoy recibiendo cupones para comida"
+      },
       "contentType": "statement"
     },
     "43CYtJ6AU02QUSEYUss8Qq": {
-      "text": "I need to get food today",
+      "text": {
+        "en": "I need to get food today",
+        "es": "Necestio conseguir comida hoy"
+      },
       "contentType": "statement"
     },
     "6cQOHSvyFOiySQICiEIIss": {
-      "text": "My household includes someone age 60 or older",
+      "text": {
+        "en": "My household includes someone age 60 or older",
+        "es": "Mi hogar incluye a alguien de edad 60 o más"
+      },
       "choices": [
         {
-          "text": "THIS IS ME",
+          "text": {
+            "en": "THIS IS ME",
+            "es": "THIS IS ME"
+          },
           "contentType": "choice"
         }
       ],
       "contentType": "statement"
     },
     "3HgvbSF0wE68emEeKkwwMI": {
-      "text": "My household includes at least one child under 18 years of age",
+      "text": {
+        "en": "My household includes at least one child under 18 years of age",
+        "es": "Mi hogar incluye al menos un niño menor de 18 años de edad"
+      },
       "contentType": "statement"
     }
   }
