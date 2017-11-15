@@ -44,8 +44,7 @@ const StatementsSection = (props) => {
     .map(statement => {
       // console.log(statement);
       return {
-        id: statement.id,
-        text: statement.text
+        id: statement.id
       };
     });
 
@@ -123,7 +122,6 @@ function mapDispatchToProps(dispatch) {
     onSelect: id => dispatch(selectStatement(id)),
     onSubmit: (selectedStatements, statementPage, language) => {
       const statements = selectedStatements.map(statement => {
-        console.log(statement);
         return statement.id;
       });
       let searchString = `?statements=${statements.join("+")}`;
