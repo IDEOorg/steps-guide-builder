@@ -7,11 +7,12 @@ import StatementsPage from '../containers/StatementsPage';
 import OptionsPage from '../containers/OptionsPage';
 import config from '../data/config';
 import "babel-polyfill";
+import { withTracker } from '../keen';
 
 const Routes = (props) => {
   return (
     <Router history={props.history}>
-      <Route component={App}>
+      <Route component={withTracker(App)}>
         <Route path="/" component={config.problemsPage ? ProblemsPage : StatementsPage} />
         <Route path="/statements/:statement" component={StatementsPage} />
         <Route path="/statements/:statement/options" component={OptionsPage} />

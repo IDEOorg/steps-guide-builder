@@ -5,8 +5,8 @@ import UrlImage from '../UrlImage';
 import './index.less';
 
 const PhoneBox = (props) => {
-  console.log(props);
-  console.log('phone boxxx');
+  // console.log(props);
+  // console.log('phone boxxx');
   return (
     <Button
       onClick={() => { console.log('phone number'); }}

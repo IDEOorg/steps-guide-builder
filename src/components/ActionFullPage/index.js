@@ -16,8 +16,8 @@ function mapZipToState(zip) {
 }
 
 const ActionFullPage = (props) => {
-  console.log(props);
-  console.log('full page');
+  // console.log(props);
+  // console.log('full page');
   let mappingLogic = null;
   let state = null;
   if(props.data.zip) {

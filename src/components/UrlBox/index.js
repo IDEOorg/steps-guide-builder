@@ -7,7 +7,15 @@ import './index.less';
 const UrlBox = (props) => {
   return (
     <Button
-      onClick={() => { window.open(props.url); }}
+      onClick={() => {
+        keenClient.recordEvent('clicks', {
+          type: 'linkOut',
+          action: 'clickResource',
+          text: props.text || 'none',
+          url: props.url || 'none'
+        });
+        window.open(props.url); 
+      }}
       textStyleClass="action_button_text"
       className="action_button"
       url={props.url}
