@@ -17,8 +17,8 @@ function mapZipToState(zip) {
 }
 
 const ActionBasic = (props) => {
-  console.log(props);
-  console.log('basic');
+  // console.log(props);
+  // console.log('basic');
   let imgId = props.data.leftHandSideImage.id;
   let imgUrl = config.entryIds[imgId].url;
   let mappingLogic = null;
@@ -49,8 +49,8 @@ const ActionBasic = (props) => {
       box = <UrlBox key={i} text={getTranslation(content.text, props.language)} url={getTranslation(url, props.language)} />;
     }
     else if(content.contentType === 'zipcodeBox') {
-      console.log(content);
-      console.log('zippp');
+      // console.log(content);
+      // console.log('zippp');
       box = (
         <ZipcodeBox
           key={i}
@@ -66,9 +66,9 @@ const ActionBasic = (props) => {
       box = <CriteriaBox key={i} content={localizedContent} />;
     }
     else if(content.contentType === 'phoneBox') {
-      console.log('phoneeeee');
+      // console.log('phoneeeee');
       let phoneNumber = content.phoneNumber ? getTranslation(content.phoneNumber, props.language) : mappingLogic[state][getTranslation(content.userInputFieldName.fieldName, props.language)];
-      console.log(phoneNumber);
+      // console.log(phoneNumber);
       box = (
         <PhoneBox
           key={i}
