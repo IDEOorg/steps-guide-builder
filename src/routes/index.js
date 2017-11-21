@@ -7,7 +7,8 @@ import StatementsPage from '../containers/StatementsPage';
 import OptionsPage from '../containers/OptionsPage';
 import config from '../data/config';
 import "babel-polyfill";
-import { withTracker } from '../keen';
+import { withTracker } from '../globals/tracker';
+// for documentation for withTracker, see: https://github.com/react-ga/react-ga/wiki/React-Router-v4-withTracker
 
 const Routes = (props) => {
   return (

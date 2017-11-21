@@ -5,7 +5,8 @@ import './index.less';
 import Link from '../Link';
 import FormattedMsg from '../../containers/FormattedMsg';
 import config from '../../data/config';
-import { keenClient } from '../../keen';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
 
 const Option = (props) => {
   let optionText = config.entryIds[props.id].text;
@@ -29,6 +30,11 @@ const Option = (props) => {
           text: props.linkText || 'none'
         });
 
+        GoogleAnalytics.event({
+          category: 'UIActions',
+          action: 'click',
+          label: props.linkText
+        });
         props.onLinkClick(); 
         e.stopPropagation();
       }}>

@@ -1,7 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { selectLanguage } from '../../store/language/language';
-import { keenClient } from '../../keen';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
+
 import './index.less';
 
 const CODE_EN = 'en';
@@ -27,6 +29,12 @@ const TranslateToggle = (props) => {
           text: switchTo || 'none',
           switchToCode: switchToCode || 'none'
         });
+
+        GoogleAnalytics.event({
+        category: 'UIActions',
+        action: 'click',
+        label: switchTo || 'none'
+      });
         props.translate(switchToCode);
       }}>
         <p className="toggle_text">

@@ -14,7 +14,9 @@ import { selectStatement } from "../../store/statementPage/statementPage";
 import { generateOptions } from "../../store/selectedOptions/selectedOptions";
 import config from "../../data/config";
 import { getTranslation } from "../../globals/utils";
-import { keenClient } from '../../keen';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
+
 
 const StatementsSection = (props) => {
   let isFullSize;
@@ -125,8 +127,10 @@ function mapDispatchToProps(dispatch) {
         return statement.id;
       });
       let searchString = `?statements=${statements.join("+")}`;
+      let zip = 'none'; // for tracking, see line 141
       if (statementPage.userInput) {
         if (statementPage.userInput.zip) {
+          zip = statementPage.userInput.zip;
           searchString += `&zip=${statementPage.userInput.zip}`;
         }
       }
@@ -137,7 +141,13 @@ function mapDispatchToProps(dispatch) {
         type: 'custom',
         action: 'submitStatements',
         query: searchString || 'none',
-        zipCode: statementPage.userInput.zip || 'none'
+        zipCode: zip
+      });
+
+      GoogleAnalytics.event({
+        category: 'Statements',
+        action: 'submit',
+        label: searchString
       });
 
       statements.forEach(statement => {
@@ -147,16 +157,22 @@ function mapDispatchToProps(dispatch) {
           id: statement.id || 'none',
           text: statement.text || 'none'
         });
+
+        GoogleAnalytics.event({
+          category: 'Statements',
+          action: 'select',
+          label: statement.text || 'none'
+        });
       });
-  
+
       if (url) {
         if (!window.history) {
-          console.log("does not support window.history");
+          // console.log("does not support window.history");
         }
         dispatch(push(`/statements/${url}/options${searchString}`));
       } else {
         if (!window.history) {
-          console.log("does not support window.history");
+          // console.log("does not support window.history");
         }
         dispatch(push(`/options${searchString}`));
       }

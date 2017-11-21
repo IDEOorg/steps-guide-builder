@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import FormattedMsg from '../../containers/FormattedMsg';
-import { keenClient } from '../../keen';
+import { keenClient } from '../../globals/tracker';
+import GoogleAnalytics from 'react-ga';
 import './index.less';
 
 const Card = (props) => {
@@ -23,6 +24,11 @@ const Card = (props) => {
               action: 'selectStatementsOption',
               text: props.choices[choiceId].text || 'none',
               id: props.id || 'none'
+            });
+            GoogleAnalytics.event({
+              category: 'Statements',
+              action: 'subSelect',
+              label: props.choices[choiceId].text
             });
             props.onChoiceSelect(props.id, choiceId);
           }}>
