@@ -144,6 +144,12 @@ function mapDispatchToProps(dispatch) {
         zipCode: zip
       });
 
+      GoogleAnalytics.event({
+        category: 'Statements',
+        action: 'submit',
+        label: searchString
+      });
+
       statements.forEach(statement => {
         keenClient.recordEvent('clicks', {
           type: 'select',
@@ -157,12 +163,6 @@ function mapDispatchToProps(dispatch) {
           action: 'select',
           label: statement.text || 'none'
         });
-      });
-  
-      GoogleAnalytics.event({
-        category: 'Statements',
-        action: 'submit',
-        label: searchString
       });
 
       if (url) {

@@ -3,6 +3,7 @@ import Keen from 'keen-tracking';
 import MobileDetect from 'mobile-detect';
 import GoogleAnalytics from 'react-ga';
 
+const debug = process.env.NODE_ENV === 'development';
 GoogleAnalytics.initialize('UA-88223011-3', {debug});
 
 function initKeen () {
