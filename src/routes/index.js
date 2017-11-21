@@ -7,7 +7,7 @@ import StatementsPage from '../containers/StatementsPage';
 import OptionsPage from '../containers/OptionsPage';
 import config from '../data/config';
 import "babel-polyfill";
-import { withTracker } from '../keen';
+import { withTracker } from '../globals/tracker';
 
 const Routes = (props) => {
   return (
