@@ -82,6 +82,7 @@
     "html-webpack-plugin": "2.24.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "18.1.0",
+    "jest-cli": "21.2.1",
     "json-loader": "0.5.4",
     "less": "2.7.2",
     "less-loader": "4.0.3",
