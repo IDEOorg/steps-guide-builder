@@ -166,12 +166,3 @@ export const withTracker = (WrappedComponent, options = {}) => {
 
   return HOC;
 };
-
-
-
-
-/*
-TODO
-----
-- hide writeKey
-*/
