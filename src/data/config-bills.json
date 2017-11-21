@@ -25,7 +25,7 @@
     },
     "iveAlreadyTriedThisText": {
       "en": "I've already tried this.",
-      "es": "Ya lo he intentado."
+      "es": "Ya he intentado esto"
     },
     "zipCodeBoxPlaceholder": {
       "en": "MY ZIP CODE",
@@ -180,7 +180,7 @@
       "sidebar": {
         "content": {
           "en": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# I'm Struggling To Pay My Bills\nWhen you're overwhelmed with bill payments, it can be hard to prioritize which ones to take care of and to find resources to help you pay them off. Use our guide to find out how to stay on top of this.",
-          "es": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# I'm Struggling To Pay My Bills\nWhen you're overwhelmed with bill payments, it can be hard to prioritize which ones to take care of and to find resources to help you pay them off. Use our guide to find out how to stay on top of this."
+          "es": "![bills-icon](//images.contentful.com/2h2wj50mwc16/3yDvFnnSx2qQa4qaCsesgC/af7910a1f9801818e5fdfcea15a746ad/bills-icon.svg)\n# Estoy batallando para pagar mis cobros\nMe siento angustiado con mis cobros, puede ser difícil dar prioridad de cuáles cuidar y encontrar recursos para ayudarle a pagarlos. Utilice nuestra guía para buscar cómo permanecer al pendiente de esto."
         },
         "position": false,
         "contentType": "sidebar"
@@ -557,7 +557,7 @@
     "3dJ05ft48EwwC8iOEOmkSc": {
       "text": {
         "en": "Get back on track with your rental payments",
-        "es": "Get back on track with your rental payments"
+        "es": "Vuelva a estar al día con sus pagos de alquiler"
       },
       "actions": [
         {
@@ -568,7 +568,7 @@
             {
               "content": {
                 "en": "__Talk to a housing counselor__\nYou can get personalized advice from a housing counselor. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance.",
-                "es": "__Talk to a housing counselor__\nYou can get personalized advice from a housing counselor. The counselor may know about lower cost rental options in your area or programs you may qualify for. A counselor may also be able to help you prioritize your expenses and find payment assistance."
+                "es": "__Habla con un consejero de vivienda__\nPuede obtener asesoramiento personalizado de un consejero de vivienda. El consejero puede saber de opciones de renta bajas o programas que pueda calificar. Un consejero puede ayudarle a poner prioridad a sus gastos y encontrar una asistencia para su pago."
               },
               "contentType": "contentBox"
             },
@@ -598,14 +598,14 @@
             {
               "content": {
                 "en": "__Take the “I Can’t Pay My Rent” guide__\nLearn about options tailored to your situation by taking our guide “I Can’t Pay My Rent”.",
-                "es": "__Take the “I Can’t Pay My Rent” guide__\nLearn about options tailored to your situation by taking our guide “I Can’t Pay My Rent”."
+                "es": "__Seleccione la guía de \"No Puedo Pagar Mi Renta\"__\nAprenda opciones de acuerdo a su situación tomando nuestra guía \"No Puedo Pagar Mi Renta\"."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "LAUNCH GUIDE",
-                "es": "LAUNCH GUIDE"
+                "es": "GUIA DE LANZAMIENTO"
               },
               "url": {
                 "en": "https://steps.ideo.org/housing-guide",
@@ -1703,15 +1703,15 @@
           "content": [
             {
               "content": {
-                "en": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet.",
-                "es": "__Encuentre maneras de bajar su pago de teléfono__\nUsted puede cambiar a una compañía de mas bajo costo sin perder la calidad de sus llamadas. Otras estrategias son deshacerse de su linea y combinar sus servicios con cable e internet."
+                "en": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. ",
+                "es": "__Find ways to lower your phone bill__\nYou may be able to switch to a lower cost provider without losing your call quality. Other strategies include getting rid of your landline and bundling your services with cable and internet. "
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "read more strategies",
-                "es": "Lea más estrategias"
+                "es": "read more strategies"
               },
               "url": {
                 "en": "https://www.thebalance.com/lower-your-phone-bill-1388724",
@@ -1959,14 +1959,14 @@
             {
               "content": {
                 "en": "__Find ways to lower your internet bill__\nStrategies to try include negotiating with your internet provider, switching to a local provider, or switching to a lower tier plan.",
-                "es": "__Find ways to lower your internet bill__\nStrategies to try include negotiating with your internet provider, switching to a local provider, or switching to a lower tier plan."
+                "es": "__Encuentre formas para reducir sus cobros de Internet__\nHay estrategias que tratan de negociar con su compañía de Internet, cambiandose a una compañía local o cambiándose a un plan de nivel más bajo."
               },
               "contentType": "contentBox"
             },
             {
               "text": {
                 "en": "Read more about how to save",
-                "es": "Read more about how to save"
+                "es": "Lea más sobre como ahorrar"
               },
               "url": {
                 "en": "http://broadbandnow.com/report/13-creative-ways-save-money-internet-bill",
