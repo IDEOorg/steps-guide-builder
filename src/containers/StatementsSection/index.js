@@ -125,8 +125,10 @@ function mapDispatchToProps(dispatch) {
         return statement.id;
       });
       let searchString = `?statements=${statements.join("+")}`;
+      let zip = 'none'; // for tracking, see line 141
       if (statementPage.userInput) {
         if (statementPage.userInput.zip) {
+          zip = statementPage.userInput.zip;
           searchString += `&zip=${statementPage.userInput.zip}`;
         }
       }
@@ -137,7 +139,7 @@ function mapDispatchToProps(dispatch) {
         type: 'custom',
         action: 'submitStatements',
         query: searchString || 'none',
-        zipCode: statementPage.userInput.zip || 'none'
+        zipCode: zip
       });
 
       statements.forEach(statement => {
