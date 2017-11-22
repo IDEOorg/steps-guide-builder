@@ -4,7 +4,12 @@ import MobileDetect from 'mobile-detect';
 import GoogleAnalytics from 'react-ga';
 
 const debug = process.env.NODE_ENV === 'development';
-GoogleAnalytics.initialize('UA-88223011-3', {debug});
+/* 
+UA-88223011-2 = production
+UA-88223011-3 = "dev testing"
+*/
+GoogleAnalytics.initialize(
+  `${debug ? 'UA-88223011-3' : 'UA-88223011-2'}`, {debug});
 
 function initKeen () {
     const md = new MobileDetect();

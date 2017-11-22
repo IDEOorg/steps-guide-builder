@@ -33,7 +33,7 @@ const TranslateToggle = (props) => {
         GoogleAnalytics.event({
         category: 'UIActions',
         action: 'click',
-        label: switchTo || 'none'
+        label: `toggle language to ${switchTo || 'none'}`
       });
         props.translate(switchToCode);
       }}>
