@@ -4,6 +4,7 @@ import MobileDetect from 'mobile-detect';
 import GoogleAnalytics from 'react-ga';
 
 const debug = process.env.NODE_ENV === 'development';
+const rootURL = debug ? 'http://localhost:3000' : 'https://steps.ideo.org';
 /* 
 UA-88223011-2 = production
 UA-88223011-3 = "dev testing"
@@ -154,6 +155,13 @@ export const withTracker = (WrappedComponent, options = {}) => {
     componentDidMount() {
       const page = this.props.location.pathname;
       trackPage(page);
+      
+      // alt if above not working...
+      // const href = window.location.href;
+      // const page = href.replace(rootURL, '');
+      // const pageWithoutQuery = page.replace(/\?[^&?]*?=[^&?]*/, '');
+      // const pageWithoutHash = pageWithoutQuery.replace('/#', '');
+      // trackPage(pageWithoutHash);
     }
 
     componentWillReceiveProps(nextProps) {

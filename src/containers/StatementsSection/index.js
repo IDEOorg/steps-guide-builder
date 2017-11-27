@@ -150,18 +150,23 @@ function mapDispatchToProps(dispatch) {
         label: searchString
       });
 
-      statements.forEach(statement => {
+      selectedStatements.forEach(statement => {
+        const matchingStatement = statementPage.statements.find(s => 
+          s.id === statement.id
+        );
+        const text = matchingStatement.text.en;
+
         keenClient.recordEvent('clicks', {
           type: 'select',
           action: 'selectStatement',
           id: statement.id || 'none',
-          text: statement.text || 'none'
+          text: text || 'none'
         });
 
         GoogleAnalytics.event({
           category: 'Statements',
           action: 'select',
-          label: statement.text || 'none'
+          label: text || 'none'
         });
       });
 
