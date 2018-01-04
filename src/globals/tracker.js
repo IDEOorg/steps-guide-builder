@@ -4,8 +4,8 @@ import MobileDetect from 'mobile-detect';
 import GoogleAnalytics from 'react-ga';
 
 const debug = process.env.NODE_ENV === 'development';
-const rootURL = debug ? 'http://localhost:3000' : 'https://steps.ideo.org';
-/* 
+// const rootURL = debug ? 'http://localhost:3000' : 'https://steps.ideo.org';
+/*
 UA-88223011-2 = production
 UA-88223011-3 = "dev testing"
 */
@@ -33,19 +33,19 @@ function initKeen () {
       protocol: 'https',
       requestType: 'jsonp'
     });
-    
+
     const debug = process.env.NODE_ENV === 'development';
     // // Optionally prevent recording in dev mode
-    // Keen.enabled = true; 
-    
+    // Keen.enabled = true;
+
     // Display events in the browser console
     if (debug) {
       Keen.debug = true;
       keenClient.on('recordEvent', Keen.log);
       keenClient.on('recordEvents', Keen.log);
     }
-    
-    // Add custom properties to all events 
+
+    // Add custom properties to all events
     keenClient.extendEvents(() => {
       return {
         geo: {
@@ -106,7 +106,7 @@ function initKeen () {
             {
               "name": "keen:date_time_parser",
               "input": {
-                "date_time": "keen.timestamp"                                
+                "date_time": "keen.timestamp"
               },
               "output": "timestamp_info"
             }
@@ -142,7 +142,7 @@ export const keenClient = initKeen();
 
 /* HOC for tracking page views with React Router */
 export const withTracker = (WrappedComponent, options = {}) => {
-  const trackPage = (page) => { 
+  const trackPage = (page) => {
     keenClient.recordEvent('pageviews', {...options});
     GoogleAnalytics.set({
       page,
@@ -155,7 +155,7 @@ export const withTracker = (WrappedComponent, options = {}) => {
     componentDidMount() {
       const page = this.props.location.pathname;
       trackPage(page);
-      
+
       // alt if above not working...
       // const href = window.location.href;
       // const page = href.replace(rootURL, '');
